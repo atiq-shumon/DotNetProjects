@@ -1,0 +1,84 @@
+create or replace package pkg_Driver
+as
+  procedure save_driver(driver_id out varchar2,p_driver_name in varchar2,p_driver_password in varchar2,p_driver_conf_password in varchar2,p_cell_no in varchar2);
+  procedure get_driver(p_test_cursor out TEST_PACKAGE.TEST_TYPE);
+  procedure get_driver(p_test_cursor out TEST_PACKAGE.TEST_TYPE, p_driver_id in string);
+  procedure verify_driver(p_is_valid_driver out varchar2,p_driver_id in varchar2,p_driver_password in varchar2);
+  procedure login_driver(p_session_id out varchar2,p_driver_id in varchar2,p_driver_password in varchar2);
+  procedure logout_driver(p_session_id in varchar2,p_driver_id in varchar2);
+end;
+
+
+
+
+create or replace package body pkg_Driver
+as
+     procedure save_driver(driver_id out varchar2,p_driver_name in varchar2,p_driver_password in varchar2,p_driver_conf_password in varchar2,p_cell_no in varchar2)
+     is
+     v_driver_id number;
+     begin 
+         select max(mx_no) into v_driver_id from t_driver_id_gen;
+         insert into t_driver_id_gen values(v_driver_id); 
+         commit;   
+         insert into t_driver values(v_driver_id,p_driver_name,p_driver_password,p_driver_conf_password,p_cell_no);
+         commit;
+    
+   end;
+
+
+    procedure get_driver(p_test_cursor out TEST_PACKAGE.TEST_TYPE)
+     is
+     begin 
+         open p_test_cursor for 
+           select * from t_driver;
+        
+    
+   end;
+
+   procedure get_driver(p_test_cursor out TEST_PACKAGE.TEST_TYPE, p_driver_id in string)
+     is
+       begin 
+         open p_test_cursor for 
+           select * from t_driver where driver_id=p_driver_id;
+        
+    
+   end;
+   
+
+   procedure verify_driver(p_is_valid_driver out varchar2,p_driver_id in varchar2,p_driver_password in varchar2)
+   is
+   begin
+       select count(*)  into p_is_valid_driver
+           from t_driver
+       where driver_id=p_driver_id and driver_password=p_driver_password;
+     
+   end;
+
+
+
+   procedure login_driver(p_session_id out varchar2,p_driver_id in varchar2,p_driver_password in varchar2)
+     is
+     v_driver_session_id number;is_valid number:=0;
+     begin 
+
+         verify_driver(is_valid,p_driver_id,p_driver_password); 
+         if(is_valid>0) then
+            select max(mx_no) into v_driver_session_id from t_driver_session_gen;
+            insert into t_driver_session_gen values(v_driver_session_id); 
+            commit;   
+            insert into t_driver_login values(v_driver_session_id,p_driver_id,sysdate,null);
+            commit;
+         end if;
+    
+   end;
+
+   procedure logout_driver(p_session_id in varchar2,p_driver_id in varchar2)
+     is
+     begin 
+          update t_driver_login set log_out_date_time=sysdate where session_id=p_session_id and driver_id=p_driver_id;
+          commit;
+     end;
+
+end;
+
+

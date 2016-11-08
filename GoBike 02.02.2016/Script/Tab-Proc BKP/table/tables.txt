@@ -1,0 +1,85 @@
+create table t_cust_id_gen
+(
+  mx_no number
+);
+
+macid,remarks,entry_by,entry_date
+
+create table t_customer
+(
+  cust_id varchar2(10) not null,
+  cust_name varchar2(150) not null,
+  cust_password varchar2(30) not null,
+  cust_conf_password varchar2(30) not null,
+  cell_no varchar2(20),
+  constraint customer_pk primary key(cust_id)
+);
+
+
+
+create table t_driver_id_gen
+(
+  mx_no number
+);
+
+
+create table t_driver
+(
+  driver_id varchar2(10) not null,
+  driver_name varchar2(150) not null,
+  driver_password varchar2(30) not null,
+  driver_conf_password varchar2(30) not null,
+  cell_no varchar2(20),
+  constraint driver_pk primary key(driver_id)
+);
+
+create table t_cust_session_gen
+(
+  mx_no number
+);
+
+create table t_cust_login
+(
+  session_id varchar2(30) primary key,
+  cust_id varchar2(10) not null,
+  login_date_time date not null,
+  log_out_date_time date null
+ );
+
+create table t_driver_session_gen
+(
+  mx_no number
+);
+
+
+create table t_driver_login
+(
+  session_id varchar2(30) primary key,
+  driver_id varchar2(10) not null,
+  login_date_time date not null,
+  log_out_date_time date null
+ );
+
+create table t_req_id_gen
+(
+  mx_no number
+);
+create table t_cust_req_reg
+(
+  session_id varchar2(30) not null,
+  req_id  varchar2(20) not null,
+  cust_id varchar2(10) not null, 
+  ride_source varchar2(30) not null,
+  ride_destination varchar2(30) not null,
+  req_entry_time date not null,
+  requested_ride_time date not null,
+  ride_start_time  date  null,
+  ride_end_time date  null,
+  ride_cancel_time date null,
+  ride_cancl_id varchar2(5) null,
+  ride_status char(1),
+  driver_id varchar2(10) not null, 
+  ride_distance number default 0 not null,
+  total_bill number default 0 not null, 
+  constraint req_id_pk primary key(req_id) 
+ );

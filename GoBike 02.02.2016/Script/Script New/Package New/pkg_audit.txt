@@ -1,0 +1,16 @@
+CREATE OR REPLACE package pkg_audit
+as
+   procedure save_errors(p_source varchar2,p_error_code varchar2,p_error_msg varchar2,p_login_id varchar2,p_session_id varchar2);
+end;
+
+
+CREATE OR REPLACE package body pkg_audit
+as
+     procedure save_errors(p_source varchar2,p_error_code varchar2,p_error_msg varchar2,p_login_id varchar2,p_session_id varchar2)
+     is
+     begin
+      insert into T_AUDIT values((select nvl(max(to_number(error_id)),0)+1 from t_audit),p_source ,p_error_code,p_error_msg,SYSDATE,p_login_id,0,'',p_session_id);
+     commit;
+  end;  
+
+end;

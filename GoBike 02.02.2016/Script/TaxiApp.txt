@@ -1,0 +1,44 @@
+We analyze your requirements internally with our team members & its seems that requirements:
+
+Your requirements(summary) includes as follows :
+1.  Two Separate Android Application for Drivers & Passengers.
+2.  Passenger can do registration & Log-in via registered Account.
+3.  Passenger can request for hiring a taxi by putting his source & destination location.
+4.  Passenger can start & end a ride.
+5.  Passenger can see the distance he traveled & the Fare.
+6.  Passenger can pay the Fare through the app.
+7.  Passenger can rate the driver.
+9.  Driver can Login via registered Account.
+10. Driver Can see all hiring request in between certain area.
+11. Driver can call & book a passenger.
+12. Driver can start & end a ride.
+13. Driver can see the distance he traveled & the Fare.
+14. Driver can see the Payment Confirmation.
+15. Driver can rate the passenger.
+
+Our developments(summary) includes as follows:
+
+1.  Develop Two Separate Android Application for Drivers & Passengers with all requirements fulfilled.
+2.  Server Configuration.
+3.  Payment Method Integration.
+4.  Notification System for hiring requests.
+5.  Very Optimized Search Algorithm to search nearest drivers against a Hiring Request. 40ms(approx) within 1KM.
+6.  Very Optimized Notification System to notify nearest drivers against a Hiring Request. 1500ms(approx) for all drivers within 1KM.
+7.  There will be a Very Optimized & Accurate Distance Calculation system for both application. Consider EOS <= 0.002m(Approx).
+8.  This system will configure in a single dedicated server which can serve 1200(approx) crowed per sec.
+9.  There will be a system to Add new server by giving minimum effort.
+10. There will be a well organized Fault Detection System.
+11. There will be a Very Optimized & well organized database system & source code. Fault Tolerant rate will be >=70%(Approx).
+
+** Admin Panel
+** Billing
+
+Terms & Services(summary) includes as follows:
+
+1. There will be a Six(6) months free Service Period.
+2. There may consider 10-20% extended requirements.
+3. Client will provide the server, payment api's, security certificates & if needed some other cost except development cost.
+
+
+
+

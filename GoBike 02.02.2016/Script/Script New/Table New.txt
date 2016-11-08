@@ -1,0 +1,243 @@
+create table t_audit
+(
+  error_id varchar2(30),
+  tab_name varchar2(50) not null,
+  error_code varchar2(20) not null,
+  error_message varchar2(300) not null,
+  dt date default sysdate not null,
+  login_id varchar2(30) not null,
+  error_solve_status integer,
+  error_solved_by varchar2(20),
+  session_id  varchar2(30),
+  constraint t_audit_pk primary key(error_id)
+);
+
+
+
+
+create table t_login(
+    login_id number,
+    login_type varchar2(150),
+    user_name varchar2(250),
+    password varchar2(25),
+    is_active char(1),
+    date_added date,
+    row_id RAW(16) default SYS_GUID(),
+    constraint t_login_pk primary key(login_id));
+
+create table t_session_gen
+(
+  mx_no number
+);
+
+create table t_login_session
+(
+  session_id varchar2(30) primary key,
+  login_id varchar2(10) not null,
+  login_type varchar2(150) not null,
+  login_date_time date not null,
+  log_out_date_time date null,
+  is_active char(1)
+ );
+
+create table t_address_type_param(
+    type_id number,
+    type_name varchar2(150),
+    address_type_desc  varchar2(250),
+    is_active char(1),
+    date_added date,
+    row_id RAW(16) default SYS_GUID(),
+    constraint t_address_type_param_pk primary key(type_id)
+);
+
+
+create table t_address(
+     address_id number,
+     address1  varchar2(150),   
+     address2   varchar2(150),
+     road     varchar2(150),
+     city      varchar2(250),
+     district   varchar2(200),
+     division   varchar2(100),
+     thana      varchar2(200),
+     address_type_id integer,
+     is_active char(1),
+     date_added date,
+     row_id RAW(16) default SYS_GUID(),
+     constraint t_address_pk primary key(address_id),
+     constraint t_address_type_param_fk foreign key(address_type_id) references t_address_type_param(type_id));
+
+
+select biker_id from t_biker where login_id=39;
+
+create table t_biker(
+      biker_id number,
+      login_id number,
+      first_name varchar2(150),
+      middle_name varchar2(150),
+      last_name varchar2(150),
+      email varchar2(250), 
+      cell_phone varchar2(20),
+      licence_no varchar2(50),
+      vehicle_type varchar2(100),
+      is_active char(1),
+      date_added date,
+      row_id RAW(16) default SYS_GUID(), 
+      address_id number,
+      constraint t_biker_pk primary key(biker_id),
+      constraint t_biker_fk foreign key(address_id) references t_address(address_id));
+
+create table t_customer(
+     customer_id number,
+     login_id number, 
+     first_name varchar2(150),
+     middle_name varchar2(150),
+     last_name varchar2(150),
+     email varchar2(250),
+     cell_phone varchar2(12),
+     is_active char(1),
+     date_added date,
+     row_id RAW(16) default SYS_GUID(),  
+     address_id number,
+     constraint t_customer_pk primary key(customer_id),
+     constraint t_customer_fk foreign key(address_id) references t_address(address_id) ,
+     constraint t_customer_fk2 foreign key(login_id) references t_login(login_id));
+
+
+select trip_request_id,is_active,is_reserved from t_trip_request where biker_id=14;
+
+create table t_trip_request(
+      trip_request_id  number,
+      customer_id number,
+      biker_id number,
+      location varchar2(360),
+      destination varchar2(360),
+      location_co_ord  varchar2(360),
+      request_time date,
+      is_active char(1),
+      is_reserved char(1),
+      date_added date,
+      session_id varchar2(30),
+      row_id RAW(16) default SYS_GUID(),  
+      constraint t_trip_request_pk primary key(trip_request_id) ,
+      constraint t_trip_request_fk1 foreign key(customer_id) references t_customer(customer_id));
+      
+constraint t_trip_request_fk2 foreign key(biker_id) references t_biker(biker_id)
+
+create table t_trip
+(
+   trip_id number,
+   trip_request_id number,
+   trip_code varchar2(6),
+   biker_id  number,
+   customer_id number,
+   start_time date,
+   end_time date,
+   is_active char(1),
+   is_complete char(1),
+   date_added date,
+   row_id RAW(16) default SYS_GUID(),
+ constraint t_trip_pk primary key(trip_id),  
+ constraint t_trip_fk1 foreign key(customer_id) references t_customer(customer_id),
+ constraint t_trip_fk2 foreign key(biker_id) references t_biker(biker_id));
+
+create table t_cc_param_type(
+     cc_type_id number,
+     card_name varchar2(300),
+     card_description varchar2(200),
+     cc_code varchar2(6),
+     cc_type number,
+     is_active char(1),
+     date_added date,
+     row_id RAW(16) default SYS_GUID(),  
+     constraint  t_cc_param_type_pk primary key(cc_type_id));
+
+insert into t_cc_param_type values(1,'Brac Bank Card','Brac Bank Credit Card','43242',1,'1',sysdate,SYS_GUID());
+
+create table t_credit_card(
+     cc_id  number,
+     customer_id number,
+     cc_name varchar2(200),
+     expire char(4),
+     cc_code varchar2(6),
+     cc_type_id number,
+     is_active char(1),
+     date_added date,
+     row_id RAW(16) default SYS_GUID(), 
+     constraint  t_credit_card_pk primary key(cc_id),
+     constraint t_credit_card_fk1 foreign key(cc_type_id) references t_cc_param_type(cc_type_id), 
+     constraint t_credit_card_fk2 foreign key(customer_id) references t_customer(customer_id));
+     
+    
+
+create table t_billing(
+       billing_id number,
+       trip_id  number, 
+       total_distance number,
+        total_time number,
+       total_due number,
+       is_active char(1),
+       is_complete char(1),
+       date_added date,
+       row_id RAW(16) default SYS_GUID(), 
+      constraint t_billing_pk primary key(billing_id),
+      constraint t_billing_fk1 foreign key(trip_id) references t_trip(trip_id));
+
+
+
+create table t_transaction(
+       transaction_id  number,
+       billing_id  number,
+       trip_id  number,
+       cc_id  number,
+       transaction_code number,
+       transaction_no varchar2(25),
+       is_active char(1),
+       is_approved char(1),
+       completion_time date,
+       date_added date,
+       row_id RAW(16) default SYS_GUID(),
+       constraint t_transaction_pk primary key(transaction_id),
+       constraint t_transaction_fk1 foreign key(trip_id) references t_trip(trip_id),
+       constraint t_transaction_fk2 foreign key(billing_id) references t_billing(billing_id),
+       constraint t_transaction_fk3 foreign key(cc_id) references t_credit_card(cc_id));
+ 
+ 
+
+create table t_coords(
+       co_ord_id number,  
+       trip_id  number ,
+       co_ord_seq number,
+       time_instance date,
+       date_added date,
+       row_id RAW(16) default SYS_GUID(),  
+  constraint t_coords_pk primary key(co_ord_id),
+  constraint t_coords_fk1 foreign key(trip_id) references t_trip(trip_id));
+
+
+
+create table t_call_center(
+       call_center_id integer,
+       trip_id  integer,
+       biker_id integer, 
+       customer_id integer, 
+       start_time date,
+       end_time   date,
+       is_active char(1),
+       is_complete char(1),
+       date_added date,
+       row_id RAW(16) default SYS_GUID(),
+  constraint t_call_center_pk primary key(call_center_id),
+  constraint t_call_center_fk1 foreign key(trip_id) references t_trip(trip_id),
+  constraint t_call_center_fk2 foreign key(customer_id) references t_customer(customer_id),
+  constraint t_call_center_fk3 foreign key(biker_id) references t_biker(biker_id));
+
+
+
+
+   
+
+
+
+
+  

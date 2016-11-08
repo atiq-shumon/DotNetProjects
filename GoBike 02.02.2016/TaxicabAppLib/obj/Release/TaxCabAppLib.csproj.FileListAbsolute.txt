@@ -1,0 +1,7 @@
+E:\Taxi-cab 2\TaxicabAppLib\bin\Release\TaxicabAppLib.dll
+E:\Taxi-cab 2\TaxicabAppLib\bin\Release\TaxicabAppLib.pdb
+E:\Taxi-cab 2\TaxicabAppLib\bin\Release\AH.OracleManager.dll
+E:\Taxi-cab 2\TaxicabAppLib\bin\Release\Oracle.DataAccess.dll
+E:\Taxi-cab 2\TaxicabAppLib\obj\Release\TaxCabAppLib.csprojResolveAssemblyReference.cache
+E:\Taxi-cab 2\TaxicabAppLib\obj\Release\TaxicabAppLib.dll
+E:\Taxi-cab 2\TaxicabAppLib\obj\Release\TaxicabAppLib.pdb

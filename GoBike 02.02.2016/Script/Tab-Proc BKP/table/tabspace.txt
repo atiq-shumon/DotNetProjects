@@ -1,0 +1,9 @@
+create tablespace taxi_tabspace datafile'D:/Datafiles/taxicab.dbf'
+size 300M
+autoextend on maxsize unlimited;
+
+create user taxi identified by taxi654321
+default tablespace taxi_tabspace;
+
+
+grant connect,resource,dba to taxi;

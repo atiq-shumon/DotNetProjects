@@ -1,0 +1,60 @@
+
+CREATE OR REPLACE package TAXI.pkg_ride
+ as
+   procedure customer_ride_request(p_req_id out varchar2,p_session_id in varchar2,p_cust_id in varchar2,p_ride_source in varchar2,p_ride_destination in varchar2,p_requested_ride_time in date);
+   procedure customer_ride_start(p_session_id in varchar2,p_cust_id in varchar2,p_ride_source in varchar2,p_ride_destination in varchar2,p_driver_id in varchar2);
+   procedure customer_ride_end(p_session_id in varchar2,p_cust_id in varchar2,p_ride_destination in varchar2,p_ride_distance in number);
+   procedure get_all_pending_ride_req(p_test_cursor out TEST_PACKAGE.TEST_TYPE);
+end;
+
+
+
+
+CREATE OR REPLACE package body TAXI.pkg_ride
+as
+  procedure customer_ride_request(p_req_id out varchar2,p_session_id in varchar2,p_cust_id in varchar2,p_ride_source in varchar2,p_ride_destination in varchar2,p_requested_ride_time in date)
+     is
+     v_req_id number;
+     begin
+         select max(mx_no) into v_req_id from t_req_id_gen;
+         insert into t_req_id_gen values(v_req_id);
+         commit;
+         p_req_id:=v_req_id;
+         insert into t_cust_req_reg values(p_session_id,v_req_id,p_cust_id,p_ride_source,p_ride_destination,sysdate,p_requested_ride_time,null,null,null,null,0,null,0,0);
+         commit;
+     end;
+
+
+
+   procedure customer_ride_start(p_session_id in varchar2,p_cust_id in varchar2,p_ride_source in varchar2,p_ride_destination in varchar2,p_driver_id in varchar2)
+     is
+      begin
+         update t_cust_req_reg set ride_start_time=sysdate,driver_id=p_driver_id,ride_status=1 where session_id=p_session_id and  p_cust_id=p_cust_id;
+         commit;
+     end;
+
+  procedure customer_ride_end(p_session_id in varchar2,p_cust_id in varchar2,p_ride_destination in varchar2,p_ride_distance in number)
+     is
+      begin
+         update t_cust_req_reg set ride_end_time=sysdate,ride_status=2,ride_destination=p_ride_destination,ride_distance=p_ride_distance,total_bill=900 where session_id=p_session_id and  p_cust_id=p_cust_id;
+         commit;
+     end;
+     
+     
+      procedure get_all_pending_ride_req(p_test_cursor out TEST_PACKAGE.TEST_TYPE)
+     is
+      begin
+          open p_test_cursor for
+            select * from T_CUST_REQ_REG where ride_status=0;
+      end;
+
+  /*
+  procedure customer_ride_cancel(p_session_id in varchar2,p_cust_id in varchar2,p_ride_destination in varchar2,p_requested_ride_time in date)
+     is
+      begin
+         update t_cust_req_reg set ride__time=sysdate,ride_status=1 where session_id=p_session_id and  p_cust_id=p_cust_id;
+         commit;
+     end;
+ */
+end;
+/

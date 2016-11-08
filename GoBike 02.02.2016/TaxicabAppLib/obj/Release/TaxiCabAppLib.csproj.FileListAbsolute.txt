@@ -1,0 +1,13 @@
+C:\Users\Administrator\Desktop\GoBike 06.01.2015\TaxicabAppLib\bin\Release\TaxicabAppLib.dll
+C:\Users\Administrator\Desktop\GoBike 06.01.2015\TaxicabAppLib\bin\Release\TaxicabAppLib.pdb
+C:\Users\Administrator\Desktop\GoBike 06.01.2015\TaxicabAppLib\bin\Release\AH.OracleManager.dll
+C:\Users\Administrator\Desktop\GoBike 06.01.2015\TaxicabAppLib\bin\Release\oracle.dataaccess.dll
+C:\Users\Administrator\Desktop\GoBike 06.01.2015\TaxicabAppLib\obj\Release\TaxicabAppLib.dll
+C:\Users\Administrator\Desktop\GoBike 06.01.2015\TaxicabAppLib\obj\Release\TaxicabAppLib.pdb
+C:\Users\Administrator\Desktop\GoBike 06.01.2015\TaxicabAppLib\obj\Release\TaxiCabAppLib.csprojResolveAssemblyReference.cache
+E:\GoBike 07.01.2015\TaxicabAppLib\bin\Release\TaxicabAppLib.dll
+E:\GoBike 07.01.2015\TaxicabAppLib\bin\Release\TaxicabAppLib.pdb
+E:\GoBike 07.01.2015\TaxicabAppLib\bin\Release\AH.OracleManager.dll
+E:\GoBike 07.01.2015\TaxicabAppLib\obj\Release\TaxiCabAppLib.csprojResolveAssemblyReference.cache
+E:\GoBike 07.01.2015\TaxicabAppLib\obj\Release\TaxicabAppLib.dll
+E:\GoBike 07.01.2015\TaxicabAppLib\obj\Release\TaxicabAppLib.pdb

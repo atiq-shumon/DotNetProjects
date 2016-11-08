@@ -1,0 +1,92 @@
+CREATE OR REPLACE package test_package
+as type test_type is ref cursor;
+end test_package;
+
+
+
+
+create or replace package pkg_Customer
+as
+  procedure save_customer(P_cust_id out varchar2,p_cust_name in varchar2,p_cust_password in varchar2,p_cust_conf_password in varchar2,p_cell_no in varchar2);
+  procedure get_customer(p_test_cursor out TEST_PACKAGE.TEST_TYPE);
+  procedure get_customer(p_test_cursor out TEST_PACKAGE.TEST_TYPE, p_cust_id in string);
+  procedure verify_customer(p_is_valid_cust out varchar2,p_cust_id in varchar2,p_cust_password in varchar2);
+  procedure login_customer(p_session_id out varchar2,p_cust_id in varchar2,p_cust_password in varchar2);
+  procedure logout_customer(p_session_id in varchar2,p_cust_id in varchar2);
+end;
+
+
+
+
+create or replace package body pkg_Customer
+as
+     procedure save_customer(P_cust_id out varchar2,p_cust_name in varchar2,p_cust_password in varchar2,p_cust_conf_password in varchar2,p_cell_no in varchar2)
+     is
+     v_cust_id number;
+     begin 
+         select NVL(max(mx_no),0)+1 into v_cust_id from t_cust_id_gen;
+         insert into t_cust_id_gen values(v_cust_id); 
+         commit;   
+         insert into t_customer values(v_cust_id,p_cust_name,p_cust_password,p_cust_conf_password,p_cell_no);
+         commit;
+         P_cust_id:=v_cust_id;
+    
+   end;
+
+
+    procedure get_customer(p_test_cursor out TEST_PACKAGE.TEST_TYPE)
+     is
+      begin 
+         open p_test_cursor for 
+           select * from t_customer;
+           
+   end;
+
+   procedure get_customer(p_test_cursor out TEST_PACKAGE.TEST_TYPE, p_cust_id in string)
+     is
+    
+     begin 
+         open p_test_cursor for 
+           select * from t_customer where cust_id=p_cust_id;
+         
+    
+   end;
+   
+
+   procedure verify_customer(p_is_valid_cust out varchar2,p_cust_id in varchar2,p_cust_password in varchar2)
+   is
+   begin
+       select count(*)  into p_is_valid_cust
+           from t_customer
+       where cust_id=p_cust_id and cust_password=p_cust_password;
+     
+   end;
+
+
+
+   procedure login_customer(p_session_id out varchar2,p_cust_id in varchar2,p_cust_password in varchar2)
+     is
+     v_cust_session_id number;is_valid number:=0;
+     begin 
+
+         verify_customer(is_valid,p_cust_id,p_cust_password); 
+         if(is_valid>0) then
+            select max(mx_no) into v_cust_session_id from t_cust_session_gen;
+            insert into t_cust_session_gen values(v_cust_session_id); 
+            commit;   
+            insert into t_cust_login values(v_cust_session_id,p_cust_id,sysdate,null);
+            commit;
+         end if;
+    
+   end;
+
+   procedure logout_customer(p_session_id in varchar2,p_cust_id in varchar2)
+     is
+     begin 
+          update t_cust_login set log_out_date_time=sysdate where session_id=p_session_id and cust_id=p_cust_id;
+          commit;
+     end;
+
+end;
+
+

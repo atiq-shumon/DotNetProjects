@@ -1,0 +1,80 @@
+
+CREATE OR REPLACE package pkg_billing
+ as
+   procedure customer_ride_request(p_req_id out varchar2,p_session_id in varchar2,p_cust_id in varchar2,p_ride_source in varchar2,p_ride_destination in varchar2,p_requested_ride_time in date);
+   procedure customer_ride_start(p_session_id in varchar2,p_cust_id in varchar2,p_ride_source in varchar2,p_ride_destination in varchar2,p_driver_id in varchar2);
+   procedure customer_ride_end(p_session_id in varchar2,p_cust_id in varchar2,p_ride_destination in varchar2,p_ride_distance in number);
+   procedure get_all_pending_ride_req(p_test_cursor out TEST_PACKAGE.TEST_TYPE);
+end;
+
+
+
+
+CREATE OR REPLACE package body pkg_billing
+as
+ 
+  procedure save_billing(p_session_id in varchar2,p_cust_id in varchar2,p_ride_destination in varchar2,p_ride_distance in number)
+     is
+      v_billing_id number,v_transaction_id number,err_code varchar2(200),err_msg varchar2(400);
+     begin 
+     select nvl(max(v_billing_id),0)+1 into v_billing_id from  t_billing;
+      select nvl(max(transaction_id),0)+1 into v_transaction_id from  t_billing;
+    
+      
+      insert into t_billing(
+       billing_id,
+       trip_id, 
+       total_distance,
+       total_time,
+       total_due,
+       is_active,
+       is_complete,
+       date_added,
+       row_id) values(v_billing_id,p_trip_id,p_total_distance,p_total_time,p_total_due,'1',p_is_complete,sysdate,SYS_GUID()); 
+
+insert into t_transaction(
+       transaction_id,
+       billing_id,
+       trip_id ,
+       cc_id,
+       transaction_code,
+       transaction_no,
+       is_active,
+       is_approved ,
+       completion_time ,
+       date_added,
+       row_id ) values(v_transaction_id, p_billing_id,
+       p_trip_id ,
+       p_cc_id,
+       p_transaction_code,
+       p_transaction_no,
+       1,
+       p_is_approved ,
+       p_completion_time ,
+       sysdate,SYS_GUID());
+ 
+
+
+
+
+commit;
+     end;
+     
+     
+      procedure get_all_pending_ride_req(p_test_cursor out TEST_PACKAGE.TEST_TYPE)
+     is
+      begin
+          open p_test_cursor for
+            select * from T_CUST_REQ_REG where ride_status=0;
+      end;
+
+  /*
+  procedure customer_ride_cancel(p_session_id in varchar2,p_cust_id in varchar2,p_ride_destination in varchar2,p_requested_ride_time in date)
+     is
+      begin
+         update t_cust_req_reg set ride__time=sysdate,ride_status=1 where session_id=p_session_id and  p_cust_id=p_cust_id;
+         commit;
+     end;
+ */
+end;
+/

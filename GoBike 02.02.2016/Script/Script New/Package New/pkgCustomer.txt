@@ -1,0 +1,178 @@
+CREATE OR REPLACE package test_package
+as type test_type is ref cursor;
+end test_package;
+
+
+
+
+create or replace package pkg_Customer
+as
+ err_code varchar2(200);err_msg varchar2(400);
+  procedure save_customer(p_cust_id out varchar2,p_first_name in varchar2,p_middle_name in varchar2,p_last_name in varchar2
+            ,p_email in varchar2,p_cell_phone in varchar2,p_address1 in varchar2,p_address2 in varchar2
+               ,p_road in varchar2,p_city in varchar2,p_district in varchar2 ,p_division in varchar2,p_thana in varchar2,p_address_type_id in varchar2,
+               p_login_type in varchar2,p_user_name in varchar2 ,p_password in varchar2);
+  procedure get_customer(p_test_cursor out TEST_PACKAGE.TEST_TYPE);
+  procedure get_customer(p_test_cursor out TEST_PACKAGE.TEST_TYPE, p_cust_id in string);
+  procedure verify_customer(p_is_valid_cust out varchar2,p_login_id varchar2,p_login_type varchar2,p_user_name varchar2,p_cust_password in varchar2);
+  procedure verify_customer(p_user_name out varchar2,p_login_id number,p_login_type varchar2,p_cust_password in varchar2);
+  procedure login_customer(p_session_id out varchar2,p_user_name out varchar2,p_login_id out number,p_email out varchar2,p_first_name out varchar2,p_middle_name out varchar2,p_last_name out varchar2,p_has_credit_card out varchar2,p_phone_no in varchar2,p_cust_password in varchar2);
+  procedure logout_customer(p_session_id in varchar2,p_login_id in varchar2);
+  procedure save_customer_cc(v_cc_id out number,p_login_id in number,p_cc_name in varchar2,p_expire in varchar2,p_cc_code in varchar2,p_cc_type_id in number,p_session_id in varchar2);
+  procedure get_customer_cc(p_test_cursor out TEST_PACKAGE.TEST_TYPE,p_login_id in number);
+end;
+
+
+
+
+create or replace package body pkg_Customer
+as
+     procedure save_customer(p_cust_id out varchar2,p_first_name in varchar2,p_middle_name in varchar2,p_last_name in varchar2
+            ,p_email in varchar2,p_cell_phone in varchar2,p_address1 in varchar2,p_address2 in varchar2
+               ,p_road in varchar2,p_city in varchar2,p_district in varchar2 ,p_division in varchar2,p_thana in varchar2,p_address_type_id in varchar2,
+               p_login_type in varchar2,p_user_name in varchar2 ,p_password in varchar2)
+     is
+     v_cust_id number:=0;v_mx_address_no number;v_mx_log_in_no number;v_verify_cell number;
+     begin 
+     select count(cell_phone) into v_verify_cell
+          from  t_customer
+     where cell_phone=p_cell_phone; 
+    
+    if (v_verify_cell>0) then
+       p_cust_id:='Same Cell Phone Already Used..Please choose another';
+     else
+     select nvl(max(login_id),0)+1 into v_mx_log_in_no from  t_login;
+     select nvl(max(address_id),0)+1 into v_mx_address_no from  t_address;
+     select nvl(max(customer_id),0)+1 into v_cust_id from  t_customer;
+    
+     insert into t_login(login_id,login_type,user_name,password,is_active,date_added,row_id)
+           values(v_mx_log_in_no,p_login_type,p_first_name,p_password,'1',sysdate,SYS_GUID());         
+    
+    insert into t_address(address_id,address1,address2,road,city,district,division,thana,address_type_id,is_active,date_added,row_id)
+           values(v_mx_address_no,p_address1,p_address2,p_road,p_city,p_district,p_division,p_thana,p_address_type_id,'1',sysdate,SYS_GUID());
+
+    insert into t_customer(customer_id,login_id, first_name,middle_name,last_name,email,cell_phone,is_active,date_added,row_id,address_id )
+           values(v_cust_id ,v_mx_log_in_no,p_first_name,p_middle_name,p_last_name,p_email,p_cell_phone,'1',sysdate,SYS_GUID(),v_mx_address_no) ;
+    
+       p_cust_id:=v_cust_id;
+      COMMIT;
+     end if;
+         EXCEPTION 
+                 when OTHERS then
+                       rollback;
+                       err_code:=SQLCODE;
+                       err_msg:=substr(SQLERRM,1,300);
+                       pkg_audit.save_errors('save_customer',err_code,err_msg,v_mx_log_in_no,'No session');
+                           
+
+END;
+
+    procedure get_customer(p_test_cursor out TEST_PACKAGE.TEST_TYPE)
+     is
+      begin 
+         open p_test_cursor for 
+                select * from t_customer;
+    end;
+
+   procedure get_customer(p_test_cursor out TEST_PACKAGE.TEST_TYPE, p_cust_id in string)
+     is
+    
+     begin 
+         open p_test_cursor for 
+           select * from t_customer where customer_id=p_cust_id;
+         
+    
+   end;
+   
+  
+   procedure verify_customer(p_is_valid_cust out varchar2,p_login_id varchar2,p_login_type varchar2,p_user_name varchar2,p_cust_password in varchar2)
+   is
+   begin
+       select count(*)  into p_is_valid_cust
+           from t_login
+       where login_id=p_login_id and login_type=p_login_type and user_name=p_user_name and  password=p_cust_password ;
+     
+   end;
+
+  procedure verify_customer(p_user_name out varchar2,p_login_id number,p_login_type varchar2,p_cust_password in varchar2)
+   is
+   begin
+       p_user_name:='0'; 
+       select nvl(user_name,'0')  into p_user_name
+           from t_login
+       where login_id=p_login_id and login_type=p_login_type  and  password=p_cust_password ;
+      Exception
+            when others then
+              p_user_name:='0';
+   end;
+
+
+   procedure login_customer(p_session_id out varchar2,p_user_name out varchar2,p_login_id out number,p_email out varchar2,p_first_name out varchar2,p_middle_name out varchar2,p_last_name out varchar2,p_has_credit_card out varchar2,p_phone_no in varchar2,p_cust_password in varchar2)
+     is
+     v_session_id number;is_valid number:=0;v_log_in_id number:=0;v_user_name varchar2(200);v_customer_id number;
+     begin 
+         select max(login_id) into v_log_in_id from t_customer  where cell_phone=p_phone_no ;
+             
+         verify_customer(v_user_name,v_log_in_id,'1',p_cust_password); 
+         if(v_user_name!='0') then
+             select  customer_id,first_name,nvl(middle_name,'x'),last_name,email into v_customer_id,p_first_name,p_middle_name,p_last_name,p_email from t_customer where login_id=v_log_in_id;
+             select count(*) into p_has_credit_card from  t_credit_card where customer_id=v_customer_id;
+            select nvl(max(mx_no),0)+1 into v_session_id from t_session_gen;
+            insert into t_session_gen values(v_session_id); 
+            commit;   
+            insert into t_login_session values(v_session_id,v_log_in_id ,'1',sysdate,null,'1');
+            commit;
+            p_session_id:=v_session_id;
+            p_user_name:=v_user_name;
+            p_login_id:=v_log_in_id;
+         end if;
+        EXCEPTION 
+                 when OTHERS then
+                       rollback;
+                       err_code:=SQLCODE;
+                       err_msg:=substr(SQLERRM,1,300);
+                       pkg_audit.save_errors('login_customer',err_code,err_msg,v_log_in_id,'No session');
+
+ end;
+
+   procedure logout_customer(p_session_id in varchar2,p_login_id in varchar2)
+     is
+     begin 
+          update t_login_session set log_out_date_time=sysdate where session_id=p_session_id and login_id=p_login_id;
+          commit;
+     end;
+
+  procedure save_customer_cc(v_cc_id out number,p_login_id in number,p_cc_name in varchar2,p_expire in varchar2,p_cc_code in varchar2,p_cc_type_id in number,p_session_id in varchar2)
+    is
+         v_mx_cc_id number;v_customer_id number;
+    begin
+       select customer_id into v_customer_id from t_customer where login_id=p_login_id;
+       select nvl(max(cc_id),0)+1 into v_mx_cc_id from t_credit_card;
+       insert into t_credit_card(cc_id,customer_id,cc_name,expire,cc_code,cc_type_id,is_active,date_added,row_id) 
+          values(v_mx_cc_id,v_customer_id,p_cc_name,p_expire,p_cc_code,p_cc_type_id,'1',sysdate,SYS_GUID());
+        v_cc_id:=v_mx_cc_id;
+        commit;
+         
+        EXCEPTION 
+            when OTHERS then
+                  rollback;
+                  err_code:=SQLCODE;
+                  err_msg:=substr(SQLERRM,1,300);
+                  v_mx_cc_id:=0;
+                  pkg_audit.save_errors('Save CC',err_code,err_msg,p_login_id,p_session_id);
+     end;
+
+
+   procedure get_customer_cc(p_test_cursor out TEST_PACKAGE.TEST_TYPE,p_login_id in number)
+    is
+        v_customer_id number;
+    begin
+       select customer_id into v_customer_id from t_customer where login_id=p_login_id;
+       open p_test_cursor for 
+           select cc_id,customer_id,cc_name,expire,cc_code,cc_type_id from t_credit_card where customer_id=v_customer_id;
+     end; 
+  
+
+  end;
+
+

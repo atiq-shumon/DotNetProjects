@@ -1,0 +1,121 @@
+﻿
+
+
+
+
+<div class="jumbotron">
+    <h1>ASP.NET</h1>
+    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
+    <p><a href="http://asp.net" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h2>Getting started</h2>
+        <p>ASP.NET Web API is a framework that makes it easy to build HTTP services that reach
+        a broad range of clients, including browsers and mobile devices. ASP.NET Web API
+        is an ideal platform for building RESTful applications on the .NET Framework.</p>
+        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301870">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Get more libraries</h2>
+        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301871">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Web Hosting</h2>
+        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301872">Learn more &raquo;</a></p>
+    </div>
+ <div class="row">
+     <div class="col-md-4">
+         <p><button class="btn btn-success" id="saveCust">Save Customer</button></p>
+
+     </div>
+  
+     <div class="col-md-4">
+         <p><button class="btn btn-success" id="loginCust">Login Customer</button></p>
+
+     </div>
+ </div>
+</div>
+@section scripts
+{
+<script type="text/javascript">
+    //Add New Item by Web API
+    $("#saveCust").click(function () {
+
+        //Making complex type object
+        var Customer = {
+
+            Name: "First Customer",
+            Password: "123",
+            CellPhone: "4325325"
+           
+        };
+
+        //if (Product.Name != "" && Product.Price != "" && Product.Category != "") {
+        //Convert javascript object to JSON object
+        var DTO = JSON.stringify(Customer);
+        $.ajax({
+            url:'http://localhost:49979/api/Customer/PostCustomer',
+            //url: 'http:///49.0.36.149/api/Customer/PostCustomer', //calling Web API controller product
+            cache: false,
+            type: 'POST',
+            //contentType: 'application/x-www-form-urlencoded',
+            contentType: 'application/json; charset=utf-8',
+            data: DTO,
+            dataType: "json",
+            success: function (data) {
+                alert('added');
+            }
+        }).fail(
+        function (xhr, textStatus, err) {
+            alert(err);
+        });
+
+        //   }
+        //else {
+        //    alert('Please Enter All the Values !!');
+        //}
+
+    });
+  
+    $("#loginCust").click(function () {
+
+        //Making complex type object
+          var Customer = {
+             CellPhone: "01724001585",
+             logIn:{Password:"123"}
+
+        };
+
+        //if (Product.Name != "" && Product.Price != "" && Product.Category != "") {
+        //Convert javascript object to JSON object
+        var DTO = JSON.stringify(Customer);
+        $.ajax({
+            url:'http://localhost:49979/api/Customer/Postlogin',
+            //url: http:///49.0.36.149/api/Customer/Postlogin', //calling Web API controller product -->
+            cache: false,
+            type: 'POST',
+            //contentType: 'application/x-www-form-urlencoded',
+            contentType: 'application/json; charset=utf-8',
+            data: DTO,
+            dataType: "json",
+            success: function (data) {
+                alert(JSON.stringify(data));
+            }
+        }).fail(
+        function (xhr, textStatus, err) {
+            alert(err);
+        });
+
+        //   }
+        //else {
+        //    alert('Please Enter All the Values !!');
+        //}
+
+    });
+
+
+</script> 
+}

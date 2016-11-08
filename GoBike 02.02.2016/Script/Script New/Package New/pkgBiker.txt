@@ -1,0 +1,130 @@
+create or replace package pkg_biker
+as
+  err_code varchar2(200);err_msg varchar2(400);
+   procedure save_biker(p_biker_id out varchar2,p_first_name in varchar2,p_middle_name in varchar2,p_last_name in varchar2
+            ,p_email in varchar2,p_cell_phone in varchar2,p_licence_no in varchar2,p_vehicle_type in varchar2, p_address1 in varchar2,p_address2 in varchar2
+               ,p_road in varchar2,p_city in varchar2,p_district in varchar2 ,p_division in varchar2,p_thana in varchar2,p_address_type_id in varchar2,
+               p_login_type in varchar2,p_user_name in varchar2 ,p_password in varchar2);
+  procedure get_biker(p_test_cursor out TEST_PACKAGE.TEST_TYPE);
+  procedure get_biker(p_test_cursor out TEST_PACKAGE.TEST_TYPE, p_biker_id in string);
+  procedure verify_biker(p_user_name out varchar2,p_login_id varchar2,p_login_type varchar2,p_cust_password in varchar2);
+  procedure login_biker(p_session_id out varchar2,p_user_name out varchar2,p_login_id out number,p_email out varchar2,p_first_name out varchar2,p_middle_name out varchar2,p_last_name out varchar2,p_phone_no in varchar2,p_cust_password in varchar2);
+  procedure logout_biker(p_session_id in varchar2,p_login_id in varchar2);
+end;
+
+
+
+
+create or replace package body pkg_biker
+as
+    procedure save_biker(p_biker_id out varchar2,p_first_name in varchar2,p_middle_name in varchar2,p_last_name in varchar2
+            ,p_email in varchar2,p_cell_phone in varchar2,p_licence_no in varchar2,p_vehicle_type in varchar2, p_address1 in varchar2,p_address2 in varchar2
+               ,p_road in varchar2,p_city in varchar2,p_district in varchar2 ,p_division in varchar2,p_thana in varchar2,p_address_type_id in varchar2,
+               p_login_type in varchar2,p_user_name in varchar2 ,p_password in varchar2)
+     is
+     v_biker_id number:='0';v_mx_log_in_no number;v_mx_address_no number;v_verify_cell number;
+     begin
+     select count(cell_phone) into v_verify_cell
+          from  t_biker
+     where cell_phone=p_cell_phone; 
+    
+    if (v_verify_cell>0) then
+       p_biker_id:='Same Cell Phone Already Used..Please choose another';
+     else
+         select nvl(max(login_id),0)+1 into v_mx_log_in_no from  t_login;
+         select nvl(max(address_id),0)+1 into v_mx_address_no from  t_address;
+         select nvl(max(biker_id),0)+1 into v_biker_id from  t_biker;
+    
+     insert into t_login(login_id,login_type,user_name,password,is_active,date_added,row_id)
+           values(v_mx_log_in_no,'2',p_first_name,p_password,'1',sysdate,SYS_GUID());         
+    
+    insert into t_address(address_id,address1,address2,road,city,district,division,thana,address_type_id,is_active,date_added,row_id)
+           values(v_mx_address_no,p_address1,p_address2,p_road,p_city,p_district,p_division,p_thana,p_address_type_id,'1',sysdate,SYS_GUID());
+
+
+
+    insert into t_biker(biker_id,login_id, first_name,middle_name,last_name,email,cell_phone,licence_no,vehicle_type,is_active,date_added,row_id,address_id )
+           values(v_biker_id ,v_mx_log_in_no,p_first_name,p_middle_name,p_last_name,p_email,p_cell_phone,p_licence_no,p_vehicle_type,'1',sysdate,SYS_GUID(),v_mx_address_no) ;
+    
+       p_biker_id:=v_biker_id;
+       commit;
+     end if;
+         EXCEPTION 
+                 when OTHERS then
+                       rollback;
+                       err_code:=SQLCODE;
+                       v_biker_id:='0';
+                       err_msg:=substr(SQLERRM,1,300);
+                       pkg_audit.save_errors('save_biker',err_code,err_msg,v_mx_log_in_no,'No session');
+                       COMMIT;    
+
+END;
+  
+    procedure get_biker(p_test_cursor out TEST_PACKAGE.TEST_TYPE)
+     is
+     begin 
+         open p_test_cursor for 
+           select * from t_biker;
+        
+    
+   end;
+
+   procedure get_biker(p_test_cursor out TEST_PACKAGE.TEST_TYPE, p_biker_id in string)
+     is
+       begin 
+         open p_test_cursor for 
+           select * from t_biker where biker_id=p_biker_id;
+        
+    
+   end;
+   
+
+   procedure verify_biker(p_user_name out varchar2,p_login_id varchar2,p_login_type varchar2,p_cust_password in varchar2)
+   is
+   begin
+       p_user_name:='0'; 
+       select nvl(user_name,'0')  into p_user_name
+           from t_login
+       where login_id=p_login_id and login_type=p_login_type  and  password=p_cust_password ;
+     
+   end;
+
+
+
+
+   procedure login_biker(p_session_id out varchar2,p_user_name out varchar2,p_login_id out number,p_email out varchar2,p_first_name out varchar2,p_middle_name out varchar2,p_last_name out varchar2,p_phone_no in varchar2,p_cust_password in varchar2)
+     is
+     v_session_id number;is_valid number:=0;v_log_in_id number:=0;v_user_name varchar2(200);
+     begin 
+         select max(login_id) into v_log_in_id from t_biker  where cell_phone=p_phone_no ;
+         select  first_name,nvl(middle_name,'x'),last_name,email into p_first_name,p_middle_name,p_last_name,p_email from t_biker where login_id=v_log_in_id;
+    
+         verify_biker(v_user_name,v_log_in_id,'2',p_cust_password); 
+         if(v_user_name!='0') then
+            select nvl(max(mx_no),0)+1 into v_session_id from t_session_gen;
+            insert into t_session_gen values(v_session_id); 
+            commit;   
+            insert into t_login_session values(v_session_id,v_log_in_id ,'2',sysdate,null,'1');
+            commit;
+            p_session_id:=v_session_id;
+            p_user_name:=v_user_name;
+            p_login_id:=v_log_in_id;
+         end if;
+        EXCEPTION 
+                 when OTHERS then
+                       rollback;
+                       err_code:=SQLCODE;
+                       err_msg:=substr(SQLERRM,1,300);
+                       pkg_audit.save_errors('login_biker',err_code,err_msg,v_log_in_id,'No session');
+      end;
+
+ procedure logout_biker(p_session_id in varchar2,p_login_id in varchar2)
+     is
+     begin 
+          update t_login_session set log_out_date_time=sysdate where session_id=p_session_id and login_id=p_login_id;
+          commit;
+     end;
+
+end;
+
+

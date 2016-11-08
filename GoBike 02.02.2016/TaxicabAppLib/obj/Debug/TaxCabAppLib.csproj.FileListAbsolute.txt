@@ -1,0 +1,23 @@
+E:\Taxi-Cab\TaxicabAppLib\obj\Debug\TaxicabAppLib.dll
+E:\Taxi-Cab\TaxicabAppLib\obj\Debug\TaxicabAppLib.pdb
+E:\Taxi-Cab\TaxicabAppLib\bin\Debug\TaxicabAppLib.dll
+E:\Taxi-Cab\TaxicabAppLib\bin\Debug\TaxicabAppLib.pdb
+E:\Taxi-Cab\TaxicabAppLib\bin\Debug\Oracle.DataAccess.dll
+E:\Taxi-cab 2\TaxicabAppLib\bin\Debug\TaxicabAppLib.dll
+E:\Taxi-cab 2\TaxicabAppLib\bin\Debug\TaxicabAppLib.pdb
+E:\Taxi-cab 2\TaxicabAppLib\bin\Debug\Oracle.DataAccess.dll
+E:\Taxi-cab 2\TaxicabAppLib\obj\Debug\TaxicabAppLib.dll
+E:\Taxi-cab 2\TaxicabAppLib\obj\Debug\TaxicabAppLib.pdb
+E:\Taxi-cab 2\TaxicabAppLib\obj\Debug\TaxCabAppLib.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Taxi-cab-2\TaxicabAppLib\bin\Debug\TaxicabAppLib.dll
+C:\Users\Administrator\Desktop\Taxi-cab-2\TaxicabAppLib\bin\Debug\TaxicabAppLib.pdb
+C:\Users\Administrator\Desktop\Taxi-cab-2\TaxicabAppLib\bin\Debug\Oracle.DataAccess.dll
+C:\Users\Administrator\Desktop\Taxi-cab-2\TaxicabAppLib\obj\Debug\TaxCabAppLib.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Taxi-cab-2\TaxicabAppLib\obj\Debug\TaxicabAppLib.dll
+C:\Users\Administrator\Desktop\Taxi-cab-2\TaxicabAppLib\obj\Debug\TaxicabAppLib.pdb
+C:\Users\atiq.CITYGROUPBD.000\Desktop\Taxi-cab-2\TaxicabAppLib\bin\Debug\TaxicabAppLib.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\Taxi-cab-2\TaxicabAppLib\bin\Debug\TaxicabAppLib.pdb
+C:\Users\atiq.CITYGROUPBD.000\Desktop\Taxi-cab-2\TaxicabAppLib\bin\Debug\oracle.dataaccess.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\Taxi-cab-2\TaxicabAppLib\obj\Debug\TaxCabAppLib.csprojResolveAssemblyReference.cache
+C:\Users\atiq.CITYGROUPBD.000\Desktop\Taxi-cab-2\TaxicabAppLib\obj\Debug\TaxicabAppLib.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\Taxi-cab-2\TaxicabAppLib\obj\Debug\TaxicabAppLib.pdb
