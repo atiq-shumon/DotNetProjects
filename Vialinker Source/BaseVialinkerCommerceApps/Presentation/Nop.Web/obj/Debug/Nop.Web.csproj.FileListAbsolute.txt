@@ -1,0 +1,792 @@
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Nop.Web.dll.config
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Nop.Web.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Nop.Web.pdb
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Antlr3.Runtime.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Autofac.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Autofac.Integration.Mvc.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\EntityFramework.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\EntityFramework.SqlServer.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\EntityFramework.SqlServerCompact.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\FluentValidation.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\FluentValidation.Mvc.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\MaxMind.Db.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\MaxMind.GeoIP2.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\MiniProfiler.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\MiniProfiler.Mvc.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Newtonsoft.Json.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Nop.Core.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Nop.Data.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Nop.Services.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Nop.Web.Framework.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Recaptcha.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\RestSharp.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Data.SqlServerCe.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Extensions.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Formatting.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Primitives.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Helpers.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Http.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Http.WebHost.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Mvc.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Optimization.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Razor.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.Deployment.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.Razor.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\WebGrease.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\itextsharp.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\UserAgentStringLibrary.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\EPPlus.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\ImageResizer.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\PerlRegex.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Nop.Core.pdb
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Nop.Data.pdb
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Nop.Services.pdb
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Nop.Web.Framework.pdb
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Autofac.xml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Autofac.Integration.Mvc.xml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\EntityFramework.xml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\EntityFramework.SqlServer.xml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\EntityFramework.SqlServerCompact.xml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\FluentValidation.xml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\MaxMind.Db.xml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\MaxMind.GeoIP2.xml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\MiniProfiler.xml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Newtonsoft.Json.xml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\RestSharp.xml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Extensions.xml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Formatting.xml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Primitives.xml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Helpers.xml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Http.xml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Http.WebHost.xml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Mvc.xml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Optimization.xml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Razor.xml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.xml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.Deployment.xml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.Razor.xml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\itextsharp.xml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\EPPlus.xml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\ImageResizer.xml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\da\FluentValidation.resources.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\de\FluentValidation.resources.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\es\FluentValidation.resources.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\fi\FluentValidation.resources.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\fr\FluentValidation.resources.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\it\FluentValidation.resources.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\ko\FluentValidation.resources.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\nl\FluentValidation.resources.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\pl\FluentValidation.resources.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\pt\FluentValidation.resources.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\ru\FluentValidation.resources.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\sv\FluentValidation.resources.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\tr\FluentValidation.resources.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\obj\Debug\Nop.Web.csproj.App.config
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\obj\Debug\Nop.Web.csprojResolveAssemblyReference.cache
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\obj\Debug\Nop.Web.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\obj\Debug\Nop.Web.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Nop.Web.dll.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Nop.Web.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Nop.Web.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Antlr3.Runtime.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Autofac.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Autofac.Integration.Mvc.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\EntityFramework.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\EntityFramework.SqlServer.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\EntityFramework.SqlServerCompact.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\FluentValidation.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\FluentValidation.Mvc.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\MaxMind.Db.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\MaxMind.GeoIP2.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\MiniProfiler.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\MiniProfiler.Mvc.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Newtonsoft.Json.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Nop.Core.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Nop.Data.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Nop.Services.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Nop.Web.Framework.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Recaptcha.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\RestSharp.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Data.SqlServerCe.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Extensions.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Formatting.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Primitives.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Helpers.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Http.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Http.WebHost.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Mvc.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Optimization.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Razor.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.Deployment.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.Razor.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\WebGrease.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\itextsharp.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\UserAgentStringLibrary.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\EPPlus.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\ImageResizer.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\PerlRegex.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Nop.Core.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Nop.Data.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Nop.Services.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Nop.Web.Framework.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Autofac.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Autofac.Integration.Mvc.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\EntityFramework.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\EntityFramework.SqlServer.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\EntityFramework.SqlServerCompact.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\FluentValidation.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\MaxMind.Db.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\MaxMind.GeoIP2.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\MiniProfiler.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\Newtonsoft.Json.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\RestSharp.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Extensions.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Formatting.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Primitives.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Helpers.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Http.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Http.WebHost.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Mvc.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Optimization.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Razor.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.Deployment.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.Razor.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\itextsharp.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\EPPlus.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\ImageResizer.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\da\FluentValidation.resources.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\de\FluentValidation.resources.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\es\FluentValidation.resources.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\fi\FluentValidation.resources.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\fr\FluentValidation.resources.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\it\FluentValidation.resources.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\ko\FluentValidation.resources.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\nl\FluentValidation.resources.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\pl\FluentValidation.resources.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\pt\FluentValidation.resources.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\ru\FluentValidation.resources.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\sv\FluentValidation.resources.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\bin\tr\FluentValidation.resources.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\obj\Debug\Nop.Web.csproj.App.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\obj\Debug\Nop.Web.csprojResolveAssemblyReference.cache
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\obj\Debug\Nop.Web.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\obj\Debug\Nop.Web.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Web.dll.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Web.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Web.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\Antlr3.Runtime.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\Autofac.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\Autofac.Integration.Mvc.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\EntityFramework.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\EntityFramework.SqlServer.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\EntityFramework.SqlServerCompact.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\FluentValidation.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\FluentValidation.Mvc.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\MaxMind.Db.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\MaxMind.GeoIP2.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\MiniProfiler.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\MiniProfiler.Mvc.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\Newtonsoft.Json.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Core.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Data.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Services.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Web.Framework.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\Recaptcha.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\RestSharp.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Data.SqlServerCe.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Extensions.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Formatting.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Primitives.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Helpers.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Http.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Http.WebHost.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Mvc.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Optimization.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Razor.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.Deployment.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.Razor.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\WebGrease.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\itextsharp.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\UserAgentStringLibrary.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\EPPlus.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\ImageResizer.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\PerlRegex.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Core.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Data.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Services.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Web.Framework.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\Autofac.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\Autofac.Integration.Mvc.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\EntityFramework.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\EntityFramework.SqlServer.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\EntityFramework.SqlServerCompact.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\FluentValidation.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\MaxMind.Db.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\MaxMind.GeoIP2.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\MiniProfiler.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\Newtonsoft.Json.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\RestSharp.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Extensions.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Formatting.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Primitives.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Helpers.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Http.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Http.WebHost.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Mvc.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Optimization.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Razor.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.Deployment.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.Razor.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\itextsharp.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\EPPlus.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\ImageResizer.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\da\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\de\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\es\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\fi\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\fr\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\it\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\ko\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\nl\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\pl\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\pt\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\ru\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\sv\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\bin\tr\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\obj\Debug\Nop.Web.csproj.App.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\obj\Debug\Nop.Web.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\obj\Debug\Nop.Web.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\obj\Debug\Nop.Web.pdb
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Web.dll.config
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Web.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Web.pdb
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\Antlr3.Runtime.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\Autofac.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\Autofac.Integration.Mvc.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\EntityFramework.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\EntityFramework.SqlServer.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\EntityFramework.SqlServerCompact.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\FluentValidation.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\FluentValidation.Mvc.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\MaxMind.Db.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\MaxMind.GeoIP2.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\MiniProfiler.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\MiniProfiler.Mvc.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\Newtonsoft.Json.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Core.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Data.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Services.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Web.Framework.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\Recaptcha.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\RestSharp.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Data.SqlServerCe.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Extensions.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Formatting.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Primitives.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Helpers.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Http.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Http.WebHost.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Mvc.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Optimization.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Razor.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.Deployment.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.Razor.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\WebGrease.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\itextsharp.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\UserAgentStringLibrary.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\EPPlus.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\ImageResizer.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\PerlRegex.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Core.pdb
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Data.pdb
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Services.pdb
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Web.Framework.pdb
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\Autofac.xml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\Autofac.Integration.Mvc.xml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\EntityFramework.xml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\EntityFramework.SqlServer.xml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\EntityFramework.SqlServerCompact.xml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\FluentValidation.xml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\MaxMind.Db.xml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\MaxMind.GeoIP2.xml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\MiniProfiler.xml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\Newtonsoft.Json.xml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\RestSharp.xml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Extensions.xml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Formatting.xml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Primitives.xml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Helpers.xml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Http.xml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Http.WebHost.xml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Mvc.xml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Optimization.xml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Razor.xml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.xml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.Deployment.xml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.Razor.xml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\itextsharp.xml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\EPPlus.xml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\ImageResizer.xml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\da\FluentValidation.resources.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\de\FluentValidation.resources.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\es\FluentValidation.resources.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\fi\FluentValidation.resources.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\fr\FluentValidation.resources.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\it\FluentValidation.resources.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\ko\FluentValidation.resources.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\nl\FluentValidation.resources.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\pl\FluentValidation.resources.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\pt\FluentValidation.resources.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\ru\FluentValidation.resources.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\sv\FluentValidation.resources.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\bin\tr\FluentValidation.resources.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\obj\Debug\Nop.Web.csproj.App.config
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\obj\Debug\Nop.Web.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\obj\Debug\Nop.Web.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\obj\Debug\Nop.Web.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Web.dll.config
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Web.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Web.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\Antlr3.Runtime.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\Autofac.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\Autofac.Integration.Mvc.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\EntityFramework.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\EntityFramework.SqlServer.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\EntityFramework.SqlServerCompact.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\FluentValidation.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\FluentValidation.Mvc.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\MaxMind.Db.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\MaxMind.GeoIP2.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\MiniProfiler.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\MiniProfiler.Mvc.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\Newtonsoft.Json.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Core.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Data.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Services.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Web.Framework.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\Recaptcha.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\RestSharp.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Data.SqlServerCe.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Extensions.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Formatting.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Primitives.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Helpers.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Http.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Http.WebHost.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Mvc.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Optimization.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Razor.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.Deployment.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.Razor.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\WebGrease.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\itextsharp.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\UserAgentStringLibrary.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\EPPlus.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\ImageResizer.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\PerlRegex.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Core.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Data.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Services.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\Nop.Web.Framework.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\Autofac.xml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\Autofac.Integration.Mvc.xml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\EntityFramework.xml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\EntityFramework.SqlServer.xml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\EntityFramework.SqlServerCompact.xml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\FluentValidation.xml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\MaxMind.Db.xml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\MaxMind.GeoIP2.xml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\MiniProfiler.xml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\Newtonsoft.Json.xml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\RestSharp.xml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Extensions.xml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Formatting.xml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Primitives.xml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Helpers.xml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Http.xml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Http.WebHost.xml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Mvc.xml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Optimization.xml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.Razor.xml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.xml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.Deployment.xml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.Razor.xml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\itextsharp.xml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\EPPlus.xml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\ImageResizer.xml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\da\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\de\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\es\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\fi\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\fr\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\it\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\ko\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\nl\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\pl\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\pt\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\ru\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\sv\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\bin\tr\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\obj\Debug\Nop.Web.csproj.App.config
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\obj\Debug\Nop.Web.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\obj\Debug\Nop.Web.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\obj\Debug\Nop.Web.pdb
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\Nop.Web.dll.config
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\Nop.Web.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\Nop.Web.pdb
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\Antlr3.Runtime.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\Autofac.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\Autofac.Integration.Mvc.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\EntityFramework.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\EntityFramework.SqlServer.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\EntityFramework.SqlServerCompact.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\FluentValidation.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\FluentValidation.Mvc.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\MaxMind.Db.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\MaxMind.GeoIP2.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\MiniProfiler.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\MiniProfiler.Mvc.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\Newtonsoft.Json.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\Nop.Core.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\Nop.Data.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\Nop.Services.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\Nop.Web.Framework.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\Recaptcha.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\RestSharp.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\System.Data.SqlServerCe.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Extensions.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Formatting.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Primitives.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\System.Web.Helpers.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\System.Web.Http.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\System.Web.Http.WebHost.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\System.Web.Mvc.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\System.Web.Optimization.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\System.Web.Razor.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.Deployment.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.Razor.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\WebGrease.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\itextsharp.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\UserAgentStringLibrary.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\EPPlus.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\ImageResizer.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\PerlRegex.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\Nop.Core.pdb
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\Nop.Data.pdb
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\Nop.Services.pdb
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\Nop.Web.Framework.pdb
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\Autofac.xml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\Autofac.Integration.Mvc.xml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\EntityFramework.xml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\EntityFramework.SqlServer.xml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\EntityFramework.SqlServerCompact.xml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\FluentValidation.xml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\MaxMind.Db.xml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\MaxMind.GeoIP2.xml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\MiniProfiler.xml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\Newtonsoft.Json.xml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\RestSharp.xml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Extensions.xml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Formatting.xml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\System.Net.Http.Primitives.xml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\System.Web.Helpers.xml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\System.Web.Http.xml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\System.Web.Http.WebHost.xml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\System.Web.Mvc.xml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\System.Web.Optimization.xml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\System.Web.Razor.xml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.xml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.Deployment.xml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\System.Web.WebPages.Razor.xml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\itextsharp.xml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\EPPlus.xml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\ImageResizer.xml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\da\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\de\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\es\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\fi\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\fr\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\it\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\ko\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\nl\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\pl\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\pt\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\ru\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\sv\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\bin\tr\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\obj\Debug\Nop.Web.csproj.App.config
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\obj\Debug\Nop.Web.csprojResolveAssemblyReference.cache
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\obj\Debug\Nop.Web.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\obj\Debug\Nop.Web.pdb
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Web.dll.config
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Web.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Web.pdb
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Antlr3.Runtime.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Autofac.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Autofac.Integration.Mvc.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\EntityFramework.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\EntityFramework.SqlServer.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\EntityFramework.SqlServerCompact.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\FluentValidation.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\FluentValidation.Mvc.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\MaxMind.Db.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\MaxMind.GeoIP2.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\MiniProfiler.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\MiniProfiler.Mvc.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Newtonsoft.Json.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Core.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Data.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Services.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Web.Framework.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Recaptcha.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\RestSharp.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Data.SqlServerCe.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Net.Http.Extensions.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Net.Http.Formatting.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Net.Http.Primitives.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Helpers.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Http.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Http.WebHost.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Mvc.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Optimization.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Razor.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.WebPages.Deployment.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.WebPages.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.WebPages.Razor.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\WebGrease.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\itextsharp.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\UserAgentStringLibrary.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\EPPlus.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\ImageResizer.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\PerlRegex.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Core.pdb
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Data.pdb
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Services.pdb
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Web.Framework.pdb
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Autofac.xml
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Autofac.Integration.Mvc.xml
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\EntityFramework.xml
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\EntityFramework.SqlServer.xml
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\EntityFramework.SqlServerCompact.xml
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\FluentValidation.xml
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\MaxMind.Db.xml
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\MaxMind.GeoIP2.xml
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\MiniProfiler.xml
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Newtonsoft.Json.xml
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\RestSharp.xml
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Net.Http.Extensions.xml
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Net.Http.Formatting.xml
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Net.Http.Primitives.xml
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Helpers.xml
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Http.xml
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Http.WebHost.xml
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Mvc.xml
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Optimization.xml
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Razor.xml
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.WebPages.xml
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.WebPages.Deployment.xml
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.WebPages.Razor.xml
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\itextsharp.xml
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\EPPlus.xml
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\ImageResizer.xml
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\da\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\de\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\es\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\fi\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\fr\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\it\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\ko\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\nl\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\pl\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\pt\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\ru\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\sv\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\tr\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\obj\Debug\Nop.Web.csproj.App.config
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\obj\Debug\Nop.Web.csprojResolveAssemblyReference.cache
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\obj\Debug\Nop.Web.dll
+Z:\VialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\obj\Debug\Nop.Web.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Web.dll.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Web.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Web.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Antlr3.Runtime.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Autofac.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Autofac.Integration.Mvc.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\EntityFramework.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\EntityFramework.SqlServer.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\EntityFramework.SqlServerCompact.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\FluentValidation.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\FluentValidation.Mvc.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\MaxMind.Db.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\MaxMind.GeoIP2.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\MiniProfiler.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\MiniProfiler.Mvc.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Newtonsoft.Json.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Core.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Data.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Services.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Web.Framework.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Recaptcha.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\RestSharp.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Data.SqlServerCe.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Net.Http.Extensions.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Net.Http.Formatting.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Net.Http.Primitives.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Helpers.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Http.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Http.WebHost.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Mvc.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Optimization.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Razor.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.WebPages.Deployment.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.WebPages.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.WebPages.Razor.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\WebGrease.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\itextsharp.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\UserAgentStringLibrary.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\EPPlus.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\ImageResizer.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\PerlRegex.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Core.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Data.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Services.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Web.Framework.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Autofac.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Autofac.Integration.Mvc.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\EntityFramework.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\EntityFramework.SqlServer.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\EntityFramework.SqlServerCompact.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\FluentValidation.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\MaxMind.Db.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\MaxMind.GeoIP2.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\MiniProfiler.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Newtonsoft.Json.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\RestSharp.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Net.Http.Extensions.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Net.Http.Formatting.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Net.Http.Primitives.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Helpers.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Http.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Http.WebHost.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Mvc.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Optimization.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Razor.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.WebPages.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.WebPages.Deployment.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.WebPages.Razor.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\itextsharp.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\EPPlus.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\ImageResizer.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\da\FluentValidation.resources.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\de\FluentValidation.resources.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\es\FluentValidation.resources.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\fi\FluentValidation.resources.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\fr\FluentValidation.resources.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\it\FluentValidation.resources.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\ko\FluentValidation.resources.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\nl\FluentValidation.resources.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\pl\FluentValidation.resources.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\pt\FluentValidation.resources.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\ru\FluentValidation.resources.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\sv\FluentValidation.resources.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\tr\FluentValidation.resources.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\obj\Debug\Nop.Web.csproj.App.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\obj\Debug\Nop.Web.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\obj\Debug\Nop.Web.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\obj\Debug\Nop.Web.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Web.dll.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Web.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Web.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Autofac.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Autofac.Integration.Mvc.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\EntityFramework.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\EntityFramework.SqlServerCompact.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\FluentValidation.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\FluentValidation.Mvc.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\MaxMind.Db.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\MaxMind.GeoIP2.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\MiniProfiler.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\MiniProfiler.Mvc.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Core.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Data.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Services.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Web.Framework.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Recaptcha.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\RestSharp.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Data.SqlServerCe.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Net.Http.Extensions.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Net.Http.Primitives.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Helpers.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Http.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Mvc.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Optimization.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Razor.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.WebPages.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\WebGrease.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\itextsharp.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\UserAgentStringLibrary.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\EPPlus.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\ImageResizer.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\PerlRegex.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Core.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Data.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Services.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Nop.Web.Framework.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Autofac.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Autofac.Integration.Mvc.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\EntityFramework.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\EntityFramework.SqlServerCompact.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\FluentValidation.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\MaxMind.Db.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\MaxMind.GeoIP2.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\MiniProfiler.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\RestSharp.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Net.Http.Extensions.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Net.Http.Primitives.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Helpers.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Http.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Mvc.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Optimization.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.Razor.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.WebPages.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\itextsharp.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\EPPlus.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\ImageResizer.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\da\FluentValidation.resources.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\de\FluentValidation.resources.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\es\FluentValidation.resources.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\fi\FluentValidation.resources.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\fr\FluentValidation.resources.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\it\FluentValidation.resources.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\ko\FluentValidation.resources.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\nl\FluentValidation.resources.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\pl\FluentValidation.resources.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\pt\FluentValidation.resources.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\ru\FluentValidation.resources.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\sv\FluentValidation.resources.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\bin\tr\FluentValidation.resources.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\obj\Debug\Nop.Web.csproj.App.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\obj\Debug\Nop.Web.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\obj\Debug\Nop.Web.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\obj\Debug\Nop.Web.pdb

@@ -1,0 +1,87 @@
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Views\PaymentPurchaseOrder\Configure.cshtml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Views\PaymentPurchaseOrder\PaymentInfo.cshtml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\web.config
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Description.txt
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\logo.jpg
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.dll.config
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.pdb
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.dll
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Views\PaymentPurchaseOrder\Configure.cshtml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Views\PaymentPurchaseOrder\PaymentInfo.cshtml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\web.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Description.txt
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\logo.jpg
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.dll.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.csprojResolveAssemblyReference.cache
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Views\PaymentPurchaseOrder\Configure.cshtml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Views\PaymentPurchaseOrder\PaymentInfo.cshtml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\web.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Description.txt
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\logo.jpg
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.dll.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.pdb
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Views\PaymentPurchaseOrder\Configure.cshtml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Views\PaymentPurchaseOrder\PaymentInfo.cshtml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\web.config
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Description.txt
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\logo.jpg
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.dll.config
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.pdb
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.dll
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Views\PaymentPurchaseOrder\Configure.cshtml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Views\PaymentPurchaseOrder\PaymentInfo.cshtml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\web.config
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Description.txt
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\logo.jpg
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.dll.config
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.pdb
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Views\PaymentPurchaseOrder\Configure.cshtml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Views\PaymentPurchaseOrder\PaymentInfo.cshtml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\web.config
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Description.txt
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\logo.jpg
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.dll.config
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.pdb
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.csprojResolveAssemblyReference.cache
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.dll
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Views\PaymentPurchaseOrder\Configure.cshtml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Views\PaymentPurchaseOrder\PaymentInfo.cshtml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\web.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Description.txt
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\logo.jpg
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.dll.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Views\PaymentPurchaseOrder\Configure.cshtml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Views\PaymentPurchaseOrder\PaymentInfo.cshtml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\web.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Description.txt
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\logo.jpg
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.dll.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Debug\Nop.Plugin.Payments.PurchaseOrder.pdb

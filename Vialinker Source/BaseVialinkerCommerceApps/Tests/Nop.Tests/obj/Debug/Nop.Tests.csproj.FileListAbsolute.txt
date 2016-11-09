@@ -1,0 +1,53 @@
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Tests\bin\Debug\Nop.Tests.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Tests\bin\Debug\Nop.Tests.pdb
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Tests\bin\Debug\nunit.framework.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Tests\bin\Debug\Rhino.Mocks.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Tests\bin\Debug\nunit.framework.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Tests\bin\Debug\Rhino.Mocks.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Tests\obj\Debug\Nop.Tests.csprojResolveAssemblyReference.cache
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Tests\obj\Debug\Nop.Tests.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Tests\obj\Debug\Nop.Tests.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Tests\bin\Debug\Nop.Tests.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Tests\bin\Debug\Nop.Tests.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Tests\bin\Debug\nunit.framework.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Tests\bin\Debug\Rhino.Mocks.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Tests\bin\Debug\nunit.framework.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Tests\bin\Debug\Rhino.Mocks.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Tests\obj\Debug\Nop.Tests.csprojResolveAssemblyReference.cache
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Tests\obj\Debug\Nop.Tests.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Tests\obj\Debug\Nop.Tests.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Tests\bin\Debug\Nop.Tests.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Tests\bin\Debug\Nop.Tests.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Tests\bin\Debug\nunit.framework.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Tests\bin\Debug\Rhino.Mocks.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Tests\bin\Debug\nunit.framework.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Tests\bin\Debug\Rhino.Mocks.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Tests\obj\Debug\Nop.Tests.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Tests\obj\Debug\Nop.Tests.pdb
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Tests\bin\Debug\Nop.Tests.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Tests\bin\Debug\Nop.Tests.pdb
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Tests\bin\Debug\nunit.framework.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Tests\bin\Debug\Rhino.Mocks.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Tests\bin\Debug\nunit.framework.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Tests\bin\Debug\Rhino.Mocks.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Tests\obj\Debug\Nop.Tests.csprojResolveAssemblyReference.cache
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Tests\obj\Debug\Nop.Tests.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Tests\obj\Debug\Nop.Tests.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Tests\bin\Debug\Nop.Tests.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Tests\bin\Debug\Nop.Tests.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Tests\bin\Debug\nunit.framework.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Tests\bin\Debug\Rhino.Mocks.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Tests\bin\Debug\nunit.framework.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Tests\bin\Debug\Rhino.Mocks.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Tests\obj\Debug\Nop.Tests.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Tests\obj\Debug\Nop.Tests.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Tests\obj\Debug\Nop.Tests.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Tests\bin\Debug\Nop.Tests.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Tests\bin\Debug\Nop.Tests.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Tests\bin\Debug\nunit.framework.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Tests\bin\Debug\Rhino.Mocks.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Tests\bin\Debug\nunit.framework.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Tests\bin\Debug\Rhino.Mocks.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Tests\obj\Debug\Nop.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Tests\obj\Debug\Nop.Tests.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Tests\obj\Debug\Nop.Tests.pdb

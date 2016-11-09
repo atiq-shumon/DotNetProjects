@@ -1,0 +1,87 @@
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Views\DiscountRulesHasOneProduct\Configure.cshtml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Description.txt
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\web.config
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Views\DiscountRulesHasOneProduct\ProductAddPopup.cshtml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\logo.jpg
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.dll.config
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.pdb
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.dll
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Views\DiscountRulesHasOneProduct\Configure.cshtml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Description.txt
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\web.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Views\DiscountRulesHasOneProduct\ProductAddPopup.cshtml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\logo.jpg
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.dll.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.csprojResolveAssemblyReference.cache
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Views\DiscountRulesHasOneProduct\Configure.cshtml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Description.txt
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\web.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Views\DiscountRulesHasOneProduct\ProductAddPopup.cshtml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\logo.jpg
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.dll.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.pdb
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Views\DiscountRulesHasOneProduct\Configure.cshtml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Description.txt
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\web.config
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Views\DiscountRulesHasOneProduct\ProductAddPopup.cshtml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\logo.jpg
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.dll.config
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.pdb
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.dll
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Views\DiscountRulesHasOneProduct\Configure.cshtml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Description.txt
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\web.config
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Views\DiscountRulesHasOneProduct\ProductAddPopup.cshtml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\logo.jpg
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.dll.config
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.pdb
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Views\DiscountRulesHasOneProduct\Configure.cshtml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Description.txt
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\web.config
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Views\DiscountRulesHasOneProduct\ProductAddPopup.cshtml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\logo.jpg
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.dll.config
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.pdb
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.csprojResolveAssemblyReference.cache
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.dll
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Views\DiscountRulesHasOneProduct\Configure.cshtml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Description.txt
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\web.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Views\DiscountRulesHasOneProduct\ProductAddPopup.cshtml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\logo.jpg
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.dll.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Views\DiscountRulesHasOneProduct\Configure.cshtml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Description.txt
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\web.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Views\DiscountRulesHasOneProduct\ProductAddPopup.cshtml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\logo.jpg
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.dll.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.pdb

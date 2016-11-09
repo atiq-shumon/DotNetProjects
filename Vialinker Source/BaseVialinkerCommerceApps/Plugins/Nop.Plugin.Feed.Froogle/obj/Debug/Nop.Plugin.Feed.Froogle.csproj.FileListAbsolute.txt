@@ -1,0 +1,88 @@
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Views\FeedFroogle\Configure.cshtml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Description.txt
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\web.config
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Content\styles.css
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\logo.jpg
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Nop.Plugin.Feed.Froogle.dll.config
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Nop.Plugin.Feed.Froogle.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Nop.Plugin.Feed.Froogle.pdb
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Feed.Froogle\obj\Debug\Nop.Plugin.Feed.Froogle.csprojResolveAssemblyReference.cache
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Feed.Froogle\obj\Debug\Nop.Plugin.Feed.Froogle.dll
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Feed.Froogle\obj\Debug\Nop.Plugin.Feed.Froogle.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Views\FeedFroogle\Configure.cshtml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Description.txt
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\web.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Content\styles.css
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\logo.jpg
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Nop.Plugin.Feed.Froogle.dll.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Nop.Plugin.Feed.Froogle.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Nop.Plugin.Feed.Froogle.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Feed.Froogle\obj\Debug\Nop.Plugin.Feed.Froogle.csprojResolveAssemblyReference.cache
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Feed.Froogle\obj\Debug\Nop.Plugin.Feed.Froogle.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Feed.Froogle\obj\Debug\Nop.Plugin.Feed.Froogle.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Views\FeedFroogle\Configure.cshtml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Description.txt
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\web.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Content\styles.css
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\logo.jpg
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Nop.Plugin.Feed.Froogle.dll.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Nop.Plugin.Feed.Froogle.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Nop.Plugin.Feed.Froogle.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.Feed.Froogle\obj\Debug\Nop.Plugin.Feed.Froogle.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.Feed.Froogle\obj\Debug\Nop.Plugin.Feed.Froogle.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.Feed.Froogle\obj\Debug\Nop.Plugin.Feed.Froogle.pdb
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Views\FeedFroogle\Configure.cshtml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Description.txt
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\web.config
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Content\styles.css
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\logo.jpg
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Nop.Plugin.Feed.Froogle.dll.config
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Nop.Plugin.Feed.Froogle.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Nop.Plugin.Feed.Froogle.pdb
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.Feed.Froogle\obj\Debug\Nop.Plugin.Feed.Froogle.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.Feed.Froogle\obj\Debug\Nop.Plugin.Feed.Froogle.dll
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.Feed.Froogle\obj\Debug\Nop.Plugin.Feed.Froogle.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Views\FeedFroogle\Configure.cshtml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Description.txt
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\web.config
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Content\styles.css
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\logo.jpg
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Nop.Plugin.Feed.Froogle.dll.config
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Nop.Plugin.Feed.Froogle.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Nop.Plugin.Feed.Froogle.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.Feed.Froogle\obj\Debug\Nop.Plugin.Feed.Froogle.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.Feed.Froogle\obj\Debug\Nop.Plugin.Feed.Froogle.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.Feed.Froogle\obj\Debug\Nop.Plugin.Feed.Froogle.pdb
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Views\FeedFroogle\Configure.cshtml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Description.txt
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\web.config
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Content\styles.css
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\logo.jpg
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Nop.Plugin.Feed.Froogle.dll.config
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Nop.Plugin.Feed.Froogle.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Feed.Froogle\Nop.Plugin.Feed.Froogle.pdb
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.Feed.Froogle\obj\Debug\Nop.Plugin.Feed.Froogle.csprojResolveAssemblyReference.cache
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.Feed.Froogle\obj\Debug\Nop.Plugin.Feed.Froogle.dll
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.Feed.Froogle\obj\Debug\Nop.Plugin.Feed.Froogle.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Feed.Froogle\Views\FeedFroogle\Configure.cshtml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Feed.Froogle\Description.txt
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Feed.Froogle\web.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Feed.Froogle\Content\styles.css
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Feed.Froogle\logo.jpg
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Feed.Froogle\Nop.Plugin.Feed.Froogle.dll.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Feed.Froogle\Nop.Plugin.Feed.Froogle.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Feed.Froogle\Nop.Plugin.Feed.Froogle.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Feed.Froogle\obj\Debug\Nop.Plugin.Feed.Froogle.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Feed.Froogle\obj\Debug\Nop.Plugin.Feed.Froogle.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Feed.Froogle\obj\Debug\Nop.Plugin.Feed.Froogle.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Feed.Froogle\Views\FeedFroogle\Configure.cshtml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Feed.Froogle\Description.txt
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Feed.Froogle\web.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Feed.Froogle\Content\styles.css
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Feed.Froogle\logo.jpg
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Feed.Froogle\Nop.Plugin.Feed.Froogle.dll.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Feed.Froogle\Nop.Plugin.Feed.Froogle.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Feed.Froogle\Nop.Plugin.Feed.Froogle.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Feed.Froogle\obj\Debug\Nop.Plugin.Feed.Froogle.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Feed.Froogle\obj\Debug\Nop.Plugin.Feed.Froogle.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Feed.Froogle\obj\Debug\Nop.Plugin.Feed.Froogle.pdb

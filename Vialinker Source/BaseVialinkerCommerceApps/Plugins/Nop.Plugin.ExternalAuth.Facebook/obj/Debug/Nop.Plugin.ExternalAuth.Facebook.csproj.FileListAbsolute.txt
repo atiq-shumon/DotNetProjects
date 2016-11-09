@@ -1,0 +1,112 @@
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Description.txt
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Views\ExternalAuthFacebook\Configure.cshtml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Views\ExternalAuthFacebook\PublicInfo.cshtml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\web.config
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Content\facebookstyles.css
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Content\Images\facebook-signing.png
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\logo.jpg
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Nop.Plugin.ExternalAuth.Facebook.dll.config
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Nop.Plugin.ExternalAuth.Facebook.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Nop.Plugin.ExternalAuth.Facebook.pdb
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.csproj.App.config
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.csprojResolveAssemblyReference.cache
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.dll
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Description.txt
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Views\ExternalAuthFacebook\Configure.cshtml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Views\ExternalAuthFacebook\PublicInfo.cshtml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\web.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Content\facebookstyles.css
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Content\Images\facebook-signing.png
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\logo.jpg
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Nop.Plugin.ExternalAuth.Facebook.dll.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Nop.Plugin.ExternalAuth.Facebook.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Nop.Plugin.ExternalAuth.Facebook.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.csproj.App.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.csprojResolveAssemblyReference.cache
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Description.txt
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Views\ExternalAuthFacebook\Configure.cshtml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Views\ExternalAuthFacebook\PublicInfo.cshtml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\web.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Content\facebookstyles.css
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Content\Images\facebook-signing.png
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\logo.jpg
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Nop.Plugin.ExternalAuth.Facebook.dll.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Nop.Plugin.ExternalAuth.Facebook.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Nop.Plugin.ExternalAuth.Facebook.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.csproj.App.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.pdb
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Description.txt
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Views\ExternalAuthFacebook\Configure.cshtml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Views\ExternalAuthFacebook\PublicInfo.cshtml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\web.config
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Content\facebookstyles.css
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Content\Images\facebook-signing.png
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\logo.jpg
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Nop.Plugin.ExternalAuth.Facebook.dll.config
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Nop.Plugin.ExternalAuth.Facebook.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Nop.Plugin.ExternalAuth.Facebook.pdb
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.csproj.App.config
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.dll
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Description.txt
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Views\ExternalAuthFacebook\Configure.cshtml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Views\ExternalAuthFacebook\PublicInfo.cshtml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\web.config
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Content\facebookstyles.css
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Content\Images\facebook-signing.png
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\logo.jpg
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Nop.Plugin.ExternalAuth.Facebook.dll.config
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Nop.Plugin.ExternalAuth.Facebook.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Nop.Plugin.ExternalAuth.Facebook.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.csproj.App.config
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.pdb
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Description.txt
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Views\ExternalAuthFacebook\Configure.cshtml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Views\ExternalAuthFacebook\PublicInfo.cshtml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\web.config
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Content\facebookstyles.css
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Content\Images\facebook-signing.png
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\logo.jpg
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Nop.Plugin.ExternalAuth.Facebook.dll.config
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Nop.Plugin.ExternalAuth.Facebook.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Nop.Plugin.ExternalAuth.Facebook.pdb
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.csproj.App.config
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.csprojResolveAssemblyReference.cache
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.dll
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Description.txt
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Views\ExternalAuthFacebook\Configure.cshtml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Views\ExternalAuthFacebook\PublicInfo.cshtml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\web.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Content\facebookstyles.css
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Content\Images\facebook-signing.png
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\logo.jpg
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Nop.Plugin.ExternalAuth.Facebook.dll.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Nop.Plugin.ExternalAuth.Facebook.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Nop.Plugin.ExternalAuth.Facebook.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.csproj.App.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Description.txt
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Views\ExternalAuthFacebook\Configure.cshtml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Views\ExternalAuthFacebook\PublicInfo.cshtml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\web.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Content\facebookstyles.css
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Content\Images\facebook-signing.png
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\logo.jpg
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Nop.Plugin.ExternalAuth.Facebook.dll.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Nop.Plugin.ExternalAuth.Facebook.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Nop.Plugin.ExternalAuth.Facebook.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.csproj.App.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.pdb

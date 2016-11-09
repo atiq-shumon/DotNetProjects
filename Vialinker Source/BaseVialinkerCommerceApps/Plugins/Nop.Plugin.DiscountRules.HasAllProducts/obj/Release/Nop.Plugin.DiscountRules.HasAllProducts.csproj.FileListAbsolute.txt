@@ -1,0 +1,10 @@
+C:\Users\Administrator\App _Code\VCommerce_6_Aug_2015\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasAllProducts\Views\DiscountRulesHasAllProducts\Configure.cshtml
+C:\Users\Administrator\App _Code\VCommerce_6_Aug_2015\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasAllProducts\Description.txt
+C:\Users\Administrator\App _Code\VCommerce_6_Aug_2015\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasAllProducts\web.config
+C:\Users\Administrator\App _Code\VCommerce_6_Aug_2015\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasAllProducts\Views\DiscountRulesHasAllProducts\ProductAddPopup.cshtml
+C:\Users\Administrator\App _Code\VCommerce_6_Aug_2015\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasAllProducts\logo.jpg
+C:\Users\Administrator\App _Code\VCommerce_6_Aug_2015\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasAllProducts\Nop.Plugin.DiscountRules.HasAllProducts.dll.config
+C:\Users\Administrator\App _Code\VCommerce_6_Aug_2015\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasAllProducts\Nop.Plugin.DiscountRules.HasAllProducts.dll
+C:\Users\Administrator\App _Code\VCommerce_6_Aug_2015\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HasAllProducts\Nop.Plugin.DiscountRules.HasAllProducts.pdb
+C:\Users\Administrator\App _Code\VCommerce_6_Aug_2015\Project\src\Plugins\Nop.Plugin.DiscountRules.HasAllProducts\obj\Release\Nop.Plugin.DiscountRules.HasAllProducts.dll
+C:\Users\Administrator\App _Code\VCommerce_6_Aug_2015\Project\src\Plugins\Nop.Plugin.DiscountRules.HasAllProducts\obj\Release\Nop.Plugin.DiscountRules.HasAllProducts.pdb

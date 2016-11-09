@@ -1,0 +1,630 @@
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\AutoMapper.Net4.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.MVC.Tests.dll.config
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.MVC.Tests.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.MVC.Tests.pdb
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\AutoMapper.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\FluentValidation.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Admin.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Core.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Services.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Tests.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.Framework.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\nunit.framework.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Rhino.Mocks.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Net.Http.Extensions.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Net.Http.Primitives.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Helpers.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Mvc.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Razor.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\WebActivator.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Autofac.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Autofac.Integration.Mvc.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Data.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\itextsharp.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\UserAgentStringLibrary.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MaxMind.GeoIP2.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MaxMind.Db.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\EPPlus.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\ImageResizer.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Optimization.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Recaptcha.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\WebGrease.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\FluentValidation.Mvc.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MiniProfiler.Mvc.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MiniProfiler.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\EntityFramework.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\PerlRegex.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Antlr3.Runtime.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Core.pdb
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Services.pdb
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.Framework.pdb
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Admin.pdb
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.pdb
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Tests.pdb
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\AutoMapper.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\FluentValidation.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\nunit.framework.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Rhino.Mocks.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Net.Http.Extensions.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Net.Http.Primitives.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Helpers.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Mvc.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Razor.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Autofac.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Autofac.Integration.Mvc.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Data.pdb
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\itextsharp.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MaxMind.GeoIP2.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MaxMind.Db.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\EPPlus.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\ImageResizer.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Optimization.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Newtonsoft.Json.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MiniProfiler.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\EntityFramework.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\da\FluentValidation.resources.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\de\FluentValidation.resources.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\es\FluentValidation.resources.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\fi\FluentValidation.resources.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\fr\FluentValidation.resources.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\it\FluentValidation.resources.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\ko\FluentValidation.resources.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\nl\FluentValidation.resources.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\pl\FluentValidation.resources.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\pt\FluentValidation.resources.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\ru\FluentValidation.resources.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\sv\FluentValidation.resources.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\tr\FluentValidation.resources.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\obj\Debug\Nop.Web.MVC.Tests.csproj.App.config
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\obj\Debug\Nop.Web.MVC.Tests.csprojResolveAssemblyReference.cache
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\obj\Debug\Nop.Web.MVC.Tests.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\obj\Debug\Nop.Web.MVC.Tests.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\AutoMapper.Net4.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.MVC.Tests.dll.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.MVC.Tests.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.MVC.Tests.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\AutoMapper.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\FluentValidation.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Admin.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Core.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Services.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Tests.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.Framework.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\nunit.framework.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Rhino.Mocks.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Net.Http.Extensions.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Net.Http.Primitives.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Helpers.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Mvc.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Razor.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\WebActivator.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Autofac.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Autofac.Integration.Mvc.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Data.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\itextsharp.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\UserAgentStringLibrary.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MaxMind.GeoIP2.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MaxMind.Db.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\EPPlus.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\ImageResizer.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Optimization.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Newtonsoft.Json.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Recaptcha.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\WebGrease.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\FluentValidation.Mvc.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MiniProfiler.Mvc.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MiniProfiler.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\EntityFramework.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\PerlRegex.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Antlr3.Runtime.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Core.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Services.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.Framework.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Admin.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Tests.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\AutoMapper.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\FluentValidation.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\nunit.framework.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Rhino.Mocks.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Net.Http.Extensions.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Net.Http.Primitives.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Helpers.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Mvc.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Razor.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Autofac.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Autofac.Integration.Mvc.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Data.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\itextsharp.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MaxMind.GeoIP2.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MaxMind.Db.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\EPPlus.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\ImageResizer.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Optimization.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Newtonsoft.Json.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MiniProfiler.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\EntityFramework.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\da\FluentValidation.resources.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\de\FluentValidation.resources.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\es\FluentValidation.resources.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\fi\FluentValidation.resources.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\fr\FluentValidation.resources.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\it\FluentValidation.resources.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\ko\FluentValidation.resources.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\nl\FluentValidation.resources.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\pl\FluentValidation.resources.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\pt\FluentValidation.resources.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\ru\FluentValidation.resources.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\sv\FluentValidation.resources.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\tr\FluentValidation.resources.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\obj\Debug\Nop.Web.MVC.Tests.csproj.App.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\obj\Debug\Nop.Web.MVC.Tests.csprojResolveAssemblyReference.cache
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\obj\Debug\Nop.Web.MVC.Tests.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Web.MVC.Tests\obj\Debug\Nop.Web.MVC.Tests.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\AutoMapper.Net4.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.MVC.Tests.dll.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.MVC.Tests.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.MVC.Tests.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\AutoMapper.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\FluentValidation.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Admin.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Core.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Services.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Tests.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.Framework.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\nunit.framework.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Rhino.Mocks.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Net.Http.Extensions.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Net.Http.Primitives.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Helpers.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Mvc.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Razor.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\WebActivator.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Autofac.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Autofac.Integration.Mvc.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Data.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\itextsharp.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\UserAgentStringLibrary.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MaxMind.GeoIP2.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MaxMind.Db.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\EPPlus.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\ImageResizer.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Optimization.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Recaptcha.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\WebGrease.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\FluentValidation.Mvc.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MiniProfiler.Mvc.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MiniProfiler.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\EntityFramework.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\PerlRegex.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Antlr3.Runtime.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Core.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Services.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.Framework.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Admin.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Tests.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\AutoMapper.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\FluentValidation.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\nunit.framework.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Rhino.Mocks.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Net.Http.Extensions.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Net.Http.Primitives.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Helpers.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Mvc.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Razor.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Autofac.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Autofac.Integration.Mvc.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Data.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\itextsharp.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MaxMind.GeoIP2.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MaxMind.Db.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\EPPlus.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\ImageResizer.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Optimization.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Newtonsoft.Json.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MiniProfiler.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\EntityFramework.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\da\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\de\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\es\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\fi\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\fr\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\it\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\ko\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\nl\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\pl\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\pt\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\ru\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\sv\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\tr\FluentValidation.resources.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\obj\Debug\Nop.Web.MVC.Tests.csproj.App.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\obj\Debug\Nop.Web.MVC.Tests.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\obj\Debug\Nop.Web.MVC.Tests.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\obj\Debug\Nop.Web.MVC.Tests.pdb
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\AutoMapper.Net4.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.MVC.Tests.dll.config
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.MVC.Tests.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.MVC.Tests.pdb
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\AutoMapper.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\FluentValidation.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Admin.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Core.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Services.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Tests.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.Framework.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\nunit.framework.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Rhino.Mocks.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Net.Http.Extensions.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Net.Http.Primitives.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Helpers.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Mvc.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Razor.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\WebActivator.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Autofac.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Autofac.Integration.Mvc.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Data.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\itextsharp.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\UserAgentStringLibrary.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MaxMind.GeoIP2.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MaxMind.Db.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\EPPlus.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\ImageResizer.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Optimization.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Newtonsoft.Json.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Recaptcha.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\WebGrease.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\FluentValidation.Mvc.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MiniProfiler.Mvc.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MiniProfiler.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\EntityFramework.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\PerlRegex.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Antlr3.Runtime.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Core.pdb
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Services.pdb
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.Framework.pdb
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Admin.pdb
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.pdb
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Tests.pdb
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\AutoMapper.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\FluentValidation.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\nunit.framework.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Rhino.Mocks.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Net.Http.Extensions.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Net.Http.Primitives.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Helpers.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Mvc.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Razor.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Autofac.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Autofac.Integration.Mvc.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Data.pdb
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\itextsharp.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MaxMind.GeoIP2.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MaxMind.Db.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\EPPlus.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\ImageResizer.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Optimization.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Newtonsoft.Json.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MiniProfiler.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\EntityFramework.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\da\FluentValidation.resources.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\de\FluentValidation.resources.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\es\FluentValidation.resources.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\fi\FluentValidation.resources.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\fr\FluentValidation.resources.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\it\FluentValidation.resources.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\ko\FluentValidation.resources.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\nl\FluentValidation.resources.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\pl\FluentValidation.resources.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\pt\FluentValidation.resources.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\ru\FluentValidation.resources.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\sv\FluentValidation.resources.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\tr\FluentValidation.resources.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\obj\Debug\Nop.Web.MVC.Tests.csproj.App.config
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\obj\Debug\Nop.Web.MVC.Tests.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\obj\Debug\Nop.Web.MVC.Tests.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Web.MVC.Tests\obj\Debug\Nop.Web.MVC.Tests.pdb
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\AutoMapper.Net4.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.MVC.Tests.dll.config
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.MVC.Tests.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.MVC.Tests.pdb
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\AutoMapper.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\FluentValidation.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Admin.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Core.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Services.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Tests.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.Framework.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\nunit.framework.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Rhino.Mocks.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Net.Http.Extensions.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Net.Http.Primitives.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Helpers.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Mvc.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Razor.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\WebActivator.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Autofac.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Autofac.Integration.Mvc.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Data.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\itextsharp.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\UserAgentStringLibrary.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MaxMind.GeoIP2.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MaxMind.Db.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\EPPlus.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\ImageResizer.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Optimization.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Newtonsoft.Json.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Recaptcha.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\WebGrease.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\FluentValidation.Mvc.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MiniProfiler.Mvc.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MiniProfiler.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\EntityFramework.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\PerlRegex.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Antlr3.Runtime.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Core.pdb
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Services.pdb
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.Framework.pdb
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Admin.pdb
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.pdb
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Tests.pdb
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\AutoMapper.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\FluentValidation.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\nunit.framework.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Rhino.Mocks.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Net.Http.Extensions.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Net.Http.Primitives.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Helpers.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Mvc.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Razor.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Autofac.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Autofac.Integration.Mvc.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Data.pdb
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\itextsharp.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MaxMind.GeoIP2.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MaxMind.Db.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\EPPlus.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\ImageResizer.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Optimization.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\Newtonsoft.Json.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\MiniProfiler.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\EntityFramework.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\da\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\de\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\es\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\fi\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\fr\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\it\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\ko\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\nl\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\pl\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\pt\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\ru\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\sv\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\bin\Debug\tr\FluentValidation.resources.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\obj\Debug\Nop.Web.MVC.Tests.csproj.App.config
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\obj\Debug\Nop.Web.MVC.Tests.csprojResolveAssemblyReference.cache
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\obj\Debug\Nop.Web.MVC.Tests.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Web.MVC.Tests\obj\Debug\Nop.Web.MVC.Tests.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\AutoMapper.Net4.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.MVC.Tests.dll.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.MVC.Tests.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.MVC.Tests.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\AutoMapper.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\FluentValidation.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Admin.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Core.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Services.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Tests.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.Framework.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\nunit.framework.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Rhino.Mocks.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Net.Http.Extensions.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Net.Http.Primitives.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Helpers.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Mvc.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Razor.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\WebActivator.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Autofac.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Autofac.Integration.Mvc.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Data.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\itextsharp.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\UserAgentStringLibrary.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\MaxMind.GeoIP2.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\MaxMind.Db.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\EPPlus.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\ImageResizer.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Optimization.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Newtonsoft.Json.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Recaptcha.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\WebGrease.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\FluentValidation.Mvc.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\MiniProfiler.Mvc.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\MiniProfiler.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\EntityFramework.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\PerlRegex.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Antlr3.Runtime.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Core.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Services.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.Framework.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Admin.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Tests.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\AutoMapper.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\FluentValidation.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\nunit.framework.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Rhino.Mocks.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Net.Http.Extensions.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Net.Http.Primitives.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Helpers.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Mvc.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Razor.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Autofac.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Autofac.Integration.Mvc.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Data.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\itextsharp.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\MaxMind.GeoIP2.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\MaxMind.Db.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\EPPlus.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\ImageResizer.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Optimization.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Newtonsoft.Json.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\MiniProfiler.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\EntityFramework.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\da\FluentValidation.resources.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\de\FluentValidation.resources.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\es\FluentValidation.resources.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\fi\FluentValidation.resources.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\fr\FluentValidation.resources.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\it\FluentValidation.resources.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\ko\FluentValidation.resources.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\nl\FluentValidation.resources.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\pl\FluentValidation.resources.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\pt\FluentValidation.resources.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\ru\FluentValidation.resources.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\sv\FluentValidation.resources.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\tr\FluentValidation.resources.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\obj\Debug\Nop.Web.MVC.Tests.csproj.App.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\obj\Debug\Nop.Web.MVC.Tests.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\obj\Debug\Nop.Web.MVC.Tests.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\obj\Debug\Nop.Web.MVC.Tests.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\AutoMapper.Net4.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.MVC.Tests.dll.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.MVC.Tests.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.MVC.Tests.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\AutoMapper.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\FluentValidation.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Admin.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Core.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Services.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Tests.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.Framework.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\nunit.framework.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Rhino.Mocks.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\WebActivator.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Autofac.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Autofac.Integration.Mvc.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Data.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\itextsharp.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\UserAgentStringLibrary.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\MaxMind.GeoIP2.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\MaxMind.Db.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\EPPlus.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\ImageResizer.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Recaptcha.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\WebGrease.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\FluentValidation.Mvc.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\MiniProfiler.Mvc.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\MiniProfiler.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\PerlRegex.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Core.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Services.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.Framework.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Admin.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Tests.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\AutoMapper.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\FluentValidation.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\nunit.framework.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Rhino.Mocks.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Autofac.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Autofac.Integration.Mvc.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Data.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\itextsharp.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\MaxMind.GeoIP2.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\MaxMind.Db.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\EPPlus.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\ImageResizer.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\MiniProfiler.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\da\FluentValidation.resources.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\de\FluentValidation.resources.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\es\FluentValidation.resources.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\fi\FluentValidation.resources.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\fr\FluentValidation.resources.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\it\FluentValidation.resources.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\ko\FluentValidation.resources.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\nl\FluentValidation.resources.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\pl\FluentValidation.resources.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\pt\FluentValidation.resources.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\ru\FluentValidation.resources.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\sv\FluentValidation.resources.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\bin\Debug\tr\FluentValidation.resources.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\obj\Debug\Nop.Web.MVC.Tests.csproj.App.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\obj\Debug\Nop.Web.MVC.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\obj\Debug\Nop.Web.MVC.Tests.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Web.MVC.Tests\obj\Debug\Nop.Web.MVC.Tests.pdb

@@ -1,0 +1,7 @@
+C:\Users\Administrator\App _Code\VCommerce_6_Aug_2015\Project\src\Presentation\Nop.Web\bin\AutoMapper.Net4.dll
+C:\Users\Administrator\App _Code\VCommerce_6_Aug_2015\Project\src\Presentation\Nop.Web\bin\Nop.Admin.dll.config
+C:\Users\Administrator\App _Code\VCommerce_6_Aug_2015\Project\src\Presentation\Nop.Web\bin\Nop.Admin.dll
+C:\Users\Administrator\App _Code\VCommerce_6_Aug_2015\Project\src\Presentation\Nop.Web\bin\Nop.Admin.pdb
+C:\Users\Administrator\App _Code\VCommerce_6_Aug_2015\Project\src\Presentation\Nop.Web\Administration\obj\Release\Nop.Admin.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\App _Code\VCommerce_6_Aug_2015\Project\src\Presentation\Nop.Web\Administration\obj\Release\Nop.Admin.dll
+C:\Users\Administrator\App _Code\VCommerce_6_Aug_2015\Project\src\Presentation\Nop.Web\Administration\obj\Release\Nop.Admin.pdb

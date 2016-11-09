@@ -1,0 +1,255 @@
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Views\WidgetsNivoSlider\Configure.cshtml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Views\WidgetsNivoSlider\PublicInfo.cshtml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\sample-images\banner1.jpg
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\sample-images\banner2.jpg
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\sample-images\banner3.jpg
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\nivo-slider.css
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\arrows.png
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\bar.css
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\bullets.png
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\loading.gif
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\arrows.png
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\bullets.png
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\dark.css
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\loading.gif
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\arrows.png
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\bullets.png
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\default.css
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\loading.gif
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\arrows.png
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\bullets.png
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\light.css
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\loading.gif
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Description.txt
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Scripts\jquery.nivo.slider.js
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\web.config
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\logo.jpg
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.dll.config
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.pdb
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.dll
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Views\WidgetsNivoSlider\Configure.cshtml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Views\WidgetsNivoSlider\PublicInfo.cshtml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\sample-images\banner1.jpg
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\sample-images\banner2.jpg
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\sample-images\banner3.jpg
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\nivo-slider.css
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\arrows.png
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\bar.css
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\bullets.png
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\loading.gif
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\arrows.png
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\bullets.png
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\dark.css
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\loading.gif
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\arrows.png
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\bullets.png
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\default.css
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\loading.gif
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\arrows.png
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\bullets.png
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\light.css
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\loading.gif
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Description.txt
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Scripts\jquery.nivo.slider.js
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\web.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\logo.jpg
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.dll.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.csprojResolveAssemblyReference.cache
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Views\WidgetsNivoSlider\Configure.cshtml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Views\WidgetsNivoSlider\PublicInfo.cshtml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\sample-images\banner1.jpg
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\sample-images\banner2.jpg
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\sample-images\banner3.jpg
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\nivo-slider.css
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\arrows.png
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\bar.css
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\bullets.png
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\loading.gif
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\arrows.png
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\bullets.png
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\dark.css
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\loading.gif
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\arrows.png
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\bullets.png
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\default.css
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\loading.gif
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\arrows.png
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\bullets.png
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\light.css
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\loading.gif
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Description.txt
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Scripts\jquery.nivo.slider.js
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\web.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\logo.jpg
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.dll.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.pdb
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Views\WidgetsNivoSlider\Configure.cshtml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Views\WidgetsNivoSlider\PublicInfo.cshtml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\sample-images\banner1.jpg
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\sample-images\banner2.jpg
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\sample-images\banner3.jpg
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\nivo-slider.css
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\arrows.png
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\bar.css
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\bullets.png
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\loading.gif
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\arrows.png
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\bullets.png
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\dark.css
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\loading.gif
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\arrows.png
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\bullets.png
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\default.css
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\loading.gif
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\arrows.png
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\bullets.png
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\light.css
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\loading.gif
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Description.txt
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Scripts\jquery.nivo.slider.js
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\web.config
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\logo.jpg
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.dll.config
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.pdb
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.dll
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Views\WidgetsNivoSlider\Configure.cshtml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Views\WidgetsNivoSlider\PublicInfo.cshtml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\sample-images\banner1.jpg
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\sample-images\banner2.jpg
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\sample-images\banner3.jpg
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\nivo-slider.css
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\arrows.png
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\bar.css
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\bullets.png
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\loading.gif
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\arrows.png
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\bullets.png
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\dark.css
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\loading.gif
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\arrows.png
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\bullets.png
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\default.css
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\loading.gif
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\arrows.png
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\bullets.png
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\light.css
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\loading.gif
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Description.txt
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Scripts\jquery.nivo.slider.js
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\web.config
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\logo.jpg
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.dll.config
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.pdb
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Views\WidgetsNivoSlider\Configure.cshtml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Views\WidgetsNivoSlider\PublicInfo.cshtml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\sample-images\banner1.jpg
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\sample-images\banner2.jpg
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\sample-images\banner3.jpg
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\nivo-slider.css
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\arrows.png
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\bar.css
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\bullets.png
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\loading.gif
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\arrows.png
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\bullets.png
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\dark.css
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\loading.gif
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\arrows.png
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\bullets.png
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\default.css
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\loading.gif
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\arrows.png
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\bullets.png
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\light.css
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\loading.gif
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Description.txt
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Scripts\jquery.nivo.slider.js
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\web.config
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\logo.jpg
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.dll.config
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.pdb
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.csprojResolveAssemblyReference.cache
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.dll
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Views\WidgetsNivoSlider\Configure.cshtml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Views\WidgetsNivoSlider\PublicInfo.cshtml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\sample-images\banner1.jpg
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\sample-images\banner2.jpg
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\sample-images\banner3.jpg
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\nivo-slider.css
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\arrows.png
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\bar.css
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\bullets.png
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\loading.gif
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\arrows.png
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\bullets.png
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\dark.css
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\loading.gif
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\arrows.png
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\bullets.png
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\default.css
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\loading.gif
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\arrows.png
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\bullets.png
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\light.css
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\loading.gif
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Description.txt
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Scripts\jquery.nivo.slider.js
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\web.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\logo.jpg
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.dll.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Views\WidgetsNivoSlider\Configure.cshtml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Views\WidgetsNivoSlider\PublicInfo.cshtml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\sample-images\banner1.jpg
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\sample-images\banner2.jpg
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\sample-images\banner3.jpg
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\nivo-slider.css
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\arrows.png
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\bar.css
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\bullets.png
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\bar\loading.gif
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\arrows.png
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\bullets.png
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\dark.css
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\dark\loading.gif
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\arrows.png
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\bullets.png
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\default.css
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\default\loading.gif
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\arrows.png
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\bullets.png
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\light.css
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Content\nivoslider\themes\light\loading.gif
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Description.txt
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Scripts\jquery.nivo.slider.js
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\web.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\logo.jpg
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.dll.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.pdb

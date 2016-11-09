@@ -1,0 +1,259 @@
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.Tests.dll.config
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.Tests.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.Tests.pdb
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServer.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServerCompact.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Core.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Tests.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\nunit.framework.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Data.SqlServerCe.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Autofac.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.Mvc.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Autofac.Integration.Mvc.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Rhino.Mocks.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.Razor.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Core.pdb
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.pdb
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Tests.pdb
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServer.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServerCompact.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\nunit.framework.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Autofac.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.Mvc.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Autofac.Integration.Mvc.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Rhino.Mocks.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.Razor.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.csprojResolveAssemblyReference.cache
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.dll
+D:\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.Tests.dll.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.Tests.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.Tests.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServer.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServerCompact.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Core.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Tests.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\nunit.framework.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Data.SqlServerCe.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Autofac.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.Mvc.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Autofac.Integration.Mvc.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Rhino.Mocks.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.Razor.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Core.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Tests.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServer.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServerCompact.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\nunit.framework.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Autofac.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.Mvc.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Autofac.Integration.Mvc.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Rhino.Mocks.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.Razor.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.csprojResolveAssemblyReference.cache
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.Tests.dll.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.Tests.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.Tests.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServer.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServerCompact.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Core.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Tests.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\nunit.framework.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Data.SqlServerCe.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Autofac.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.Mvc.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Autofac.Integration.Mvc.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Rhino.Mocks.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.Razor.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Core.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Tests.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServer.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServerCompact.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\nunit.framework.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Autofac.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.Mvc.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Autofac.Integration.Mvc.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Rhino.Mocks.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.Razor.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.pdb
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.Tests.dll.config
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.Tests.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.Tests.pdb
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServer.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServerCompact.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Core.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Tests.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\nunit.framework.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Data.SqlServerCe.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Autofac.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.Mvc.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Autofac.Integration.Mvc.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Rhino.Mocks.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.Razor.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Core.pdb
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.pdb
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Tests.pdb
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServer.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServerCompact.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\nunit.framework.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Autofac.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.Mvc.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Autofac.Integration.Mvc.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\Rhino.Mocks.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.Razor.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.dll
+F:\Essential File\VCommerce\Project\src\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.pdb
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.Tests.dll.config
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.Tests.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.Tests.pdb
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServer.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServerCompact.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Core.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Tests.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\nunit.framework.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Data.SqlServerCe.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\Autofac.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.Mvc.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\Autofac.Integration.Mvc.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\Rhino.Mocks.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.Razor.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Core.pdb
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.pdb
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\Nop.Tests.pdb
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServer.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServerCompact.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\nunit.framework.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\Autofac.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.Mvc.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\Autofac.Integration.Mvc.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\Rhino.Mocks.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.Razor.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.csprojResolveAssemblyReference.cache
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.dll
+Z:\VialinkerCommerceApps\Project\src\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.Tests.dll.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.Tests.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.Tests.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServer.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServerCompact.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\Nop.Core.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\Nop.Tests.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\nunit.framework.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\System.Data.SqlServerCe.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\Autofac.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\System.Web.Mvc.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\Autofac.Integration.Mvc.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\Rhino.Mocks.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\System.Web.Razor.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\Nop.Core.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\Nop.Tests.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServer.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServerCompact.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\nunit.framework.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\Autofac.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\System.Web.Mvc.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\Autofac.Integration.Mvc.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\Rhino.Mocks.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\System.Web.Razor.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.Tests.dll.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.Tests.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.Tests.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\Nop.Core.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\Nop.Tests.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\nunit.framework.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\Autofac.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\Autofac.Integration.Mvc.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\Rhino.Mocks.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\Nop.Core.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\Nop.Data.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\Nop.Tests.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\nunit.framework.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\Autofac.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\Autofac.Integration.Mvc.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\Rhino.Mocks.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Tests\Nop.Data.Tests\obj\Debug\Nop.Data.Tests.pdb

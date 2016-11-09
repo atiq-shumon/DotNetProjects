@@ -1,0 +1,88 @@
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Views\PaymentPayPalDirect\Configure.cshtml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Views\PaymentPayPalDirect\PaymentInfo.cshtml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\web.config
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Description.txt
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\logo.jpg
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.dll.config
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.pdb
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.csprojResolveAssemblyReference.cache
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.dll
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Views\PaymentPayPalDirect\Configure.cshtml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Views\PaymentPayPalDirect\PaymentInfo.cshtml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\web.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Description.txt
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\logo.jpg
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.dll.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.csprojResolveAssemblyReference.cache
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Views\PaymentPayPalDirect\Configure.cshtml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Views\PaymentPayPalDirect\PaymentInfo.cshtml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\web.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Description.txt
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\logo.jpg
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.dll.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.pdb
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Views\PaymentPayPalDirect\Configure.cshtml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Views\PaymentPayPalDirect\PaymentInfo.cshtml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\web.config
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Description.txt
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\logo.jpg
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.dll.config
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.pdb
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.dll
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Views\PaymentPayPalDirect\Configure.cshtml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Views\PaymentPayPalDirect\PaymentInfo.cshtml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\web.config
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Description.txt
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\logo.jpg
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.dll.config
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.pdb
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Views\PaymentPayPalDirect\Configure.cshtml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Views\PaymentPayPalDirect\PaymentInfo.cshtml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\web.config
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Description.txt
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\logo.jpg
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.dll.config
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.pdb
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.csprojResolveAssemblyReference.cache
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.dll
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Views\PaymentPayPalDirect\Configure.cshtml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Views\PaymentPayPalDirect\PaymentInfo.cshtml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\web.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Description.txt
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\logo.jpg
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.dll.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Views\PaymentPayPalDirect\Configure.cshtml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Views\PaymentPayPalDirect\PaymentInfo.cshtml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\web.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Description.txt
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\logo.jpg
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.dll.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.pdb

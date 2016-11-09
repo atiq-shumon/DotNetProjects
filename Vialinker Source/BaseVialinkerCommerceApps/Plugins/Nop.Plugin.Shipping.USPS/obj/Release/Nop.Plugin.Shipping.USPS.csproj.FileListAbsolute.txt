@@ -1,0 +1,9 @@
+C:\Users\Administrator\App _Code\VCommerce_6_Aug_2015\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Views\ShippingUSPS\Configure.cshtml
+C:\Users\Administrator\App _Code\VCommerce_6_Aug_2015\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\web.config
+C:\Users\Administrator\App _Code\VCommerce_6_Aug_2015\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Description.txt
+C:\Users\Administrator\App _Code\VCommerce_6_Aug_2015\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\logo.jpg
+C:\Users\Administrator\App _Code\VCommerce_6_Aug_2015\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.dll.config
+C:\Users\Administrator\App _Code\VCommerce_6_Aug_2015\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.dll
+C:\Users\Administrator\App _Code\VCommerce_6_Aug_2015\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.pdb
+C:\Users\Administrator\App _Code\VCommerce_6_Aug_2015\Project\src\Plugins\Nop.Plugin.Shipping.USPS\obj\Release\Nop.Plugin.Shipping.USPS.dll
+C:\Users\Administrator\App _Code\VCommerce_6_Aug_2015\Project\src\Plugins\Nop.Plugin.Shipping.USPS\obj\Release\Nop.Plugin.Shipping.USPS.pdb

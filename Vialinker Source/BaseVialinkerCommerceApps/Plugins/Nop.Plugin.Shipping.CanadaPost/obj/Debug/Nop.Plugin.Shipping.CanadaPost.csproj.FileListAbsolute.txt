@@ -1,0 +1,78 @@
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Views\ShippingCanadaPost\Configure.cshtml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\web.config
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Description.txt
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\logo.jpg
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Nop.Plugin.Shipping.CanadaPost.dll.config
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Nop.Plugin.Shipping.CanadaPost.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Nop.Plugin.Shipping.CanadaPost.pdb
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Shipping.CanadaPost\obj\Debug\Nop.Plugin.Shipping.CanadaPost.dll
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Shipping.CanadaPost\obj\Debug\Nop.Plugin.Shipping.CanadaPost.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Views\ShippingCanadaPost\Configure.cshtml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\web.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Description.txt
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\logo.jpg
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Nop.Plugin.Shipping.CanadaPost.dll.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Nop.Plugin.Shipping.CanadaPost.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Nop.Plugin.Shipping.CanadaPost.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Shipping.CanadaPost\obj\Debug\Nop.Plugin.Shipping.CanadaPost.csprojResolveAssemblyReference.cache
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Shipping.CanadaPost\obj\Debug\Nop.Plugin.Shipping.CanadaPost.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Shipping.CanadaPost\obj\Debug\Nop.Plugin.Shipping.CanadaPost.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Views\ShippingCanadaPost\Configure.cshtml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\web.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Description.txt
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\logo.jpg
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Nop.Plugin.Shipping.CanadaPost.dll.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Nop.Plugin.Shipping.CanadaPost.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Nop.Plugin.Shipping.CanadaPost.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.CanadaPost\obj\Debug\Nop.Plugin.Shipping.CanadaPost.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.CanadaPost\obj\Debug\Nop.Plugin.Shipping.CanadaPost.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.CanadaPost\obj\Debug\Nop.Plugin.Shipping.CanadaPost.pdb
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Views\ShippingCanadaPost\Configure.cshtml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\web.config
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Description.txt
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\logo.jpg
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Nop.Plugin.Shipping.CanadaPost.dll.config
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Nop.Plugin.Shipping.CanadaPost.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Nop.Plugin.Shipping.CanadaPost.pdb
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.CanadaPost\obj\Debug\Nop.Plugin.Shipping.CanadaPost.dll
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.CanadaPost\obj\Debug\Nop.Plugin.Shipping.CanadaPost.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Views\ShippingCanadaPost\Configure.cshtml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\web.config
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Description.txt
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\logo.jpg
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Nop.Plugin.Shipping.CanadaPost.dll.config
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Nop.Plugin.Shipping.CanadaPost.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Nop.Plugin.Shipping.CanadaPost.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.CanadaPost\obj\Debug\Nop.Plugin.Shipping.CanadaPost.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.CanadaPost\obj\Debug\Nop.Plugin.Shipping.CanadaPost.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.CanadaPost\obj\Debug\Nop.Plugin.Shipping.CanadaPost.pdb
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Views\ShippingCanadaPost\Configure.cshtml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\web.config
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Description.txt
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\logo.jpg
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Nop.Plugin.Shipping.CanadaPost.dll.config
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Nop.Plugin.Shipping.CanadaPost.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Nop.Plugin.Shipping.CanadaPost.pdb
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.Shipping.CanadaPost\obj\Debug\Nop.Plugin.Shipping.CanadaPost.csprojResolveAssemblyReference.cache
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.Shipping.CanadaPost\obj\Debug\Nop.Plugin.Shipping.CanadaPost.dll
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.Shipping.CanadaPost\obj\Debug\Nop.Plugin.Shipping.CanadaPost.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Views\ShippingCanadaPost\Configure.cshtml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\web.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Description.txt
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\logo.jpg
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Nop.Plugin.Shipping.CanadaPost.dll.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Nop.Plugin.Shipping.CanadaPost.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Nop.Plugin.Shipping.CanadaPost.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Shipping.CanadaPost\obj\Debug\Nop.Plugin.Shipping.CanadaPost.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Shipping.CanadaPost\obj\Debug\Nop.Plugin.Shipping.CanadaPost.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Shipping.CanadaPost\obj\Debug\Nop.Plugin.Shipping.CanadaPost.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Views\ShippingCanadaPost\Configure.cshtml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\web.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Description.txt
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\logo.jpg
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Nop.Plugin.Shipping.CanadaPost.dll.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Nop.Plugin.Shipping.CanadaPost.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.CanadaPost\Nop.Plugin.Shipping.CanadaPost.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Shipping.CanadaPost\obj\Debug\Nop.Plugin.Shipping.CanadaPost.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Shipping.CanadaPost\obj\Debug\Nop.Plugin.Shipping.CanadaPost.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Shipping.CanadaPost\obj\Debug\Nop.Plugin.Shipping.CanadaPost.pdb

@@ -1,0 +1,78 @@
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\Views\SmsVerizon\Configure.cshtml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\Description.txt
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\web.config
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\logo.jpg
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\Nop.Plugin.SMS.Verizon.dll.config
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\Nop.Plugin.SMS.Verizon.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\Nop.Plugin.SMS.Verizon.pdb
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.SMS.Verizon\obj\Debug\Nop.Plugin.SMS.Verizon.dll
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.SMS.Verizon\obj\Debug\Nop.Plugin.SMS.Verizon.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\Views\SmsVerizon\Configure.cshtml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\Description.txt
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\web.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\logo.jpg
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\Nop.Plugin.SMS.Verizon.dll.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\Nop.Plugin.SMS.Verizon.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\Nop.Plugin.SMS.Verizon.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.SMS.Verizon\obj\Debug\Nop.Plugin.SMS.Verizon.csprojResolveAssemblyReference.cache
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.SMS.Verizon\obj\Debug\Nop.Plugin.SMS.Verizon.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.SMS.Verizon\obj\Debug\Nop.Plugin.SMS.Verizon.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\Views\SmsVerizon\Configure.cshtml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\Description.txt
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\web.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\logo.jpg
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\Nop.Plugin.SMS.Verizon.dll.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\Nop.Plugin.SMS.Verizon.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\Nop.Plugin.SMS.Verizon.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.SMS.Verizon\obj\Debug\Nop.Plugin.SMS.Verizon.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.SMS.Verizon\obj\Debug\Nop.Plugin.SMS.Verizon.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.SMS.Verizon\obj\Debug\Nop.Plugin.SMS.Verizon.pdb
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\Views\SmsVerizon\Configure.cshtml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\Description.txt
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\web.config
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\logo.jpg
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\Nop.Plugin.SMS.Verizon.dll.config
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\Nop.Plugin.SMS.Verizon.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\Nop.Plugin.SMS.Verizon.pdb
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.SMS.Verizon\obj\Debug\Nop.Plugin.SMS.Verizon.dll
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.SMS.Verizon\obj\Debug\Nop.Plugin.SMS.Verizon.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\Views\SmsVerizon\Configure.cshtml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\Description.txt
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\web.config
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\logo.jpg
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\Nop.Plugin.SMS.Verizon.dll.config
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\Nop.Plugin.SMS.Verizon.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\Nop.Plugin.SMS.Verizon.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.SMS.Verizon\obj\Debug\Nop.Plugin.SMS.Verizon.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.SMS.Verizon\obj\Debug\Nop.Plugin.SMS.Verizon.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.SMS.Verizon\obj\Debug\Nop.Plugin.SMS.Verizon.pdb
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\Views\SmsVerizon\Configure.cshtml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\Description.txt
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\web.config
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\logo.jpg
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\Nop.Plugin.SMS.Verizon.dll.config
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\Nop.Plugin.SMS.Verizon.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\SMS.Verizon\Nop.Plugin.SMS.Verizon.pdb
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.SMS.Verizon\obj\Debug\Nop.Plugin.SMS.Verizon.csprojResolveAssemblyReference.cache
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.SMS.Verizon\obj\Debug\Nop.Plugin.SMS.Verizon.dll
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.SMS.Verizon\obj\Debug\Nop.Plugin.SMS.Verizon.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\SMS.Verizon\Views\SmsVerizon\Configure.cshtml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\SMS.Verizon\Description.txt
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\SMS.Verizon\web.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\SMS.Verizon\logo.jpg
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\SMS.Verizon\Nop.Plugin.SMS.Verizon.dll.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\SMS.Verizon\Nop.Plugin.SMS.Verizon.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\SMS.Verizon\Nop.Plugin.SMS.Verizon.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.SMS.Verizon\obj\Debug\Nop.Plugin.SMS.Verizon.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.SMS.Verizon\obj\Debug\Nop.Plugin.SMS.Verizon.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.SMS.Verizon\obj\Debug\Nop.Plugin.SMS.Verizon.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\SMS.Verizon\Views\SmsVerizon\Configure.cshtml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\SMS.Verizon\Description.txt
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\SMS.Verizon\web.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\SMS.Verizon\logo.jpg
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\SMS.Verizon\Nop.Plugin.SMS.Verizon.dll.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\SMS.Verizon\Nop.Plugin.SMS.Verizon.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\SMS.Verizon\Nop.Plugin.SMS.Verizon.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.SMS.Verizon\obj\Debug\Nop.Plugin.SMS.Verizon.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.SMS.Verizon\obj\Debug\Nop.Plugin.SMS.Verizon.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.SMS.Verizon\obj\Debug\Nop.Plugin.SMS.Verizon.pdb

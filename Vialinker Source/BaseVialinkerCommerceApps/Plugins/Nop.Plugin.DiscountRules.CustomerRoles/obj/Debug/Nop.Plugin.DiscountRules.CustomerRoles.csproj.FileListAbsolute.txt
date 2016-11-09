@@ -1,0 +1,79 @@
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Views\DiscountRulesCustomerRoles\Configure.cshtml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Description.txt
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\web.config
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\logo.jpg
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Nop.Plugin.DiscountRules.CustomerRoles.dll.config
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Nop.Plugin.DiscountRules.CustomerRoles.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Nop.Plugin.DiscountRules.CustomerRoles.pdb
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\Nop.Plugin.DiscountRules.CustomerRoles.dll
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\Nop.Plugin.DiscountRules.CustomerRoles.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Views\DiscountRulesCustomerRoles\Configure.cshtml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Description.txt
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\web.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\logo.jpg
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Nop.Plugin.DiscountRules.CustomerRoles.dll.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Nop.Plugin.DiscountRules.CustomerRoles.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Nop.Plugin.DiscountRules.CustomerRoles.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\Nop.Plugin.DiscountRules.CustomerRoles.csprojResolveAssemblyReference.cache
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\Nop.Plugin.DiscountRules.CustomerRoles.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\Nop.Plugin.DiscountRules.CustomerRoles.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Views\DiscountRulesCustomerRoles\Configure.cshtml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Description.txt
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\web.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\logo.jpg
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Nop.Plugin.DiscountRules.CustomerRoles.dll.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Nop.Plugin.DiscountRules.CustomerRoles.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Nop.Plugin.DiscountRules.CustomerRoles.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\Nop.Plugin.DiscountRules.CustomerRoles.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\Nop.Plugin.DiscountRules.CustomerRoles.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\Nop.Plugin.DiscountRules.CustomerRoles.pdb
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Views\DiscountRulesCustomerRoles\Configure.cshtml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Description.txt
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\web.config
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\logo.jpg
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Nop.Plugin.DiscountRules.CustomerRoles.dll.config
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Nop.Plugin.DiscountRules.CustomerRoles.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Nop.Plugin.DiscountRules.CustomerRoles.pdb
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\Nop.Plugin.DiscountRules.CustomerRoles.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\Nop.Plugin.DiscountRules.CustomerRoles.dll
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\Nop.Plugin.DiscountRules.CustomerRoles.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Views\DiscountRulesCustomerRoles\Configure.cshtml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Description.txt
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\web.config
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\logo.jpg
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Nop.Plugin.DiscountRules.CustomerRoles.dll.config
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Nop.Plugin.DiscountRules.CustomerRoles.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Nop.Plugin.DiscountRules.CustomerRoles.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\Nop.Plugin.DiscountRules.CustomerRoles.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\Nop.Plugin.DiscountRules.CustomerRoles.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\Nop.Plugin.DiscountRules.CustomerRoles.pdb
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Views\DiscountRulesCustomerRoles\Configure.cshtml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Description.txt
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\web.config
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\logo.jpg
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Nop.Plugin.DiscountRules.CustomerRoles.dll.config
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Nop.Plugin.DiscountRules.CustomerRoles.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Nop.Plugin.DiscountRules.CustomerRoles.pdb
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\Nop.Plugin.DiscountRules.CustomerRoles.csprojResolveAssemblyReference.cache
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\Nop.Plugin.DiscountRules.CustomerRoles.dll
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\Nop.Plugin.DiscountRules.CustomerRoles.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Views\DiscountRulesCustomerRoles\Configure.cshtml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Description.txt
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\web.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\logo.jpg
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Nop.Plugin.DiscountRules.CustomerRoles.dll.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Nop.Plugin.DiscountRules.CustomerRoles.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Nop.Plugin.DiscountRules.CustomerRoles.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\Nop.Plugin.DiscountRules.CustomerRoles.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\Nop.Plugin.DiscountRules.CustomerRoles.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\Nop.Plugin.DiscountRules.CustomerRoles.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Views\DiscountRulesCustomerRoles\Configure.cshtml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Description.txt
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\web.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\logo.jpg
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Nop.Plugin.DiscountRules.CustomerRoles.dll.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Nop.Plugin.DiscountRules.CustomerRoles.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.CustomerRoles\Nop.Plugin.DiscountRules.CustomerRoles.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\Nop.Plugin.DiscountRules.CustomerRoles.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\Nop.Plugin.DiscountRules.CustomerRoles.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\obj\Debug\Nop.Plugin.DiscountRules.CustomerRoles.pdb

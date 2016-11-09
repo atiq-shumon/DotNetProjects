@@ -1,0 +1,23 @@
+c:\users\admin\documents\visual studio 2013\Projects\AmazonMWSProduct\AmazonMWSProduct\bin\Debug\AmazonMWSProduct.exe.config
+c:\users\admin\documents\visual studio 2013\Projects\AmazonMWSProduct\AmazonMWSProduct\bin\Debug\AmazonMWSProduct.exe
+c:\users\admin\documents\visual studio 2013\Projects\AmazonMWSProduct\AmazonMWSProduct\bin\Debug\AmazonMWSProduct.pdb
+c:\users\admin\documents\visual studio 2013\Projects\AmazonMWSProduct\AmazonMWSProduct\bin\Debug\MWSClientCsRuntime-1.0.dll
+c:\users\admin\documents\visual studio 2013\Projects\AmazonMWSProduct\AmazonMWSProduct\bin\Debug\MWSProducts_2011-10-01_v2015-09-01.dll
+c:\users\admin\documents\visual studio 2013\Projects\AmazonMWSProduct\AmazonMWSProduct\obj\Debug\AmazonMWSProduct.csprojResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2013\Projects\AmazonMWSProduct\AmazonMWSProduct\obj\Debug\AmazonMWSProduct.exe
+c:\users\admin\documents\visual studio 2013\Projects\AmazonMWSProduct\AmazonMWSProduct\obj\Debug\AmazonMWSProduct.pdb
+D:\Work Station\Amazon\AmazonMWSProduct\AmazonMWSProduct\bin\Debug\AmazonMWSProduct.exe.config
+D:\Work Station\Amazon\AmazonMWSProduct\AmazonMWSProduct\bin\Debug\AmazonMWSProduct.exe
+D:\Work Station\Amazon\AmazonMWSProduct\AmazonMWSProduct\bin\Debug\AmazonMWSProduct.pdb
+D:\Work Station\Amazon\AmazonMWSProduct\AmazonMWSProduct\obj\Debug\AmazonMWSProduct.exe
+D:\Work Station\Amazon\AmazonMWSProduct\AmazonMWSProduct\obj\Debug\AmazonMWSProduct.pdb
+D:\Work Station\Amazon\AmazonMWSProduct\AmazonMWSProduct\obj\Debug\AmazonMWSProduct.csprojResolveAssemblyReference.cache
+D:\Work\New\AmazonMWSProduct\AmazonMWSProduct\AmazonMWSProduct\bin\Debug\AmazonMWSProduct.exe.config
+D:\Work\New\AmazonMWSProduct\AmazonMWSProduct\AmazonMWSProduct\obj\Debug\AmazonMWSProduct.exe
+D:\Work\New\AmazonMWSProduct\AmazonMWSProduct\AmazonMWSProduct\obj\Debug\AmazonMWSProduct.pdb
+E:\Vialinker Source\AmazonMWSProductSearchOK\AmazonMWSProduct\bin\Debug\AmazonMWSProduct.exe.config
+E:\Vialinker Source\AmazonMWSProductSearchOK\AmazonMWSProduct\obj\Debug\AmazonMWSProduct.exe
+E:\Vialinker Source\AmazonMWSProductSearchOK\AmazonMWSProduct\obj\Debug\AmazonMWSProduct.pdb
+E:\Vialinker Source\AmazonMWSProductSearchOK\AmazonMWSProduct\bin\Debug\AmazonMWSProduct.exe
+E:\Vialinker Source\AmazonMWSProductSearchOK\AmazonMWSProduct\bin\Debug\AmazonMWSProduct.pdb
+E:\Vialinker Source\AmazonMWSProductSearchOK\AmazonMWSProduct\obj\Debug\AmazonMWSProduct.csprojResolveAssemblyReference.cache

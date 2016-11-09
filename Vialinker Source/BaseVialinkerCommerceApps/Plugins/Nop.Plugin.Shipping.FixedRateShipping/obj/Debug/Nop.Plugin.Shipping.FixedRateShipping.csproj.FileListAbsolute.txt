@@ -1,0 +1,79 @@
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Views\ShippingFixedRate\Configure.cshtml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Description.txt
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\web.config
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\logo.jpg
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Nop.Plugin.Shipping.FixedRateShipping.dll.config
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Nop.Plugin.Shipping.FixedRateShipping.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Nop.Plugin.Shipping.FixedRateShipping.pdb
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Shipping.FixedRateShipping\obj\Debug\Nop.Plugin.Shipping.FixedRateShipping.dll
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Shipping.FixedRateShipping\obj\Debug\Nop.Plugin.Shipping.FixedRateShipping.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Views\ShippingFixedRate\Configure.cshtml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Description.txt
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\web.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\logo.jpg
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Nop.Plugin.Shipping.FixedRateShipping.dll.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Nop.Plugin.Shipping.FixedRateShipping.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Nop.Plugin.Shipping.FixedRateShipping.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Shipping.FixedRateShipping\obj\Debug\Nop.Plugin.Shipping.FixedRateShipping.csprojResolveAssemblyReference.cache
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Shipping.FixedRateShipping\obj\Debug\Nop.Plugin.Shipping.FixedRateShipping.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Shipping.FixedRateShipping\obj\Debug\Nop.Plugin.Shipping.FixedRateShipping.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Views\ShippingFixedRate\Configure.cshtml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Description.txt
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\web.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\logo.jpg
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Nop.Plugin.Shipping.FixedRateShipping.dll.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Nop.Plugin.Shipping.FixedRateShipping.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Nop.Plugin.Shipping.FixedRateShipping.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.FixedRateShipping\obj\Debug\Nop.Plugin.Shipping.FixedRateShipping.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.FixedRateShipping\obj\Debug\Nop.Plugin.Shipping.FixedRateShipping.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.FixedRateShipping\obj\Debug\Nop.Plugin.Shipping.FixedRateShipping.pdb
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Views\ShippingFixedRate\Configure.cshtml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Description.txt
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\web.config
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\logo.jpg
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Nop.Plugin.Shipping.FixedRateShipping.dll.config
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Nop.Plugin.Shipping.FixedRateShipping.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Nop.Plugin.Shipping.FixedRateShipping.pdb
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.FixedRateShipping\obj\Debug\Nop.Plugin.Shipping.FixedRateShipping.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.FixedRateShipping\obj\Debug\Nop.Plugin.Shipping.FixedRateShipping.dll
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.FixedRateShipping\obj\Debug\Nop.Plugin.Shipping.FixedRateShipping.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Views\ShippingFixedRate\Configure.cshtml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Description.txt
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\web.config
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\logo.jpg
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Nop.Plugin.Shipping.FixedRateShipping.dll.config
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Nop.Plugin.Shipping.FixedRateShipping.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Nop.Plugin.Shipping.FixedRateShipping.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.FixedRateShipping\obj\Debug\Nop.Plugin.Shipping.FixedRateShipping.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.FixedRateShipping\obj\Debug\Nop.Plugin.Shipping.FixedRateShipping.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.FixedRateShipping\obj\Debug\Nop.Plugin.Shipping.FixedRateShipping.pdb
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Views\ShippingFixedRate\Configure.cshtml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Description.txt
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\web.config
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\logo.jpg
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Nop.Plugin.Shipping.FixedRateShipping.dll.config
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Nop.Plugin.Shipping.FixedRateShipping.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Nop.Plugin.Shipping.FixedRateShipping.pdb
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.Shipping.FixedRateShipping\obj\Debug\Nop.Plugin.Shipping.FixedRateShipping.csprojResolveAssemblyReference.cache
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.Shipping.FixedRateShipping\obj\Debug\Nop.Plugin.Shipping.FixedRateShipping.dll
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.Shipping.FixedRateShipping\obj\Debug\Nop.Plugin.Shipping.FixedRateShipping.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Views\ShippingFixedRate\Configure.cshtml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Description.txt
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\web.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\logo.jpg
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Nop.Plugin.Shipping.FixedRateShipping.dll.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Nop.Plugin.Shipping.FixedRateShipping.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Nop.Plugin.Shipping.FixedRateShipping.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Shipping.FixedRateShipping\obj\Debug\Nop.Plugin.Shipping.FixedRateShipping.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Shipping.FixedRateShipping\obj\Debug\Nop.Plugin.Shipping.FixedRateShipping.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Shipping.FixedRateShipping\obj\Debug\Nop.Plugin.Shipping.FixedRateShipping.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Views\ShippingFixedRate\Configure.cshtml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Description.txt
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\web.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\logo.jpg
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Nop.Plugin.Shipping.FixedRateShipping.dll.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Nop.Plugin.Shipping.FixedRateShipping.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.FixedRateShipping\Nop.Plugin.Shipping.FixedRateShipping.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Shipping.FixedRateShipping\obj\Debug\Nop.Plugin.Shipping.FixedRateShipping.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Shipping.FixedRateShipping\obj\Debug\Nop.Plugin.Shipping.FixedRateShipping.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Shipping.FixedRateShipping\obj\Debug\Nop.Plugin.Shipping.FixedRateShipping.pdb

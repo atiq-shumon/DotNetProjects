@@ -1,0 +1,80 @@
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Views\ShippingAustraliaPost\Configure.cshtml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Description.txt
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\web.config
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\logo.jpg
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.dll.config
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.pdb
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.csprojResolveAssemblyReference.cache
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.dll
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Views\ShippingAustraliaPost\Configure.cshtml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Description.txt
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\web.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\logo.jpg
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.dll.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.csprojResolveAssemblyReference.cache
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Views\ShippingAustraliaPost\Configure.cshtml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Description.txt
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\web.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\logo.jpg
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.dll.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.pdb
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Views\ShippingAustraliaPost\Configure.cshtml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Description.txt
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\web.config
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\logo.jpg
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.dll.config
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.pdb
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.dll
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Views\ShippingAustraliaPost\Configure.cshtml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Description.txt
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\web.config
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\logo.jpg
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.dll.config
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.pdb
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Views\ShippingAustraliaPost\Configure.cshtml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Description.txt
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\web.config
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\logo.jpg
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.dll.config
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.pdb
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.csprojResolveAssemblyReference.cache
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.dll
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Views\ShippingAustraliaPost\Configure.cshtml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Description.txt
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\web.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\logo.jpg
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.dll.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Views\ShippingAustraliaPost\Configure.cshtml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Description.txt
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\web.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\logo.jpg
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.dll.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.AustraliaPost\Nop.Plugin.Shipping.AustraliaPost.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Shipping.AustraliaPost\obj\Debug\Nop.Plugin.Shipping.AustraliaPost.pdb

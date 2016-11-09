@@ -1,0 +1,79 @@
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Views\ShippingUSPS\Configure.cshtml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\web.config
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Description.txt
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\logo.jpg
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.dll.config
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.pdb
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.dll
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Views\ShippingUSPS\Configure.cshtml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\web.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Description.txt
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\logo.jpg
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.dll.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.csprojResolveAssemblyReference.cache
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Views\ShippingUSPS\Configure.cshtml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\web.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Description.txt
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\logo.jpg
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.dll.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.pdb
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Views\ShippingUSPS\Configure.cshtml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\web.config
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Description.txt
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\logo.jpg
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.dll.config
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.pdb
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.dll
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Views\ShippingUSPS\Configure.cshtml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\web.config
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Description.txt
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\logo.jpg
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.dll.config
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.pdb
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Views\ShippingUSPS\Configure.cshtml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\web.config
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Description.txt
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\logo.jpg
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.dll.config
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.pdb
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.csprojResolveAssemblyReference.cache
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.dll
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.USPS\Views\ShippingUSPS\Configure.cshtml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.USPS\web.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.USPS\Description.txt
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.USPS\logo.jpg
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.dll.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.USPS\Views\ShippingUSPS\Configure.cshtml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.USPS\web.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.USPS\Description.txt
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.USPS\logo.jpg
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.dll.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.pdb

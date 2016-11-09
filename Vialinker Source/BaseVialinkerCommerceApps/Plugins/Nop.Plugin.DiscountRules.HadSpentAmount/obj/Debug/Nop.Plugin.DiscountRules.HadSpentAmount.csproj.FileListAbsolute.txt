@@ -1,0 +1,78 @@
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Views\DiscountRulesHadSpentAmount\Configure.cshtml
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Description.txt
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\web.config
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\logo.jpg
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.dll.config
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.pdb
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.dll
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Views\DiscountRulesHadSpentAmount\Configure.cshtml
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Description.txt
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\web.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\logo.jpg
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.dll.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.csprojResolveAssemblyReference.cache
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Views\DiscountRulesHadSpentAmount\Configure.cshtml
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Description.txt
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\web.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\logo.jpg
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.dll.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.pdb
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Views\DiscountRulesHadSpentAmount\Configure.cshtml
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Description.txt
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\web.config
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\logo.jpg
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.dll.config
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.pdb
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.dll
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Views\DiscountRulesHadSpentAmount\Configure.cshtml
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Description.txt
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\web.config
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\logo.jpg
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.dll.config
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.pdb
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Views\DiscountRulesHadSpentAmount\Configure.cshtml
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Description.txt
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\web.config
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\logo.jpg
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.dll.config
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.pdb
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.csprojResolveAssemblyReference.cache
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.dll
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Views\DiscountRulesHadSpentAmount\Configure.cshtml
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Description.txt
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\web.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\logo.jpg
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.dll.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Views\DiscountRulesHadSpentAmount\Configure.cshtml
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Description.txt
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\web.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\logo.jpg
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.dll.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.pdb

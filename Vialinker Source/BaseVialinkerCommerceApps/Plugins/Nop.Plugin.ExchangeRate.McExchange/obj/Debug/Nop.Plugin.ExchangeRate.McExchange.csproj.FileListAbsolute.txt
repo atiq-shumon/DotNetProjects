@@ -1,0 +1,64 @@
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Description.txt
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\logo.jpg
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Nop.Plugin.ExchangeRate.McExchange.dll.config
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Nop.Plugin.ExchangeRate.McExchange.dll
+D:\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Nop.Plugin.ExchangeRate.McExchange.pdb
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.ExchangeRate.McExchange\obj\Debug\Nop.Plugin.ExchangeRate.McExchange.csprojResolveAssemblyReference.cache
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.ExchangeRate.McExchange\obj\Debug\Nop.Plugin.ExchangeRate.McExchange.dll
+D:\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.ExchangeRate.McExchange\obj\Debug\Nop.Plugin.ExchangeRate.McExchange.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Description.txt
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\logo.jpg
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Nop.Plugin.ExchangeRate.McExchange.dll.config
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Nop.Plugin.ExchangeRate.McExchange.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Nop.Plugin.ExchangeRate.McExchange.pdb
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.ExchangeRate.McExchange\obj\Debug\Nop.Plugin.ExchangeRate.McExchange.csprojResolveAssemblyReference.cache
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.ExchangeRate.McExchange\obj\Debug\Nop.Plugin.ExchangeRate.McExchange.dll
+E:\D Drive\Visual Project\nopcommerce\Project\src\Plugins\Nop.Plugin.ExchangeRate.McExchange\obj\Debug\Nop.Plugin.ExchangeRate.McExchange.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Description.txt
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\logo.jpg
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Nop.Plugin.ExchangeRate.McExchange.dll.config
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Nop.Plugin.ExchangeRate.McExchange.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Nop.Plugin.ExchangeRate.McExchange.pdb
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.ExchangeRate.McExchange\obj\Debug\Nop.Plugin.ExchangeRate.McExchange.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.ExchangeRate.McExchange\obj\Debug\Nop.Plugin.ExchangeRate.McExchange.dll
+D:\Tofael\Tutorial\VCommerce\Project\src\Plugins\Nop.Plugin.ExchangeRate.McExchange\obj\Debug\Nop.Plugin.ExchangeRate.McExchange.pdb
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Description.txt
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\logo.jpg
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Nop.Plugin.ExchangeRate.McExchange.dll.config
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Nop.Plugin.ExchangeRate.McExchange.dll
+F:\Essential File\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Nop.Plugin.ExchangeRate.McExchange.pdb
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.ExchangeRate.McExchange\obj\Debug\Nop.Plugin.ExchangeRate.McExchange.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.ExchangeRate.McExchange\obj\Debug\Nop.Plugin.ExchangeRate.McExchange.dll
+F:\Essential File\VCommerce\Project\src\Plugins\Nop.Plugin.ExchangeRate.McExchange\obj\Debug\Nop.Plugin.ExchangeRate.McExchange.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Description.txt
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\logo.jpg
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Nop.Plugin.ExchangeRate.McExchange.dll.config
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Nop.Plugin.ExchangeRate.McExchange.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Nop.Plugin.ExchangeRate.McExchange.pdb
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.ExchangeRate.McExchange\obj\Debug\Nop.Plugin.ExchangeRate.McExchange.csprojResolveAssemblyReference.cache
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.ExchangeRate.McExchange\obj\Debug\Nop.Plugin.ExchangeRate.McExchange.dll
+D:\Tofael\Tutorial\VCommerce\VCommerce\Project\src\Plugins\Nop.Plugin.ExchangeRate.McExchange\obj\Debug\Nop.Plugin.ExchangeRate.McExchange.pdb
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Description.txt
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\logo.jpg
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Nop.Plugin.ExchangeRate.McExchange.dll.config
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Nop.Plugin.ExchangeRate.McExchange.dll
+Z:\VialinkerCommerceApps\Project\src\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Nop.Plugin.ExchangeRate.McExchange.pdb
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.ExchangeRate.McExchange\obj\Debug\Nop.Plugin.ExchangeRate.McExchange.csprojResolveAssemblyReference.cache
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.ExchangeRate.McExchange\obj\Debug\Nop.Plugin.ExchangeRate.McExchange.dll
+Z:\VialinkerCommerceApps\Project\src\Plugins\Nop.Plugin.ExchangeRate.McExchange\obj\Debug\Nop.Plugin.ExchangeRate.McExchange.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Description.txt
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\logo.jpg
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Nop.Plugin.ExchangeRate.McExchange.dll.config
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Nop.Plugin.ExchangeRate.McExchange.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Nop.Plugin.ExchangeRate.McExchange.pdb
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.ExchangeRate.McExchange\obj\Debug\Nop.Plugin.ExchangeRate.McExchange.csprojResolveAssemblyReference.cache
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.ExchangeRate.McExchange\obj\Debug\Nop.Plugin.ExchangeRate.McExchange.dll
+F:\Essential File\VCommerce\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.ExchangeRate.McExchange\obj\Debug\Nop.Plugin.ExchangeRate.McExchange.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Description.txt
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\logo.jpg
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Nop.Plugin.ExchangeRate.McExchange.dll.config
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Nop.Plugin.ExchangeRate.McExchange.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Presentation\Nop.Web\Plugins\ExchangeRate.McExchange\Nop.Plugin.ExchangeRate.McExchange.pdb
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.ExchangeRate.McExchange\obj\Debug\Nop.Plugin.ExchangeRate.McExchange.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.ExchangeRate.McExchange\obj\Debug\Nop.Plugin.ExchangeRate.McExchange.dll
+C:\Users\Administrator\App _Code\BaseVialinkerCommerceApps\BaseVialinkerCommerceApps\Plugins\Nop.Plugin.ExchangeRate.McExchange\obj\Debug\Nop.Plugin.ExchangeRate.McExchange.pdb
