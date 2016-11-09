@@ -1,0 +1,149 @@
+﻿/*.mandatory {  background-color: #99FF99}
+.noneditable {  background-color: #FFFFB3}*/
+body
+{
+	/*clear: left;
+	display: none;
+	float: none;
+	visibility: visible;
+	overflow: scroll;
+	border-top: 2px solid #B51032;
+	padding-bottom: 2em;*/
+	margin: 0;
+	margin-top: 1;
+	background-color: #FFFFFF;
+	color: #000000;
+	/*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+}
+BODY.MasterPage
+{
+	margin: 0;
+	background-color: #FFFFFF;
+	color: #000000;
+	/*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+}
+#masterDiv
+{
+	width: 790px; 
+	height: 600px;
+	/*overflow:scroll;*/
+}
+.divGridView
+{
+	overflow: auto;
+	width: 693px; /*HEIGHT: 193px;*/
+}
+
+#masterTable
+{
+	WIDTH: 100%; 
+	VERTICAL-ALIGN: top; 
+	HEIGHT: 100%;
+	TEXT-ALIGN: left;
+}
+td#masterTable
+{
+}
+.tdMainContent
+{
+	width: 82%;
+	vertical-align: top;
+	HEIGHT:640px;
+	text-align: left;
+}
+
+#tdHederRoot
+{
+	vertical-align: top;
+	border-bottom: #6666cc thick solid;
+	background-color: #00b4ff;
+	text-align: right;
+	height: 30px;
+}
+.tdTitle
+{
+	VERTICAL-ALIGN: middle;
+	TEXT-ALIGN: center;
+	width: 100%;
+	height: auto;
+	background-color: #f4eefc;
+}
+.tdLogo
+{
+	WIDTH: 18%; 
+	HEIGHT: 40px;
+}
+#tdFooter
+{
+	FONT-SIZE: 15px; 
+	TEXT-ALIGN: center;
+	vertical-align: bottom ;
+	border-top: #6666cc thick solid;
+	background-color: #00b4ff;
+	height: 20px;
+}
+.tdLink
+{
+	WIDTH: 20%;
+	vertical-align: top;
+	text-align: left;
+	/*HEIGHT:650px;
+	height:auto;*/
+	background-color: #bac8ea;
+}
+
+#masterTreeView
+{
+	font-weight: bold;
+	font-size: .10in;
+}
+
+H1
+{
+	font-weight: bold;
+	font-size: .30in;
+	color: #ffffff;
+	vertical-align: middle;
+	text-align: center;
+}
+
+H2
+{
+	font-weight: bold;
+	font-size: .20in;
+	color: #0000ff;
+	text-align: center;
+}
+#Menu1
+{
+	width: auto;
+}
+
+BUTTON
+{
+	
+}
+TEXTAREA
+{
+	
+}
+.errormsg
+{
+	height: 20px;
+	left: 86px;
+	top: 1px;
+	width: auto;
+	color: red;
+	font-weight: bold;
+	text-align: center;
+}
+.successmsg
+{
+	height: 20px;
+	left: 86px;
+	top: 1px;
+	width: auto;
+	color: Green;
+	font-weight: bold;
+	text-align: center;
+}

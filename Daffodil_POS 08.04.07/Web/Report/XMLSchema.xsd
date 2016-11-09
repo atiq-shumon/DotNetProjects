@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="XMLSchema" targetNamespace="http://tempuri.org/XMLSchema.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:mstns="http://tempuri.org/XMLSchema.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="Document">
+		<xs:complexType>
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element name="ReptProductStockInfo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="P_Code" type="xs:string" minOccurs="0" />
+							<xs:element name="P_Name" type="xs:string" minOccurs="0" />
+							<xs:element name="PC_Code" type="xs:string" minOccurs="0" />
+							<xs:element name="PC_Description" type="xs:string" minOccurs="0" />
+							<xs:element name="PSC_Code" type="xs:string" minOccurs="0" />
+							<xs:element name="PSC_Description" type="xs:string" minOccurs="0" />
+							<xs:element name="PB_Code" type="xs:string" minOccurs="0" />
+							<xs:element name="PB_Name" type="xs:string" minOccurs="0" />
+							<xs:element name="P_PK" type="xs:string" minOccurs="0" />
+							<xs:element name="PC_PK" type="xs:string" minOccurs="0" />
+							<xs:element name="PSC_PK" type="xs:string" minOccurs="0" />
+							<xs:element name="PB_PK" type="xs:string" minOccurs="0" />
+							<xs:element name="RecBalance" type="xs:decimal" minOccurs="0" />
+							<xs:element name="DelBalance" type="xs:decimal" minOccurs="0" />
+							<xs:element name="BalanceQty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Rate" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Amount" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

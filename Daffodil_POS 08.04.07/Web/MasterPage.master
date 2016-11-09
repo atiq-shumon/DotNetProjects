@@ -1,0 +1,125 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage_master" %>
+<%@ Register Src="~/UserControls/NavigationTree.ascx" TagName="NavigationTree" TagPrefix="uc1" %>
+
+<%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="System.Web.UI" TagPrefix="asp" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>DSL-POS</title>
+<script language="JavaScript" type="text/javascript">
+
+// ------------------------------------------------------------------------------------------------  GET DATE FUNCTION-->
+function gettheDate() {
+Todays = new Date();
+TheDate = "" + Todays.getDate() +" / "+  (Todays.getMonth()+ 1)  + " / " + 
+Todays.getYear() 
+document.getElementById('ctl00_txtDate').value=TheDate;
+//document.clock.date.value = TheDate;
+}
+
+var timerID = null;
+var timerRunning = false;
+
+// ------------------------------------------------------------------------------------------------  STOP CLOCK FUNCTION-->
+function stopclock (){
+        if(timerRunning);
+                clearTimeout(timerID);
+        timerRunning = false;
+    }
+// ------------------------------------------------------------------------------------------------  START CLOCK-->
+function startclock () {
+        stopclock();
+        gettheDate()
+        showtime();
+    }
+//  ------------------------------------------------------------------------------------------------  SHOW TIME-->
+function showtime () {
+        var now = new Date();
+        var hours = now.getHours();
+        var minutes = now.getMinutes();
+        var seconds = now.getSeconds()
+        var timeValue = "" + ((hours >12) ? hours -12 :hours)
+        timeValue += ((minutes < 10) ? ":0" : ":") + minutes
+        timeValue += ((seconds < 10) ? ":0" : ":") + seconds
+        timeValue += (hours >= 12) ? " P.M." : " A.M."
+        //document.clock.face.value = timeValue;
+        document.getElementById('ctl00_txtTime').value=timeValue;
+        // you could replace the above with this
+        // and have a clock on the status bar:
+        // window.status = timeValue;
+        timerID = setTimeout("showtime()",1000);
+        timerRunning = true;
+    }
+
+// ------------------------------------------------------------------------------------------------  END OF JAVASCRIPT CODE --->
+
+
+</script> 
+    
+    <link href="App_Themes/DPOSThemes/DPOSStyleSheet.css" rel="stylesheet" type="text/css" />
+    <link href="JavaScript/calendar-system.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<body onload="startclock()">
+
+<form id="form1" runat="server" >
+            
+    <div>
+      <table border="0" cellpadding="0"  cellspacing="0" id="masterTable">
+      
+            <tr>
+                <td colspan="2" id="tdHederRoot" rowspan="1" style="height: 71px;text-align:center;vertical-align:bottom ">
+                    <div>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<asp:Image ID="Image1" runat="server" Height="47px" ImageUrl="~/Images/DSL/DSL.JPG"
+                            Width="241px" style="left: -43px; position: relative; top: 0px" />&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<br />
+                        <div style="font-weight: bold; color: #ffffff; background-color: transparent">
+                            Date:<asp:TextBox ID="txtDate" runat="server" ForeColor="White" Width="88px" BackColor="Transparent" BorderStyle="None" Font-Bold="True" ReadOnly="True"></asp:TextBox>Time:<asp:TextBox
+                                ID="txtTime" runat="server" BorderStyle="None" ForeColor="White" Width="88px" BackColor="Transparent" Font-Bold="True" ReadOnly="True"></asp:TextBox>
+                            <asp:LoginStatus ID="LoginStatus1" runat="server" ForeColor="White" Style="left: 307px; position: relative; top: 0px" />
+                        </div>
+                    </div>
+                 </td>
+            </tr>
+            <tr>
+                <td colspan="1" width="20%" style="height: 19px; background-color: #cc6699;">
+                    &nbsp;<asp:LoginName ID="LoginName1" runat="server" Font-Bold="True" ForeColor="White"
+                        FormatString="Welcome {0} !" Width="100%" />
+                </td>
+                <td colspan="2" id="tdTitle" CssClass="tdTitle" style="vertical-align: bottom; text-align: left; height: 19px;" class="tdTitle" rowspan="1" width="80%">
+                    <asp:SiteMapPath ID="SiteMapPath1" runat="server" RenderCurrentNodeAsLink="True">
+                    </asp:SiteMapPath>
+                </td>
+            </tr>
+            <tr>
+                <td  class="tdLink" style="height: 640px">
+                <div style="overflow: auto ;width:100%; height:480pt;">
+                    <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1" ImageSet="News" NodeIndent="10" OnDataBound="TreeView1_DataBound" ShowLines="True">
+                        <ParentNodeStyle Font-Bold="False" />
+                        <HoverNodeStyle Font-Underline="True" />
+                        <SelectedNodeStyle Font-Underline="True" HorizontalPadding="0px" VerticalPadding="0px" />
+                        <NodeStyle Font-Names="Arial" Font-Size="10pt" ForeColor="Black" HorizontalPadding="5px"
+                            NodeSpacing="0px" VerticalPadding="0px" />
+                    </asp:TreeView>
+                    </div>
+                    <asp:HyperLink ID="lnkWebmaster" runat="server" Width="167px">Problems with the site?</asp:HyperLink></td>
+                <td class="tdMainContent" style="height: 640px">
+        <asp:contentplaceholder id="MainContent" runat="server">
+        </asp:contentplaceholder>
+                    <br />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" id="tdFooter">
+                    Copyright © 2006 Daffodil Software Ltd.</td>
+            </tr>
+        </table>
+        </div>
+                                        
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+    </form>
+</body>
+</html>

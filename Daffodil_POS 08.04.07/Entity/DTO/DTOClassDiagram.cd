@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="DSL.POS.DTO.DTO.SalesMainInfoDTO">
+    <Position X="1" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>DTO\SalesMainInfoDTO.cs</FileName>
+      <HashCode>QBCAAAEAAIIQIDAEBAEAAAAAAgAAIAIAEAAIAAFAmAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_memberInfoDTO" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="_salesSubInfoDTO" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DSL.POS.DTO.DTO.SalesSubInfoDTO">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DTO\SalesSubInfoDTO.cs</FileName>
+      <HashCode>AAAAAAgACAAQ4AAAAgBAAQEAAAAAACgEAgAAAAAQAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSL.POS.DTO.DTO.MemberInfoDTO">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DTO\MemberInfoDTO.cs</FileName>
+      <HashCode>gBAAAQAIAAQARCEABIEBAAAAgCsIAACAAAACAQAAQAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TopMenu>
+	<Login url="~/Login.aspx"></Login>
+	<ChangePassword url="~/Admin/UserManagement/ChangePassword.aspx"></ChangePassword>
+	<Setup>
+		<BranchTypeInfo url="BranchTypeInfo.aspx"></BranchTypeInfo>
+		<BranchInfo url="BranchInfo.aspx"></BranchInfo>
+		<BoothInfo url="BoothInfo.aspx"></BoothInfo>
+		<BoothRegistration url="BoothRegistration.aspx"></BoothRegistration>
+		<ProductCategoryInfo url="ProductCategoryInfo.aspx"></ProductCategoryInfo>
+		<ProductSubCategoryInfo url="ProductSubCategoryInfo.aspx"></ProductSubCategoryInfo>
+		<ProductUnitInfo url="ProductUnitInfo.aspx"></ProductUnitInfo>
+		<ProductBrandInfo url="ProductBrandInfo.aspx"></ProductBrandInfo>
+		<ProductInfo url="ProductInfo.aspx"></ProductInfo>
+		<SupplierInfo url="SupplierInfo.aspx"></SupplierInfo>
+		<MemberInfo url="MemberInfo.aspx"></MemberInfo>
+	</Setup>
+	<Purchase>
+		<PurchaseInfo url="PurchaseInfo.aspx"></PurchaseInfo>
+	</Purchase>
+	<Sales>
+		<SalesInfo url="SalesInfo.aspx"></SalesInfo>
+	</Sales>
+	<Report>
+		<PurchaseReport url="PurchaseReport.aspx"></PurchaseReport>
+		<SalesReport url="SalesReport.aspx"></SalesReport>
+		<SetupReport url="SetupReport.aspx"></SetupReport>
+		<StockReport url="StockReport.aspx"></StockReport>
+	</Report>
+	<Administration>
+		<CreateUser url="CreateUser.aspx"></CreateUser>
+	</Administration>
+</TopMenu>

@@ -1,0 +1,21 @@
+<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Test1.aspx.cs" Inherits="Test1" Title="Untitled Page" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" Runat="Server">
+    <asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
+    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False"
+        Style="z-index: 100; left: 356px; position: absolute; top: 231px">
+        <Columns>
+            <asp:BoundField DataField="CustId" HeaderText="CustId" SortExpression="CustId" />
+            <asp:BoundField DataField="CustName" HeaderText="CustName" SortExpression="CustName" />
+            <asp:BoundField DataField="Mobile" HeaderText="Mobile" SortExpression="Mobile" />
+            <asp:BoundField DataField="CustAddr" HeaderText="CustAddr" SortExpression="CustAddr" />
+            <asp:BoundField DataField="CustEmail" HeaderText="CustEmail" SortExpression="CustEmail" />
+        </Columns>
+    </asp:GridView>
+    &nbsp;&nbsp;
+    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Find" />
+    <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="View All" />
+    <asp:ObjectDataSource ID="ObjectDataSource1" runat="server" OnSelecting="ObjectDataSource1_Selecting"
+        SelectMethod="showDataMemberInfo" TypeName="DSL.POS.BusinessLogicLayer.Imp.MemberInfoBLImp">
+    </asp:ObjectDataSource>
+</asp:Content>
+

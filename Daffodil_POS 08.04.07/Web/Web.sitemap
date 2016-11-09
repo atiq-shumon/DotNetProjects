@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  
+    <!--All Pages MainRoot in SiteMap -->
+  <!--
+  <siteMapNode title="DSL" url="~/Default.aspx" >
+  -->
+   <!-- Admin pages Root-->
+
+	<siteMapNode title="Menu Options" url="~/Default.aspx"  description="Home Page">
+		<siteMapNode url="~/Admin/UserManagement/ChangePassword.aspx" title="Change Password "  description="Change Password"/>
+		<!--<siteMapNode url="~/Admin/BranchRegistration/Default.aspx" title="Branch Registration"  description=""/>-->
+
+		<!-- Sitemap Data Management pages Root-->
+		<!--<siteMapNode title="Data Management" url="~/Admin/DataManagement/Default.aspx"  description="">
+		<siteMapNode url="~/Admin/DataManagement/BackupDatabase.aspx" title="Backup Database "  description=""/>
+		<siteMapNode url="~/Admin/DataManagement/RestoreDatabase.aspx" title="Restore Database "  description=""/>
+		</siteMapNode>-->
+
+	<!-- Setup pages Root-->
+	<siteMapNode title="Setup" url="~/Admin/Setup/Default.aspx" description="All Setup Pages">
+		<siteMapNode url="~/Admin/Setup/Branch/BranchTypeInfo.aspx" title="BranchType Info."  description="Branch Type Information"/>
+		<siteMapNode url="~/Admin/Setup/Branch/BranchInfo.aspx" title="Branch Info."  description="Branch Information" />
+		<siteMapNode url="~/Admin/Setup/Booth/BoothInfo.aspx" title="Booth Info."  description="Booth Info"/>
+		<siteMapNode url="~/Admin/Setup/Booth/BoothRegistration.aspx" title="Booth Registration Info."  description="Booth Registration Info"/>
+		<siteMapNode url="~/Admin/Setup/Product/ProductCategoryInfo.aspx" title="Product Category Info."  description="Product Category Info"/>
+		<siteMapNode url="~/Admin/Setup/Product/ProductSubCategoryInfo.aspx" title="Sub Category Info."  description="Product Sub Category Information" />
+		<siteMapNode url="~/Admin/Setup/Product/ProductUnitInfo.aspx" title="Product Unit Info."  description="Product Unit Information" />
+		<siteMapNode url="~/Admin/Setup/Product/ProductBrandInfo.aspx" title="Product Brand Info."  description="Product Brand Information" />
+		<siteMapNode url="~/Admin/Setup/Product/ProductInfo.aspx" title="Product Info."  description="Product Information" />
+		<siteMapNode url="~/Admin/Setup/Supplier/SupplierInfo.aspx" title="Supplier Info."  description="Supplier Info"/>
+		<siteMapNode url="~/Admin/Setup/Member/MemberInfo.aspx" title="Member Info"  description="Member Info"/>
+	</siteMapNode>
+
+	<!-- Purchase pages Root-->
+	<siteMapNode title="Purchase" url="~/Client/Purchase/Default.aspx" description="">
+		<siteMapNode url="~/Client/Purchase/PurchaseInfo.aspx" title="Purchase Info"  description="Purchase Info"/>
+		<siteMapNode url="~/Client/Purchase/PurchaseReturn.aspx" title="Purchase Return"  description="Purchase Return"/>
+		<siteMapNode url="~/Client/Purchase/OpeningBalance.aspx" title="Opening Balance"  description="Opening Balance"/>
+	</siteMapNode>
+
+	<!-- Sales pages Root-->
+	<siteMapNode title="Sales" url="~/Client/Sales/Default.aspx"  description="">
+		<siteMapNode url="~/Client/Sales/SalesInfo.aspx" title="Sales Info"  description="Sales Info"/>
+		<siteMapNode url="~/Client/Sales/SalesReturn.aspx" title="Sales Return"  description="Sales Return"/>
+	<!--<siteMapNode url="~/Client/Sales/AdvanceReceive.aspx" title="Advance Receive"  description="Sales"/>-->
+	</siteMapNode>
+
+	<!-- Reports pages Root-->
+	<siteMapNode title="Report" url="~/Report/Default.aspx">
+		<siteMapNode url="~/Report/Purchase/PurchaseReport.aspx" title="Purchase Register" description="Purchase Report"/>
+		<siteMapNode url="~/Report/Sales/SalesReport.aspx" title="Sales Register" description="Sales Report"/>
+		<siteMapNode url="~/Report/Setup/SetupReport.aspx" title="Setup Report" description="Setup Report"/>
+		<siteMapNode url="~/Report/Stock/StockReport.aspx" title="Stock Report" description="Stock Report"/>
+	</siteMapNode>
+
+	<!-- Stock pages Root-->
+	<!--<siteMapNode url="" title="Stock Register" description="">
+	</siteMapNode>-->
+	
+	<!-- Sitemap User Management pages Root-->
+	<siteMapNode title="User Management" url="~/Admin/UserManagement/Default.aspx" Expanded="True"  description="">
+		<siteMapNode url="~/Admin/UserManagement/CreateUser.aspx" title="New User"  description="New User"/>
+		<!--<siteMapNode url="~/Admin/UserManagement/CreateRoles.aspx" title="Create Roles"  description=""/>-->
+		
+	</siteMapNode>
+		
+	</siteMapNode>
+</siteMap>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="DSL.POS.DTO.DTO.PurchaseMainDTO">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DTO\PurchaseMainDTO.cs</FileName>
+      <HashCode>AACAAEAAgAAQYCAAAAAAAIAAAAAQABgAAggABACBAgA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_supplierInfoDTO" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="_purchaseSubInfoDTO" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DSL.POS.DTO.DTO.PurchaseSubDTO">
+    <Position X="5.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DTO\PurchaseSubDTO.cs</FileName>
+      <HashCode>AAAgAAAAAAAAQQCAACAIAAUQAgAAAAAAAgAAAAEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSL.POS.DTO.DTO.SupplierInfoDTO">
+    <Position X="3.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DTO\SupplierInfoDTO.cs</FileName>
+      <HashCode>AAAAAAAAgCAQAAAAEABAAAAAQABBBpACAIggIAAAAEA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

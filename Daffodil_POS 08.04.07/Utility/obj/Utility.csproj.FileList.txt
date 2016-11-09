@@ -1,0 +1,14 @@
+bin\Debug\DSL.POS.Common.Utility.dll
+bin\Debug\DSL.POS.Common.Utility.pdb
+bin\Debug\DSL.POS.DTO.dll
+bin\Debug\DSL.POS.DTO.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DSL.POS.Common.Utility.dll
+obj\Debug\DSL.POS.Common.Utility.pdb
+bin\Release\DSL.POS.Common.Utility.dll
+bin\Release\DSL.POS.Common.Utility.pdb
+bin\Release\DSL.POS.DTO.dll
+bin\Release\DSL.POS.DTO.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\DSL.POS.Common.Utility.dll
+obj\Release\DSL.POS.Common.Utility.pdb

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="DSL.POS.DTO.DTO.BoothInfoDTO">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DTO\BoothInfoDTO.cs</FileName>
+      <HashCode>ACQAAAoAAFAAAAAACAAAAAAAAGAAAAAAAACABAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_BranchInfoDTO" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DSL.POS.DTO.DTO.BranchInfoDTO">
+    <Position X="3" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>DTO\BranchInfoDTO.cs</FileName>
+      <HashCode>AAUiCgBBgAgAAADABQIAAAAAAGEAAUDgAAACAIQACAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_BranchTypeInfoDTO" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DSL.POS.DTO.DTO.BranchTypeInfoDTO">
+    <Position X="5.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>DTO\BranchTypeInfoDTO.cs</FileName>
+      <HashCode>AAAAEAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAACABA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

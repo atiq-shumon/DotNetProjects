@@ -1,0 +1,75 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9CDC195F-4816-4D3D-BB12-78B733F4CDFF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DSL.POS.DTO</RootNamespace>
+    <AssemblyName>DSL.POS.DTO</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\DTO\CommonDTO.cs" />
+    <Compile Include="DTO\BoothInfoDTO.cs" />
+    <Compile Include="DTO\BranchInfoDTO.cs" />
+    <Compile Include="DTO\BranchTypeInfoDTO.cs" />
+    <Compile Include="DTO\MemberInfoDTO.cs" />
+    <Compile Include="DTO\OpeningBalanceDTO.cs" />
+    <Compile Include="DTO\ProductBrandInfoDTO.cs" />
+    <Compile Include="DTO\ProductCategoryInfoDTO.cs" />
+    <Compile Include="DTO\ProductInfoDTO.cs" />
+    <Compile Include="DTO\ProductSubCategoryInfoDTO.cs" />
+    <Compile Include="DTO\ProductUnitInfoDTO.cs" />
+    <Compile Include="DTO\PurchaseMainDTO.cs" />
+    <Compile Include="DTO\PurchaseReturnMainDTO.cs" />
+    <Compile Include="DTO\PurchaseReturnSubDTO.cs" />
+    <Compile Include="DTO\PurchaseSubDTO.cs" />
+    <Compile Include="DTO\SalesMainInfoDTO.cs" />
+    <Compile Include="DTO\SalesReturnMainDTO.cs" />
+    <Compile Include="DTO\SalesReturnSubDTO.cs" />
+    <Compile Include="DTO\SalesSubInfoDTO.cs" />
+    <Compile Include="DTO\SupplierInfoDTO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DTO\BoothNoClassDiagram.cd" />
+    <None Include="DTO\DTOClassDiagram.cd" />
+    <None Include="DTO\PurchaseDTOCD.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

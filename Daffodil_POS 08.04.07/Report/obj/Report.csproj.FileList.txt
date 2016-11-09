@@ -1,0 +1,10 @@
+bin\Debug\DSL.POS.Report.dll
+bin\Debug\DSL.POS.Report.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DSL.POS.Report.dll
+obj\Debug\DSL.POS.Report.pdb
+bin\Release\DSL.POS.Report.dll
+bin\Release\DSL.POS.Report.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\DSL.POS.Report.dll
+obj\Release\DSL.POS.Report.pdb
