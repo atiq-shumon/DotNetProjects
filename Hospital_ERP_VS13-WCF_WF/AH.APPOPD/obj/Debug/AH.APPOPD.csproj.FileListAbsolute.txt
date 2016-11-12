@@ -1,0 +1,26 @@
+E:\AHERP 06.03.14 New\AH.APPOPD\obj\Debug\AH.APPOPD.csprojResolveAssemblyReference.cache
+E:\AHERP 06.03.14 New\AH.APPOPD\bin\Debug\AH.APPOPD.dll
+E:\AHERP 06.03.14 New\AH.APPOPD\bin\Debug\AH.APPOPD.pdb
+E:\AHERP 06.03.14 New\AH.APPOPD\bin\Debug\AH.HR.dll
+E:\AHERP 06.03.14 New\AH.APPOPD\bin\Debug\AH.Shared.dll
+E:\AHERP 06.03.14 New\AH.APPOPD\bin\Debug\Oracle.DataAccess.dll
+E:\AHERP 06.03.14 New\AH.APPOPD\bin\Debug\AH.PRMS.dll
+E:\AHERP 06.03.14 New\AH.APPOPD\bin\Debug\AH.OracleManager.dll
+E:\AHERP 06.03.14 New\AH.APPOPD\bin\Debug\DUtility.dll
+E:\AHERP 06.03.14 New\AH.APPOPD\bin\Debug\AH.ORGMS.dll
+E:\AHERP 06.03.14 New\AH.APPOPD\bin\Debug\AtiqsControlLibrary.dll
+E:\AHERP 06.03.14 New\AH.APPOPD\bin\Debug\AH.HR.pdb
+E:\AHERP 06.03.14 New\AH.APPOPD\bin\Debug\AH.PRMS.pdb
+E:\AHERP 06.03.14 New\AH.APPOPD\bin\Debug\AH.ORGMS.pdb
+E:\AHERP 06.03.14 New\AH.APPOPD\obj\Debug\AH.APPOPD.dll
+E:\AHERP 06.03.14 New\AH.APPOPD\obj\Debug\AH.APPOPD.pdb
+F:\HospitalFiles\AH.APPOPD\bin\Debug\AH.APPOPD.dll
+F:\HospitalFiles\AH.APPOPD\bin\Debug\AH.APPOPD.pdb
+F:\HospitalFiles\AH.APPOPD\bin\Debug\AH.OracleManager.dll
+F:\HospitalFiles\AH.APPOPD\bin\Debug\AH.Shared.dll
+F:\HospitalFiles\AH.APPOPD\bin\Debug\DUtility.dll
+F:\HospitalFiles\AH.APPOPD\bin\Debug\Oracle.DataAccess.dll
+F:\HospitalFiles\AH.APPOPD\bin\Debug\AtiqsControlLibrary.dll
+F:\HospitalFiles\AH.APPOPD\obj\Debug\AH.APPOPD.dll
+F:\HospitalFiles\AH.APPOPD\obj\Debug\AH.APPOPD.pdb
+F:\HospitalFiles\AH.APPOPD\obj\Debug\AH.APPOPD.csprojResolveAssemblyReference.cache

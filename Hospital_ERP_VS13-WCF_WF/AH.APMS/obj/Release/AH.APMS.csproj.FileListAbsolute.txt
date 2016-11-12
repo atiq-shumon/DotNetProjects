@@ -1,0 +1,45 @@
+F:\HospitalFiles\AH.APMS\bin\Release\AH.APMS.dll.config
+F:\HospitalFiles\AH.APMS\bin\Release\AH.APMS.dll
+F:\HospitalFiles\AH.APMS\bin\Release\AH.APMS.pdb
+F:\HospitalFiles\AH.APMS\bin\Release\AH.HR.dll
+F:\HospitalFiles\AH.APMS\bin\Release\AH.OracleManager.dll
+F:\HospitalFiles\AH.APMS\bin\Release\AH.PatReg.dll
+F:\HospitalFiles\AH.APMS\bin\Release\AH.PRMS.dll
+F:\HospitalFiles\AH.APMS\bin\Release\AH.Shared.dll
+F:\HospitalFiles\AH.APMS\bin\Release\AtiqsControlLibrary.dll
+F:\HospitalFiles\AH.APMS\bin\Release\DUtility.dll
+F:\HospitalFiles\AH.APMS\bin\Release\oracle.dataaccess.dll
+F:\HospitalFiles\AH.APMS\bin\Release\AH.ACCMS.dll
+F:\HospitalFiles\AH.APMS\obj\Release\AH.APMS.csprojResolveAssemblyReference.cache
+F:\HospitalFiles\AH.APMS\obj\Release\AH.APMS.dll
+F:\HospitalFiles\AH.APMS\obj\Release\AH.APMS.pdb
+F:\HospitalFiles\AH.APMS\bin\Release\AH.OPD.dll
+F:\HospitalFiles\AH.APMS\bin\Release\AH.ORGMS.dll
+E:\AHERP 06.03.14 New\AH.APMS\bin\Release\AH.APMS.dll.config
+E:\AHERP 06.03.14 New\AH.APMS\bin\Release\AH.APMS.dll
+E:\AHERP 06.03.14 New\AH.APMS\bin\Release\AH.APMS.pdb
+E:\AHERP 06.03.14 New\AH.APMS\bin\Release\AH.ACMS.dll
+E:\AHERP 06.03.14 New\AH.APMS\bin\Release\AH.HR.dll
+E:\AHERP 06.03.14 New\AH.APMS\bin\Release\AH.OPD.dll
+E:\AHERP 06.03.14 New\AH.APMS\bin\Release\AH.ORGMS.dll
+E:\AHERP 06.03.14 New\AH.APMS\bin\Release\AH.PatReg.dll
+E:\AHERP 06.03.14 New\AH.APMS\bin\Release\AH.PRMS.dll
+E:\AHERP 06.03.14 New\AH.APMS\bin\Release\AH.Shared.dll
+E:\AHERP 06.03.14 New\AH.APMS\bin\Release\AtiqsControlLibrary.dll
+E:\AHERP 06.03.14 New\AH.APMS\bin\Release\DUtility.dll
+E:\AHERP 06.03.14 New\AH.APMS\bin\Release\oracle.dataaccess.dll
+E:\AHERP 06.03.14 New\AH.APMS\bin\Release\AH.DTMS.dll
+E:\AHERP 06.03.14 New\AH.APMS\bin\Release\AH.DRUGS.dll
+E:\AHERP 06.03.14 New\AH.APMS\bin\Release\AH.ACCMS.dll
+E:\AHERP 06.03.14 New\AH.APMS\bin\Release\AH.HR.pdb
+E:\AHERP 06.03.14 New\AH.APMS\bin\Release\AH.OPD.pdb
+E:\AHERP 06.03.14 New\AH.APMS\bin\Release\AH.ORGMS.pdb
+E:\AHERP 06.03.14 New\AH.APMS\bin\Release\AH.PatReg.pdb
+E:\AHERP 06.03.14 New\AH.APMS\bin\Release\AH.DTMS.pdb
+E:\AHERP 06.03.14 New\AH.APMS\bin\Release\AH.DRUGS.pdb
+E:\AHERP 06.03.14 New\AH.APMS\bin\Release\AH.ACCMS.pdb
+E:\AHERP 06.03.14 New\AH.APMS\obj\Release\AH.APMS.csprojResolveAssemblyReference.cache
+E:\AHERP 06.03.14 New\AH.APMS\obj\Release\AH.APMS.dll
+E:\AHERP 06.03.14 New\AH.APMS\obj\Release\AH.APMS.pdb
+E:\AHERP 06.03.14 New\AH.APMS\bin\Release\AH.APPOPD.dll
+E:\AHERP 06.03.14 New\AH.APMS\bin\Release\AH.APPOPD.pdb

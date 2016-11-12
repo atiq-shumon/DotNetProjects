@@ -1,0 +1,14 @@
+E:\AHERP 06.03.14 New\AH.ADMS\bin\Release\AH.ADMS.dll.config
+E:\AHERP 06.03.14 New\AH.ADMS\bin\Release\AH.ADMS.dll
+E:\AHERP 06.03.14 New\AH.ADMS\bin\Release\AH.ADMS.pdb
+E:\AHERP 06.03.14 New\AH.ADMS\bin\Release\AH.PRMS.dll
+E:\AHERP 06.03.14 New\AH.ADMS\bin\Release\AH.Shared.dll
+E:\AHERP 06.03.14 New\AH.ADMS\bin\Release\DUtility.dll
+E:\AHERP 06.03.14 New\AH.ADMS\bin\Release\oracle.dataaccess.dll
+E:\AHERP 06.03.14 New\AH.ADMS\bin\Release\AtiqsControlLibrary.dll
+E:\AHERP 06.03.14 New\AH.ADMS\bin\Release\AH.PRMS.pdb
+E:\AHERP 06.03.14 New\AH.ADMS\obj\Release\AH.ADMS.dll
+E:\AHERP 06.03.14 New\AH.ADMS\obj\Release\AH.ADMS.pdb
+E:\AHERP 06.03.14 New\AH.ADMS\bin\Release\AH.OracleManager.dll
+E:\AHERP 06.03.14 New\AH.ADMS\bin\Release\AH.ORGMS.dll
+E:\AHERP 06.03.14 New\AH.ADMS\obj\Release\AH.ADMS.csprojResolveAssemblyReference.cache
