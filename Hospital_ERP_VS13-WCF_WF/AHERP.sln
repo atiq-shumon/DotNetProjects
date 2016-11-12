@@ -1,0 +1,683 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AH.PatReg", "AH.PatReg\AH.PatReg.csproj", "{EE9AFCD1-B4F8-45A1-B78A-8FC7ED500FF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AH.HR", "AH.HR\AH.HR.csproj", "{8131068C-BABF-4949-BD08-8E57F7283F65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AH.PRMS", "AH.PRMS\AH.PRMS.csproj", "{DBC099CF-D6FB-4CA5-AEB3-AAD85D46833A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AH.ACCMS", "AH.ACCMS\AH.ACCMS.csproj", "{9EA0B002-B6E1-481F-AC93-8991D07988EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AH.IPD", "AH.IPD\AH.IPD.csproj", "{00E40CF9-6042-47E9-8519-C12AD9B0B0F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AH.DMS", "AH.DMS\AH.DMS.csproj", "{040573DD-EE8D-430A-94EF-FCE45061FD8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AH.DRS", "AH.DRS\AH.DRS.csproj", "{B4B980BB-FD51-4A17-B975-D7567E6A6A96}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PatientRegistration", "http://localhost:81/PatientRegistration", "{EF1AF326-6631-4EE6-91F7-16FF818081B5}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{ee9afcd1-b4f8-45a1-b78a-8fc7ed500ff8}|AH.PatReg.dll;{9EA0B002-B6E1-481F-AC93-8991D07988EC}|AH.ACCMS.dll;{8131068C-BABF-4949-BD08-8E57F7283F65}|AH.HR.dll;{00E40CF9-6042-47E9-8519-C12AD9B0B0F1}|AH.IPD.dll;{DBC099CF-D6FB-4CA5-AEB3-AAD85D46833A}|AH.PRMS.dll;{AB7A6C95-3E83-435A-8E0F-C18A326713AC}|AH.ORGMS.dll;{53DCA937-66F6-4E81-9451-D8AB497EF341}|AH.OPD.dll;{67570B32-BD63-4795-BFCC-5EA8045A48B3}|AH.OPRMS.dll;{A80317DE-9D30-4273-B1AE-5E06DC841E4F}|AH.APPOPD.dll;{C2B431C6-B904-4686-A19D-BCBBD5A52813}|AH.IPDShared.dll;{D4ADA84D-EF73-406E-AC1A-A7E982628589}|AH.DRUGS.dll;{040573DD-EE8D-430A-94EF-FCE45061FD8F}|AH.DMS.dll;{81E7A700-A44A-4582-9220-B2C47B42F428}|AH.DTMS.dll;{F154AABA-F25B-49E8-BEED-D63A7672963A}|AH.ADMS.dll;{CC472D62-3CB2-47CE-A60A-D74FF60E5E43}|AH.PHRMS.dll;{19171000-3098-479C-B661-DB148A9ED2E4}|AH.NWMS.dll;{B853E0BE-EE95-463A-9DDE-E1AA75368578}|AH.INVMS.dll;{21987411-9EBB-4345-9774-D0158A918E0E}|AH.FNB.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/PatientRegistration"
+		Debug.AspNetCompiler.PhysicalPath = "C:\inetpub\www.patreg\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\PatientRegistration\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/PatientRegistration"
+		Release.AspNetCompiler.PhysicalPath = "C:\inetpub\www.patreg\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\PatientRegistration\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "C:\inetpub\www.patreg\"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AH.DTMS", "AH.DTMS\AH.DTMS.csproj", "{81E7A700-A44A-4582-9220-B2C47B42F428}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AH.ModuleController", "AH.ModuleController\AH.ModuleController.csproj", "{BB80430A-0096-4CA9-B2F2-372479F13395}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5E6EBE0D-BA75-46E7-A63E-40C50ACCE7FE} = {5E6EBE0D-BA75-46E7-A63E-40C50ACCE7FE}
+		{5CF1C81E-FF56-4DE6-A4CF-537FBA3742FC} = {5CF1C81E-FF56-4DE6-A4CF-537FBA3742FC}
+		{EF1AF326-6631-4EE6-91F7-16FF818081B5} = {EF1AF326-6631-4EE6-91F7-16FF818081B5}
+		{E8E8366B-8D76-4EA0-A22E-C2BC1A2C4A7E} = {E8E8366B-8D76-4EA0-A22E-C2BC1A2C4A7E}
+		{931B4D6F-5440-4840-9F58-676C1A096F55} = {931B4D6F-5440-4840-9F58-676C1A096F55}
+		{2E5D8F75-ECD2-465D-B77E-86A27282985B} = {2E5D8F75-ECD2-465D-B77E-86A27282985B}
+		{7EBB517C-F7DD-4F6E-B035-21D739D5C33D} = {7EBB517C-F7DD-4F6E-B035-21D739D5C33D}
+		{18D1088C-EE98-4C82-A74E-C9E0F6B80BBB} = {18D1088C-EE98-4C82-A74E-C9E0F6B80BBB}
+		{09C4CDA4-3727-4D93-AF4C-C39EA6786BB0} = {09C4CDA4-3727-4D93-AF4C-C39EA6786BB0}
+		{835391AA-7328-4FD1-B2F0-5C395256BF5D} = {835391AA-7328-4FD1-B2F0-5C395256BF5D}
+		{DFBC9EC2-66C6-420F-87A6-4846A0737C2C} = {DFBC9EC2-66C6-420F-87A6-4846A0737C2C}
+		{0944C8C6-AA8C-4D0F-98BE-284C12942645} = {0944C8C6-AA8C-4D0F-98BE-284C12942645}
+		{8DD470D5-93BC-4C32-95A1-574E43C53753} = {8DD470D5-93BC-4C32-95A1-574E43C53753}
+		{ABCC26DB-BFE4-401B-9FEB-D3BFAB978D5A} = {ABCC26DB-BFE4-401B-9FEB-D3BFAB978D5A}
+		{14D316F4-C4C6-4E14-9C04-57961481AC7B} = {14D316F4-C4C6-4E14-9C04-57961481AC7B}
+		{BB5551F8-BEA7-4384-B981-569CABED0C4F} = {BB5551F8-BEA7-4384-B981-569CABED0C4F}
+		{D618BEF8-C8CB-41A0-B475-91BECC96118E} = {D618BEF8-C8CB-41A0-B475-91BECC96118E}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PRMS", "http://localhost:85/PRMS", "{5CF1C81E-FF56-4DE6-A4CF-537FBA3742FC}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{dbc099cf-d6fb-4ca5-aeb3-aad85d46833a}|AH.PRMS.dll;{AB7A6C95-3E83-435A-8E0F-C18A326713AC}|AH.ORGMS.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/PRMS"
+		Debug.AspNetCompiler.PhysicalPath = "C:\inetpub\www.PRMS\PRMS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\PRMS\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/PRMS"
+		Release.AspNetCompiler.PhysicalPath = "C:\inetpub\www.PRMS\PRMS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\PRMS\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "C:\inetpub\www.PRMS\PRMS\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HR", "http://localhost:86/HR", "{2E5D8F75-ECD2-465D-B77E-86A27282985B}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{8131068c-babf-4949-bd08-8e57f7283f65}|AH.HR.dll;{DBC099CF-D6FB-4CA5-AEB3-AAD85D46833A}|AH.PRMS.dll;{AB7A6C95-3E83-435A-8E0F-C18A326713AC}|AH.ORGMS.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/HR"
+		Debug.AspNetCompiler.PhysicalPath = "C:\inetpub\www.HR\HR\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\HR\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/HR"
+		Release.AspNetCompiler.PhysicalPath = "C:\inetpub\www.HR\HR\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\HR\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "C:\inetpub\www.HR\HR\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ACCMS", "http://localhost:88/ACCMS", "{8DD470D5-93BC-4C32-95A1-574E43C53753}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{9ea0b002-b6e1-481f-ac93-8991d07988ec}|AH.ACCMS.dll;{8131068C-BABF-4949-BD08-8E57F7283F65}|AH.HR.dll;{AB7A6C95-3E83-435A-8E0F-C18A326713AC}|AH.ORGMS.dll;{DBC099CF-D6FB-4CA5-AEB3-AAD85D46833A}|AH.PRMS.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/ACCMS"
+		Debug.AspNetCompiler.PhysicalPath = "C:\inetpub\WWW.ACCMS\ACCMS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ACCMS\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ACCMS"
+		Release.AspNetCompiler.PhysicalPath = "C:\inetpub\WWW.ACCMS\ACCMS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ACCMS\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "C:\inetpub\WWW.ACCMS\ACCMS\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AH.ADMS", "AH.ADMS\AH.ADMS.csproj", "{F154AABA-F25B-49E8-BEED-D63A7672963A}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ADMS", "http://localhost:89/ADMS", "{18D1088C-EE98-4C82-A74E-C9E0F6B80BBB}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{f154aaba-f25b-49e8-beed-d63a7672963a}|AH.ADMS.dll;{8131068C-BABF-4949-BD08-8E57F7283F65}|AH.HR.dll;{DBC099CF-D6FB-4CA5-AEB3-AAD85D46833A}|AH.PRMS.dll;{9EA0B002-B6E1-481F-AC93-8991D07988EC}|AH.ACCMS.dll;{AB7A6C95-3E83-435A-8E0F-C18A326713AC}|AH.ORGMS.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/ADMS"
+		Debug.AspNetCompiler.PhysicalPath = "C:\inetpub\WWW.ADMS\ADMS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ADMS\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ADMS"
+		Release.AspNetCompiler.PhysicalPath = "C:\inetpub\WWW.ADMS\ADMS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ADMS\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "C:\inetpub\WWW.ADMS\ADMS\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AH.PHRMS", "AH.PHRMS\AH.PHRMS.csproj", "{CC472D62-3CB2-47CE-A60A-D74FF60E5E43}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PHRMS", "http://localhost:91/PHRMS", "{0944C8C6-AA8C-4D0F-98BE-284C12942645}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{cc472d62-3cb2-47ce-a60a-d74ff60e5e43}|AH.PHRMS.dll;{DBC099CF-D6FB-4CA5-AEB3-AAD85D46833A}|AH.PRMS.dll;{D4ADA84D-EF73-406E-AC1A-A7E982628589}|AH.DRUGS.dll;{53DCA937-66F6-4E81-9451-D8AB497EF341}|AH.OPD.dll;{81E7A700-A44A-4582-9220-B2C47B42F428}|AH.DTMS.dll;{8131068C-BABF-4949-BD08-8E57F7283F65}|AH.HR.dll;{EE9AFCD1-B4F8-45A1-B78A-8FC7ED500FF8}|AH.PatReg.dll;{9EA0B002-B6E1-481F-AC93-8991D07988EC}|AH.ACCMS.dll;{AB7A6C95-3E83-435A-8E0F-C18A326713AC}|AH.ORGMS.dll;{00E40CF9-6042-47E9-8519-C12AD9B0B0F1}|AH.IPD.dll;{67570B32-BD63-4795-BFCC-5EA8045A48B3}|AH.OPRMS.dll;{A80317DE-9D30-4273-B1AE-5E06DC841E4F}|AH.APPOPD.dll;{C2B431C6-B904-4686-A19D-BCBBD5A52813}|AH.IPDShared.dll;{040573DD-EE8D-430A-94EF-FCE45061FD8F}|AH.DMS.dll;{F154AABA-F25B-49E8-BEED-D63A7672963A}|AH.ADMS.dll;{19171000-3098-479C-B661-DB148A9ED2E4}|AH.NWMS.dll;{B853E0BE-EE95-463A-9DDE-E1AA75368578}|AH.INVMS.dll;{21987411-9EBB-4345-9774-D0158A918E0E}|AH.FNB.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/PHRMS"
+		Debug.AspNetCompiler.PhysicalPath = "C:\inetpub\WWW.PHRMS\PHRMS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\PHRMS\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/PHRMS"
+		Release.AspNetCompiler.PhysicalPath = "C:\inetpub\WWW.PHRMS\PHRMS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\PHRMS\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "C:\inetpub\WWW.PHRMS\PHRMS\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AH.ACMS", "AH.ACMS\AH.ACMS.csproj", "{7C1B7F55-C4F0-490A-9200-4C6A5C83C07B}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "OPD", "http://localhost:82/OPD", "{BB5551F8-BEA7-4384-B981-569CABED0C4F}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{53dca937-66f6-4e81-9451-d8ab497ef341}|AH.OPD.dll;{81E7A700-A44A-4582-9220-B2C47B42F428}|AH.DTMS.dll;{8131068C-BABF-4949-BD08-8E57F7283F65}|AH.HR.dll;{DBC099CF-D6FB-4CA5-AEB3-AAD85D46833A}|AH.PRMS.dll;{EE9AFCD1-B4F8-45A1-B78A-8FC7ED500FF8}|AH.PatReg.dll;{9EA0B002-B6E1-481F-AC93-8991D07988EC}|AH.ACCMS.dll;{CC472D62-3CB2-47CE-A60A-D74FF60E5E43}|AH.PHRMS.dll;{D4ADA84D-EF73-406E-AC1A-A7E982628589}|AH.DRUGS.dll;{AB7A6C95-3E83-435A-8E0F-C18A326713AC}|AH.ORGMS.dll;{00E40CF9-6042-47E9-8519-C12AD9B0B0F1}|AH.IPD.dll;{67570B32-BD63-4795-BFCC-5EA8045A48B3}|AH.OPRMS.dll;{A80317DE-9D30-4273-B1AE-5E06DC841E4F}|AH.APPOPD.dll;{C2B431C6-B904-4686-A19D-BCBBD5A52813}|AH.IPDShared.dll;{040573DD-EE8D-430A-94EF-FCE45061FD8F}|AH.DMS.dll;{F154AABA-F25B-49E8-BEED-D63A7672963A}|AH.ADMS.dll;{19171000-3098-479C-B661-DB148A9ED2E4}|AH.NWMS.dll;{B853E0BE-EE95-463A-9DDE-E1AA75368578}|AH.INVMS.dll;{21987411-9EBB-4345-9774-D0158A918E0E}|AH.FNB.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/OPD"
+		Debug.AspNetCompiler.PhysicalPath = "C:\inetpub\www.OPD\OPD\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\OPD\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/OPD"
+		Release.AspNetCompiler.PhysicalPath = "C:\inetpub\www.OPD\OPD\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\OPD\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "C:\inetpub\www.OPD\OPD\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AH.OPD", "AH.OPD\AH.OPD.csproj", "{53DCA937-66F6-4E81-9451-D8AB497EF341}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AH.DRUGS", "AH.DRUGS\AH.DRUGS.csproj", "{D4ADA84D-EF73-406E-AC1A-A7E982628589}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AH.APMS", "AH.APMS\AH.APMS.csproj", "{447D3A0F-C499-436C-8CFE-872D7FBE69DF}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "APMS", "http://localhost:93/APMS", "{14D316F4-C4C6-4E14-9C04-57961481AC7B}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{447d3a0f-c499-436c-8cfe-872d7fbe69df}|AH.APMS.dll;{8131068C-BABF-4949-BD08-8E57F7283F65}|AH.HR.dll;{DBC099CF-D6FB-4CA5-AEB3-AAD85D46833A}|AH.PRMS.dll;{AB7A6C95-3E83-435A-8E0F-C18A326713AC}|AH.ORGMS.dll;{EE9AFCD1-B4F8-45A1-B78A-8FC7ED500FF8}|AH.PatReg.dll;{9EA0B002-B6E1-481F-AC93-8991D07988EC}|AH.ACCMS.dll;{53DCA937-66F6-4E81-9451-D8AB497EF341}|AH.OPD.dll;{A80317DE-9D30-4273-B1AE-5E06DC841E4F}|AH.APPOPD.dll;{D4ADA84D-EF73-406E-AC1A-A7E982628589}|AH.DRUGS.dll;{C2B431C6-B904-4686-A19D-BCBBD5A52813}|AH.IPDShared.dll;{81E7A700-A44A-4582-9220-B2C47B42F428}|AH.DTMS.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/APMS"
+		Debug.AspNetCompiler.PhysicalPath = "C:\inetpub\WWW.APMS\APMS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\APMS\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/APMS"
+		Release.AspNetCompiler.PhysicalPath = "C:\inetpub\WWW.APMS\APMS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\APMS\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "C:\inetpub\WWW.APMS\APMS\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AH.ORGMS", "AH.ORGMS\AH.ORGMS.csproj", "{AB7A6C95-3E83-435A-8E0F-C18A326713AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AH.OPRMS", "AH.OPRMS\AH.OPRMS.csproj", "{67570B32-BD63-4795-BFCC-5EA8045A48B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AH.INVMS", "AH.INVMS\AH.INVMS.csproj", "{B853E0BE-EE95-463A-9DDE-E1AA75368578}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "INVMS", "http://localhost:94/INVMS", "{835391AA-7328-4FD1-B2F0-5C395256BF5D}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{b853e0be-ee95-463a-9dde-e1aa75368578}|AH.INVMS.dll;{8131068C-BABF-4949-BD08-8E57F7283F65}|AH.HR.dll;{AB7A6C95-3E83-435A-8E0F-C18A326713AC}|AH.ORGMS.dll;{DBC099CF-D6FB-4CA5-AEB3-AAD85D46833A}|AH.PRMS.dll;{9EA0B002-B6E1-481F-AC93-8991D07988EC}|AH.ACCMS.dll;{C2B431C6-B904-4686-A19D-BCBBD5A52813}|AH.IPDShared.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/INVMS"
+		Debug.AspNetCompiler.PhysicalPath = "C:\inetpub\WWW.INVMS\INVMS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\INVMS\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/INVMS"
+		Release.AspNetCompiler.PhysicalPath = "C:\inetpub\WWW.INVMS\INVMS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\INVMS\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "C:\inetpub\WWW.INVMS\INVMS\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DMS", "http://localhost:73/DMS", "{5E6EBE0D-BA75-46E7-A63E-40C50ACCE7FE}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.1"
+		ProjectReferences = "{040573dd-ee8d-430a-94ef-fce45061fd8f}|AH.DMS.dll;{9EA0B002-B6E1-481F-AC93-8991D07988EC}|AH.ACCMS.dll;{8131068C-BABF-4949-BD08-8E57F7283F65}|AH.HR.dll;{AB7A6C95-3E83-435A-8E0F-C18A326713AC}|AH.ORGMS.dll;{DBC099CF-D6FB-4CA5-AEB3-AAD85D46833A}|AH.PRMS.dll;{81E7A700-A44A-4582-9220-B2C47B42F428}|AH.DTMS.dll;{EE9AFCD1-B4F8-45A1-B78A-8FC7ED500FF8}|AH.PatReg.dll;{53DCA937-66F6-4E81-9451-D8AB497EF341}|AH.OPD.dll;{A80317DE-9D30-4273-B1AE-5E06DC841E4F}|AH.APPOPD.dll;{D4ADA84D-EF73-406E-AC1A-A7E982628589}|AH.DRUGS.dll;{C2B431C6-B904-4686-A19D-BCBBD5A52813}|AH.IPDShared.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/DMS"
+		Debug.AspNetCompiler.PhysicalPath = "C:\inetpub\www.DMS\DMS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\DMS\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/DMS"
+		Release.AspNetCompiler.PhysicalPath = "C:\inetpub\www.DMS\DMS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\DMS\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "C:\inetpub\www.DMS\DMS\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AH.NWMS", "AH.NWMS\AH.NWMS.csproj", "{19171000-3098-479C-B661-DB148A9ED2E4}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NWMS", "http://localhost:74/NWMS", "{ABCC26DB-BFE4-401B-9FEB-D3BFAB978D5A}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.1"
+		ProjectReferences = "{19171000-3098-479c-b661-db148a9ed2e4}|AH.NWMS.dll;{040573DD-EE8D-430A-94EF-FCE45061FD8F}|AH.DMS.dll;{9EA0B002-B6E1-481F-AC93-8991D07988EC}|AH.ACCMS.dll;{8131068C-BABF-4949-BD08-8E57F7283F65}|AH.HR.dll;{AB7A6C95-3E83-435A-8E0F-C18A326713AC}|AH.ORGMS.dll;{DBC099CF-D6FB-4CA5-AEB3-AAD85D46833A}|AH.PRMS.dll;{81E7A700-A44A-4582-9220-B2C47B42F428}|AH.DTMS.dll;{EE9AFCD1-B4F8-45A1-B78A-8FC7ED500FF8}|AH.PatReg.dll;{A80317DE-9D30-4273-B1AE-5E06DC841E4F}|AH.APPOPD.dll;{C2B431C6-B904-4686-A19D-BCBBD5A52813}|AH.IPDShared.dll;{53DCA937-66F6-4E81-9451-D8AB497EF341}|AH.OPD.dll;{D4ADA84D-EF73-406E-AC1A-A7E982628589}|AH.DRUGS.dll;{CC472D62-3CB2-47CE-A60A-D74FF60E5E43}|AH.PHRMS.dll;{B853E0BE-EE95-463A-9DDE-E1AA75368578}|AH.INVMS.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/NWMS"
+		Debug.AspNetCompiler.PhysicalPath = "C:\inetpub\WWW.NWMS\NWMS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\NWMS\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/NWMS"
+		Release.AspNetCompiler.PhysicalPath = "C:\inetpub\WWW.NWMS\NWMS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\NWMS\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "C:\inetpub\WWW.NWMS\NWMS\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AH.APPOPD", "AH.APPOPD\AH.APPOPD.csproj", "{A80317DE-9D30-4273-B1AE-5E06DC841E4F}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DRS", "http://localhost:75/DRS", "{DFBC9EC2-66C6-420F-87A6-4846A0737C2C}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.1"
+		ProjectReferences = "{b4b980bb-fd51-4a17-b975-d7567e6a6a96}|AH.DRS.dll;{040573DD-EE8D-430A-94EF-FCE45061FD8F}|AH.DMS.dll;{9EA0B002-B6E1-481F-AC93-8991D07988EC}|AH.ACCMS.dll;{8131068C-BABF-4949-BD08-8E57F7283F65}|AH.HR.dll;{AB7A6C95-3E83-435A-8E0F-C18A326713AC}|AH.ORGMS.dll;{DBC099CF-D6FB-4CA5-AEB3-AAD85D46833A}|AH.PRMS.dll;{81E7A700-A44A-4582-9220-B2C47B42F428}|AH.DTMS.dll;{EE9AFCD1-B4F8-45A1-B78A-8FC7ED500FF8}|AH.PatReg.dll;{53DCA937-66F6-4E81-9451-D8AB497EF341}|AH.OPD.dll;{A80317DE-9D30-4273-B1AE-5E06DC841E4F}|AH.APPOPD.dll;{D4ADA84D-EF73-406E-AC1A-A7E982628589}|AH.DRUGS.dll;{C2B431C6-B904-4686-A19D-BCBBD5A52813}|AH.IPDShared.dll;{67570B32-BD63-4795-BFCC-5EA8045A48B3}|AH.OPRMS.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/DRS"
+		Debug.AspNetCompiler.PhysicalPath = "C:\inetpub\www.DRS\DRS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\DRS\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/DRS"
+		Release.AspNetCompiler.PhysicalPath = "C:\inetpub\www.DRS\DRS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\DRS\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "C:\inetpub\www.DRS\DRS\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AH.IPDShared", "AH.IPDShared\AH.IPDShared.csproj", "{C2B431C6-B904-4686-A19D-BCBBD5A52813}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AH.ATMS", "AH.ATMS\AH.ATMS.csproj", "{4E51D853-5C7E-47F0-BB44-E589150DB6C0}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ATMS", "http://localhost:60/ATMS", "{7EBB517C-F7DD-4F6E-B035-21D739D5C33D}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.1"
+		ProjectReferences = "{4e51d853-5c7e-47f0-bb44-e589150db6c0}|AH.ATMS.dll;{C2B431C6-B904-4686-A19D-BCBBD5A52813}|AH.IPDShared.dll;{9EA0B002-B6E1-481F-AC93-8991D07988EC}|AH.ACCMS.dll;{8131068C-BABF-4949-BD08-8E57F7283F65}|AH.HR.dll;{AB7A6C95-3E83-435A-8E0F-C18A326713AC}|AH.ORGMS.dll;{DBC099CF-D6FB-4CA5-AEB3-AAD85D46833A}|AH.PRMS.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/ATMS"
+		Debug.AspNetCompiler.PhysicalPath = "C:\inetpub\WWW.ATMS\ATMS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ATMS\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ATMS"
+		Release.AspNetCompiler.PhysicalPath = "C:\inetpub\WWW.ATMS\ATMS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ATMS\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "C:\inetpub\WWW.ATMS\ATMS\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "IPDNEW", "http://localhost:68/IPDNEW", "{E8E8366B-8D76-4EA0-A22E-C2BC1A2C4A7E}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.1"
+		ProjectReferences = "{00e40cf9-6042-47e9-8519-c12ad9b0b0f1}|AH.IPD.dll;{9EA0B002-B6E1-481F-AC93-8991D07988EC}|AH.ACCMS.dll;{8131068C-BABF-4949-BD08-8E57F7283F65}|AH.HR.dll;{AB7A6C95-3E83-435A-8E0F-C18A326713AC}|AH.ORGMS.dll;{DBC099CF-D6FB-4CA5-AEB3-AAD85D46833A}|AH.PRMS.dll;{040573DD-EE8D-430A-94EF-FCE45061FD8F}|AH.DMS.dll;{81E7A700-A44A-4582-9220-B2C47B42F428}|AH.DTMS.dll;{EE9AFCD1-B4F8-45A1-B78A-8FC7ED500FF8}|AH.PatReg.dll;{A80317DE-9D30-4273-B1AE-5E06DC841E4F}|AH.APPOPD.dll;{C2B431C6-B904-4686-A19D-BCBBD5A52813}|AH.IPDShared.dll;{53DCA937-66F6-4E81-9451-D8AB497EF341}|AH.OPD.dll;{D4ADA84D-EF73-406E-AC1A-A7E982628589}|AH.DRUGS.dll;{67570B32-BD63-4795-BFCC-5EA8045A48B3}|AH.OPRMS.dll;{F154AABA-F25B-49E8-BEED-D63A7672963A}|AH.ADMS.dll;{CC472D62-3CB2-47CE-A60A-D74FF60E5E43}|AH.PHRMS.dll;{19171000-3098-479C-B661-DB148A9ED2E4}|AH.NWMS.dll;{B853E0BE-EE95-463A-9DDE-E1AA75368578}|AH.INVMS.dll;{21987411-9EBB-4345-9774-D0158A918E0E}|AH.FNB.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/IPDNEW"
+		Debug.AspNetCompiler.PhysicalPath = "C:\inetpub\WWW.IPDNEW\IPDNEW\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\IPDNEW\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/IPDNEW"
+		Release.AspNetCompiler.PhysicalPath = "C:\inetpub\WWW.IPDNEW\IPDNEW\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\IPDNEW\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "C:\inetpub\WWW.IPDNEW\IPDNEW\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "OPR", "http://localhost:52/OPR", "{09C4CDA4-3727-4D93-AF4C-C39EA6786BB0}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.1"
+		ProjectReferences = "{67570b32-bd63-4795-bfcc-5ea8045a48b3}|AH.OPRMS.dll;{C2B431C6-B904-4686-A19D-BCBBD5A52813}|AH.IPDShared.dll;{8131068C-BABF-4949-BD08-8E57F7283F65}|AH.HR.dll;{AB7A6C95-3E83-435A-8E0F-C18A326713AC}|AH.ORGMS.dll;{DBC099CF-D6FB-4CA5-AEB3-AAD85D46833A}|AH.PRMS.dll;{EE9AFCD1-B4F8-45A1-B78A-8FC7ED500FF8}|AH.PatReg.dll;{9EA0B002-B6E1-481F-AC93-8991D07988EC}|AH.ACCMS.dll;{A80317DE-9D30-4273-B1AE-5E06DC841E4F}|AH.APPOPD.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/OPR"
+		Debug.AspNetCompiler.PhysicalPath = "C:\inetpub\WWW.OPR\OPR\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\OPR\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/OPR"
+		Release.AspNetCompiler.PhysicalPath = "C:\inetpub\WWW.OPR\OPR\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\OPR\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "C:\inetpub\WWW.OPR\OPR\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AH.FNB", "AH.FNB\AH.FNB.csproj", "{21987411-9EBB-4345-9774-D0158A918E0E}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "FNB", "http://localhost:96/FNB", "{D618BEF8-C8CB-41A0-B475-91BECC96118E}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.1"
+		ProjectReferences = "{21987411-9ebb-4345-9774-d0158a918e0e}|AH.FNB.dll;{8131068C-BABF-4949-BD08-8E57F7283F65}|AH.HR.dll;{AB7A6C95-3E83-435A-8E0F-C18A326713AC}|AH.ORGMS.dll;{DBC099CF-D6FB-4CA5-AEB3-AAD85D46833A}|AH.PRMS.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/FNB"
+		Debug.AspNetCompiler.PhysicalPath = "C:\inetpub\WWW.FNB\FNB\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\FNB\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/FNB"
+		Release.AspNetCompiler.PhysicalPath = "C:\inetpub\WWW.FNB\FNB\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\FNB\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "C:\inetpub\WWW.FNB\FNB\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ACMS", "http://localhost:90/ACMS", "{782CB51F-5529-4214-B705-405A63738783}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.1"
+		ProjectReferences = "{7c1b7f55-c4f0-490a-9200-4c6a5c83c07b}|AH.ACMS.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/ACMS"
+		Debug.AspNetCompiler.PhysicalPath = "C:\inetpub\WWW.ACMS\ACMS\ACMS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ACMS\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ACMS"
+		Release.AspNetCompiler.PhysicalPath = "C:\inetpub\WWW.ACMS\ACMS\ACMS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ACMS\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "C:\inetpub\WWW.ACMS\ACMS\ACMS\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AhhERPWebApp", "AH.ModuleControllerWeb\AHERPWEB\AhhERPWebApp\AhhERPWebApp.csproj", "{D3DB90C8-40F8-48E6-9D3D-7D877703A027}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AH.DIET", "AH.DIET\AH.DIET.csproj", "{FBBD97CA-2031-41C8-BE94-90182C3AB308}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DIET", "http://localhost:112/DIET", "{931B4D6F-5440-4840-9F58-676C1A096F55}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.1"
+		ProjectReferences = "{fbbd97ca-2031-41c8-be94-90182c3ab308}|AH.DIET.dll;{21987411-9EBB-4345-9774-D0158A918E0E}|AH.FNB.dll;{8131068C-BABF-4949-BD08-8E57F7283F65}|AH.HR.dll;{AB7A6C95-3E83-435A-8E0F-C18A326713AC}|AH.ORGMS.dll;{DBC099CF-D6FB-4CA5-AEB3-AAD85D46833A}|AH.PRMS.dll;{C2B431C6-B904-4686-A19D-BCBBD5A52813}|AH.IPDShared.dll;{9EA0B002-B6E1-481F-AC93-8991D07988EC}|AH.ACCMS.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/DIET"
+		Debug.AspNetCompiler.PhysicalPath = "C:\inetpub\WWW.DIET\DIET\DIET\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\DIET\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/DIET"
+		Release.AspNetCompiler.PhysicalPath = "C:\inetpub\WWW.DIET\DIET\DIET\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\DIET\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "C:\inetpub\WWW.DIET\DIET\DIET\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AAHWebsite", "WebSite\AAHWebsite\AAHWebsite.csproj", "{507CEF89-06F2-46F5-A1E8-5370C404C587}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AAHWebsite.Tests", "AAHWebsite.Tests\AAHWebsite.Tests.csproj", "{4CE267CC-6F45-480B-84F7-679C42ECE30C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE9AFCD1-B4F8-45A1-B78A-8FC7ED500FF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE9AFCD1-B4F8-45A1-B78A-8FC7ED500FF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE9AFCD1-B4F8-45A1-B78A-8FC7ED500FF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE9AFCD1-B4F8-45A1-B78A-8FC7ED500FF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8131068C-BABF-4949-BD08-8E57F7283F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8131068C-BABF-4949-BD08-8E57F7283F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8131068C-BABF-4949-BD08-8E57F7283F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8131068C-BABF-4949-BD08-8E57F7283F65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBC099CF-D6FB-4CA5-AEB3-AAD85D46833A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC099CF-D6FB-4CA5-AEB3-AAD85D46833A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC099CF-D6FB-4CA5-AEB3-AAD85D46833A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC099CF-D6FB-4CA5-AEB3-AAD85D46833A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EA0B002-B6E1-481F-AC93-8991D07988EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EA0B002-B6E1-481F-AC93-8991D07988EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EA0B002-B6E1-481F-AC93-8991D07988EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EA0B002-B6E1-481F-AC93-8991D07988EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00E40CF9-6042-47E9-8519-C12AD9B0B0F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00E40CF9-6042-47E9-8519-C12AD9B0B0F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00E40CF9-6042-47E9-8519-C12AD9B0B0F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00E40CF9-6042-47E9-8519-C12AD9B0B0F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{040573DD-EE8D-430A-94EF-FCE45061FD8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{040573DD-EE8D-430A-94EF-FCE45061FD8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{040573DD-EE8D-430A-94EF-FCE45061FD8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{040573DD-EE8D-430A-94EF-FCE45061FD8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4B980BB-FD51-4A17-B975-D7567E6A6A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4B980BB-FD51-4A17-B975-D7567E6A6A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4B980BB-FD51-4A17-B975-D7567E6A6A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4B980BB-FD51-4A17-B975-D7567E6A6A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF1AF326-6631-4EE6-91F7-16FF818081B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF1AF326-6631-4EE6-91F7-16FF818081B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF1AF326-6631-4EE6-91F7-16FF818081B5}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF1AF326-6631-4EE6-91F7-16FF818081B5}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{81E7A700-A44A-4582-9220-B2C47B42F428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81E7A700-A44A-4582-9220-B2C47B42F428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81E7A700-A44A-4582-9220-B2C47B42F428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81E7A700-A44A-4582-9220-B2C47B42F428}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB80430A-0096-4CA9-B2F2-372479F13395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB80430A-0096-4CA9-B2F2-372479F13395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB80430A-0096-4CA9-B2F2-372479F13395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB80430A-0096-4CA9-B2F2-372479F13395}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CF1C81E-FF56-4DE6-A4CF-537FBA3742FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF1C81E-FF56-4DE6-A4CF-537FBA3742FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CF1C81E-FF56-4DE6-A4CF-537FBA3742FC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF1C81E-FF56-4DE6-A4CF-537FBA3742FC}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{2E5D8F75-ECD2-465D-B77E-86A27282985B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E5D8F75-ECD2-465D-B77E-86A27282985B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E5D8F75-ECD2-465D-B77E-86A27282985B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E5D8F75-ECD2-465D-B77E-86A27282985B}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{8DD470D5-93BC-4C32-95A1-574E43C53753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD470D5-93BC-4C32-95A1-574E43C53753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD470D5-93BC-4C32-95A1-574E43C53753}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD470D5-93BC-4C32-95A1-574E43C53753}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F154AABA-F25B-49E8-BEED-D63A7672963A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F154AABA-F25B-49E8-BEED-D63A7672963A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F154AABA-F25B-49E8-BEED-D63A7672963A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F154AABA-F25B-49E8-BEED-D63A7672963A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18D1088C-EE98-4C82-A74E-C9E0F6B80BBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18D1088C-EE98-4C82-A74E-C9E0F6B80BBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18D1088C-EE98-4C82-A74E-C9E0F6B80BBB}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{18D1088C-EE98-4C82-A74E-C9E0F6B80BBB}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{CC472D62-3CB2-47CE-A60A-D74FF60E5E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC472D62-3CB2-47CE-A60A-D74FF60E5E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC472D62-3CB2-47CE-A60A-D74FF60E5E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC472D62-3CB2-47CE-A60A-D74FF60E5E43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0944C8C6-AA8C-4D0F-98BE-284C12942645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0944C8C6-AA8C-4D0F-98BE-284C12942645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0944C8C6-AA8C-4D0F-98BE-284C12942645}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0944C8C6-AA8C-4D0F-98BE-284C12942645}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{7C1B7F55-C4F0-490A-9200-4C6A5C83C07B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C1B7F55-C4F0-490A-9200-4C6A5C83C07B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C1B7F55-C4F0-490A-9200-4C6A5C83C07B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C1B7F55-C4F0-490A-9200-4C6A5C83C07B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB5551F8-BEA7-4384-B981-569CABED0C4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB5551F8-BEA7-4384-B981-569CABED0C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB5551F8-BEA7-4384-B981-569CABED0C4F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB5551F8-BEA7-4384-B981-569CABED0C4F}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{53DCA937-66F6-4E81-9451-D8AB497EF341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53DCA937-66F6-4E81-9451-D8AB497EF341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53DCA937-66F6-4E81-9451-D8AB497EF341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53DCA937-66F6-4E81-9451-D8AB497EF341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4ADA84D-EF73-406E-AC1A-A7E982628589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4ADA84D-EF73-406E-AC1A-A7E982628589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4ADA84D-EF73-406E-AC1A-A7E982628589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4ADA84D-EF73-406E-AC1A-A7E982628589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{447D3A0F-C499-436C-8CFE-872D7FBE69DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{447D3A0F-C499-436C-8CFE-872D7FBE69DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{447D3A0F-C499-436C-8CFE-872D7FBE69DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{447D3A0F-C499-436C-8CFE-872D7FBE69DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14D316F4-C4C6-4E14-9C04-57961481AC7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14D316F4-C4C6-4E14-9C04-57961481AC7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14D316F4-C4C6-4E14-9C04-57961481AC7B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{14D316F4-C4C6-4E14-9C04-57961481AC7B}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{AB7A6C95-3E83-435A-8E0F-C18A326713AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB7A6C95-3E83-435A-8E0F-C18A326713AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB7A6C95-3E83-435A-8E0F-C18A326713AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB7A6C95-3E83-435A-8E0F-C18A326713AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67570B32-BD63-4795-BFCC-5EA8045A48B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67570B32-BD63-4795-BFCC-5EA8045A48B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67570B32-BD63-4795-BFCC-5EA8045A48B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67570B32-BD63-4795-BFCC-5EA8045A48B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B853E0BE-EE95-463A-9DDE-E1AA75368578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B853E0BE-EE95-463A-9DDE-E1AA75368578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B853E0BE-EE95-463A-9DDE-E1AA75368578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B853E0BE-EE95-463A-9DDE-E1AA75368578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{835391AA-7328-4FD1-B2F0-5C395256BF5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{835391AA-7328-4FD1-B2F0-5C395256BF5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{835391AA-7328-4FD1-B2F0-5C395256BF5D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{835391AA-7328-4FD1-B2F0-5C395256BF5D}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{5E6EBE0D-BA75-46E7-A63E-40C50ACCE7FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E6EBE0D-BA75-46E7-A63E-40C50ACCE7FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E6EBE0D-BA75-46E7-A63E-40C50ACCE7FE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E6EBE0D-BA75-46E7-A63E-40C50ACCE7FE}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{19171000-3098-479C-B661-DB148A9ED2E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19171000-3098-479C-B661-DB148A9ED2E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19171000-3098-479C-B661-DB148A9ED2E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19171000-3098-479C-B661-DB148A9ED2E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABCC26DB-BFE4-401B-9FEB-D3BFAB978D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABCC26DB-BFE4-401B-9FEB-D3BFAB978D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABCC26DB-BFE4-401B-9FEB-D3BFAB978D5A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABCC26DB-BFE4-401B-9FEB-D3BFAB978D5A}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A80317DE-9D30-4273-B1AE-5E06DC841E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A80317DE-9D30-4273-B1AE-5E06DC841E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A80317DE-9D30-4273-B1AE-5E06DC841E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A80317DE-9D30-4273-B1AE-5E06DC841E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFBC9EC2-66C6-420F-87A6-4846A0737C2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFBC9EC2-66C6-420F-87A6-4846A0737C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFBC9EC2-66C6-420F-87A6-4846A0737C2C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFBC9EC2-66C6-420F-87A6-4846A0737C2C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C2B431C6-B904-4686-A19D-BCBBD5A52813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2B431C6-B904-4686-A19D-BCBBD5A52813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2B431C6-B904-4686-A19D-BCBBD5A52813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2B431C6-B904-4686-A19D-BCBBD5A52813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E51D853-5C7E-47F0-BB44-E589150DB6C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E51D853-5C7E-47F0-BB44-E589150DB6C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E51D853-5C7E-47F0-BB44-E589150DB6C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E51D853-5C7E-47F0-BB44-E589150DB6C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EBB517C-F7DD-4F6E-B035-21D739D5C33D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EBB517C-F7DD-4F6E-B035-21D739D5C33D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EBB517C-F7DD-4F6E-B035-21D739D5C33D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EBB517C-F7DD-4F6E-B035-21D739D5C33D}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E8E8366B-8D76-4EA0-A22E-C2BC1A2C4A7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8E8366B-8D76-4EA0-A22E-C2BC1A2C4A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8E8366B-8D76-4EA0-A22E-C2BC1A2C4A7E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8E8366B-8D76-4EA0-A22E-C2BC1A2C4A7E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{09C4CDA4-3727-4D93-AF4C-C39EA6786BB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09C4CDA4-3727-4D93-AF4C-C39EA6786BB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09C4CDA4-3727-4D93-AF4C-C39EA6786BB0}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{09C4CDA4-3727-4D93-AF4C-C39EA6786BB0}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{21987411-9EBB-4345-9774-D0158A918E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21987411-9EBB-4345-9774-D0158A918E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21987411-9EBB-4345-9774-D0158A918E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21987411-9EBB-4345-9774-D0158A918E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D618BEF8-C8CB-41A0-B475-91BECC96118E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D618BEF8-C8CB-41A0-B475-91BECC96118E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D618BEF8-C8CB-41A0-B475-91BECC96118E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D618BEF8-C8CB-41A0-B475-91BECC96118E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{782CB51F-5529-4214-B705-405A63738783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{782CB51F-5529-4214-B705-405A63738783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{782CB51F-5529-4214-B705-405A63738783}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{782CB51F-5529-4214-B705-405A63738783}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D3DB90C8-40F8-48E6-9D3D-7D877703A027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3DB90C8-40F8-48E6-9D3D-7D877703A027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3DB90C8-40F8-48E6-9D3D-7D877703A027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3DB90C8-40F8-48E6-9D3D-7D877703A027}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBBD97CA-2031-41C8-BE94-90182C3AB308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBBD97CA-2031-41C8-BE94-90182C3AB308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBBD97CA-2031-41C8-BE94-90182C3AB308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBBD97CA-2031-41C8-BE94-90182C3AB308}.Release|Any CPU.Build.0 = Release|Any CPU
+		{931B4D6F-5440-4840-9F58-676C1A096F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{931B4D6F-5440-4840-9F58-676C1A096F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{931B4D6F-5440-4840-9F58-676C1A096F55}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{931B4D6F-5440-4840-9F58-676C1A096F55}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{507CEF89-06F2-46F5-A1E8-5370C404C587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{507CEF89-06F2-46F5-A1E8-5370C404C587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{507CEF89-06F2-46F5-A1E8-5370C404C587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{507CEF89-06F2-46F5-A1E8-5370C404C587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CE267CC-6F45-480B-84F7-679C42ECE30C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE267CC-6F45-480B-84F7-679C42ECE30C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE267CC-6F45-480B-84F7-679C42ECE30C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE267CC-6F45-480B-84F7-679C42ECE30C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
