@@ -1,0 +1,12 @@
+F:\HospitalFiles\AH.IPDShared\bin\Release\AH.IPDShared.dll
+F:\HospitalFiles\AH.IPDShared\bin\Release\AH.IPDShared.pdb
+F:\HospitalFiles\AH.IPDShared\bin\Release\AH.ACCMS.dll
+F:\HospitalFiles\AH.IPDShared\bin\Release\AH.HR.dll
+F:\HospitalFiles\AH.IPDShared\bin\Release\AH.OracleManager.dll
+F:\HospitalFiles\AH.IPDShared\bin\Release\AH.PRMS.dll
+F:\HospitalFiles\AH.IPDShared\bin\Release\AH.Shared.dll
+F:\HospitalFiles\AH.IPDShared\bin\Release\DUtility.dll
+F:\HospitalFiles\AH.IPDShared\bin\Release\oracle.dataaccess.dll
+F:\HospitalFiles\AH.IPDShared\bin\Release\AtiqsControlLibrary.dll
+F:\HospitalFiles\AH.IPDShared\obj\Release\AH.IPDShared.dll
+F:\HospitalFiles\AH.IPDShared\obj\Release\AH.IPDShared.pdb

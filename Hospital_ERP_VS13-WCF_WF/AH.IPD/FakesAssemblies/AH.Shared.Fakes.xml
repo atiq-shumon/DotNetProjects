@@ -1,0 +1,2636 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AH.Shared.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:AH.Shared.MODEL.Fakes.ShimEntryParameter">
+            <summary>Shim type of AH.Shared.MODEL.EntryParameter</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.ShimEntryParameter.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.ShimEntryParameter.#ctor(AH.Shared.MODEL.EntryParameter)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.ShimEntryParameter.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.ShimEntryParameter.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimEntryParameter.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimEntryParameter.CompanyIDGet">
+            <summary>Sets the shim of EntryParameter.get_CompanyID()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimEntryParameter.CompanyIDSetString">
+            <summary>Sets the shim of EntryParameter.set_CompanyID(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimEntryParameter.Constructor">
+            <summary>Sets the shim of EntryParameter.EntryParameter()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimEntryParameter.EntryByGet">
+            <summary>Sets the shim of EntryParameter.get_EntryBy()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimEntryParameter.EntryBySetString">
+            <summary>Sets the shim of EntryParameter.set_EntryBy(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimEntryParameter.EntryDateGet">
+            <summary>Sets the shim of EntryParameter.get_EntryDate()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimEntryParameter.EntryDateSetDateTime">
+            <summary>Sets the shim of EntryParameter.set_EntryDate(DateTime value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimEntryParameter.EntryNameGet">
+            <summary>Sets the shim of EntryParameter.get_EntryName()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimEntryParameter.EntryNameSetString">
+            <summary>Sets the shim of EntryParameter.set_EntryName(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimEntryParameter.LocationIDGet">
+            <summary>Sets the shim of EntryParameter.get_LocationID()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimEntryParameter.LocationIDSetString">
+            <summary>Sets the shim of EntryParameter.set_LocationID(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimEntryParameter.MachineIDGet">
+            <summary>Sets the shim of EntryParameter.get_MachineID()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimEntryParameter.MachineIDSetString">
+            <summary>Sets the shim of EntryParameter.set_MachineID(String value)</summary>
+        </member>
+        <member name="T:AH.Shared.MODEL.Fakes.ShimEntryParameter.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimEntryParameter.AllInstances.CompanyIDGet">
+            <summary>Sets the shim of EntryParameter.get_CompanyID()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimEntryParameter.AllInstances.CompanyIDSetString">
+            <summary>Sets the shim of EntryParameter.set_CompanyID(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimEntryParameter.AllInstances.EntryByGet">
+            <summary>Sets the shim of EntryParameter.get_EntryBy()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimEntryParameter.AllInstances.EntryBySetString">
+            <summary>Sets the shim of EntryParameter.set_EntryBy(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimEntryParameter.AllInstances.EntryDateGet">
+            <summary>Sets the shim of EntryParameter.get_EntryDate()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimEntryParameter.AllInstances.EntryDateSetDateTime">
+            <summary>Sets the shim of EntryParameter.set_EntryDate(DateTime value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimEntryParameter.AllInstances.EntryNameGet">
+            <summary>Sets the shim of EntryParameter.get_EntryName()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimEntryParameter.AllInstances.EntryNameSetString">
+            <summary>Sets the shim of EntryParameter.set_EntryName(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimEntryParameter.AllInstances.LocationIDGet">
+            <summary>Sets the shim of EntryParameter.get_LocationID()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimEntryParameter.AllInstances.LocationIDSetString">
+            <summary>Sets the shim of EntryParameter.set_LocationID(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimEntryParameter.AllInstances.MachineIDGet">
+            <summary>Sets the shim of EntryParameter.get_MachineID()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimEntryParameter.AllInstances.MachineIDSetString">
+            <summary>Sets the shim of EntryParameter.set_MachineID(String value)</summary>
+        </member>
+        <member name="T:AH.Shared.MODEL.Fakes.ShimOPDPayment">
+            <summary>Shim type of AH.Shared.MODEL.OPDPayment</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.ShimOPDPayment.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.ShimOPDPayment.#ctor(AH.Shared.MODEL.OPDPayment)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.ShimOPDPayment.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.ShimOPDPayment.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimOPDPayment.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimOPDPayment.Constructor">
+            <summary>Sets the shim of OPDPayment.OPDPayment()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimOPDPayment.ConsultantFeeGet">
+            <summary>Sets the shim of OPDPayment.get_ConsultantFee()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimOPDPayment.ConsultantFeeSetDecimal">
+            <summary>Sets the shim of OPDPayment.set_ConsultantFee(Decimal value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimOPDPayment.RefferedFeeGet">
+            <summary>Sets the shim of OPDPayment.get_RefferedFee()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimOPDPayment.RefferedFeeSetDecimal">
+            <summary>Sets the shim of OPDPayment.set_RefferedFee(Decimal value)</summary>
+        </member>
+        <member name="T:AH.Shared.MODEL.Fakes.ShimOPDPayment.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimOPDPayment.AllInstances.ConsultantFeeGet">
+            <summary>Sets the shim of OPDPayment.get_ConsultantFee()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimOPDPayment.AllInstances.ConsultantFeeSetDecimal">
+            <summary>Sets the shim of OPDPayment.set_ConsultantFee(Decimal value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimOPDPayment.AllInstances.RefferedFeeGet">
+            <summary>Sets the shim of OPDPayment.get_RefferedFee()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimOPDPayment.AllInstances.RefferedFeeSetDecimal">
+            <summary>Sets the shim of OPDPayment.set_RefferedFee(Decimal value)</summary>
+        </member>
+        <member name="T:AH.Shared.MODEL.Fakes.ShimPatientPayment">
+            <summary>Shim type of AH.Shared.MODEL.PatientPayment</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.ShimPatientPayment.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.ShimPatientPayment.#ctor(AH.Shared.MODEL.PatientPayment)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.ShimPatientPayment.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.ShimPatientPayment.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AdvanceGet">
+            <summary>Sets the shim of PatientPayment.get_Advance()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AdvanceSetDecimal">
+            <summary>Sets the shim of PatientPayment.set_Advance(Decimal value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AmountGet">
+            <summary>Sets the shim of PatientPayment.get_Amount()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AmountSetDecimal">
+            <summary>Sets the shim of PatientPayment.set_Amount(Decimal value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.Constructor">
+            <summary>Sets the shim of PatientPayment.PatientPayment()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.DepartmentGet">
+            <summary>Sets the shim of PatientPayment.get_Department()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.DepartmentSetString">
+            <summary>Sets the shim of PatientPayment.set_Department(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.DepartmentUnitGet">
+            <summary>Sets the shim of PatientPayment.get_DepartmentUnit()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.DepartmentUnitSetString">
+            <summary>Sets the shim of PatientPayment.set_DepartmentUnit(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.DeptAmountGet">
+            <summary>Sets the shim of PatientPayment.get_DeptAmount()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.DeptAmountSetDecimal">
+            <summary>Sets the shim of PatientPayment.set_DeptAmount(Decimal value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.DiscountGet">
+            <summary>Sets the shim of PatientPayment.get_Discount()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.DiscountSetDecimal">
+            <summary>Sets the shim of PatientPayment.set_Discount(Decimal value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.HCNGet">
+            <summary>Sets the shim of PatientPayment.get_HCN()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.HCNSetString">
+            <summary>Sets the shim of PatientPayment.set_HCN(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.NetAmountGet">
+            <summary>Sets the shim of PatientPayment.get_NetAmount()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.NetAmountSetDecimal">
+            <summary>Sets the shim of PatientPayment.set_NetAmount(Decimal value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.PaymentDateGet">
+            <summary>Sets the shim of PatientPayment.get_PaymentDate()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.PaymentDateSetDateTime">
+            <summary>Sets the shim of PatientPayment.set_PaymentDate(DateTime value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.PaymentTypeGet">
+            <summary>Sets the shim of PatientPayment.get_PaymentType()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.PaymentTypeSetString">
+            <summary>Sets the shim of PatientPayment.set_PaymentType(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.PreviousDueGet">
+            <summary>Sets the shim of PatientPayment.get_PreviousDue()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.PreviousDueSetDecimal">
+            <summary>Sets the shim of PatientPayment.set_PreviousDue(Decimal value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.PurposeIDGet">
+            <summary>Sets the shim of PatientPayment.get_PurposeID()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.PurposeIDSetString">
+            <summary>Sets the shim of PatientPayment.set_PurposeID(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.PurposeTitleGet">
+            <summary>Sets the shim of PatientPayment.get_PurposeTitle()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.PurposeTitleSetString">
+            <summary>Sets the shim of PatientPayment.set_PurposeTitle(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.ReffDeptAmountGet">
+            <summary>Sets the shim of PatientPayment.get_ReffDeptAmount()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.ReffDeptAmountSetDecimal">
+            <summary>Sets the shim of PatientPayment.set_ReffDeptAmount(Decimal value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.ReffDeptGet">
+            <summary>Sets the shim of PatientPayment.get_ReffDept()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.ReffDeptSetString">
+            <summary>Sets the shim of PatientPayment.set_ReffDept(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.ReffDeptUnitGet">
+            <summary>Sets the shim of PatientPayment.get_ReffDeptUnit()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.ReffDeptUnitSetString">
+            <summary>Sets the shim of PatientPayment.set_ReffDeptUnit(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.RegistrationNoGet">
+            <summary>Sets the shim of PatientPayment.get_RegistrationNo()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.RegistrationNoSetString">
+            <summary>Sets the shim of PatientPayment.set_RegistrationNo(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.StaffGet">
+            <summary>Sets the shim of PatientPayment.get_Staff()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.StaffSetString">
+            <summary>Sets the shim of PatientPayment.set_Staff(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.TransactionNoGet">
+            <summary>Sets the shim of PatientPayment.get_TransactionNo()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.TransactionNoSetString">
+            <summary>Sets the shim of PatientPayment.set_TransactionNo(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.VATGet">
+            <summary>Sets the shim of PatientPayment.get_VAT()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.VATSetDecimal">
+            <summary>Sets the shim of PatientPayment.set_VAT(Decimal value)</summary>
+        </member>
+        <member name="T:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.AdvanceGet">
+            <summary>Sets the shim of PatientPayment.get_Advance()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.AdvanceSetDecimal">
+            <summary>Sets the shim of PatientPayment.set_Advance(Decimal value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.AmountGet">
+            <summary>Sets the shim of PatientPayment.get_Amount()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.AmountSetDecimal">
+            <summary>Sets the shim of PatientPayment.set_Amount(Decimal value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.DepartmentGet">
+            <summary>Sets the shim of PatientPayment.get_Department()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.DepartmentSetString">
+            <summary>Sets the shim of PatientPayment.set_Department(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.DepartmentUnitGet">
+            <summary>Sets the shim of PatientPayment.get_DepartmentUnit()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.DepartmentUnitSetString">
+            <summary>Sets the shim of PatientPayment.set_DepartmentUnit(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.DeptAmountGet">
+            <summary>Sets the shim of PatientPayment.get_DeptAmount()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.DeptAmountSetDecimal">
+            <summary>Sets the shim of PatientPayment.set_DeptAmount(Decimal value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.DiscountGet">
+            <summary>Sets the shim of PatientPayment.get_Discount()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.DiscountSetDecimal">
+            <summary>Sets the shim of PatientPayment.set_Discount(Decimal value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.HCNGet">
+            <summary>Sets the shim of PatientPayment.get_HCN()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.HCNSetString">
+            <summary>Sets the shim of PatientPayment.set_HCN(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.NetAmountGet">
+            <summary>Sets the shim of PatientPayment.get_NetAmount()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.NetAmountSetDecimal">
+            <summary>Sets the shim of PatientPayment.set_NetAmount(Decimal value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.PaymentDateGet">
+            <summary>Sets the shim of PatientPayment.get_PaymentDate()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.PaymentDateSetDateTime">
+            <summary>Sets the shim of PatientPayment.set_PaymentDate(DateTime value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.PaymentTypeGet">
+            <summary>Sets the shim of PatientPayment.get_PaymentType()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.PaymentTypeSetString">
+            <summary>Sets the shim of PatientPayment.set_PaymentType(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.PreviousDueGet">
+            <summary>Sets the shim of PatientPayment.get_PreviousDue()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.PreviousDueSetDecimal">
+            <summary>Sets the shim of PatientPayment.set_PreviousDue(Decimal value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.PurposeIDGet">
+            <summary>Sets the shim of PatientPayment.get_PurposeID()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.PurposeIDSetString">
+            <summary>Sets the shim of PatientPayment.set_PurposeID(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.PurposeTitleGet">
+            <summary>Sets the shim of PatientPayment.get_PurposeTitle()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.PurposeTitleSetString">
+            <summary>Sets the shim of PatientPayment.set_PurposeTitle(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.ReffDeptAmountGet">
+            <summary>Sets the shim of PatientPayment.get_ReffDeptAmount()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.ReffDeptAmountSetDecimal">
+            <summary>Sets the shim of PatientPayment.set_ReffDeptAmount(Decimal value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.ReffDeptGet">
+            <summary>Sets the shim of PatientPayment.get_ReffDept()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.ReffDeptSetString">
+            <summary>Sets the shim of PatientPayment.set_ReffDept(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.ReffDeptUnitGet">
+            <summary>Sets the shim of PatientPayment.get_ReffDeptUnit()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.ReffDeptUnitSetString">
+            <summary>Sets the shim of PatientPayment.set_ReffDeptUnit(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.RegistrationNoGet">
+            <summary>Sets the shim of PatientPayment.get_RegistrationNo()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.RegistrationNoSetString">
+            <summary>Sets the shim of PatientPayment.set_RegistrationNo(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.StaffGet">
+            <summary>Sets the shim of PatientPayment.get_Staff()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.StaffSetString">
+            <summary>Sets the shim of PatientPayment.set_Staff(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.TransactionNoGet">
+            <summary>Sets the shim of PatientPayment.get_TransactionNo()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.TransactionNoSetString">
+            <summary>Sets the shim of PatientPayment.set_TransactionNo(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.VATGet">
+            <summary>Sets the shim of PatientPayment.get_VAT()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPatientPayment.AllInstances.VATSetDecimal">
+            <summary>Sets the shim of PatientPayment.set_VAT(Decimal value)</summary>
+        </member>
+        <member name="T:AH.Shared.MODEL.Fakes.ShimPerson">
+            <summary>Shim type of AH.Shared.MODEL.Person</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.ShimPerson.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.ShimPerson.#ctor(AH.Shared.MODEL.Person)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.ShimPerson.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.ShimPerson.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AgeFullGet">
+            <summary>Sets the shim of Person.get_AgeFull()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AgeFullSetString">
+            <summary>Sets the shim of Person.set_AgeFull(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.BloodGroupGet">
+            <summary>Sets the shim of Person.get_BloodGroup()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.BloodGroupSetString">
+            <summary>Sets the shim of Person.set_BloodGroup(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.CellPhoneGet">
+            <summary>Sets the shim of Person.get_CellPhone()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.CellPhoneSetString">
+            <summary>Sets the shim of Person.set_CellPhone(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.Constructor">
+            <summary>Sets the shim of Person.Person()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.CountryGet">
+            <summary>Sets the shim of Person.get_Country()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.CountrySetString">
+            <summary>Sets the shim of Person.set_Country(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.DOBGet">
+            <summary>Sets the shim of Person.get_DOB()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.DOBSetDateTime">
+            <summary>Sets the shim of Person.set_DOB(DateTime value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.EmailGet">
+            <summary>Sets the shim of Person.get_Email()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.EmailSetString">
+            <summary>Sets the shim of Person.set_Email(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.EntryParameterGet">
+            <summary>Sets the shim of Person.get_EntryParameter()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.EntryParameterSetEntryParameter">
+            <summary>Sets the shim of Person.set_EntryParameter(EntryParameter value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.FathersNameBengGet">
+            <summary>Sets the shim of Person.get_FathersNameBeng()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.FathersNameBengSetString">
+            <summary>Sets the shim of Person.set_FathersNameBeng(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.FathersNameGet">
+            <summary>Sets the shim of Person.get_FathersName()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.FathersNameSetString">
+            <summary>Sets the shim of Person.set_FathersName(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.GuardianNameBengGet">
+            <summary>Sets the shim of Person.get_GuardianNameBeng()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.GuardianNameBengSetString">
+            <summary>Sets the shim of Person.set_GuardianNameBeng(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.GuardianNameGet">
+            <summary>Sets the shim of Person.get_GuardianName()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.GuardianNameSetString">
+            <summary>Sets the shim of Person.set_GuardianName(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.HomePhoneGet">
+            <summary>Sets the shim of Person.get_HomePhone()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.HomePhoneSetString">
+            <summary>Sets the shim of Person.set_HomePhone(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.IncomeGroupGet">
+            <summary>Sets the shim of Person.get_IncomeGroup()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.IncomeGroupSetString">
+            <summary>Sets the shim of Person.set_IncomeGroup(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.MaritalStatusGet">
+            <summary>Sets the shim of Person.get_MaritalStatus()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.MaritalStatusSetString">
+            <summary>Sets the shim of Person.set_MaritalStatus(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.MaxEducationGet">
+            <summary>Sets the shim of Person.get_MaxEducation()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.MaxEducationSetString">
+            <summary>Sets the shim of Person.set_MaxEducation(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.MothersNameBengGet">
+            <summary>Sets the shim of Person.get_MothersNameBeng()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.MothersNameBengSetString">
+            <summary>Sets the shim of Person.set_MothersNameBeng(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.MothersNameGet">
+            <summary>Sets the shim of Person.get_MothersName()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.MothersNameSetString">
+            <summary>Sets the shim of Person.set_MothersName(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.NIDGet">
+            <summary>Sets the shim of Person.get_NID()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.NIDSetString">
+            <summary>Sets the shim of Person.set_NID(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.NameBengGet">
+            <summary>Sets the shim of Person.get_NameBeng()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.NameBengSetString">
+            <summary>Sets the shim of Person.set_NameBeng(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.NameGet">
+            <summary>Sets the shim of Person.get_Name()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.NameSetString">
+            <summary>Sets the shim of Person.set_Name(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.OccupationGet">
+            <summary>Sets the shim of Person.get_Occupation()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.OccupationSetString">
+            <summary>Sets the shim of Person.set_Occupation(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.PermanentDistrictGet">
+            <summary>Sets the shim of Person.get_PermanentDistrict()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.PermanentDistrictSetString">
+            <summary>Sets the shim of Person.set_PermanentDistrict(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.PermanentThanaGet">
+            <summary>Sets the shim of Person.get_PermanentThana()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.PermanentThanaSetString">
+            <summary>Sets the shim of Person.set_PermanentThana(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.Permanent_H_R_BGet">
+            <summary>Sets the shim of Person.get_Permanent_H_R_B()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.Permanent_H_R_BSetString">
+            <summary>Sets the shim of Person.set_Permanent_H_R_B(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.Permanent_PostGet">
+            <summary>Sets the shim of Person.get_Permanent_Post()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.Permanent_PostSetString">
+            <summary>Sets the shim of Person.set_Permanent_Post(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.PhotoGet">
+            <summary>Sets the shim of Person.get_Photo()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.PhotoSetString">
+            <summary>Sets the shim of Person.set_Photo(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.PresentDistrictGet">
+            <summary>Sets the shim of Person.get_PresentDistrict()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.PresentDistrictSetString">
+            <summary>Sets the shim of Person.set_PresentDistrict(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.PresentThanaGet">
+            <summary>Sets the shim of Person.get_PresentThana()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.PresentThanaSetString">
+            <summary>Sets the shim of Person.set_PresentThana(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.Present_H_R_BGet">
+            <summary>Sets the shim of Person.get_Present_H_R_B()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.Present_H_R_BSetString">
+            <summary>Sets the shim of Person.set_Present_H_R_B(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.Present_H_R_B_BengGet">
+            <summary>Sets the shim of Person.get_Present_H_R_B_Beng()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.Present_H_R_B_BengSetString">
+            <summary>Sets the shim of Person.set_Present_H_R_B_Beng(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.Present_PostGet">
+            <summary>Sets the shim of Person.get_Present_Post()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.Present_PostSetString">
+            <summary>Sets the shim of Person.set_Present_Post(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.RelationWithGuardianGet">
+            <summary>Sets the shim of Person.get_RelationWithGuardian()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.RelationWithGuardianSetString">
+            <summary>Sets the shim of Person.set_RelationWithGuardian(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.ReligionGet">
+            <summary>Sets the shim of Person.get_Religion()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.ReligionSetString">
+            <summary>Sets the shim of Person.set_Religion(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.SexGet">
+            <summary>Sets the shim of Person.get_Sex()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.SexSetString">
+            <summary>Sets the shim of Person.set_Sex(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.SpouseNameBengGet">
+            <summary>Sets the shim of Person.get_SpouseNameBeng()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.SpouseNameBengSetString">
+            <summary>Sets the shim of Person.set_SpouseNameBeng(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.SpouseNameGet">
+            <summary>Sets the shim of Person.get_SpouseName()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.SpouseNameSetString">
+            <summary>Sets the shim of Person.set_SpouseName(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.YearlyIncomeGet">
+            <summary>Sets the shim of Person.get_YearlyIncome()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.YearlyIncomeSetString">
+            <summary>Sets the shim of Person.set_YearlyIncome(String value)</summary>
+        </member>
+        <member name="T:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.AgeFullGet">
+            <summary>Sets the shim of Person.get_AgeFull()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.AgeFullSetString">
+            <summary>Sets the shim of Person.set_AgeFull(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.BloodGroupGet">
+            <summary>Sets the shim of Person.get_BloodGroup()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.BloodGroupSetString">
+            <summary>Sets the shim of Person.set_BloodGroup(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.CellPhoneGet">
+            <summary>Sets the shim of Person.get_CellPhone()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.CellPhoneSetString">
+            <summary>Sets the shim of Person.set_CellPhone(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.CountryGet">
+            <summary>Sets the shim of Person.get_Country()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.CountrySetString">
+            <summary>Sets the shim of Person.set_Country(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.DOBGet">
+            <summary>Sets the shim of Person.get_DOB()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.DOBSetDateTime">
+            <summary>Sets the shim of Person.set_DOB(DateTime value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.EmailGet">
+            <summary>Sets the shim of Person.get_Email()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.EmailSetString">
+            <summary>Sets the shim of Person.set_Email(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.EntryParameterGet">
+            <summary>Sets the shim of Person.get_EntryParameter()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.EntryParameterSetEntryParameter">
+            <summary>Sets the shim of Person.set_EntryParameter(EntryParameter value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.FathersNameBengGet">
+            <summary>Sets the shim of Person.get_FathersNameBeng()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.FathersNameBengSetString">
+            <summary>Sets the shim of Person.set_FathersNameBeng(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.FathersNameGet">
+            <summary>Sets the shim of Person.get_FathersName()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.FathersNameSetString">
+            <summary>Sets the shim of Person.set_FathersName(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.GuardianNameBengGet">
+            <summary>Sets the shim of Person.get_GuardianNameBeng()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.GuardianNameBengSetString">
+            <summary>Sets the shim of Person.set_GuardianNameBeng(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.GuardianNameGet">
+            <summary>Sets the shim of Person.get_GuardianName()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.GuardianNameSetString">
+            <summary>Sets the shim of Person.set_GuardianName(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.HomePhoneGet">
+            <summary>Sets the shim of Person.get_HomePhone()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.HomePhoneSetString">
+            <summary>Sets the shim of Person.set_HomePhone(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.IncomeGroupGet">
+            <summary>Sets the shim of Person.get_IncomeGroup()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.IncomeGroupSetString">
+            <summary>Sets the shim of Person.set_IncomeGroup(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.MaritalStatusGet">
+            <summary>Sets the shim of Person.get_MaritalStatus()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.MaritalStatusSetString">
+            <summary>Sets the shim of Person.set_MaritalStatus(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.MaxEducationGet">
+            <summary>Sets the shim of Person.get_MaxEducation()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.MaxEducationSetString">
+            <summary>Sets the shim of Person.set_MaxEducation(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.MothersNameBengGet">
+            <summary>Sets the shim of Person.get_MothersNameBeng()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.MothersNameBengSetString">
+            <summary>Sets the shim of Person.set_MothersNameBeng(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.MothersNameGet">
+            <summary>Sets the shim of Person.get_MothersName()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.MothersNameSetString">
+            <summary>Sets the shim of Person.set_MothersName(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.NIDGet">
+            <summary>Sets the shim of Person.get_NID()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.NIDSetString">
+            <summary>Sets the shim of Person.set_NID(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.NameBengGet">
+            <summary>Sets the shim of Person.get_NameBeng()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.NameBengSetString">
+            <summary>Sets the shim of Person.set_NameBeng(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.NameGet">
+            <summary>Sets the shim of Person.get_Name()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.NameSetString">
+            <summary>Sets the shim of Person.set_Name(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.OccupationGet">
+            <summary>Sets the shim of Person.get_Occupation()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.OccupationSetString">
+            <summary>Sets the shim of Person.set_Occupation(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.PermanentDistrictGet">
+            <summary>Sets the shim of Person.get_PermanentDistrict()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.PermanentDistrictSetString">
+            <summary>Sets the shim of Person.set_PermanentDistrict(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.PermanentThanaGet">
+            <summary>Sets the shim of Person.get_PermanentThana()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.PermanentThanaSetString">
+            <summary>Sets the shim of Person.set_PermanentThana(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.Permanent_H_R_BGet">
+            <summary>Sets the shim of Person.get_Permanent_H_R_B()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.Permanent_H_R_BSetString">
+            <summary>Sets the shim of Person.set_Permanent_H_R_B(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.Permanent_PostGet">
+            <summary>Sets the shim of Person.get_Permanent_Post()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.Permanent_PostSetString">
+            <summary>Sets the shim of Person.set_Permanent_Post(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.PhotoGet">
+            <summary>Sets the shim of Person.get_Photo()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.PhotoSetString">
+            <summary>Sets the shim of Person.set_Photo(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.PresentDistrictGet">
+            <summary>Sets the shim of Person.get_PresentDistrict()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.PresentDistrictSetString">
+            <summary>Sets the shim of Person.set_PresentDistrict(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.PresentThanaGet">
+            <summary>Sets the shim of Person.get_PresentThana()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.PresentThanaSetString">
+            <summary>Sets the shim of Person.set_PresentThana(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.Present_H_R_BGet">
+            <summary>Sets the shim of Person.get_Present_H_R_B()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.Present_H_R_BSetString">
+            <summary>Sets the shim of Person.set_Present_H_R_B(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.Present_H_R_B_BengGet">
+            <summary>Sets the shim of Person.get_Present_H_R_B_Beng()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.Present_H_R_B_BengSetString">
+            <summary>Sets the shim of Person.set_Present_H_R_B_Beng(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.Present_PostGet">
+            <summary>Sets the shim of Person.get_Present_Post()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.Present_PostSetString">
+            <summary>Sets the shim of Person.set_Present_Post(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.RelationWithGuardianGet">
+            <summary>Sets the shim of Person.get_RelationWithGuardian()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.RelationWithGuardianSetString">
+            <summary>Sets the shim of Person.set_RelationWithGuardian(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.ReligionGet">
+            <summary>Sets the shim of Person.get_Religion()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.ReligionSetString">
+            <summary>Sets the shim of Person.set_Religion(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.SexGet">
+            <summary>Sets the shim of Person.get_Sex()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.SexSetString">
+            <summary>Sets the shim of Person.set_Sex(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.SpouseNameBengGet">
+            <summary>Sets the shim of Person.get_SpouseNameBeng()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.SpouseNameBengSetString">
+            <summary>Sets the shim of Person.set_SpouseNameBeng(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.SpouseNameGet">
+            <summary>Sets the shim of Person.get_SpouseName()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.SpouseNameSetString">
+            <summary>Sets the shim of Person.set_SpouseName(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.YearlyIncomeGet">
+            <summary>Sets the shim of Person.get_YearlyIncome()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimPerson.AllInstances.YearlyIncomeSetString">
+            <summary>Sets the shim of Person.set_YearlyIncome(String value)</summary>
+        </member>
+        <member name="T:AH.Shared.MODEL.Fakes.ShimRevenueHead">
+            <summary>Shim type of AH.Shared.MODEL.RevenueHead</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.ShimRevenueHead.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.ShimRevenueHead.#ctor(AH.Shared.MODEL.RevenueHead)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.ShimRevenueHead.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.ShimRevenueHead.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.AmountGet">
+            <summary>Sets the shim of RevenueHead.get_Amount()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.AmountSetDecimal">
+            <summary>Sets the shim of RevenueHead.set_Amount(Decimal value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.Constructor">
+            <summary>Sets the shim of RevenueHead.RevenueHead()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.EntryParameterGet">
+            <summary>Sets the shim of RevenueHead.get_EntryParameter()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.EntryParameterSetEntryParameter">
+            <summary>Sets the shim of RevenueHead.set_EntryParameter(EntryParameter value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.IDGet">
+            <summary>Sets the shim of RevenueHead.get_ID()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.IDSetString">
+            <summary>Sets the shim of RevenueHead.set_ID(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.PriorityGet">
+            <summary>Sets the shim of RevenueHead.get_Priority()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.PrioritySetInt16">
+            <summary>Sets the shim of RevenueHead.set_Priority(Int16 value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.RemarksGet">
+            <summary>Sets the shim of RevenueHead.get_Remarks()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.RemarksSetString">
+            <summary>Sets the shim of RevenueHead.set_Remarks(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.RevenueHeadGroupGet">
+            <summary>Sets the shim of RevenueHead.get_RevenueHeadGroup()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.RevenueHeadGroupSetRevenueHeadGroup">
+            <summary>Sets the shim of RevenueHead.set_RevenueHeadGroup(RevenueHeadGroup value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.TitleBengGet">
+            <summary>Sets the shim of RevenueHead.get_TitleBeng()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.TitleBengSetString">
+            <summary>Sets the shim of RevenueHead.set_TitleBeng(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.TitleGet">
+            <summary>Sets the shim of RevenueHead.get_Title()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.TitleSetString">
+            <summary>Sets the shim of RevenueHead.set_Title(String value)</summary>
+        </member>
+        <member name="T:AH.Shared.MODEL.Fakes.ShimRevenueHead.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.AllInstances.AmountGet">
+            <summary>Sets the shim of RevenueHead.get_Amount()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.AllInstances.AmountSetDecimal">
+            <summary>Sets the shim of RevenueHead.set_Amount(Decimal value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.AllInstances.EntryParameterGet">
+            <summary>Sets the shim of RevenueHead.get_EntryParameter()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.AllInstances.EntryParameterSetEntryParameter">
+            <summary>Sets the shim of RevenueHead.set_EntryParameter(EntryParameter value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.AllInstances.IDGet">
+            <summary>Sets the shim of RevenueHead.get_ID()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.AllInstances.IDSetString">
+            <summary>Sets the shim of RevenueHead.set_ID(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.AllInstances.PriorityGet">
+            <summary>Sets the shim of RevenueHead.get_Priority()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.AllInstances.PrioritySetInt16">
+            <summary>Sets the shim of RevenueHead.set_Priority(Int16 value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.AllInstances.RemarksGet">
+            <summary>Sets the shim of RevenueHead.get_Remarks()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.AllInstances.RemarksSetString">
+            <summary>Sets the shim of RevenueHead.set_Remarks(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.AllInstances.RevenueHeadGroupGet">
+            <summary>Sets the shim of RevenueHead.get_RevenueHeadGroup()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.AllInstances.RevenueHeadGroupSetRevenueHeadGroup">
+            <summary>Sets the shim of RevenueHead.set_RevenueHeadGroup(RevenueHeadGroup value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.AllInstances.TitleBengGet">
+            <summary>Sets the shim of RevenueHead.get_TitleBeng()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.AllInstances.TitleBengSetString">
+            <summary>Sets the shim of RevenueHead.set_TitleBeng(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.AllInstances.TitleGet">
+            <summary>Sets the shim of RevenueHead.get_Title()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHead.AllInstances.TitleSetString">
+            <summary>Sets the shim of RevenueHead.set_Title(String value)</summary>
+        </member>
+        <member name="T:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup">
+            <summary>Shim type of AH.Shared.MODEL.RevenueHeadGroup</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup.#ctor(AH.Shared.MODEL.RevenueHeadGroup)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup.Constructor">
+            <summary>Sets the shim of RevenueHeadGroup.RevenueHeadGroup()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup.EntryParameterGet">
+            <summary>Sets the shim of RevenueHeadGroup.get_EntryParameter()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup.EntryParameterSetEntryParameter">
+            <summary>Sets the shim of RevenueHeadGroup.set_EntryParameter(EntryParameter value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup.IDGet">
+            <summary>Sets the shim of RevenueHeadGroup.get_ID()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup.IDSetString">
+            <summary>Sets the shim of RevenueHeadGroup.set_ID(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup.PriorityGet">
+            <summary>Sets the shim of RevenueHeadGroup.get_Priority()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup.PrioritySetInt16">
+            <summary>Sets the shim of RevenueHeadGroup.set_Priority(Int16 value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup.RemarksGet">
+            <summary>Sets the shim of RevenueHeadGroup.get_Remarks()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup.RemarksSetString">
+            <summary>Sets the shim of RevenueHeadGroup.set_Remarks(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup.TitleBengGet">
+            <summary>Sets the shim of RevenueHeadGroup.get_TitleBeng()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup.TitleBengSetString">
+            <summary>Sets the shim of RevenueHeadGroup.set_TitleBeng(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup.TitleGet">
+            <summary>Sets the shim of RevenueHeadGroup.get_Title()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup.TitleSetString">
+            <summary>Sets the shim of RevenueHeadGroup.set_Title(String value)</summary>
+        </member>
+        <member name="T:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup.AllInstances.EntryParameterGet">
+            <summary>Sets the shim of RevenueHeadGroup.get_EntryParameter()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup.AllInstances.EntryParameterSetEntryParameter">
+            <summary>Sets the shim of RevenueHeadGroup.set_EntryParameter(EntryParameter value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup.AllInstances.IDGet">
+            <summary>Sets the shim of RevenueHeadGroup.get_ID()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup.AllInstances.IDSetString">
+            <summary>Sets the shim of RevenueHeadGroup.set_ID(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup.AllInstances.PriorityGet">
+            <summary>Sets the shim of RevenueHeadGroup.get_Priority()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup.AllInstances.PrioritySetInt16">
+            <summary>Sets the shim of RevenueHeadGroup.set_Priority(Int16 value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup.AllInstances.RemarksGet">
+            <summary>Sets the shim of RevenueHeadGroup.get_Remarks()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup.AllInstances.RemarksSetString">
+            <summary>Sets the shim of RevenueHeadGroup.set_Remarks(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup.AllInstances.TitleBengGet">
+            <summary>Sets the shim of RevenueHeadGroup.get_TitleBeng()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup.AllInstances.TitleBengSetString">
+            <summary>Sets the shim of RevenueHeadGroup.set_TitleBeng(String value)</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup.AllInstances.TitleGet">
+            <summary>Sets the shim of RevenueHeadGroup.get_Title()</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.ShimRevenueHeadGroup.AllInstances.TitleSetString">
+            <summary>Sets the shim of RevenueHeadGroup.set_Title(String value)</summary>
+        </member>
+        <member name="T:AH.Shared.MODEL.Fakes.StubEntryParameter">
+            <summary>Stub type of AH.Shared.MODEL.EntryParameter</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.StubEntryParameter.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.StubEntryParameter.InitializeStub">
+            <summary>Initializes a new instance of type StubEntryParameter</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.StubEntryParameter.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.StubEntryParameter.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.StubEntryParameter.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AH.Shared.MODEL.Fakes.StubOPDPayment">
+            <summary>Stub type of AH.Shared.MODEL.OPDPayment</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.StubOPDPayment.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.StubOPDPayment.InitializeStub">
+            <summary>Initializes a new instance of type StubOPDPayment</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.StubOPDPayment.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.StubOPDPayment.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.StubOPDPayment.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AH.Shared.MODEL.Fakes.StubPatientPayment">
+            <summary>Stub type of AH.Shared.MODEL.PatientPayment</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.StubPatientPayment.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.StubPatientPayment.InitializeStub">
+            <summary>Initializes a new instance of type StubPatientPayment</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.StubPatientPayment.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.StubPatientPayment.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.StubPatientPayment.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AH.Shared.MODEL.Fakes.StubPerson">
+            <summary>Stub type of AH.Shared.MODEL.Person</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.StubPerson.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.StubPerson.InitializeStub">
+            <summary>Initializes a new instance of type StubPerson</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.StubPerson.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.StubPerson.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.StubPerson.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AH.Shared.MODEL.Fakes.StubRevenueHead">
+            <summary>Stub type of AH.Shared.MODEL.RevenueHead</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.StubRevenueHead.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.StubRevenueHead.InitializeStub">
+            <summary>Initializes a new instance of type StubRevenueHead</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.StubRevenueHead.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.StubRevenueHead.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.StubRevenueHead.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AH.Shared.MODEL.Fakes.StubRevenueHeadGroup">
+            <summary>Stub type of AH.Shared.MODEL.RevenueHeadGroup</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.StubRevenueHeadGroup.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AH.Shared.MODEL.Fakes.StubRevenueHeadGroup.InitializeStub">
+            <summary>Initializes a new instance of type StubRevenueHeadGroup</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.StubRevenueHeadGroup.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.StubRevenueHeadGroup.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AH.Shared.MODEL.Fakes.StubRevenueHeadGroup.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AH.Shared.UI.Fakes.ShimfrmSmartFormStandard">
+            <summary>Shim type of AH.Shared.UI.frmSmartFormStandard</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.ShimfrmSmartFormStandard.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.ShimfrmSmartFormStandard.#ctor(AH.Shared.UI.frmSmartFormStandard)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.ShimfrmSmartFormStandard.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.ShimfrmSmartFormStandard.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.ShimfrmSmartFormStandard.Bind(System.ComponentModel.IComponent)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.ShimfrmSmartFormStandard.Bind(System.ComponentModel.ISynchronizeInvoke)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.ShimfrmSmartFormStandard.Bind(System.Windows.Forms.IBindableComponent)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.ShimfrmSmartFormStandard.Bind(System.Windows.Forms.IContainerControl)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.ShimfrmSmartFormStandard.Bind(System.Windows.Forms.IDropTarget)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.ShimfrmSmartFormStandard.Bind(System.Windows.Forms.IWin32Window)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.ShimfrmSmartFormStandard.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.ShimfrmSmartFormStandard.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.ShimfrmSmartFormStandard.Constructor">
+            <summary>Sets the shim of frmSmartFormStandard.frmSmartFormStandard()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.ShimfrmSmartFormStandard.DisposeBoolean">
+            <summary>Sets the shim of frmSmartFormStandard.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.ShimfrmSmartFormStandard.InitializeComponent">
+            <summary>Sets the shim of frmSmartFormStandard.InitializeComponent()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.ShimfrmSmartFormStandard.btnClose_ClickObjectEventArgs">
+            <summary>Sets the shim of frmSmartFormStandard.btnClose_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.ShimfrmSmartFormStandard.btnNew_ClickObjectEventArgs">
+            <summary>Sets the shim of frmSmartFormStandard.btnNew_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.ShimfrmSmartFormStandard.btnTopClose_ClickObjectEventArgs">
+            <summary>Sets the shim of frmSmartFormStandard.btnTopClose_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.ShimfrmSmartFormStandard.frmSmartFormStandard_KeyDownObjectKeyEventArgs">
+            <summary>Sets the shim of frmSmartFormStandard.frmSmartFormStandard_KeyDown(Object sender, KeyEventArgs e)</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.ShimfrmSmartFormStandard.frmSmartFormStandard_LoadObjectEventArgs">
+            <summary>Sets the shim of frmSmartFormStandard.frmSmartFormStandard_Load(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="T:AH.Shared.UI.Fakes.ShimfrmSmartFormStandard.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.ShimfrmSmartFormStandard.AllInstances.DisposeBoolean">
+            <summary>Sets the shim of frmSmartFormStandard.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.ShimfrmSmartFormStandard.AllInstances.InitializeComponent">
+            <summary>Sets the shim of frmSmartFormStandard.InitializeComponent()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.ShimfrmSmartFormStandard.AllInstances.btnClose_ClickObjectEventArgs">
+            <summary>Sets the shim of frmSmartFormStandard.btnClose_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.ShimfrmSmartFormStandard.AllInstances.btnNew_ClickObjectEventArgs">
+            <summary>Sets the shim of frmSmartFormStandard.btnNew_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.ShimfrmSmartFormStandard.AllInstances.btnTopClose_ClickObjectEventArgs">
+            <summary>Sets the shim of frmSmartFormStandard.btnTopClose_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.ShimfrmSmartFormStandard.AllInstances.frmSmartFormStandard_KeyDownObjectKeyEventArgs">
+            <summary>Sets the shim of frmSmartFormStandard.frmSmartFormStandard_KeyDown(Object sender, KeyEventArgs e)</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.ShimfrmSmartFormStandard.AllInstances.frmSmartFormStandard_LoadObjectEventArgs">
+            <summary>Sets the shim of frmSmartFormStandard.frmSmartFormStandard_Load(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="T:AH.Shared.UI.Fakes.StubfrmSmartFormStandard">
+            <summary>Stub type of AH.Shared.UI.frmSmartFormStandard</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AdjustFormScrollbars(System.Boolean)">
+            <summary>Sets the stub of Form.AdjustFormScrollbars(Boolean displayScrollbars)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AdjustFormScrollbarsBoolean">
+            <summary>Sets the stub of Form.AdjustFormScrollbars(Boolean displayScrollbars)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AllowDropGet">
+            <summary>Sets the stub of Control.get_AllowDrop()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AllowDropSetBoolean">
+            <summary>Sets the stub of Control.set_AllowDrop(Boolean value)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AnchorGet">
+            <summary>Sets the stub of Control.get_Anchor()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AnchorSetAnchorStyles">
+            <summary>Sets the stub of Control.set_Anchor(AnchorStyles value)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AttachBackingFieldToAllowDrop">
+            <summary>Attaches delegates to emulate StubfrmSmartFormStandard.AllowDrop as a property with a backing field.</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AttachBackingFieldToAnchor">
+            <summary>Attaches delegates to emulate StubfrmSmartFormStandard.Anchor as a property with a backing field.</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AttachBackingFieldToAutoScaleBaseSize">
+            <summary>Attaches delegates to emulate StubfrmSmartFormStandard.AutoScaleBaseSize as a property with a backing field.</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AttachBackingFieldToAutoScroll">
+            <summary>Attaches delegates to emulate StubfrmSmartFormStandard.AutoScroll as a property with a backing field.</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AttachBackingFieldToAutoScrollOffset">
+            <summary>Attaches delegates to emulate StubfrmSmartFormStandard.AutoScrollOffset as a property with a backing field.</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AttachBackingFieldToAutoSize">
+            <summary>Attaches delegates to emulate StubfrmSmartFormStandard.AutoSize as a property with a backing field.</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AttachBackingFieldToAutoValidate">
+            <summary>Attaches delegates to emulate StubfrmSmartFormStandard.AutoValidate as a property with a backing field.</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AttachBackingFieldToBackColor">
+            <summary>Attaches delegates to emulate StubfrmSmartFormStandard.BackColor as a property with a backing field.</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AttachBackingFieldToBackgroundImage">
+            <summary>Attaches delegates to emulate StubfrmSmartFormStandard.BackgroundImage as a property with a backing field.</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AttachBackingFieldToBackgroundImageLayout">
+            <summary>Attaches delegates to emulate StubfrmSmartFormStandard.BackgroundImageLayout as a property with a backing field.</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AttachBackingFieldToBindingContext">
+            <summary>Attaches delegates to emulate StubfrmSmartFormStandard.BindingContext as a property with a backing field.</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AttachBackingFieldToContextMenu">
+            <summary>Attaches delegates to emulate StubfrmSmartFormStandard.ContextMenu as a property with a backing field.</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AttachBackingFieldToContextMenuStrip">
+            <summary>Attaches delegates to emulate StubfrmSmartFormStandard.ContextMenuStrip as a property with a backing field.</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AttachBackingFieldToCursor">
+            <summary>Attaches delegates to emulate StubfrmSmartFormStandard.Cursor as a property with a backing field.</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AttachBackingFieldToDock">
+            <summary>Attaches delegates to emulate StubfrmSmartFormStandard.Dock as a property with a backing field.</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AttachBackingFieldToDoubleBuffered">
+            <summary>Attaches delegates to emulate StubfrmSmartFormStandard.DoubleBuffered as a property with a backing field.</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AttachBackingFieldToFont">
+            <summary>Attaches delegates to emulate StubfrmSmartFormStandard.Font as a property with a backing field.</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AttachBackingFieldToForeColor">
+            <summary>Attaches delegates to emulate StubfrmSmartFormStandard.ForeColor as a property with a backing field.</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AttachBackingFieldToImeModeBase">
+            <summary>Attaches delegates to emulate StubfrmSmartFormStandard.ImeModeBase as a property with a backing field.</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AttachBackingFieldToMaximumSize">
+            <summary>Attaches delegates to emulate StubfrmSmartFormStandard.MaximumSize as a property with a backing field.</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AttachBackingFieldToMinimumSize">
+            <summary>Attaches delegates to emulate StubfrmSmartFormStandard.MinimumSize as a property with a backing field.</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AttachBackingFieldToRightToLeft">
+            <summary>Attaches delegates to emulate StubfrmSmartFormStandard.RightToLeft as a property with a backing field.</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AttachBackingFieldToRightToLeftLayout">
+            <summary>Attaches delegates to emulate StubfrmSmartFormStandard.RightToLeftLayout as a property with a backing field.</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AttachBackingFieldToSite">
+            <summary>Attaches delegates to emulate StubfrmSmartFormStandard.Site as a property with a backing field.</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AttachBackingFieldToText">
+            <summary>Attaches delegates to emulate StubfrmSmartFormStandard.Text as a property with a backing field.</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AutoScaleBaseSizeGet">
+            <summary>Sets the stub of Form.get_AutoScaleBaseSize()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AutoScaleBaseSizeSetSize">
+            <summary>Sets the stub of Form.set_AutoScaleBaseSize(Size value)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AutoScrollGet">
+            <summary>Sets the stub of Form.get_AutoScroll()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AutoScrollOffsetGet">
+            <summary>Sets the stub of Control.get_AutoScrollOffset()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AutoScrollOffsetSetPoint">
+            <summary>Sets the stub of Control.set_AutoScrollOffset(Point value)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AutoScrollSetBoolean">
+            <summary>Sets the stub of Form.set_AutoScroll(Boolean value)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AutoSizeGet">
+            <summary>Sets the stub of Form.get_AutoSize()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AutoSizeSetBoolean">
+            <summary>Sets the stub of Form.set_AutoSize(Boolean value)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AutoValidateGet">
+            <summary>Sets the stub of Form.get_AutoValidate()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AutoValidateSetAutoValidate">
+            <summary>Sets the stub of Form.set_AutoValidate(AutoValidate value)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.BackColorGet">
+            <summary>Sets the stub of Form.get_BackColor()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.BackColorSetColor">
+            <summary>Sets the stub of Form.set_BackColor(Color value)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.BackgroundImageGet">
+            <summary>Sets the stub of Control.get_BackgroundImage()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.BackgroundImageLayoutGet">
+            <summary>Sets the stub of Control.get_BackgroundImageLayout()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.BackgroundImageLayoutSetImageLayout">
+            <summary>Sets the stub of Control.set_BackgroundImageLayout(ImageLayout value)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.BackgroundImageSetImage">
+            <summary>Sets the stub of Control.set_BackgroundImage(Image value)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.BindingContextGet">
+            <summary>Sets the stub of ContainerControl.get_BindingContext()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.BindingContextSetBindingContext">
+            <summary>Sets the stub of ContainerControl.set_BindingContext(BindingContext value)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.CanEnableImeGet">
+            <summary>Sets the stub of ContainerControl.get_CanEnableIme()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.CanRaiseEventsGet">
+            <summary>Sets the stub of Control.get_CanRaiseEvents()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ContextMenuGet">
+            <summary>Sets the stub of Control.get_ContextMenu()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ContextMenuSetContextMenu">
+            <summary>Sets the stub of Control.set_ContextMenu(ContextMenu value)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ContextMenuStripGet">
+            <summary>Sets the stub of Control.get_ContextMenuStrip()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ContextMenuStripSetContextMenuStrip">
+            <summary>Sets the stub of Control.set_ContextMenuStrip(ContextMenuStrip value)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.CreateAccessibilityInstance">
+            <summary>Sets the stub of Control.CreateAccessibilityInstance()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.CreateAccessibilityInstance01">
+            <summary>Sets the stub of Control.CreateAccessibilityInstance()</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.CreateControlsInstance">
+            <summary>Sets the stub of Form.CreateControlsInstance()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.CreateControlsInstance01">
+            <summary>Sets the stub of Form.CreateControlsInstance()</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.CreateHandle">
+            <summary>Sets the stub of Form.CreateHandle()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.CreateHandle01">
+            <summary>Sets the stub of Form.CreateHandle()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.CreateParamsGet">
+            <summary>Sets the stub of Form.get_CreateParams()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.CursorGet">
+            <summary>Sets the stub of Control.get_Cursor()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.CursorSetCursor">
+            <summary>Sets the stub of Control.set_Cursor(Cursor value)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.DefWndProc(System.Windows.Forms.Message@)">
+            <summary>Sets the stub of Form.DefWndProc(Message&amp; m)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.DefWndProcMessageRef">
+            <summary>Sets the stub of Form.DefWndProc(Message&amp; m)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.DefaultCursorGet">
+            <summary>Sets the stub of Control.get_DefaultCursor()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.DefaultImeModeGet">
+            <summary>Sets the stub of Form.get_DefaultImeMode()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.DefaultMarginGet">
+            <summary>Sets the stub of Control.get_DefaultMargin()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.DefaultMaximumSizeGet">
+            <summary>Sets the stub of Control.get_DefaultMaximumSize()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.DefaultMinimumSizeGet">
+            <summary>Sets the stub of Control.get_DefaultMinimumSize()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.DefaultPaddingGet">
+            <summary>Sets the stub of Control.get_DefaultPadding()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.DefaultSizeGet">
+            <summary>Sets the stub of Form.get_DefaultSize()</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.DestroyHandle">
+            <summary>Sets the stub of Control.DestroyHandle()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.DestroyHandle01">
+            <summary>Sets the stub of Control.DestroyHandle()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.DisplayRectangleGet">
+            <summary>Sets the stub of ScrollableControl.get_DisplayRectangle()</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.Dispose(System.Boolean)">
+            <summary>Sets the stub of frmSmartFormStandard.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.DisposeBoolean">
+            <summary>Sets the stub of frmSmartFormStandard.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.DockGet">
+            <summary>Sets the stub of Control.get_Dock()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.DockSetDockStyle">
+            <summary>Sets the stub of Control.set_Dock(DockStyle value)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.DoubleBufferedGet">
+            <summary>Sets the stub of Control.get_DoubleBuffered()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.DoubleBufferedSetBoolean">
+            <summary>Sets the stub of Control.set_DoubleBuffered(Boolean value)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.FocusedGet">
+            <summary>Sets the stub of Control.get_Focused()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.FontGet">
+            <summary>Sets the stub of Control.get_Font()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.FontSetFont">
+            <summary>Sets the stub of Control.set_Font(Font value)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ForeColorGet">
+            <summary>Sets the stub of Control.get_ForeColor()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ForeColorSetColor">
+            <summary>Sets the stub of Control.set_ForeColor(Color value)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.GetAccessibilityObjectById(System.Int32)">
+            <summary>Sets the stub of Control.GetAccessibilityObjectById(Int32 objectId)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.GetAccessibilityObjectByIdInt32">
+            <summary>Sets the stub of Control.GetAccessibilityObjectById(Int32 objectId)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.GetPreferredSize(System.Drawing.Size)">
+            <summary>Sets the stub of Control.GetPreferredSize(Size proposedSize)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.GetPreferredSizeSize">
+            <summary>Sets the stub of Control.GetPreferredSize(Size proposedSize)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.GetScaledBounds(System.Drawing.Rectangle,System.Drawing.SizeF,System.Windows.Forms.BoundsSpecified)">
+            <summary>Sets the stub of Form.GetScaledBounds(Rectangle bounds, SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.GetScaledBoundsRectangleSizeFBoundsSpecified">
+            <summary>Sets the stub of Form.GetScaledBounds(Rectangle bounds, SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.GetService(System.Type)">
+            <summary>Sets the stub of Component.GetService(Type service)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.GetServiceType">
+            <summary>Sets the stub of Component.GetService(Type service)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ImeModeBaseGet">
+            <summary>Sets the stub of Control.get_ImeModeBase()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ImeModeBaseSetImeMode">
+            <summary>Sets the stub of Control.set_ImeModeBase(ImeMode value)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.InitLayout">
+            <summary>Sets the stub of Control.InitLayout()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.InitLayout01">
+            <summary>Sets the stub of Control.InitLayout()</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.InitializeStub">
+            <summary>Initializes a new instance of type StubfrmSmartFormStandard</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.IsInputChar(System.Char)">
+            <summary>Sets the stub of Control.IsInputChar(Char charCode)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.IsInputCharChar">
+            <summary>Sets the stub of Control.IsInputChar(Char charCode)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.IsInputKey(System.Windows.Forms.Keys)">
+            <summary>Sets the stub of Control.IsInputKey(Keys keyData)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.IsInputKeyKeys">
+            <summary>Sets the stub of Control.IsInputKey(Keys keyData)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.LayoutEngineGet">
+            <summary>Sets the stub of Control.get_LayoutEngine()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.MaximumSizeGet">
+            <summary>Sets the stub of Form.get_MaximumSize()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.MaximumSizeSetSize">
+            <summary>Sets the stub of Form.set_MaximumSize(Size value)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.MinimumSizeGet">
+            <summary>Sets the stub of Form.get_MinimumSize()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.MinimumSizeSetSize">
+            <summary>Sets the stub of Form.set_MinimumSize(Size value)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.NotifyInvalidate(System.Drawing.Rectangle)">
+            <summary>Sets the stub of Control.NotifyInvalidate(Rectangle invalidatedArea)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.NotifyInvalidateRectangle">
+            <summary>Sets the stub of Control.NotifyInvalidate(Rectangle invalidatedArea)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnActivated(System.EventArgs)">
+            <summary>Sets the stub of Form.OnActivated(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnActivatedEventArgs">
+            <summary>Sets the stub of Form.OnActivated(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnAutoSizeChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnAutoSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnAutoSizeChangedEventArgs">
+            <summary>Sets the stub of Control.OnAutoSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnAutoValidateChanged(System.EventArgs)">
+            <summary>Sets the stub of ContainerControl.OnAutoValidateChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnAutoValidateChangedEventArgs">
+            <summary>Sets the stub of ContainerControl.OnAutoValidateChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnBackColorChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnBackColorChangedEventArgs">
+            <summary>Sets the stub of Control.OnBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnBackgroundImageChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnBackgroundImageChangedEventArgs">
+            <summary>Sets the stub of Form.OnBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnBackgroundImageLayoutChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnBackgroundImageLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnBackgroundImageLayoutChangedEventArgs">
+            <summary>Sets the stub of Form.OnBackgroundImageLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnBindingContextChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnBindingContextChangedEventArgs">
+            <summary>Sets the stub of Control.OnBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnCausesValidationChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnCausesValidationChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnCausesValidationChangedEventArgs">
+            <summary>Sets the stub of Control.OnCausesValidationChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnChangeUICues(System.Windows.Forms.UICuesEventArgs)">
+            <summary>Sets the stub of Control.OnChangeUICues(UICuesEventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnChangeUICuesUICuesEventArgs">
+            <summary>Sets the stub of Control.OnChangeUICues(UICuesEventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnClick(System.EventArgs)">
+            <summary>Sets the stub of Control.OnClick(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnClickEventArgs">
+            <summary>Sets the stub of Control.OnClick(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnClientSizeChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnClientSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnClientSizeChangedEventArgs">
+            <summary>Sets the stub of Control.OnClientSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnClosed(System.EventArgs)">
+            <summary>Sets the stub of Form.OnClosed(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnClosedEventArgs">
+            <summary>Sets the stub of Form.OnClosed(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>Sets the stub of Form.OnClosing(CancelEventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnClosingCancelEventArgs">
+            <summary>Sets the stub of Form.OnClosing(CancelEventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnContextMenuChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnContextMenuChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnContextMenuChangedEventArgs">
+            <summary>Sets the stub of Control.OnContextMenuChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnContextMenuStripChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnContextMenuStripChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnContextMenuStripChangedEventArgs">
+            <summary>Sets the stub of Control.OnContextMenuStripChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnControlAdded(System.Windows.Forms.ControlEventArgs)">
+            <summary>Sets the stub of Control.OnControlAdded(ControlEventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnControlAddedControlEventArgs">
+            <summary>Sets the stub of Control.OnControlAdded(ControlEventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnControlRemoved(System.Windows.Forms.ControlEventArgs)">
+            <summary>Sets the stub of Control.OnControlRemoved(ControlEventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnControlRemovedControlEventArgs">
+            <summary>Sets the stub of Control.OnControlRemoved(ControlEventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnCreateControl">
+            <summary>Sets the stub of Form.OnCreateControl()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnCreateControl01">
+            <summary>Sets the stub of Form.OnCreateControl()</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnCursorChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnCursorChangedEventArgs">
+            <summary>Sets the stub of Control.OnCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnDeactivate(System.EventArgs)">
+            <summary>Sets the stub of Form.OnDeactivate(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnDeactivateEventArgs">
+            <summary>Sets the stub of Form.OnDeactivate(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnDockChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnDockChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnDockChangedEventArgs">
+            <summary>Sets the stub of Control.OnDockChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnDoubleClick(System.EventArgs)">
+            <summary>Sets the stub of Control.OnDoubleClick(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnDoubleClickEventArgs">
+            <summary>Sets the stub of Control.OnDoubleClick(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnDragDrop(System.Windows.Forms.DragEventArgs)">
+            <summary>Sets the stub of Control.OnDragDrop(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnDragDropDragEventArgs">
+            <summary>Sets the stub of Control.OnDragDrop(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnDragEnter(System.Windows.Forms.DragEventArgs)">
+            <summary>Sets the stub of Control.OnDragEnter(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnDragEnterDragEventArgs">
+            <summary>Sets the stub of Control.OnDragEnter(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnDragLeave(System.EventArgs)">
+            <summary>Sets the stub of Control.OnDragLeave(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnDragLeaveEventArgs">
+            <summary>Sets the stub of Control.OnDragLeave(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnDragOver(System.Windows.Forms.DragEventArgs)">
+            <summary>Sets the stub of Control.OnDragOver(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnDragOverDragEventArgs">
+            <summary>Sets the stub of Control.OnDragOver(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnEnabledChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnEnabledChangedEventArgs">
+            <summary>Sets the stub of Form.OnEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnEnter(System.EventArgs)">
+            <summary>Sets the stub of Form.OnEnter(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnEnterEventArgs">
+            <summary>Sets the stub of Form.OnEnter(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnFontChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnFontChangedEventArgs">
+            <summary>Sets the stub of Form.OnFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnForeColorChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnForeColorChangedEventArgs">
+            <summary>Sets the stub of Control.OnForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnFormClosed(System.Windows.Forms.FormClosedEventArgs)">
+            <summary>Sets the stub of Form.OnFormClosed(FormClosedEventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnFormClosedFormClosedEventArgs">
+            <summary>Sets the stub of Form.OnFormClosed(FormClosedEventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnFormClosing(System.Windows.Forms.FormClosingEventArgs)">
+            <summary>Sets the stub of Form.OnFormClosing(FormClosingEventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnFormClosingFormClosingEventArgs">
+            <summary>Sets the stub of Form.OnFormClosing(FormClosingEventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnGiveFeedback(System.Windows.Forms.GiveFeedbackEventArgs)">
+            <summary>Sets the stub of Control.OnGiveFeedback(GiveFeedbackEventArgs gfbevent)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnGiveFeedbackGiveFeedbackEventArgs">
+            <summary>Sets the stub of Control.OnGiveFeedback(GiveFeedbackEventArgs gfbevent)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnGotFocus(System.EventArgs)">
+            <summary>Sets the stub of Control.OnGotFocus(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnGotFocusEventArgs">
+            <summary>Sets the stub of Control.OnGotFocus(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnHandleCreated(System.EventArgs)">
+            <summary>Sets the stub of Form.OnHandleCreated(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnHandleCreatedEventArgs">
+            <summary>Sets the stub of Form.OnHandleCreated(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnHandleDestroyed(System.EventArgs)">
+            <summary>Sets the stub of Form.OnHandleDestroyed(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnHandleDestroyedEventArgs">
+            <summary>Sets the stub of Form.OnHandleDestroyed(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnHelpButtonClicked(System.ComponentModel.CancelEventArgs)">
+            <summary>Sets the stub of Form.OnHelpButtonClicked(CancelEventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnHelpButtonClickedCancelEventArgs">
+            <summary>Sets the stub of Form.OnHelpButtonClicked(CancelEventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnHelpRequested(System.Windows.Forms.HelpEventArgs)">
+            <summary>Sets the stub of Control.OnHelpRequested(HelpEventArgs hevent)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnHelpRequestedHelpEventArgs">
+            <summary>Sets the stub of Control.OnHelpRequested(HelpEventArgs hevent)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnImeModeChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnImeModeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnImeModeChangedEventArgs">
+            <summary>Sets the stub of Control.OnImeModeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnInputLanguageChanged(System.Windows.Forms.InputLanguageChangedEventArgs)">
+            <summary>Sets the stub of Form.OnInputLanguageChanged(InputLanguageChangedEventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnInputLanguageChangedInputLanguageChangedEventArgs">
+            <summary>Sets the stub of Form.OnInputLanguageChanged(InputLanguageChangedEventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnInputLanguageChanging(System.Windows.Forms.InputLanguageChangingEventArgs)">
+            <summary>Sets the stub of Form.OnInputLanguageChanging(InputLanguageChangingEventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnInputLanguageChangingInputLanguageChangingEventArgs">
+            <summary>Sets the stub of Form.OnInputLanguageChanging(InputLanguageChangingEventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnInvalidated(System.Windows.Forms.InvalidateEventArgs)">
+            <summary>Sets the stub of Control.OnInvalidated(InvalidateEventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnInvalidatedInvalidateEventArgs">
+            <summary>Sets the stub of Control.OnInvalidated(InvalidateEventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnKeyDown(System.Windows.Forms.KeyEventArgs)">
+            <summary>Sets the stub of Control.OnKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnKeyDownKeyEventArgs">
+            <summary>Sets the stub of Control.OnKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnKeyPress(System.Windows.Forms.KeyPressEventArgs)">
+            <summary>Sets the stub of Control.OnKeyPress(KeyPressEventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnKeyPressKeyPressEventArgs">
+            <summary>Sets the stub of Control.OnKeyPress(KeyPressEventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnKeyUp(System.Windows.Forms.KeyEventArgs)">
+            <summary>Sets the stub of Control.OnKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnKeyUpKeyEventArgs">
+            <summary>Sets the stub of Control.OnKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnLayout(System.Windows.Forms.LayoutEventArgs)">
+            <summary>Sets the stub of Form.OnLayout(LayoutEventArgs levent)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnLayoutLayoutEventArgs">
+            <summary>Sets the stub of Form.OnLayout(LayoutEventArgs levent)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnLeave(System.EventArgs)">
+            <summary>Sets the stub of Control.OnLeave(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnLeaveEventArgs">
+            <summary>Sets the stub of Control.OnLeave(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnLoad(System.EventArgs)">
+            <summary>Sets the stub of Form.OnLoad(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnLoadEventArgs">
+            <summary>Sets the stub of Form.OnLoad(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnLocationChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnLocationChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnLocationChangedEventArgs">
+            <summary>Sets the stub of Control.OnLocationChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnLostFocus(System.EventArgs)">
+            <summary>Sets the stub of Control.OnLostFocus(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnLostFocusEventArgs">
+            <summary>Sets the stub of Control.OnLostFocus(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMarginChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnMarginChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMarginChangedEventArgs">
+            <summary>Sets the stub of Control.OnMarginChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMaximizedBoundsChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnMaximizedBoundsChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMaximizedBoundsChangedEventArgs">
+            <summary>Sets the stub of Form.OnMaximizedBoundsChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMaximumSizeChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnMaximumSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMaximumSizeChangedEventArgs">
+            <summary>Sets the stub of Form.OnMaximumSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMdiChildActivate(System.EventArgs)">
+            <summary>Sets the stub of Form.OnMdiChildActivate(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMdiChildActivateEventArgs">
+            <summary>Sets the stub of Form.OnMdiChildActivate(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMenuComplete(System.EventArgs)">
+            <summary>Sets the stub of Form.OnMenuComplete(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMenuCompleteEventArgs">
+            <summary>Sets the stub of Form.OnMenuComplete(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMenuStart(System.EventArgs)">
+            <summary>Sets the stub of Form.OnMenuStart(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMenuStartEventArgs">
+            <summary>Sets the stub of Form.OnMenuStart(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMinimumSizeChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnMinimumSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMinimumSizeChangedEventArgs">
+            <summary>Sets the stub of Form.OnMinimumSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMouseCaptureChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnMouseCaptureChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMouseCaptureChangedEventArgs">
+            <summary>Sets the stub of Control.OnMouseCaptureChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMouseClick(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the stub of Control.OnMouseClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMouseClickMouseEventArgs">
+            <summary>Sets the stub of Control.OnMouseClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMouseDoubleClick(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the stub of Control.OnMouseDoubleClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMouseDoubleClickMouseEventArgs">
+            <summary>Sets the stub of Control.OnMouseDoubleClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the stub of Control.OnMouseDown(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMouseDownMouseEventArgs">
+            <summary>Sets the stub of Control.OnMouseDown(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMouseEnter(System.EventArgs)">
+            <summary>Sets the stub of Control.OnMouseEnter(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMouseEnterEventArgs">
+            <summary>Sets the stub of Control.OnMouseEnter(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMouseHover(System.EventArgs)">
+            <summary>Sets the stub of Control.OnMouseHover(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMouseHoverEventArgs">
+            <summary>Sets the stub of Control.OnMouseHover(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMouseLeave(System.EventArgs)">
+            <summary>Sets the stub of Control.OnMouseLeave(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMouseLeaveEventArgs">
+            <summary>Sets the stub of Control.OnMouseLeave(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the stub of Control.OnMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMouseMoveMouseEventArgs">
+            <summary>Sets the stub of Control.OnMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the stub of Control.OnMouseUp(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMouseUpMouseEventArgs">
+            <summary>Sets the stub of Control.OnMouseUp(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMouseWheel(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the stub of ScrollableControl.OnMouseWheel(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMouseWheelMouseEventArgs">
+            <summary>Sets the stub of ScrollableControl.OnMouseWheel(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMove(System.EventArgs)">
+            <summary>Sets the stub of Control.OnMove(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnMoveEventArgs">
+            <summary>Sets the stub of Control.OnMove(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnNotifyMessage(System.Windows.Forms.Message)">
+            <summary>Sets the stub of Control.OnNotifyMessage(Message m)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnNotifyMessageMessage">
+            <summary>Sets the stub of Control.OnNotifyMessage(Message m)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnPaddingChanged(System.EventArgs)">
+            <summary>Sets the stub of ScrollableControl.OnPaddingChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnPaddingChangedEventArgs">
+            <summary>Sets the stub of ScrollableControl.OnPaddingChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>Sets the stub of Form.OnPaint(PaintEventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnPaintBackground(System.Windows.Forms.PaintEventArgs)">
+            <summary>Sets the stub of ScrollableControl.OnPaintBackground(PaintEventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnPaintBackgroundPaintEventArgs">
+            <summary>Sets the stub of ScrollableControl.OnPaintBackground(PaintEventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnPaintPaintEventArgs">
+            <summary>Sets the stub of Form.OnPaint(PaintEventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnParentBackColorChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnParentBackColorChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnParentBackgroundImageChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnParentBackgroundImageChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnParentBindingContextChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnParentBindingContextChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnParentChanged(System.EventArgs)">
+            <summary>Sets the stub of ContainerControl.OnParentChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnParentChangedEventArgs">
+            <summary>Sets the stub of ContainerControl.OnParentChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnParentCursorChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnParentCursorChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnParentEnabledChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnParentEnabledChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnParentFontChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnParentFontChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnParentForeColorChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnParentForeColorChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnParentRightToLeftChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnParentRightToLeftChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnParentVisibleChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnParentVisibleChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnPreviewKeyDown(System.Windows.Forms.PreviewKeyDownEventArgs)">
+            <summary>Sets the stub of Control.OnPreviewKeyDown(PreviewKeyDownEventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnPreviewKeyDownPreviewKeyDownEventArgs">
+            <summary>Sets the stub of Control.OnPreviewKeyDown(PreviewKeyDownEventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnPrint(System.Windows.Forms.PaintEventArgs)">
+            <summary>Sets the stub of Control.OnPrint(PaintEventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnPrintPaintEventArgs">
+            <summary>Sets the stub of Control.OnPrint(PaintEventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnQueryContinueDrag(System.Windows.Forms.QueryContinueDragEventArgs)">
+            <summary>Sets the stub of Control.OnQueryContinueDrag(QueryContinueDragEventArgs qcdevent)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnQueryContinueDragQueryContinueDragEventArgs">
+            <summary>Sets the stub of Control.OnQueryContinueDrag(QueryContinueDragEventArgs qcdevent)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnRegionChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnRegionChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnRegionChangedEventArgs">
+            <summary>Sets the stub of Control.OnRegionChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnResize(System.EventArgs)">
+            <summary>Sets the stub of Form.OnResize(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnResizeBegin(System.EventArgs)">
+            <summary>Sets the stub of Form.OnResizeBegin(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnResizeBeginEventArgs">
+            <summary>Sets the stub of Form.OnResizeBegin(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnResizeEnd(System.EventArgs)">
+            <summary>Sets the stub of Form.OnResizeEnd(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnResizeEndEventArgs">
+            <summary>Sets the stub of Form.OnResizeEnd(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnResizeEventArgs">
+            <summary>Sets the stub of Form.OnResize(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnRightToLeftChanged(System.EventArgs)">
+            <summary>Sets the stub of ScrollableControl.OnRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnRightToLeftChangedEventArgs">
+            <summary>Sets the stub of ScrollableControl.OnRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnRightToLeftLayoutChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnRightToLeftLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnRightToLeftLayoutChangedEventArgs">
+            <summary>Sets the stub of Form.OnRightToLeftLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnScroll(System.Windows.Forms.ScrollEventArgs)">
+            <summary>Sets the stub of ScrollableControl.OnScroll(ScrollEventArgs se)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnScrollScrollEventArgs">
+            <summary>Sets the stub of ScrollableControl.OnScroll(ScrollEventArgs se)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnShown(System.EventArgs)">
+            <summary>Sets the stub of Form.OnShown(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnShownEventArgs">
+            <summary>Sets the stub of Form.OnShown(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnSizeChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnSizeChangedEventArgs">
+            <summary>Sets the stub of Control.OnSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnStyleChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnStyleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnStyleChangedEventArgs">
+            <summary>Sets the stub of Form.OnStyleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnSystemColorsChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnSystemColorsChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnSystemColorsChangedEventArgs">
+            <summary>Sets the stub of Control.OnSystemColorsChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnTabIndexChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnTabIndexChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnTabIndexChangedEventArgs">
+            <summary>Sets the stub of Control.OnTabIndexChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnTabStopChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnTabStopChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnTabStopChangedEventArgs">
+            <summary>Sets the stub of Control.OnTabStopChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnTextChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnTextChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnTextChangedEventArgs">
+            <summary>Sets the stub of Form.OnTextChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnValidated(System.EventArgs)">
+            <summary>Sets the stub of Control.OnValidated(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnValidatedEventArgs">
+            <summary>Sets the stub of Control.OnValidated(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnValidating(System.ComponentModel.CancelEventArgs)">
+            <summary>Sets the stub of Control.OnValidating(CancelEventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnValidatingCancelEventArgs">
+            <summary>Sets the stub of Control.OnValidating(CancelEventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnVisibleChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.OnVisibleChangedEventArgs">
+            <summary>Sets the stub of Form.OnVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.PreProcessMessage(System.Windows.Forms.Message@)">
+            <summary>Sets the stub of Control.PreProcessMessage(Message&amp; msg)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.PreProcessMessageMessageRef">
+            <summary>Sets the stub of Control.PreProcessMessage(Message&amp; msg)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ProcessCmdKey(System.Windows.Forms.Message@,System.Windows.Forms.Keys)">
+            <summary>Sets the stub of Form.ProcessCmdKey(Message&amp; msg, Keys keyData)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ProcessCmdKeyMessageRefKeys">
+            <summary>Sets the stub of Form.ProcessCmdKey(Message&amp; msg, Keys keyData)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ProcessDialogChar(System.Char)">
+            <summary>Sets the stub of Form.ProcessDialogChar(Char charCode)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ProcessDialogCharChar">
+            <summary>Sets the stub of Form.ProcessDialogChar(Char charCode)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ProcessDialogKey(System.Windows.Forms.Keys)">
+            <summary>Sets the stub of Form.ProcessDialogKey(Keys keyData)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ProcessDialogKeyKeys">
+            <summary>Sets the stub of Form.ProcessDialogKey(Keys keyData)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ProcessKeyEventArgs(System.Windows.Forms.Message@)">
+            <summary>Sets the stub of Control.ProcessKeyEventArgs(Message&amp; m)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ProcessKeyEventArgsMessageRef">
+            <summary>Sets the stub of Control.ProcessKeyEventArgs(Message&amp; m)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ProcessKeyMessage(System.Windows.Forms.Message@)">
+            <summary>Sets the stub of Control.ProcessKeyMessage(Message&amp; m)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ProcessKeyMessageMessageRef">
+            <summary>Sets the stub of Control.ProcessKeyMessage(Message&amp; m)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ProcessKeyPreview(System.Windows.Forms.Message@)">
+            <summary>Sets the stub of Form.ProcessKeyPreview(Message&amp; m)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ProcessKeyPreviewMessageRef">
+            <summary>Sets the stub of Form.ProcessKeyPreview(Message&amp; m)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ProcessMnemonic(System.Char)">
+            <summary>Sets the stub of Form.ProcessMnemonic(Char charCode)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ProcessMnemonicChar">
+            <summary>Sets the stub of Form.ProcessMnemonic(Char charCode)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ProcessTabKey(System.Boolean)">
+            <summary>Sets the stub of Form.ProcessTabKey(Boolean forward)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ProcessTabKeyBoolean">
+            <summary>Sets the stub of Form.ProcessTabKey(Boolean forward)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.Refresh">
+            <summary>Sets the stub of Control.Refresh()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.Refresh01">
+            <summary>Sets the stub of Control.Refresh()</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ResetBackColor">
+            <summary>Sets the stub of Control.ResetBackColor()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ResetBackColor01">
+            <summary>Sets the stub of Control.ResetBackColor()</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ResetCursor">
+            <summary>Sets the stub of Control.ResetCursor()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ResetCursor01">
+            <summary>Sets the stub of Control.ResetCursor()</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ResetFont">
+            <summary>Sets the stub of Control.ResetFont()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ResetFont01">
+            <summary>Sets the stub of Control.ResetFont()</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ResetForeColor">
+            <summary>Sets the stub of Control.ResetForeColor()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ResetForeColor01">
+            <summary>Sets the stub of Control.ResetForeColor()</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ResetRightToLeft">
+            <summary>Sets the stub of Control.ResetRightToLeft()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ResetRightToLeft01">
+            <summary>Sets the stub of Control.ResetRightToLeft()</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ResetText">
+            <summary>Sets the stub of Control.ResetText()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ResetText01">
+            <summary>Sets the stub of Control.ResetText()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.RightToLeftGet">
+            <summary>Sets the stub of Control.get_RightToLeft()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.RightToLeftLayoutGet">
+            <summary>Sets the stub of Form.get_RightToLeftLayout()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.RightToLeftLayoutSetBoolean">
+            <summary>Sets the stub of Form.set_RightToLeftLayout(Boolean value)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.RightToLeftSetRightToLeft">
+            <summary>Sets the stub of Control.set_RightToLeft(RightToLeft value)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ScaleChildrenGet">
+            <summary>Sets the stub of Control.get_ScaleChildren()</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ScaleControl(System.Drawing.SizeF,System.Windows.Forms.BoundsSpecified)">
+            <summary>Sets the stub of Form.ScaleControl(SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ScaleControlSizeFBoundsSpecified">
+            <summary>Sets the stub of Form.ScaleControl(SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ScaleCore(System.Single,System.Single)">
+            <summary>Sets the stub of Form.ScaleCore(Single x, Single y)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ScaleCoreSingleSingle">
+            <summary>Sets the stub of Form.ScaleCore(Single x, Single y)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ScrollToControl(System.Windows.Forms.Control)">
+            <summary>Sets the stub of ScrollableControl.ScrollToControl(Control activeControl)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ScrollToControlControl">
+            <summary>Sets the stub of ScrollableControl.ScrollToControl(Control activeControl)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.Select(System.Boolean,System.Boolean)">
+            <summary>Sets the stub of Form.Select(Boolean directed, Boolean forward)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.SelectBooleanBoolean">
+            <summary>Sets the stub of Form.Select(Boolean directed, Boolean forward)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.SetBoundsCore(System.Int32,System.Int32,System.Int32,System.Int32,System.Windows.Forms.BoundsSpecified)">
+            <summary>Sets the stub of Form.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.SetBoundsCoreInt32Int32Int32Int32BoundsSpecified">
+            <summary>Sets the stub of Form.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.SetClientSizeCore(System.Int32,System.Int32)">
+            <summary>Sets the stub of Form.SetClientSizeCore(Int32 x, Int32 y)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.SetClientSizeCoreInt32Int32">
+            <summary>Sets the stub of Form.SetClientSizeCore(Int32 x, Int32 y)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.SetVisibleCore(System.Boolean)">
+            <summary>Sets the stub of Form.SetVisibleCore(Boolean value)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.SetVisibleCoreBoolean">
+            <summary>Sets the stub of Form.SetVisibleCore(Boolean value)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ShowFocusCuesGet">
+            <summary>Sets the stub of Control.get_ShowFocusCues()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ShowKeyboardCuesGet">
+            <summary>Sets the stub of Control.get_ShowKeyboardCues()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ShowWithoutActivationGet">
+            <summary>Sets the stub of Form.get_ShowWithoutActivation()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.SiteGet">
+            <summary>Sets the stub of Control.get_Site()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.SiteSetISite">
+            <summary>Sets the stub of Control.set_Site(ISite value)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.SizeFromClientSize(System.Drawing.Size)">
+            <summary>Sets the stub of Control.SizeFromClientSize(Size clientSize)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.SizeFromClientSizeSize">
+            <summary>Sets the stub of Control.SizeFromClientSize(Size clientSize)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.TextGet">
+            <summary>Sets the stub of Form.get_Text()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.TextSetString">
+            <summary>Sets the stub of Form.set_Text(String value)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ToString">
+            <summary>Sets the stub of Form.ToString()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ToString01">
+            <summary>Sets the stub of Form.ToString()</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.UpdateDefaultButton">
+            <summary>Sets the stub of Form.UpdateDefaultButton()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.UpdateDefaultButton01">
+            <summary>Sets the stub of Form.UpdateDefaultButton()</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ValidateChildren">
+            <summary>Sets the stub of Form.ValidateChildren()</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ValidateChildren(System.Windows.Forms.ValidationConstraints)">
+            <summary>Sets the stub of Form.ValidateChildren(ValidationConstraints validationConstraints)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ValidateChildren01">
+            <summary>Sets the stub of Form.ValidateChildren()</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ValidateChildrenValidationConstraints">
+            <summary>Sets the stub of Form.ValidateChildren(ValidationConstraints validationConstraints)</summary>
+        </member>
+        <member name="M:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.WndProc(System.Windows.Forms.Message@)">
+            <summary>Sets the stub of Form.WndProc(Message&amp; m)</summary>
+        </member>
+        <member name="F:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.WndProcMessageRef">
+            <summary>Sets the stub of Form.WndProc(Message&amp; m)</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AllowDrop">
+            <summary>Sets the stub of Control.get_AllowDrop()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.Anchor">
+            <summary>Sets the stub of Control.get_Anchor()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AutoScaleBaseSize">
+            <summary>Sets the stub of Form.get_AutoScaleBaseSize()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AutoScroll">
+            <summary>Sets the stub of Form.get_AutoScroll()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AutoScrollOffset">
+            <summary>Sets the stub of Control.get_AutoScrollOffset()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AutoSize">
+            <summary>Sets the stub of Form.get_AutoSize()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.AutoValidate">
+            <summary>Sets the stub of Form.get_AutoValidate()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.BackColor">
+            <summary>Sets the stub of Form.get_BackColor()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.BackgroundImage">
+            <summary>Sets the stub of Control.get_BackgroundImage()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.BackgroundImageLayout">
+            <summary>Sets the stub of Control.get_BackgroundImageLayout()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.BindingContext">
+            <summary>Sets the stub of ContainerControl.get_BindingContext()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.CanEnableIme">
+            <summary>Sets the stub of ContainerControl.get_CanEnableIme()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.CanRaiseEvents">
+            <summary>Sets the stub of Control.get_CanRaiseEvents()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ContextMenu">
+            <summary>Sets the stub of Control.get_ContextMenu()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ContextMenuStrip">
+            <summary>Sets the stub of Control.get_ContextMenuStrip()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.CreateParams">
+            <summary>Sets the stub of Form.get_CreateParams()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.Cursor">
+            <summary>Sets the stub of Control.get_Cursor()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.DefaultCursor">
+            <summary>Sets the stub of Control.get_DefaultCursor()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.DefaultImeMode">
+            <summary>Sets the stub of Form.get_DefaultImeMode()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.DefaultMargin">
+            <summary>Sets the stub of Control.get_DefaultMargin()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.DefaultMaximumSize">
+            <summary>Sets the stub of Control.get_DefaultMaximumSize()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.DefaultMinimumSize">
+            <summary>Sets the stub of Control.get_DefaultMinimumSize()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.DefaultPadding">
+            <summary>Sets the stub of Control.get_DefaultPadding()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.DefaultSize">
+            <summary>Sets the stub of Form.get_DefaultSize()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.DisplayRectangle">
+            <summary>Sets the stub of ScrollableControl.get_DisplayRectangle()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.Dock">
+            <summary>Sets the stub of Control.get_Dock()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.DoubleBuffered">
+            <summary>Sets the stub of Control.get_DoubleBuffered()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.Focused">
+            <summary>Sets the stub of Control.get_Focused()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.Font">
+            <summary>Sets the stub of Control.get_Font()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ForeColor">
+            <summary>Sets the stub of Control.get_ForeColor()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ImeModeBase">
+            <summary>Sets the stub of Control.get_ImeModeBase()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.LayoutEngine">
+            <summary>Sets the stub of Control.get_LayoutEngine()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.MaximumSize">
+            <summary>Sets the stub of Form.get_MaximumSize()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.MinimumSize">
+            <summary>Sets the stub of Form.get_MinimumSize()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.RightToLeft">
+            <summary>Sets the stub of Control.get_RightToLeft()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.RightToLeftLayout">
+            <summary>Sets the stub of Form.get_RightToLeftLayout()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ScaleChildren">
+            <summary>Sets the stub of Control.get_ScaleChildren()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ShowFocusCues">
+            <summary>Sets the stub of Control.get_ShowFocusCues()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ShowKeyboardCues">
+            <summary>Sets the stub of Control.get_ShowKeyboardCues()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.ShowWithoutActivation">
+            <summary>Sets the stub of Form.get_ShowWithoutActivation()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.Site">
+            <summary>Sets the stub of Control.get_Site()</summary>
+        </member>
+        <member name="P:AH.Shared.UI.Fakes.StubfrmSmartFormStandard.Text">
+            <summary>Sets the stub of Form.get_Text()</summary>
+        </member>
+        <member name="T:Microsoft.QualityTools.Testing.Fakes.Delegates.AHSharedDelegates">
+            <summary>Contains custom delegates used for the stubs and shims of AH.Shared</summary>
+        </member>
+        <member name="T:Shared.Fakes.ShimClass1">
+            <summary>Shim type of Shared.Class1</summary>
+        </member>
+        <member name="M:Shared.Fakes.ShimClass1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Shared.Fakes.ShimClass1.#ctor(Shared.Class1)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Shared.Fakes.ShimClass1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Shared.Fakes.ShimClass1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Shared.Fakes.ShimClass1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Shared.Fakes.ShimClass1.Constructor">
+            <summary>Sets the shim of Class1.Class1()</summary>
+        </member>
+        <member name="T:Shared.Fakes.ShimClass1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:Shared.Fakes.StubClass1">
+            <summary>Stub type of Shared.Class1</summary>
+        </member>
+        <member name="M:Shared.Fakes.StubClass1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Shared.Fakes.StubClass1.InitializeStub">
+            <summary>Initializes a new instance of type StubClass1</summary>
+        </member>
+        <member name="P:Shared.Fakes.StubClass1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Shared.Fakes.StubClass1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Shared.Fakes.StubClass1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

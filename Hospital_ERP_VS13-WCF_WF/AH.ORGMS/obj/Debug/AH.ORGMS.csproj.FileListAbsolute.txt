@@ -1,0 +1,18 @@
+F:\Hospital\AH.ORGMS\bin\Debug\AH.ORGMS.dll
+F:\Hospital\AH.ORGMS\bin\Debug\AH.ORGMS.pdb
+F:\Hospital\AH.ORGMS\bin\Debug\AH.OracleManager.dll
+F:\Hospital\AH.ORGMS\bin\Debug\AH.Shared.dll
+F:\Hospital\AH.ORGMS\bin\Debug\DUtility.dll
+F:\Hospital\AH.ORGMS\bin\Debug\Oracle.DataAccess.dll
+F:\Hospital\AH.ORGMS\bin\Debug\AtiqsControlLibrary.dll
+F:\Hospital\AH.ORGMS\obj\Debug\AH.ORGMS.dll
+F:\Hospital\AH.ORGMS\obj\Debug\AH.ORGMS.pdb
+E:\AHERP 06.03.14 New\AH.ORGMS\bin\Debug\AH.ORGMS.dll
+E:\AHERP 06.03.14 New\AH.ORGMS\bin\Debug\AH.ORGMS.pdb
+E:\AHERP 06.03.14 New\AH.ORGMS\bin\Debug\AH.OracleManager.dll
+E:\AHERP 06.03.14 New\AH.ORGMS\bin\Debug\AH.Shared.dll
+E:\AHERP 06.03.14 New\AH.ORGMS\bin\Debug\DUtility.dll
+E:\AHERP 06.03.14 New\AH.ORGMS\bin\Debug\Oracle.DataAccess.dll
+E:\AHERP 06.03.14 New\AH.ORGMS\bin\Debug\AtiqsControlLibrary.dll
+E:\AHERP 06.03.14 New\AH.ORGMS\obj\Debug\AH.ORGMS.dll
+E:\AHERP 06.03.14 New\AH.ORGMS\obj\Debug\AH.ORGMS.pdb

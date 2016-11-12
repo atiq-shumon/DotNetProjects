@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{53DCA937-66F6-4E81-9451-D8AB497EF341}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AH.OPD</RootNamespace>
+    <AssemblyName>AH.OPD</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AH.HR, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AH.HR.dll</HintPath>
+    </Reference>
+    <Reference Include="AH.OracleManager">
+      <HintPath>..\AH.ModuleController\bin\Debug\AH.OracleManager.dll</HintPath>
+    </Reference>
+    <Reference Include="AH.Shared">
+      <HintPath>..\AH.ModuleController\bin\Debug\AH.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="DUtility">
+      <HintPath>..\AH.ModuleController\bin\Debug\DUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="oracle.dataaccess, Version=4.112.3.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_64\Oracle.DataAccess\v4.0_4.112.3.0__89b483f429c47342\oracle.dataaccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\OPDBLL.cs" />
+    <Compile Include="BLL\OPDDrugsBLL.cs" />
+    <Compile Include="BLL\OPDReportBLL.cs" />
+    <Compile Include="DAL\OPDDoctorsDAL.cs" />
+    <Compile Include="DAL\OPDDAL.cs" />
+    <Compile Include="DAL\OPDDrRoomAllRODAL.cs" />
+    <Compile Include="DAL\OPDDrugsDAL.cs" />
+    <Compile Include="DAL\OPDNurseRAllRODAL.cs" />
+    <Compile Include="DAL\OpdPrescriptionReportDAL.cs" />
+    <Compile Include="DAL\OPDRoomGrpAssignDAL.cs" />
+    <Compile Include="DAL\OPDSetupDAL.cs" />
+    <Compile Include="DAL\OpdTicketReportDAL.cs" />
+    <Compile Include="Facade\IOPDWS.cs" />
+    <Compile Include="Facade\OPDWS.cs" />
+    <Compile Include="MODEL\ClinicalDiagnosis.cs" />
+    <Compile Include="MODEL\ClinicalFindings.cs" />
+    <Compile Include="MODEL\ClinicalFindingsGroup.cs" />
+    <Compile Include="MODEL\ClinicalFindingsValueAssign.cs" />
+    <Compile Include="MODEL\ClinicalFindingsValues.cs" />
+    <Compile Include="MODEL\Complaints.cs" />
+    <Compile Include="MODEL\DiseaseCase.cs" />
+    <Compile Include="MODEL\GynHistory.cs" />
+    <Compile Include="MODEL\OPDAdvice.cs" />
+    <Compile Include="MODEL\Medicine.cs" />
+    <Compile Include="MODEL\OPDDoctorCall.cs" />
+    <Compile Include="MODEL\OPDDoctorCallQ.cs" />
+    <Compile Include="MODEL\OPDDrRoomAllRO.cs" />
+    <Compile Include="MODEL\OPDDrugs.cs" />
+    <Compile Include="MODEL\OPDNurseRoomAllocation.cs" />
+    <Compile Include="MODEL\OPDNurseRoomAllRO.cs" />
+    <Compile Include="MODEL\OPDPrescriptionReportNewRO.cs" />
+    <Compile Include="MODEL\OPDPrescriptionRO.cs" />
+    <Compile Include="MODEL\OPDRoomGrpAssign.cs" />
+    <Compile Include="MODEL\OPDTicketRO.cs" />
+    <Compile Include="MODEL\PaediatricHistory.cs" />
+    <Compile Include="MODEL\PatHistoryTree.cs" />
+    <Compile Include="MODEL\Prescription.cs" />
+    <Compile Include="MODEL\RptTicket.cs" />
+    <Compile Include="MODEL\Ticket.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\DataSources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AH.APPOPD\AH.APPOPD.csproj">
+      <Project>{a80317de-9d30-4273-b1ae-5e06dc841e4f}</Project>
+      <Name>AH.APPOPD</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AH.DRUGS\AH.DRUGS.csproj">
+      <Project>{d4ada84d-ef73-406e-ac1a-a7e982628589}</Project>
+      <Name>AH.DRUGS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AH.DTMS\AH.DTMS.csproj">
+      <Project>{81e7a700-a44a-4582-9220-b2c47b42f428}</Project>
+      <Name>AH.DTMS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AH.IPDShared\AH.IPDShared.csproj">
+      <Project>{c2b431c6-b904-4686-a19d-bcbbd5a52813}</Project>
+      <Name>AH.IPDShared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AH.ORGMS\AH.ORGMS.csproj">
+      <Project>{ab7a6c95-3e83-435a-8e0f-c18a326713ac}</Project>
+      <Name>AH.ORGMS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AH.PatReg\AH.PatReg.csproj">
+      <Project>{ee9afcd1-b4f8-45a1-b78a-8fc7ed500ff8}</Project>
+      <Name>AH.PatReg</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AH.PRMS\AH.PRMS.csproj">
+      <Project>{dbc099cf-d6fb-4ca5-aeb3-aad85d46833a}</Project>
+      <Name>AH.PRMS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

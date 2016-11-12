@@ -1,0 +1,41 @@
+E:\AHERP\AH.PRMS\obj\Release\AH.PRMS.csprojResolveAssemblyReference.cache
+E:\AHERP\AH.PRMS\bin\Release\AH.PRMS.dll
+E:\AHERP\AH.PRMS\bin\Release\AH.PRMS.pdb
+E:\AHERP\AH.PRMS\bin\Release\AH.ACCMS.dll
+E:\AHERP\AH.PRMS\bin\Release\AH.HR.dll
+E:\AHERP\AH.PRMS\bin\Release\AH.Shared.dll
+E:\AHERP\AH.PRMS\bin\Release\Oracle.DataAccess.dll
+E:\AHERP\AH.PRMS\bin\Release\AtiqsControlLibrary.dll
+E:\AHERP\AH.PRMS\bin\Release\DUtility.dll
+E:\AHERP\AH.PRMS\bin\Release\AH.ACCMS.pdb
+E:\AHERP\AH.PRMS\bin\Release\AH.HR.pdb
+E:\AHERP\AH.PRMS\bin\Release\AH.Shared.pdb
+E:\AHERP\AH.PRMS\bin\Release\DUtility.pdb
+E:\AHERP\AH.PRMS\obj\Release\AH.PRMS.dll
+E:\AHERP\AH.PRMS\obj\Release\AH.PRMS.pdb
+E:\AHERP 27.02.14 New\AH.PRMS\bin\Release\AH.PRMS.dll
+E:\AHERP 27.02.14 New\AH.PRMS\bin\Release\AH.PRMS.pdb
+E:\AHERP 27.02.14 New\AH.PRMS\bin\Release\AH.ACCMS.dll
+E:\AHERP 27.02.14 New\AH.PRMS\bin\Release\AH.HR.dll
+E:\AHERP 27.02.14 New\AH.PRMS\bin\Release\AH.Shared.dll
+E:\AHERP 27.02.14 New\AH.PRMS\bin\Release\Oracle.DataAccess.dll
+E:\AHERP 27.02.14 New\AH.PRMS\bin\Release\DUtility.dll
+E:\AHERP 27.02.14 New\AH.PRMS\bin\Release\AtiqsControlLibrary.dll
+E:\AHERP 27.02.14 New\AH.PRMS\bin\Release\AH.ACCMS.pdb
+E:\AHERP 27.02.14 New\AH.PRMS\bin\Release\AH.HR.pdb
+E:\AHERP 27.02.14 New\AH.PRMS\bin\Release\AH.Shared.pdb
+E:\AHERP 27.02.14 New\AH.PRMS\bin\Release\DUtility.pdb
+E:\AHERP 27.02.14 New\AH.PRMS\obj\Release\AH.PRMS.csprojResolveAssemblyReference.cache
+E:\AHERP 27.02.14 New\AH.PRMS\obj\Release\AH.PRMS.dll
+E:\AHERP 27.02.14 New\AH.PRMS\obj\Release\AH.PRMS.pdb
+E:\AHERP 06.03.14 New\AH.PRMS\bin\Release\AH.PRMS.dll.config
+E:\AHERP 06.03.14 New\AH.PRMS\bin\Release\AH.PRMS.dll
+E:\AHERP 06.03.14 New\AH.PRMS\bin\Release\AH.PRMS.pdb
+E:\AHERP 06.03.14 New\AH.PRMS\bin\Release\AH.Shared.dll
+E:\AHERP 06.03.14 New\AH.PRMS\bin\Release\DUtility.dll
+E:\AHERP 06.03.14 New\AH.PRMS\bin\Release\oracle.dataaccess.dll
+E:\AHERP 06.03.14 New\AH.PRMS\bin\Release\AtiqsControlLibrary.dll
+E:\AHERP 06.03.14 New\AH.PRMS\obj\Release\AH.PRMS.dll
+E:\AHERP 06.03.14 New\AH.PRMS\obj\Release\AH.PRMS.pdb
+E:\AHERP 06.03.14 New\AH.PRMS\bin\Release\AH.OracleManager.dll
+E:\AHERP 06.03.14 New\AH.PRMS\bin\Release\AH.ORGMS.dll

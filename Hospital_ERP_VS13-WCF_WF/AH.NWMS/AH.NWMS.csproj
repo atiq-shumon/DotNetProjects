@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{19171000-3098-479C-B661-DB148A9ED2E4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AH.NWMS</RootNamespace>
+    <AssemblyName>AH.NWMS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AH.OracleManager">
+      <HintPath>..\AH.ModuleController\bin\Debug\AH.OracleManager.dll</HintPath>
+    </Reference>
+    <Reference Include="AH.Shared">
+      <HintPath>..\AH.ModuleController\bin\Debug\AH.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="DUtility">
+      <HintPath>..\AH.ModuleController\bin\Debug\DUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.DataAccess, Version=4.121.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\AH.IPD\v4.0_4.112.3.0__89b483f429c47342\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\IPDPrescriptionBLL.cs" />
+    <Compile Include="BLL\NWMSBLL.cs" />
+    <Compile Include="BLL\NwmsReportBLL.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="DAL\IPDPRescriptionDAL.cs" />
+    <Compile Include="DAL\NWMSDAL.cs" />
+    <Compile Include="DAL\NwmsReportDAL.cs" />
+    <Compile Include="Facade\INWMSWS.cs" />
+    <Compile Include="Facade\NWMSWS.cs" />
+    <Compile Include="MODEL\IPDPrescription.cs" />
+    <Compile Include="MODEL\NurseRequisition.cs" />
+    <Compile Include="MODEL\NWMSReceiveRequisition.cs" />
+    <Compile Include="MODEL\NWMSReportRO.cs" />
+    <Compile Include="MODEL\OPDInformations.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AH.DMS\AH.DMS.csproj">
+      <Project>{040573dd-ee8d-430a-94ef-fce45061fd8f}</Project>
+      <Name>AH.DMS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AH.DRUGS\AH.DRUGS.csproj">
+      <Project>{d4ada84d-ef73-406e-ac1a-a7e982628589}</Project>
+      <Name>AH.DRUGS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AH.DTMS\AH.DTMS.csproj">
+      <Project>{81e7a700-a44a-4582-9220-b2c47b42f428}</Project>
+      <Name>AH.DTMS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AH.HR\AH.HR.csproj">
+      <Project>{8131068c-babf-4949-bd08-8e57f7283f65}</Project>
+      <Name>AH.HR</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AH.INVMS\AH.INVMS.csproj">
+      <Project>{b853e0be-ee95-463a-9dde-e1aa75368578}</Project>
+      <Name>AH.INVMS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AH.IPDShared\AH.IPDShared.csproj">
+      <Project>{c2b431c6-b904-4686-a19d-bcbbd5a52813}</Project>
+      <Name>AH.IPDShared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AH.OPD\AH.OPD.csproj">
+      <Project>{53dca937-66f6-4e81-9451-d8ab497ef341}</Project>
+      <Name>AH.OPD</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AH.ORGMS\AH.ORGMS.csproj">
+      <Project>{ab7a6c95-3e83-435a-8e0f-c18a326713ac}</Project>
+      <Name>AH.ORGMS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AH.PHRMS\AH.PHRMS.csproj">
+      <Project>{cc472d62-3cb2-47ce-a60a-d74ff60e5e43}</Project>
+      <Name>AH.PHRMS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AH.PRMS\AH.PRMS.csproj">
+      <Project>{dbc099cf-d6fb-4ca5-aeb3-aad85d46833a}</Project>
+      <Name>AH.PRMS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

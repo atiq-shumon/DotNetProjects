@@ -1,0 +1,28 @@
+E:\AHERP 06.03.14 New\AH.IPDShared\bin\Debug\AH.IPDShared.dll
+E:\AHERP 06.03.14 New\AH.IPDShared\bin\Debug\AH.IPDShared.pdb
+E:\AHERP 06.03.14 New\AH.IPDShared\obj\Debug\AH.IPDShared.dll
+E:\AHERP 06.03.14 New\AH.IPDShared\obj\Debug\AH.IPDShared.pdb
+E:\AHERP 06.03.14 New\AH.IPDShared\obj\Debug\AH.IPDShared.csprojResolveAssemblyReference.cache
+E:\AHERP 06.03.14 New\AH.IPDShared\bin\Debug\AH.ACCMS.dll
+E:\AHERP 06.03.14 New\AH.IPDShared\bin\Debug\AH.HR.dll
+E:\AHERP 06.03.14 New\AH.IPDShared\bin\Debug\AH.OracleManager.dll
+E:\AHERP 06.03.14 New\AH.IPDShared\bin\Debug\AH.PRMS.dll
+E:\AHERP 06.03.14 New\AH.IPDShared\bin\Debug\AH.Shared.dll
+E:\AHERP 06.03.14 New\AH.IPDShared\bin\Debug\DUtility.dll
+E:\AHERP 06.03.14 New\AH.IPDShared\bin\Debug\Oracle.DataAccess.dll
+E:\AHERP 06.03.14 New\AH.IPDShared\bin\Debug\AH.ORGMS.dll
+E:\AHERP 06.03.14 New\AH.IPDShared\bin\Debug\AtiqsControlLibrary.dll
+E:\AHERP 06.03.14 New\AH.IPDShared\bin\Debug\AH.ACCMS.pdb
+E:\AHERP 06.03.14 New\AH.IPDShared\bin\Debug\AH.HR.pdb
+E:\AHERP 06.03.14 New\AH.IPDShared\bin\Debug\AH.PRMS.pdb
+E:\AHERP 06.03.14 New\AH.IPDShared\bin\Debug\AH.ORGMS.pdb
+F:\HospitalFiles\AH.IPDShared\bin\Debug\AH.IPDShared.dll
+F:\HospitalFiles\AH.IPDShared\bin\Debug\AH.IPDShared.pdb
+F:\HospitalFiles\AH.IPDShared\bin\Debug\AH.OracleManager.dll
+F:\HospitalFiles\AH.IPDShared\bin\Debug\AH.Shared.dll
+F:\HospitalFiles\AH.IPDShared\bin\Debug\DUtility.dll
+F:\HospitalFiles\AH.IPDShared\bin\Debug\oracle.dataaccess.dll
+F:\HospitalFiles\AH.IPDShared\bin\Debug\AtiqsControlLibrary.dll
+F:\HospitalFiles\AH.IPDShared\obj\Debug\AH.IPDShared.dll
+F:\HospitalFiles\AH.IPDShared\obj\Debug\AH.IPDShared.pdb
+F:\HospitalFiles\AH.IPDShared\obj\Debug\AH.IPDShared.csprojResolveAssemblyReference.cache
