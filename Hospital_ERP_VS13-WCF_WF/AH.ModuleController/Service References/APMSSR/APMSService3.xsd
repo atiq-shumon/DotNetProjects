@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:93/APMS/APMSService.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:import schemaLocation="http://localhost:93/APMS/APMSService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/AH.APMS.MODEL" />
+  <xs:import schemaLocation="http://localhost:93/APMS/APMSService.svc?xsd=xsd7" namespace="http://schemas.datacontract.org/2004/07/AH.APPOPD.MODEL" />
+  <xs:import schemaLocation="http://localhost:93/APMS/APMSService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" />
+  <xs:element name="GetDepartmentsetup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="type" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="deptgr" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDepartmentsetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetDepartmentsetupResult" nillable="true" type="q1:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDeptUnitDic">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deptgrp" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="deptid" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDeptUnitDicResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetDeptUnitDicResult" nillable="true" type="q2:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetWeekDays">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetWeekDaysResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetWeekDaysResult" nillable="true" type="q3:ArrayOfKeyValueOfintstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDoctorVSTcal">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deptId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="unitId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="doctorId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="startDate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="endDate" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDoctorVSTcalResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/AH.APMS.MODEL" minOccurs="0" name="GetDoctorVSTcalResult" nillable="true" type="q4:ArrayOfDoctorWeekDays" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertOpdAppointment">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/AH.APPOPD.MODEL" minOccurs="0" name="apms" nillable="true" type="q5:OpdAppointment" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertOpdAppointmentResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertOpdAppointmentResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDayList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="doctorId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDayListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/AH.APMS.MODEL" minOccurs="0" name="GetDayListResult" nillable="true" type="q6:ArrayOfDoctorWeekDays" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDoctorWeekDays">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="doctorID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="departmentId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="unitId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="startDate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="endDate" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDoctorWeekDaysResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/AH.APMS.MODEL" minOccurs="0" name="GetDoctorWeekDaysResult" nillable="true" type="q7:ArrayOfDoctorWeekDays" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveDoctorTiming">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/AH.APMS.MODEL" minOccurs="0" name="apms" nillable="true" type="q8:DoctorWeekDays" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveDoctorTimingResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SaveDoctorTimingResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDoctorDutyTiming">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deptId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="unitId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="doctorId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="startDate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="endDate" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDoctorDutyTimingResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/AH.APMS.MODEL" minOccurs="0" name="GetDoctorDutyTimingResult" nillable="true" type="q9:ArrayOfDoctorWeekDays" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPatientName">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deptId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="unitId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="doctorId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="startDate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="endDate" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPatientNameResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/AH.APPOPD.MODEL" minOccurs="0" name="GetPatientNameResult" nillable="true" type="q10:ArrayOfOpdAppointment" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPatientInfo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deptId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="unitId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="doctorId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="tokenNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="appointDate" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPatientInfoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/AH.APPOPD.MODEL" minOccurs="0" name="GetPatientInfoResult" nillable="true" type="q11:ArrayOfOpdAppointment" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdatePatientInformation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/AH.APPOPD.MODEL" minOccurs="0" name="apms" nillable="true" type="q12:OpdAppointment" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdatePatientInformationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdatePatientInformationResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteDoctorTiming">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/AH.APMS.MODEL" minOccurs="0" name="apms" nillable="true" type="q13:DoctorWeekDays" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteDoctorTimingResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteDoctorTimingResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOPDDoctorsDict">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deptID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UnitID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOPDDoctorsDictResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetOPDDoctorsDictResult" nillable="true" type="q14:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPatientDetailsAppointment">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parameter" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPatientDetailsAppointmentResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="GetPatientDetailsAppointmentResult" nillable="true" type="q15:ArrayOfPatient" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Appointment">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="hcn" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AppointmentResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/AH.APPOPD.MODEL" minOccurs="0" name="AppointmentResult" nillable="true" type="q16:ArrayOfOpdAppointment" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOPDDoctors">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOPDDoctorsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/AH.APPOPD.MODEL" minOccurs="0" name="GetOPDDoctorsResult" nillable="true" type="q17:ArrayOfOPDDoctor" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPatientListForHcn">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPatientListForHcnResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/AH.APPOPD.MODEL" minOccurs="0" name="GetPatientListForHcnResult" nillable="true" type="q18:ArrayOfOpdAppointment" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTodaysDoctorList">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTodaysDoctorListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/AH.APMS.MODEL" minOccurs="0" name="GetTodaysDoctorListResult" nillable="true" type="q19:ArrayOfDoctorWeekDays" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteDoctorSchedule">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/AH.APMS.MODEL" minOccurs="0" name="apms" nillable="true" type="q20:DoctorWeekDays" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteDoctorScheduleResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteDoctorScheduleResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModifyDoctorCalendar">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/AH.APMS.MODEL" minOccurs="0" name="apms" nillable="true" type="q21:DoctorWeekDays" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModifyDoctorCalendarResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ModifyDoctorCalendarResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDoctorTimingInterval">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deptId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="unitId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="doctorId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="startDate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="endDate" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDoctorTimingIntervalResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetDoctorTimingIntervalResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAppointedDate">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deptId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="unitId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="doctorId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="startDate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="endDate" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAppointedDateResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/AH.APPOPD.MODEL" minOccurs="0" name="GetAppointedDateResult" nillable="true" type="q22:ArrayOfOpdAppointment" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckForAppointment">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/AH.APMS.MODEL" minOccurs="0" name="apms" nillable="true" type="q23:DoctorWeekDays" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckForAppointmentResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CheckForAppointmentResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VerifyDoctorSchedule">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/AH.APMS.MODEL" minOccurs="0" name="apms" nillable="true" type="q24:DoctorWeekDays" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VerifyDoctorScheduleResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="VerifyDoctorScheduleResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SingleDayPatientList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deptId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="unitId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="doctorId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="startDate" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SingleDayPatientListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/AH.APPOPD.MODEL" minOccurs="0" name="SingleDayPatientListResult" nillable="true" type="q25:ArrayOfOpdAppointment" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PrescribePatientList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deptId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="unitId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="doctorId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="startDate" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PrescribePatientListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/AH.APPOPD.MODEL" minOccurs="0" name="PrescribePatientListResult" nillable="true" type="q26:ArrayOfOpdAppointment" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TicketOkPatientList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deptId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="unitId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="doctorId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="startDate" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TicketOkPatientListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/AH.APPOPD.MODEL" minOccurs="0" name="TicketOkPatientListResult" nillable="true" type="q27:ArrayOfOpdAppointment" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

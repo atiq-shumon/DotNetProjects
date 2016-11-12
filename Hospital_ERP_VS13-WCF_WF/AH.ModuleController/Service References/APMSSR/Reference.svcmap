@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="8c33a90b-f343-4f56-9cab-e0dd5d170e0e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:93/APMS/APMSService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="APMSService.xsd" MetadataType="Schema" ID="04f4501c-2958-41b9-908e-738b73e89482" SourceId="1" SourceUrl="http://localhost:93/APMS/APMSService.svc?xsd=xsd3" />
+    <MetadataFile FileName="APMSService1.xsd" MetadataType="Schema" ID="52363f12-adc8-4590-99ef-dcdf8a790dbe" SourceId="1" SourceUrl="http://localhost:93/APMS/APMSService.svc?xsd=xsd2" />
+    <MetadataFile FileName="APMSService2.xsd" MetadataType="Schema" ID="42faeaf5-7bde-45da-bc95-7d2ad1106b3f" SourceId="1" SourceUrl="http://localhost:93/APMS/APMSService.svc?xsd=xsd1" />
+    <MetadataFile FileName="APMSService3.xsd" MetadataType="Schema" ID="6d027686-cd25-463b-a0e6-081725db2e61" SourceId="1" SourceUrl="http://localhost:93/APMS/APMSService.svc?xsd=xsd0" />
+    <MetadataFile FileName="APMSWS.wsdl" MetadataType="Wsdl" ID="c3f8a3e4-52be-4619-bc9a-0b570f400a37" SourceId="1" SourceUrl="http://localhost:93/APMS/APMSService.svc?wsdl" />
+    <MetadataFile FileName="APMSService4.xsd" MetadataType="Schema" ID="42c6be4b-6ea3-47b5-8149-23130b742f4a" SourceId="1" SourceUrl="http://localhost:93/APMS/APMSService.svc?xsd=xsd8" />
+    <MetadataFile FileName="APMSService.disco" MetadataType="Disco" ID="fd660b80-17c1-486d-8d61-1903fda818a5" SourceId="1" SourceUrl="http://localhost:93/APMS/APMSService.svc?disco" />
+    <MetadataFile FileName="APMSService5.xsd" MetadataType="Schema" ID="4df9f91f-153a-46c7-9c57-38457e7d3b48" SourceId="1" SourceUrl="http://localhost:93/APMS/APMSService.svc?xsd=xsd7" />
+    <MetadataFile FileName="APMSService6.xsd" MetadataType="Schema" ID="55cb3535-d97a-4918-baab-13ae0d071303" SourceId="1" SourceUrl="http://localhost:93/APMS/APMSService.svc?xsd=xsd6" />
+    <MetadataFile FileName="APMSService7.xsd" MetadataType="Schema" ID="0f4a3282-3a2c-44c9-a347-972ead563e2d" SourceId="1" SourceUrl="http://localhost:93/APMS/APMSService.svc?xsd=xsd5" />
+    <MetadataFile FileName="APMSService8.xsd" MetadataType="Schema" ID="3b2ebd6e-a885-4623-a595-89e1615d9c7f" SourceId="1" SourceUrl="http://localhost:93/APMS/APMSService.svc?xsd=xsd4" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

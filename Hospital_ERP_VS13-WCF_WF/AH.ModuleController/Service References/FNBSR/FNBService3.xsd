@@ -1,0 +1,1575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:96/FNB/FNBService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" />
+  <xs:import schemaLocation="http://localhost:96/FNB/FNBService.svc?xsd=xsd4" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:import schemaLocation="http://localhost:96/FNB/FNBService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/AH.HR.MODEL" />
+  <xs:import schemaLocation="http://localhost:96/FNB/FNBService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" />
+  <xs:import schemaLocation="http://localhost:96/FNB/FNBService.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/AH.ORGMS.MODEL" />
+  <xs:element name="GetMaterialRefNo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Where" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMaterialRefNoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="GetMaterialRefNoResult" nillable="true" type="q1:ArrayOfMaterial_Receipt" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="number">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="numberResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="numberResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DisplayDetailsAgainsrRef">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Where" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DisplayDetailsAgainsrRefResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="DisplayDetailsAgainsrRefResult" nillable="true" type="q2:ArrayOfMaterial_Receipt" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetStockGroup">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetStockGroupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetStockGroupResult" nillable="true" type="q3:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveMrr">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="Mrr" nillable="true" type="q4:Material_Receipt" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveMrrResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SaveMrrResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveMrrTrans">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mrrNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProductCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="unitCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="brandID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="modelId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dblQty" type="xs:double" />
+        <xs:element minOccurs="0" name="dblRate" type="xs:double" />
+        <xs:element minOccurs="0" name="dblNetAmnount" type="xs:double" />
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="Mrr" nillable="true" type="q5:Material_Receipt" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveMrrTransResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SaveMrrTransResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetpopulatedList">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetpopulatedListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="GetpopulatedListResult" nillable="true" type="q6:ArrayOfMaterial_Receipt" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Displaymaterialreceipt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Where" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DisplaymaterialreceiptResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="DisplaymaterialreceiptResult" nillable="true" type="q7:ArrayOfMaterial_Receipt" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateMrr">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="Mrr" nillable="true" type="q8:Material_Receipt" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateMrrResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateMrrResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateMrrTrans">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mrrNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProductCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="unitCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="brandID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="modelId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dblQty" type="xs:double" />
+        <xs:element minOccurs="0" name="dblRate" type="xs:double" />
+        <xs:element minOccurs="0" name="dblNetAmnount" type="xs:double" />
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="Mrr" nillable="true" type="q9:Material_Receipt" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateMrrTransResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateMrrTransResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertDietcat">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="dietcat" nillable="true" type="q10:DietCategory" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertDietcatResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertDietcatResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateDietcat">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="dietcat" nillable="true" type="q11:DietCategory" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateDietcatResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateDietcatResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadDietCategory">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadDietCategoryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="LoadDietCategoryResult" nillable="true" type="q12:ArrayOfDietCategory" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertFoodcat">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="dietcat" nillable="true" type="q13:FoodCategory" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertFoodcatResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertFoodcatResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateFoodcat">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="dietcat" nillable="true" type="q14:FoodCategory" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateFoodcatResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateFoodcatResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadFoodCategory">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadFoodCategoryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="LoadFoodCategoryResult" nillable="true" type="q15:ArrayOfFoodCategory" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFoodCategory">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFoodCategoryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetFoodCategoryResult" nillable="true" type="q16:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDietCategory">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDietCategoryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q17="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetDietCategoryResult" nillable="true" type="q17:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertFoodItem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="Foodcat" nillable="true" type="q18:FoodItem" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertFoodItemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertFoodItemResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateFoodItem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="foodcat" nillable="true" type="q19:FoodItem" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateFoodItemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateFoodItemResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadFoodItem">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadFoodItemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="LoadFoodItemResult" nillable="true" type="q20:ArrayOfFoodItem" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertFoodMaster">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="Fm" nillable="true" type="q21:FoodMaster" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertFoodMasterResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertFoodMasterResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateFoodMaster">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="Fm" nillable="true" type="q22:FoodMaster" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateFoodMasterResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateFoodMasterResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadFoodMaster">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadFoodMasterResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="LoadFoodMasterResult" nillable="true" type="q23:ArrayOfFoodMaster" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertFoodMenuSetup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="FMS" nillable="true" type="q24:FoodMenuSetup" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertFoodMenuSetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertFoodMenuSetupResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateMenuFoodItem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="FMS" nillable="true" type="q25:FoodMenuSetup" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateMenuFoodItemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateMenuFoodItemResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadFoodMenuSetup">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadFoodMenuSetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="LoadFoodMenuSetupResult" nillable="true" type="q26:ArrayOfFoodMenuSetup" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertServiceSetup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="FS" nillable="true" type="q27:ServiceSetup" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertServiceSetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertServiceSetupResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateServiceSetup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="FS" nillable="true" type="q28:ServiceSetup" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateServiceSetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateServiceSetupResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadServiceSetup">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadServiceSetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="LoadServiceSetupResult" nillable="true" type="q29:ArrayOfServiceSetup" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFoodItem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Where" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFoodItemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="GetFoodItemResult" nillable="true" type="q30:ArrayOfFoodItemRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertFoodTypeSetup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q31="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="FMS" nillable="true" type="q31:FoodMenuType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertFoodTypeSetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertFoodTypeSetupResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateFoodTypeSetup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="FMS" nillable="true" type="q32:FoodMenuType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateFoodTypeSetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateFoodTypeSetupResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFoodMenuType">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFoodMenuTypeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q33="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="GetFoodMenuTypeResult" nillable="true" type="q33:ArrayOfFoodMenuType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFoodMenuItemSetup">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFoodMenuItemSetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q34="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetFoodMenuItemSetupResult" nillable="true" type="q34:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFoodTypeSetup">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFoodTypeSetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q35="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetFoodTypeSetupResult" nillable="true" type="q35:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertFoodRateItem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strFoodId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dblRate" type="xs:double" />
+        <xs:element xmlns:q36="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="FMS" nillable="true" type="q36:FoodMenuItemSetup" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertFoodRateItemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertFoodRateItemResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateFoodRateItem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strFoodId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dblRate" type="xs:double" />
+        <xs:element xmlns:q37="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="FMS" nillable="true" type="q37:FoodMenuItemSetup" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateFoodRateItemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateFoodRateItemResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadFoodItemrate">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadFoodItemrateResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q38="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="LoadFoodItemrateResult" nillable="true" type="q38:ArrayOfFoodMenuItemSetup" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DisplayFoodItemrate">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="where" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DisplayFoodItemrateResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q39="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="DisplayFoodItemrateResult" nillable="true" type="q39:ArrayOfFoodMenuItemSetup" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertMealsetup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q40="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="ms" nillable="true" type="q40:MealSetup" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertMealsetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertMealsetupResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateMealsetup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q41="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="ms" nillable="true" type="q41:MealSetup" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateMealsetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateMealsetupResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadmealSetup">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadmealSetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q42="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="LoadmealSetupResult" nillable="true" type="q42:ArrayOfMealSetup" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadWeeklyMealSetup">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadWeeklyMealSetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q43="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="LoadWeeklyMealSetupResult" nillable="true" type="q43:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertWeeklysetup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q44="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="WS" nillable="true" type="q44:WeeklySetupMeal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertWeeklysetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertWeeklysetupResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateWeeklysetup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q45="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="WS" nillable="true" type="q45:WeeklySetupMeal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateWeeklysetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateWeeklysetupResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetWeeklyMealSetup">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetWeeklyMealSetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q46="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="GetWeeklyMealSetupResult" nillable="true" type="q46:ArrayOfWeeklySetupMeal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetWeeklySetmenu">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetWeeklySetmenuResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q47="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="GetWeeklySetmenuResult" nillable="true" type="q47:ArrayOfWeeklyEmpMealRegister" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DisplaySetmenuDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Where" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DisplaySetmenuDetailsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q48="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="DisplaySetmenuDetailsResult" nillable="true" type="q48:ArrayOfWeeklyEmpMealRegister" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetEmp">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="type" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetEmpResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q49="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetEmpResult" nillable="true" type="q49:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertMealRegistermaster">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q50="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="WS" nillable="true" type="q50:WeeklyEmpMealRegister" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertMealRegistermasterResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertMealRegistermasterResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertMealRegister">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strRefNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="setMenu" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dblMealRate" type="xs:double" />
+        <xs:element xmlns:q51="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="WS" nillable="true" type="q51:WeeklyEmpMealRegister" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertMealRegisterResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertMealRegisterResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetWeeklySetupregister">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Where" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Where1" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetWeeklySetupregisterResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q52="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="GetWeeklySetupregisterResult" nillable="true" type="q52:ArrayOfWeeklyEmpMealRegister" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateMealRegister">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q53="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="WS" nillable="true" type="q53:WeeklyEmpMealRegister" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateMealRegisterResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateMealRegisterResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LaodWeeklySetMenuType">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LaodWeeklySetMenuTypeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q54="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="LaodWeeklySetMenuTypeResult" nillable="true" type="q54:ArrayOfWeeklySetupMeal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetEmpMaster">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetEmpMasterResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q55="http://schemas.datacontract.org/2004/07/AH.HR.MODEL" minOccurs="0" name="GetEmpMasterResult" nillable="true" type="q55:EmployeeMaster" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LaodWeeklyChart">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strSetMenuTypeID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LaodWeeklyChartResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q56="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="LaodWeeklyChartResult" nillable="true" type="q56:ArrayOfWeeklyChart" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetVisitorsMenuItem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strSetMenuTypeID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetVisitorsMenuItemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q57="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="GetVisitorsMenuItemResult" nillable="true" type="q57:ArrayOfFoodMenuItemSetup" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertVisitorsMaster">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q58="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="Vs" nillable="true" type="q58:Visitors" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertVisitorsMasterResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertVisitorsMasterResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertVisitorsTran">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strInvNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strFoodID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dblQnty" type="xs:double" />
+        <xs:element minOccurs="0" name="dblRate" type="xs:double" />
+        <xs:element minOccurs="0" name="dblDiscount" type="xs:double" />
+        <xs:element minOccurs="0" name="dblTotal" type="xs:double" />
+        <xs:element xmlns:q59="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="Vs" nillable="true" type="q59:Visitors" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertVisitorsTranResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertVisitorsTranResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetVisitors">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="where" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetVisitorsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q60="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="GetVisitorsResult" nillable="true" type="q60:ArrayOfVisitors" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DisplaytVisitors">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="where" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DisplaytVisitorsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q61="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="DisplaytVisitorsResult" nillable="true" type="q61:ArrayOfVisitors" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateVisitorsMaster">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strInvoiceNo" nillable="true" type="xs:string" />
+        <xs:element xmlns:q62="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="Vs" nillable="true" type="q62:Visitors" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateVisitorsMasterResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateVisitorsMasterResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadFoodItemFromCat">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="where" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadFoodItemFromCatResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q63="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="LoadFoodItemFromCatResult" nillable="true" type="q63:ArrayOfFoodMaster" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetItemRate">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="where" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetItemRateResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q64="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="GetItemRateResult" nillable="true" type="q64:ArrayOfFoodMaster" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFoodMenuItemSetupFromMenuID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CallName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Where" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFoodMenuItemSetupFromMenuIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q65="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="GetFoodMenuItemSetupFromMenuIDResult" nillable="true" type="q65:ArrayOfFoodMenuItemSetup" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertVisitorsOrderTran">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q66="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="Vs" nillable="true" type="q66:Visitors" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertVisitorsOrderTranResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertVisitorsOrderTranResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetVisitorsSlipRo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Pcall" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Where" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetVisitorsSlipRoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q67="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="GetVisitorsSlipRoResult" nillable="true" type="q67:ArrayOfVisitorsSlipRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCollectionAmount">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="userID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="date" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCollectionAmountResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q68="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="GetCollectionAmountResult" nillable="true" type="q68:AccountsPayment" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertUserCloseRegister">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q69="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="tktFee" nillable="true" type="q69:AccountsPayment" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertUserCloseRegisterResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertUserCloseRegisterResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMealID">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMealIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q70="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetMealIDResult" nillable="true" type="q70:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetWeeklySetmenuDetiails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="MealId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MealName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetWeeklySetmenuDetiailsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q71="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetWeeklySetmenuDetiailsResult" nillable="true" type="q71:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMealTime">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMealTimeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q72="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="GetMealTimeResult" nillable="true" type="q72:ArrayOfMealSetup" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadSetmenu">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="where" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="where1" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadSetmenuResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q73="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="LoadSetmenuResult" nillable="true" type="q73:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBarcodeLevel">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strBarcode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBarcodeLevelResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetBarcodeLevelResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateIssue">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strCardNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strMealID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strDate" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateIssueResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateIssueResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadDailyCollection">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="where" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CallName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Fdate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Tdate" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadDailyCollectionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q74="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="LoadDailyCollectionResult" nillable="true" type="q74:ArrayOfDailyCollectionRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFoodItemCollection">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="where" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CallName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Fdate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Tdate" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFoodItemCollectionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q75="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="GetFoodItemCollectionResult" nillable="true" type="q75:ArrayOfVisitorsSlipRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadStaffCollection">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="where" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CallName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Fdate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Tdate" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadStaffCollectionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q76="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="LoadStaffCollectionResult" nillable="true" type="q76:ArrayOfDailyCollectionRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetvisitorsHistory">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="where" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetvisitorsHistoryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q77="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="GetvisitorsHistoryResult" nillable="true" type="q77:ArrayOfVisitors" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTotalAttendance">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="where" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTotalAttendanceResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetTotalAttendanceResult" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFoodID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="where" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFoodIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q78="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="GetFoodIDResult" nillable="true" type="q78:ArrayOfFoodItem" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadStaffIssuesd">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="where" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CallName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Fdate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Tdate" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadStaffIssuesdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q79="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="LoadStaffIssuesdResult" nillable="true" type="q79:ArrayOfDailyCollectionRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetVisitorsCollection">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="where" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CallName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Fdate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Tdate" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetVisitorsCollectionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q80="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="GetVisitorsCollectionResult" nillable="true" type="q80:ArrayOfVisitorsSlipRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadUserwiseCollection">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="where" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CallName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Fdate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Tdate" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadUserwiseCollectionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q81="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="LoadUserwiseCollectionResult" nillable="true" type="q81:ArrayOfDailyCollectionRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetVisitorsItemDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="where" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CallName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Fdate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Tdate" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetVisitorsItemDetailsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q82="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="GetVisitorsItemDetailsResult" nillable="true" type="q82:ArrayOfVisitorsSlipRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetvisitorsHistoryDateRange">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="where" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="where1" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="where2" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetvisitorsHistoryDateRangeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q83="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="GetvisitorsHistoryDateRangeResult" nillable="true" type="q83:ArrayOfVisitors" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetEmpStaffItem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="where" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="where1" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="where2" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetEmpStaffItemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q84="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="GetEmpStaffItemResult" nillable="true" type="q84:ArrayOfVisitorsSlipRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFoodSubsidy">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="EmpID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFoodSubsidyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q85="http://schemas.datacontract.org/2004/07/AH.ORGMS.MODEL" minOccurs="0" name="GetFoodSubsidyResult" nillable="true" type="q85:FoodSubsidy" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetWeeklyDayMeal">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="where" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="where1" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetWeeklyDayMealResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q86="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="GetWeeklyDayMealResult" nillable="true" type="q86:ArrayOfWeeklySetupMeal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertInventory">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q87="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="inv" nillable="true" type="q87:Inventory" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertInventoryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertInventoryResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMonthVoucher">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="intVtype" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMonthVoucherResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q88="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="GetMonthVoucherResult" nillable="true" type="q88:ArrayOfInventory" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DisplayVoucher">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="where" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DisplayVoucherResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q89="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="DisplayVoucherResult" nillable="true" type="q89:ArrayOfInventory" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateInventory">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q90="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="inv" nillable="true" type="q90:Inventory" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateInventoryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateInventoryResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetClosingQty">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="where" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetClosingQtyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q91="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="GetClosingQtyResult" nillable="true" type="q91:ArrayOfInventory" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetfnbInventoryDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="PfDate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pTdate" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetfnbInventoryDetailsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q92="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="GetfnbInventoryDetailsResult" nillable="true" type="q92:ArrayOfInventoryRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDietSubType">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDietSubTypeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q93="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetDietSubTypeResult" nillable="true" type="q93:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveDietSubType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q94="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="dst" nillable="true" type="q94:DietSubType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveDietSubTypeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SaveDietSubTypeResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DisplaySubType">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DisplaySubTypeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q95="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="DisplaySubTypeResult" nillable="true" type="q95:ArrayOfDietSubType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateDietSubType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q96="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="dst" nillable="true" type="q96:DietSubType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateDietSubTypeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateDietSubTypeResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSubType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Where" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSubTypeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q97="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="GetSubTypeResult" nillable="true" type="q97:ArrayOfWeeklyDietSetup" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDeptGroupDicByType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="type" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDeptGroupDicByTypeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q98="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetDeptGroupDicByTypeResult" nillable="true" type="q98:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDepartmentsetupDic">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="type" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="deptgr" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDepartmentsetupDicResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q99="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetDepartmentsetupDicResult" nillable="true" type="q99:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDeptUnitDic">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deptgrp" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="deptid" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDeptUnitDicResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q100="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetDeptUnitDicResult" nillable="true" type="q100:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMonthWiseMealRegister">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strGrpID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strDepID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fDate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="tDate" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMonthWiseMealRegisterResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q101="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="GetMonthWiseMealRegisterResult" nillable="true" type="q101:ArrayOfMonthwiseMealRegisterRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertWeeklyDietMenu">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q102="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="Wds" nillable="true" type="q102:WeeklyDietSetup" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertWeeklyDietMenuResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertWeeklyDietMenuResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdatetWeeklyDietMenu">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q103="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="Wds" nillable="true" type="q103:WeeklyDietSetup" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdatetWeeklyDietMenuResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdatetWeeklyDietMenuResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetWeeklyDietSetup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Where" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetWeeklyDietSetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q104="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="GetWeeklyDietSetupResult" nillable="true" type="q104:ArrayOfWeeklyDietSetup" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckEmpID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="where" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fDate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="tDate" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckEmpIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q105="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="CheckEmpIDResult" nillable="true" type="q105:ArrayOfVisitors" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMonthWiseMealRegisterAll">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strGrpID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strDepID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fDate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="tDate" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMonthWiseMealRegisterAllResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q106="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" minOccurs="0" name="GetMonthWiseMealRegisterAllResult" nillable="true" type="q106:ArrayOfMonthwiseMealRegisterRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

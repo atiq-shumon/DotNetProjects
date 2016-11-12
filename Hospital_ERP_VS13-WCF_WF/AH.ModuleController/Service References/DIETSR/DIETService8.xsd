@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/AH.IPDShared.MODEL" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AH.IPDShared.MODEL" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:112/DIET/DIETService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" />
+  <xs:import schemaLocation="http://localhost:112/DIET/DIETService.svc?xsd=xsd7" namespace="http://schemas.datacontract.org/2004/07/AH.DUtility" />
+  <xs:import schemaLocation="http://localhost:112/DIET/DIETService.svc?xsd=xsd8" namespace="http://schemas.datacontract.org/2004/07/AH.PRMS.MODEL" />
+  <xs:import schemaLocation="http://localhost:112/DIET/DIETService.svc?xsd=xsd9" namespace="http://schemas.datacontract.org/2004/07/AH.HR.MODEL" />
+  <xs:import schemaLocation="http://localhost:112/DIET/DIETService.svc?xsd=xsd10" namespace="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" />
+  <xs:import schemaLocation="http://localhost:112/DIET/DIETService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="ArrayOfInPatient">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="InPatient" nillable="true" type="tns:InPatient" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfInPatient" nillable="true" type="tns:ArrayOfInPatient" />
+  <xs:complexType name="InPatient">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" base="q1:Patient">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="AdmissionDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="AdmissionReason" nillable="true" type="q1:AdmissionReason" />
+          <xs:element minOccurs="0" name="AdmissionType" nillable="true" type="xs:string" />
+          <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/AH.DUtility" minOccurs="0" name="Age" nillable="true" type="q2:Age" />
+          <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/AH.PRMS.MODEL" minOccurs="0" name="Bed" nillable="true" type="q3:Bed" />
+          <xs:element minOccurs="0" name="BedTransferDateTime" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="CancellationReason" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CurrentDietTitle" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DischargeDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="DischargeType" nillable="true" type="xs:string" />
+          <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/AH.HR.MODEL" minOccurs="0" name="Doctor" nillable="true" type="q4:Doctor" />
+          <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/AH.HR.MODEL" minOccurs="0" name="DutyNurse" nillable="true" type="q5:Nurse" />
+          <xs:element minOccurs="0" name="EmergencyAmount" type="xs:decimal" />
+          <xs:element minOccurs="0" name="ExpDischargeDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="ExpectedOperationDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="HourDifference" type="xs:int" />
+          <xs:element minOccurs="0" name="IsOperationAdvised" nillable="true" type="xs:string" />
+          <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/AH.PRMS.MODEL" minOccurs="0" name="NurseStation" nillable="true" type="q6:NurseStation" />
+          <xs:element minOccurs="0" name="OperationID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="OperationTitle" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PackageID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Payment" nillable="true" type="q1:OPDPayment" />
+          <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="Purpose" nillable="true" type="q7:Purpose" />
+          <xs:element minOccurs="0" name="ReferenceNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ReferenceType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="RegistrationNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="RevenueHead" nillable="true" type="q1:RevenueHead" />
+          <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/AH.PRMS.MODEL" minOccurs="0" name="Room" nillable="true" type="q8:Room" />
+          <xs:element minOccurs="0" name="StayingDays" type="xs:decimal" />
+          <xs:element minOccurs="0" name="Total" type="xs:double" />
+          <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/AH.PRMS.MODEL" minOccurs="0" name="Ward" nillable="true" type="q9:Ward" />
+          <xs:element minOccurs="0" name="dischargeFlag" type="ser:char" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="InPatient" nillable="true" type="tns:InPatient" />
+</xs:schema>

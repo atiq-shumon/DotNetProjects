@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/AH.PRMS.MODEL" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AH.PRMS.MODEL" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" />
+  <xs:complexType name="Building">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BuildingID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BuildingTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BuildingTitleBeng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Company" nillable="true" type="tns:Company" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q1:EntryParameter" />
+      <xs:element minOccurs="0" name="Floors" type="xs:short" />
+      <xs:element minOccurs="0" name="Location" nillable="true" type="tns:Location" />
+      <xs:element minOccurs="0" name="SerialNo" type="xs:short" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Building" nillable="true" type="tns:Building" />
+  <xs:complexType name="Company">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AddressBeng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EMail" nillable="true" type="xs:string" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q2:EntryParameter" />
+      <xs:element minOccurs="0" name="Fax" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LogoPath" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NameBeng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PhoneNos" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Slogan" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SloganBeng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WebSiteAddress" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Company" nillable="true" type="tns:Company" />
+  <xs:complexType name="Location">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AddressBeng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Company" nillable="true" type="tns:Company" />
+      <xs:element minOccurs="0" name="EMail" nillable="true" type="xs:string" />
+      <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q3:EntryParameter" />
+      <xs:element minOccurs="0" name="Fax" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LocationID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LocationTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LocationTitleBeng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PhoneNos" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Serial" type="xs:short" />
+      <xs:element minOccurs="0" name="WebAddress" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Location" nillable="true" type="tns:Location" />
+  <xs:complexType name="Bed">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BedChargesString" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BedID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BedNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BedStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BedTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BedTitleBeng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BedType" nillable="true" type="tns:BedType" />
+      <xs:element minOccurs="0" name="Building" nillable="true" type="tns:Building" />
+      <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="Department" nillable="true" type="q4:Department" />
+      <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q5:EntryParameter" />
+      <xs:element minOccurs="0" name="Facility" nillable="true" type="tns:BedFacility" />
+      <xs:element minOccurs="0" name="Floor" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NoOfDays" type="xs:int" />
+      <xs:element minOccurs="0" name="NurseStation" nillable="true" type="tns:NurseStation" />
+      <xs:element minOccurs="0" name="RegistrationNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Room" nillable="true" type="tns:Room" />
+      <xs:element minOccurs="0" name="SerialNo" type="xs:short" />
+      <xs:element minOccurs="0" name="Ward" nillable="true" type="tns:Ward" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Bed" nillable="true" type="tns:Bed" />
+  <xs:complexType name="BedType">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BedFacility" nillable="true" type="tns:BedFacility" />
+      <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q6:EntryParameter" />
+      <xs:element minOccurs="0" name="ID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SerialPriority" type="xs:short" />
+      <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TitleBeng" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BedType" nillable="true" type="tns:BedType" />
+  <xs:complexType name="BedFacility">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AC" type="xs:short" />
+      <xs:element minOccurs="0" name="Almirah" type="xs:short" />
+      <xs:element minOccurs="0" name="Corridor" type="xs:short" />
+      <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q7:EntryParameter" />
+      <xs:element minOccurs="0" name="Fridge" type="xs:short" />
+      <xs:element minOccurs="0" name="ID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Internet" type="xs:short" />
+      <xs:element minOccurs="0" name="MaxAllowedPerson" type="xs:short" />
+      <xs:element minOccurs="0" name="Newspaper" type="xs:short" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Sofa" type="xs:short" />
+      <xs:element minOccurs="0" name="TV" type="xs:short" />
+      <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TitleBeng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Veranda" type="xs:short" />
+      <xs:element minOccurs="0" name="WashRoom" type="xs:short" />
+      <xs:element minOccurs="0" name="XtraBed" type="xs:short" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BedFacility" nillable="true" type="tns:BedFacility" />
+  <xs:complexType name="NurseStation">
+    <xs:sequence>
+      <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q8:EntryParameter" />
+      <xs:element minOccurs="0" name="FloorNo" type="xs:int" />
+      <xs:element minOccurs="0" name="IntercomNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NurseStationID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NurseStationTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NurseStationTitleBangla" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Room" nillable="true" type="tns:Room" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="NurseStation" nillable="true" type="tns:NurseStation" />
+  <xs:complexType name="Room">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AgeGroupMax" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgeGroupMin" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgeRange" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AllowedGender" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Block" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Building" nillable="true" type="tns:Building" />
+      <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="Department" nillable="true" type="q9:Department" />
+      <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q10:EntryParameter" />
+      <xs:element minOccurs="0" name="Floor" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Location" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RoomID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RoomNo" type="xs:short" />
+      <xs:element minOccurs="0" name="RoomSft" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RoomTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RoomTitleBeng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RoomType" nillable="true" type="tns:RoomType" />
+      <xs:element minOccurs="0" name="SerialPriority" type="xs:short" />
+      <xs:element minOccurs="0" name="TotalBed" type="xs:short" />
+      <xs:element minOccurs="0" name="isAgeRestricted" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="isDepartmentRestricted" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="isGenderRestricted" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Room" nillable="true" type="tns:Room" />
+  <xs:complexType name="RoomType">
+    <xs:sequence>
+      <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q11:EntryParameter" />
+      <xs:element minOccurs="0" name="ID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TitleBeng" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RoomType" nillable="true" type="tns:RoomType" />
+  <xs:complexType name="Ward">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AgeGroupMax" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgeGroupMin" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AgeRange" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AllowedGender" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BedType" nillable="true" type="tns:BedType" />
+      <xs:element minOccurs="0" name="BlockNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BuildingID" nillable="true" type="xs:string" />
+      <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="Department" nillable="true" type="q12:Department" />
+      <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q13:EntryParameter" />
+      <xs:element minOccurs="0" name="NoRoom" type="xs:int" />
+      <xs:element minOccurs="0" name="NthFloor" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SerialPriority" type="xs:short" />
+      <xs:element minOccurs="0" name="TotalBed" type="xs:short" />
+      <xs:element minOccurs="0" name="WardID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WardInCharge" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WardNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WardTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WardTitleBeng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="isAgeRestricted" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="isDepartmentRestricted" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="isGenderRestricted" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Ward" nillable="true" type="tns:Ward" />
+  <xs:complexType name="LabRoom">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Room">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="LabRoom" nillable="true" type="tns:LabRoom" />
+  <xs:complexType name="SpecimenCollectionRoom">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Room">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SpecimenCollectionRoom" nillable="true" type="tns:SpecimenCollectionRoom" />
+</xs:schema>

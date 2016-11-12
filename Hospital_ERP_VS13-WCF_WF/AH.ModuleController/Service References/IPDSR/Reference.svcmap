@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="09699694-5047-490b-8169-a098627b67f4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:68/IPDNEW/IPDNEWService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="IPDNEWService.xsd" MetadataType="Schema" ID="e6ef3291-be15-4378-a81b-16e0a63b31bb" SourceId="1" SourceUrl="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd12" />
+    <MetadataFile FileName="IPDWS.wsdl" MetadataType="Wsdl" ID="f81e4e1f-895d-43ab-bc22-c8398eaa242c" SourceId="1" SourceUrl="http://localhost:68/IPDNEW/IPDNEWService.svc?wsdl" />
+    <MetadataFile FileName="IPDNEWService.disco" MetadataType="Disco" ID="1eeb2663-ba67-4585-8e8e-4b5f4d4cfe1e" SourceId="1" SourceUrl="http://localhost:68/IPDNEW/IPDNEWService.svc?disco" />
+    <MetadataFile FileName="IPDNEWService1.xsd" MetadataType="Schema" ID="798e68c5-6f00-483e-9235-a0070a8c553e" SourceId="1" SourceUrl="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd13" />
+    <MetadataFile FileName="IPDNEWService2.xsd" MetadataType="Schema" ID="0e0dd8d7-04f3-4888-94c6-4ee1a510083c" SourceId="1" SourceUrl="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd4" />
+    <MetadataFile FileName="IPDNEWService3.xsd" MetadataType="Schema" ID="d0ebf80c-dbd3-4c34-ba89-dc7e17243a9b" SourceId="1" SourceUrl="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd5" />
+    <MetadataFile FileName="IPDNEWService4.xsd" MetadataType="Schema" ID="6fa65e63-2bc5-4923-aba8-14c976cb83c3" SourceId="1" SourceUrl="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd6" />
+    <MetadataFile FileName="IPDNEWService5.xsd" MetadataType="Schema" ID="15a23a06-e728-4d25-8e0d-7f36556b1e54" SourceId="1" SourceUrl="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd7" />
+    <MetadataFile FileName="IPDNEWService6.xsd" MetadataType="Schema" ID="ccc27a94-ceeb-44a3-8534-63983f90bc6b" SourceId="1" SourceUrl="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd0" />
+    <MetadataFile FileName="IPDNEWService7.xsd" MetadataType="Schema" ID="b5b1e129-fff2-4bd4-8643-59790fad141c" SourceId="1" SourceUrl="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd1" />
+    <MetadataFile FileName="IPDNEWService8.xsd" MetadataType="Schema" ID="4afe6b0d-ee7e-412d-be04-334312b75763" SourceId="1" SourceUrl="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd2" />
+    <MetadataFile FileName="IPDNEWService9.xsd" MetadataType="Schema" ID="309760c3-7b1a-4d4a-9dcc-7fe5a60488c7" SourceId="1" SourceUrl="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd3" />
+    <MetadataFile FileName="IPDNEWService10.xsd" MetadataType="Schema" ID="9ae9c986-201a-46e0-80af-0542d24c84bd" SourceId="1" SourceUrl="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd14" />
+    <MetadataFile FileName="IPDNEWService11.xsd" MetadataType="Schema" ID="3763227f-b034-4beb-b2ff-26311ee5561a" SourceId="1" SourceUrl="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd10" />
+    <MetadataFile FileName="IPDNEWService12.xsd" MetadataType="Schema" ID="814d0196-5a27-41e5-9724-18ffe868ba62" SourceId="1" SourceUrl="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd8" />
+    <MetadataFile FileName="IPDNEWService13.xsd" MetadataType="Schema" ID="6082a195-c96f-45f4-ab66-22b1e828a629" SourceId="1" SourceUrl="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd9" />
+    <MetadataFile FileName="IPDNEWService15.xsd" MetadataType="Schema" ID="ea2634a6-2586-4932-bf9b-fd136163213a" SourceId="1" SourceUrl="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd15" />
+    <MetadataFile FileName="IPDNEWService14.xsd" MetadataType="Schema" ID="c18e1672-93e4-470e-b75e-aa8fd020baf2" SourceId="1" SourceUrl="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd11" />
+    <MetadataFile FileName="IPDNEWService16.xsd" MetadataType="Schema" ID="bd71d45a-6f82-4baa-aa0e-1b2e0096af90" SourceId="1" SourceUrl="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd16" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

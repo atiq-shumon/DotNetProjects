@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/AH.APPOPD.MODEL" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AH.APPOPD.MODEL" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:82/OPD/OPDService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" />
+  <xs:import schemaLocation="http://localhost:82/OPD/OPDService.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/AH.HR.MODEL" />
+  <xs:import schemaLocation="http://localhost:82/OPD/OPDService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/AH.PRMS.MODEL" />
+  <xs:import schemaLocation="http://localhost:82/OPD/OPDService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="OPDDoctor">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AvgPatMin" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DegreeLine1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DegreeLine2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DegreeLine3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DegreeLine4" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="Department" nillable="true" type="q1:Department" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="DepartmentUnit" nillable="true" type="q2:DepartmentUnit" />
+      <xs:element minOccurs="0" name="Details" nillable="true" type="xs:string" />
+      <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/AH.HR.MODEL" minOccurs="0" name="Doctor" nillable="true" type="q3:Doctor" />
+      <xs:element minOccurs="0" name="DrRptVisit" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DrVisFirst" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DrVisFourth" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DrVisSecond" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DrVisThird" nillable="true" type="xs:string" />
+      <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q4:EntryParameter" />
+      <xs:element minOccurs="0" name="MaxPatBar" nillable="true" type="xs:string" />
+      <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/AH.PRMS.MODEL" minOccurs="0" name="Room" nillable="true" type="q5:Room" />
+      <xs:element minOccurs="0" name="RoomGroup" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RptVisit" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Unit" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VisEndTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VisFirst" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VisFourth" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VisSecond" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VisStartTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VisThird" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VisitCycle" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="OPDDoctor" nillable="true" type="tns:OPDDoctor" />
+  <xs:complexType name="ArrayOfOPDDoctor">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="OPDDoctor" nillable="true" type="tns:OPDDoctor" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfOPDDoctor" nillable="true" type="tns:ArrayOfOPDDoctor" />
+  <xs:complexType name="ArrayOfOpdAppointment">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="OpdAppointment" nillable="true" type="tns:OpdAppointment" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfOpdAppointment" nillable="true" type="tns:ArrayOfOpdAppointment" />
+  <xs:complexType name="OpdAppointment">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AllowAutonotification" type="ser:char" />
+      <xs:element minOccurs="0" name="AppointDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AppointID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AppointmentClient" nillable="true" type="tns:AppointmentClient" />
+      <xs:element minOccurs="0" name="AppointmentMode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AppointmentType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApproxETime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApproxSTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BatchID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BookingType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CompelitionStatus" nillable="true" type="xs:string" />
+      <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="Department" nillable="true" type="q6:Department" />
+      <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="DepartmentUnit" nillable="true" type="q7:DepartmentUnit" />
+      <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/AH.HR.MODEL" minOccurs="0" name="Doctor" nillable="true" type="q8:Doctor" />
+      <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q9:EntryParameter" />
+      <xs:element minOccurs="0" name="PackageID" nillable="true" type="xs:string" />
+      <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="Patient" nillable="true" type="q10:Patient" />
+      <xs:element minOccurs="0" name="RequestedDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ServiceID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StatusChangeCause" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TokenNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VisitType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VisitorType" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="OpdAppointment" nillable="true" type="tns:OpdAppointment" />
+  <xs:complexType name="AppointmentClient">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AllowAutoNotification" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BookedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ClientId" nillable="true" type="xs:string" />
+      <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q11:EntryParameter" />
+      <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="Patient" nillable="true" type="q12:Patient" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AppointmentClient" nillable="true" type="tns:AppointmentClient" />
+</xs:schema>

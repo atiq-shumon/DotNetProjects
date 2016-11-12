@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:82/OPD/OPDService.svc?xsd=xsd7" namespace="http://schemas.datacontract.org/2004/07/AH.DUtility" />
+  <xs:import schemaLocation="http://localhost:82/OPD/OPDService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="EntryParameter">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Active" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CompanyID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EntryBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EntryDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="EntryName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LocationID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MachineID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SysDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="UpdateBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UpdateByName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EntryParameter" nillable="true" type="tns:EntryParameter" />
+  <xs:complexType name="Department">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DepartmentCategory" nillable="true" type="tns:DepartmentCategory" />
+      <xs:element minOccurs="0" name="DepartmentGroup" nillable="true" type="tns:DepartmentGroup" />
+      <xs:element minOccurs="0" name="DepartmentID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepartmentTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepartmentTitleBeng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepartmentType" nillable="true" type="tns:DepartmentType" />
+      <xs:element minOccurs="0" name="DepartmentUnit" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepartmentUnitHead" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepartmentUnitHeadID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EntryParameter" nillable="true" type="tns:EntryParameter" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Serial" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Department" nillable="true" type="tns:Department" />
+  <xs:complexType name="DepartmentCategory">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DepartmentCategoryID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepartmentCategoryTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepartmentCategoryTitleBeng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepartmentType" nillable="true" type="tns:DepartmentType" />
+      <xs:element minOccurs="0" name="EntryParameter" nillable="true" type="tns:EntryParameter" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DepartmentCategory" nillable="true" type="tns:DepartmentCategory" />
+  <xs:complexType name="DepartmentType">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="TypeID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TypeTitle" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DepartmentType" nillable="true" type="tns:DepartmentType" />
+  <xs:complexType name="DepartmentGroup">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DepartmentCategory" nillable="true" type="tns:DepartmentCategory" />
+      <xs:element minOccurs="0" name="DepartmentGroupID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepartmentGroupTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepartmentGroupTitleBeng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepartmentType" nillable="true" type="tns:DepartmentType" />
+      <xs:element minOccurs="0" name="DepartmentTypeID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EntryParameter" nillable="true" type="tns:EntryParameter" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Serial" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DepartmentGroup" nillable="true" type="tns:DepartmentGroup" />
+  <xs:complexType name="Person">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AgeFull" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BloodGroup" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CellPhone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Country" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DOB" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EntryParameter" nillable="true" type="tns:EntryParameter" />
+      <xs:element minOccurs="0" name="FathersName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FathersNameBeng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GuardianName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GuardianNameBeng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HomePhone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IncomeGroup" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MaritalStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MaxEducation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MothersName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MothersNameBeng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NameBeng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Occupation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PermanentDistrict" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PermanentThana" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Permanent_H_R_B" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Permanent_Post" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Photo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PresentDistrict" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PresentThana" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Present_H_R_B" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Present_H_R_B_Beng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Present_Post" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RelationWithGuardian" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Religion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Sex" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SpouseName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SpouseNameBeng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="YearlyIncome" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Person" nillable="true" type="tns:Person" />
+  <xs:complexType name="DepartmentUnit">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="EntryParameter" nillable="true" type="tns:EntryParameter" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Serial" type="xs:int" />
+      <xs:element minOccurs="0" name="UnitId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UnitTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UnitTitleBeng" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DepartmentUnit" nillable="true" type="tns:DepartmentUnit" />
+  <xs:complexType name="Designation">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DesignationGroup" nillable="true" type="tns:DesignationGroup" />
+      <xs:element minOccurs="0" name="DesignationId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DesignationLevel" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DesignationParentId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DesignationTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DesignationTitleBeng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DesignationType" nillable="true" type="tns:DesignationType" />
+      <xs:element minOccurs="0" name="EntryParameter" nillable="true" type="tns:EntryParameter" />
+      <xs:element minOccurs="0" name="NumberOfPosts" type="xs:short" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Designation" nillable="true" type="tns:Designation" />
+  <xs:complexType name="DesignationGroup">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DesignationType" nillable="true" type="tns:DesignationType" />
+      <xs:element minOccurs="0" name="EntryParameter" nillable="true" type="tns:EntryParameter" />
+      <xs:element minOccurs="0" name="GroupId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GroupTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GroupTitleBeng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Serial" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DesignationGroup" nillable="true" type="tns:DesignationGroup" />
+  <xs:complexType name="DesignationType">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="TypeID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TypeTitle" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DesignationType" nillable="true" type="tns:DesignationType" />
+  <xs:complexType name="Patient">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Person">
+        <xs:sequence>
+          <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/AH.DUtility" minOccurs="0" name="AgeBreakDown" nillable="true" type="q1:Age" />
+          <xs:element minOccurs="0" name="Allergy" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="AllergyText" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="AppointmentID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CaseID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CategoryID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CorporateID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Department" nillable="true" type="tns:Department" />
+          <xs:element minOccurs="0" name="DepartmentUnit" nillable="true" type="tns:DepartmentUnit" />
+          <xs:element minOccurs="0" name="Dependent_ID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EmergencyAddress" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EmergencyAddressBeng" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EmergencyAddressDistrict" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EmergencyAddressThana" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EmergencyCellPhone" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EmergencyContactPerson" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EmergencyContactPersonBeng" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EmergencyHomePhone" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EmergencyPersonEmail" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EmergencyPersonRelation" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="HCN" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Is_staff_self" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="StaffID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Status" type="ser:char" />
+          <xs:element minOccurs="0" name="staff_type_id" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Patient" nillable="true" type="tns:Patient" />
+  <xs:complexType name="OPDPayment">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:PatientPayment">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CashAmount" type="xs:double" />
+          <xs:element minOccurs="0" name="ConsultantFee" type="xs:decimal" />
+          <xs:element minOccurs="0" name="CreditCardAmount" type="xs:double" />
+          <xs:element minOccurs="0" name="CreditCardBankID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CreditCardBankName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CreditCardNo" type="xs:int" />
+          <xs:element minOccurs="0" name="CreditCardType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DebitCardAmount" type="xs:double" />
+          <xs:element minOccurs="0" name="DebitCardBankID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DebitCardBankName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DebitCardNo" type="xs:int" />
+          <xs:element minOccurs="0" name="DebitCardType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PaymentString" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="RefferedFee" type="xs:decimal" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="OPDPayment" nillable="true" type="tns:OPDPayment" />
+  <xs:complexType name="PatientPayment">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:EntryParameter">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Advance" type="xs:decimal" />
+          <xs:element minOccurs="0" name="Amount" type="xs:decimal" />
+          <xs:element minOccurs="0" name="AmountGiven" type="xs:decimal" />
+          <xs:element minOccurs="0" name="Department" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DepartmentUnit" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DepositType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DeptAmount" type="xs:decimal" />
+          <xs:element minOccurs="0" name="Discount" type="xs:decimal" />
+          <xs:element minOccurs="0" name="DiscountBy" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="HCN" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="NetAmount" type="xs:decimal" />
+          <xs:element minOccurs="0" name="PaymentDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="PaymentType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PreviousDue" type="xs:decimal" />
+          <xs:element minOccurs="0" name="PurposeID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PurposeTitle" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ReffDept" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ReffDeptAmount" type="xs:decimal" />
+          <xs:element minOccurs="0" name="ReffDeptUnit" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="RegistrationNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Staff" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="TransactionNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="VAT" type="xs:decimal" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="PatientPayment" nillable="true" type="tns:PatientPayment" />
+  <xs:complexType name="AccountsPayment">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CashAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="CollectionDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CreditCardAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="DebitCardAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="EntryBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EntryByName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EntryDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EntryParameter" nillable="true" type="tns:EntryParameter" />
+      <xs:element minOccurs="0" name="PaymentAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="PaymentTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RefundAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TotalCollection" type="xs:double" />
+      <xs:element minOccurs="0" name="UserID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VoucherNo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AccountsPayment" nillable="true" type="tns:AccountsPayment" />
+  <xs:complexType name="ArrayOfDepartment">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Department" nillable="true" type="tns:Department" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDepartment" nillable="true" type="tns:ArrayOfDepartment" />
+  <xs:complexType name="DeptUnitAss">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Department" nillable="true" type="tns:Department" />
+      <xs:element minOccurs="0" name="DepartmentGroup" nillable="true" type="tns:DepartmentGroup" />
+      <xs:element minOccurs="0" name="DepartmentUnit" nillable="true" type="tns:DepartmentUnit" />
+      <xs:element minOccurs="0" name="EntryParameter" nillable="true" type="tns:EntryParameter" />
+      <xs:element minOccurs="0" name="UnitAssignString" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DeptUnitAss" nillable="true" type="tns:DeptUnitAss" />
+</xs:schema>

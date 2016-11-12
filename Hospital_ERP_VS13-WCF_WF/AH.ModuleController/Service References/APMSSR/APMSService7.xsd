@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/AH.HR.MODEL" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AH.HR.MODEL" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:93/APMS/APMSService.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/AH.PRMS.MODEL" />
+  <xs:import schemaLocation="http://localhost:93/APMS/APMSService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" />
+  <xs:complexType name="Doctor">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Staff">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="AvailableDays" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="AvailableDaysBeng" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Degree1" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Degree2" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Degree3" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Degree4" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Doctype" nillable="true" type="xs:string" />
+          <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/AH.PRMS.MODEL" minOccurs="0" name="Room" nillable="true" type="q1:Room" />
+          <xs:element minOccurs="0" name="Signature" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Doctor" nillable="true" type="tns:Doctor" />
+  <xs:complexType name="Staff">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q2="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" base="q2:Person">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Department" nillable="true" type="q2:Department" />
+          <xs:element minOccurs="0" name="DepartmentUnit" nillable="true" type="q2:DepartmentUnit" />
+          <xs:element minOccurs="0" name="Designation" nillable="true" type="q2:Designation" />
+          <xs:element minOccurs="0" name="ID" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Staff" nillable="true" type="tns:Staff" />
+</xs:schema>

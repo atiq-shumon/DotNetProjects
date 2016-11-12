@@ -1,0 +1,1915 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="IPDWS" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/AH.IPD.MODEL" />
+      <xsd:import schemaLocation="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" />
+      <xsd:import schemaLocation="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd4" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/AH.IPDShared.MODEL" />
+      <xsd:import schemaLocation="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/AH.DUtility" />
+      <xsd:import schemaLocation="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd7" namespace="http://schemas.datacontract.org/2004/07/AH.PRMS.MODEL" />
+      <xsd:import schemaLocation="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd8" namespace="http://schemas.datacontract.org/2004/07/AH.HR.MODEL" />
+      <xsd:import schemaLocation="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd9" namespace="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" />
+      <xsd:import schemaLocation="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd10" namespace="http://schemas.datacontract.org/2004/07/AH.PHRMS.MODEL" />
+      <xsd:import schemaLocation="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd11" namespace="http://schemas.datacontract.org/2004/07/AH.DRUGS.MODEL" />
+      <xsd:import schemaLocation="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd12" namespace="http://schemas.datacontract.org/2004/07/AH.INVMS.MODEL" />
+      <xsd:import schemaLocation="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd13" namespace="http://schemas.datacontract.org/2004/07/AH.DTMS.MODEL" />
+      <xsd:import schemaLocation="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd14" namespace="http://schemas.datacontract.org/2004/07/AH.OPRMS.MODEL" />
+      <xsd:import schemaLocation="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd15" namespace="http://schemas.datacontract.org/2004/07/AH.DMS.MODEL" />
+      <xsd:import schemaLocation="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd16" namespace="http://schemas.datacontract.org/2004/07/AH.OPD.MODEL" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IIPDWS_SaveDeliveryType_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDeliveryType" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_SaveDeliveryType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDeliveryTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_UpdateDelType_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDelType" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_UpdateDelType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDelTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetDeliveryType_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeliveryType" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetDeliveryType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeliveryTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_VerifyDelivery_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyDelivery" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_VerifyDelivery_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyDeliveryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_SaveAdmissionReason_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveAdmissionReason" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_SaveAdmissionReason_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveAdmissionReasonResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetAdmReason_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmReason" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetAdmReason_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmReasonResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_UpdateAdmissionReason_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAdmissionReason" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_UpdateAdmissionReason_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAdmissionReasonResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetAdmReasonDict_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmReasonDict" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetAdmReasonDict_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmReasonDictResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_SaveAdmReasonAss_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveAdmReasonAss" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_SaveAdmReasonAss_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveAdmReasonAssResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetAdmReasonAss_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmReasonAss" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetAdmReasonAss_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmReasonAssResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetAdmResonDeptWise_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmResonDeptWise" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetAdmResonDeptWise_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmResonDeptWiseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetAdmReasonDeptWiseDict_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmReasonDeptWiseDict" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetAdmReasonDeptWiseDict_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmReasonDeptWiseDictResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetMinStayingDays_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMinStayingDays" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetMinStayingDays_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMinStayingDaysResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_saveAdmission_InputMessage">
+    <wsdl:part name="parameters" element="tns:saveAdmission" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_saveAdmission_OutputMessage">
+    <wsdl:part name="parameters" element="tns:saveAdmissionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetAdmittedPatient_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmittedPatient" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetAdmittedPatient_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmittedPatientResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetAdvPay_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdvPay" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetAdvPay_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdvPayResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_SaveAdvanpay_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveAdvanpay" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_SaveAdvanpay_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveAdvanpayResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_SaveBedTransfer_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveBedTransfer" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_SaveBedTransfer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveBedTransferResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetTotalAmount_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTotalAmount" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetTotalAmount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTotalAmountResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_SaveDeptTransfer_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDeptTransfer" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_SaveDeptTransfer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDeptTransferResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetBedHist_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedHist" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetBedHist_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedHistResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetDeptHistory_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeptHistory" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetDeptHistory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeptHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_VerifyInPatient_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyInPatient" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_VerifyInPatient_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyInPatientResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetDepartmentRevenue_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartmentRevenue" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetDepartmentRevenue_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartmentRevenueResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetDeptUnitDic_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeptUnitDic" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetDeptUnitDic_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeptUnitDicResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetWards_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWards" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetWards_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWardsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetNurse_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNurse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetNurse_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNurseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetPatient_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatient" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetPatient_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_VerifyPatientNo_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyPatientNo" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_VerifyPatientNo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyPatientNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetBedRateSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedRateSetup" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetBedRateSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedRateSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetAdmissionMoneyReceipt_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmissionMoneyReceipt" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetAdmissionMoneyReceipt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmissionMoneyReceiptResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_SaveAdmissionReffType_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveAdmissionReffType" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_SaveAdmissionReffType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveAdmissionReffTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetAdmReffType_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmReffType" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetAdmReffType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmReffTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_UpdateAdmissionReffType_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAdmissionReffType" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_UpdateAdmissionReffType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAdmissionReffTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetAdmReffTypeDic_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmReffTypeDic" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetAdmReffTypeDic_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmReffTypeDicResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetDepartmentHead_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartmentHead" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetDepartmentHead_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartmentHeadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetPatientDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientDetails" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetPatientDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_VerifyTicketNo_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyTicketNo" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_VerifyTicketNo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyTicketNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetPatientDetailsForDis_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientDetailsForDis" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetPatientDetailsForDis_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientDetailsForDisResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetPatientAdvancePayment_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientAdvancePayment" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetPatientAdvancePayment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientAdvancePaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_SavePatientForDischarge_InputMessage">
+    <wsdl:part name="parameters" element="tns:SavePatientForDischarge" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_SavePatientForDischarge_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavePatientForDischargeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetPatDischargeBillSummary_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatDischargeBillSummary" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetPatDischargeBillSummary_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatDischargeBillSummaryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_VerifyHcnNo_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyHcnNo" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_VerifyHcnNo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyHcnNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_VerifyPatientDepartment_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyPatientDepartment" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_VerifyPatientDepartment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyPatientDepartmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_SavePatientAdmissionCancel_InputMessage">
+    <wsdl:part name="parameters" element="tns:SavePatientAdmissionCancel" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_SavePatientAdmissionCancel_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavePatientAdmissionCancelResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_SaveCancelReason_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveCancelReason" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_SaveCancelReason_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveCancelReasonResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetAdmCancelReasonDic_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmCancelReasonDic" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetAdmCancelReasonDic_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmCancelReasonDicResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_UpdateCancelReason_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCancelReason" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_UpdateCancelReason_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCancelReasonResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetCancelReason_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCancelReason" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetCancelReason_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCancelReasonResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_CheckPatStayingTime_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckPatStayingTime" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_CheckPatStayingTime_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckPatStayingTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetPatRegID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatRegID" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetPatRegID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatRegIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetPatientEmergencyContactDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientEmergencyContactDetails" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetPatientEmergencyContactDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientEmergencyContactDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetPatientAdressInformation_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientAdressInformation" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetPatientAdressInformation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientAdressInformationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_SavePackageMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:SavePackageMaster" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_SavePackageMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavePackageMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetPackageMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPackageMaster" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetPackageMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPackageMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_UpdatePackageMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePackageMaster" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_UpdatePackageMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePackageMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetPackageMasteDic_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPackageMasteDic" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetPackageMasteDic_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPackageMasteDicResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetAdmittedPatientList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmittedPatientList" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetAdmittedPatientList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmittedPatientListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetTotalAmountForDischarge_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTotalAmountForDischarge" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetTotalAmountForDischarge_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTotalAmountForDischargeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_SaveBedFee_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveBedFee" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_SaveBedFee_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveBedFeeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_UpdateBedFee_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateBedFee" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_UpdateBedFee_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateBedFeeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetBedRate_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedRate" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetBedRate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedRateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_VerifyBedTestFee_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyBedTestFee" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_VerifyBedTestFee_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyBedTestFeeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetBedtypeDict_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedtypeDict" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetBedtypeDict_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedtypeDictResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetBuildingDict_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBuildingDict" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetBuildingDict_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBuildingDictResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetBedRates_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedRates" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetBedRates_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedRatesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetRevHdGrps_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRevHdGrps" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetRevHdGrps_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRevHdGrpsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetRevenueHeads_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRevenueHeads" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetRevenueHeads_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRevenueHeadsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetBedfacility_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedfacility" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetBedfacility_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedfacilityResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetBedInfoByBedID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedInfoByBedID" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetBedInfoByBedID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedInfoByBedIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetBedSets_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedSets" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetBedSets_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedSetsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetNurseBeds_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNurseBeds" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetNurseBeds_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNurseBedsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetLevelWiseBeds_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLevelWiseBeds" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetLevelWiseBeds_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLevelWiseBedsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetIssueDetailsByRegID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetIssueDetailsByRegID" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetIssueDetailsByRegID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetIssueDetailsByRegIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetDmrTestsForIPD_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDmrTestsForIPD" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetDmrTestsForIPD_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDmrTestsForIPDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetRegDetailsFromOperarion_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRegDetailsFromOperarion" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetRegDetailsFromOperarion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRegDetailsFromOperarionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetOperationStatus_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOperationStatus" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetOperationStatus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOperationStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetPatientInfoByBedID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientInfoByBedID" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetPatientInfoByBedID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientInfoByBedIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetPatDischargeBillDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatDischargeBillDetails" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetPatDischargeBillDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatDischargeBillDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetAdvPayment_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdvPayment" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetAdvPayment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdvPaymentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetDepartmentsetupDic_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartmentsetupDic" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetDepartmentsetupDic_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartmentsetupDicResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetAdmittedPatReportList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmittedPatReportList" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetAdmittedPatReportList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmittedPatReportListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_InsertUserCloseRegister_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertUserCloseRegister" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_InsertUserCloseRegister_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertUserCloseRegisterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetCollectionToTransferAcc_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCollectionToTransferAcc" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetCollectionToTransferAcc_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCollectionToTransferAccResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetAdmissionCard_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmissionCard" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetAdmissionCard_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmissionCardResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetNurseStationDic_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNurseStationDic" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetNurseStationDic_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNurseStationDicResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetIPDVisitingFeeDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetIPDVisitingFeeDetails" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetIPDVisitingFeeDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetIPDVisitingFeeDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_SavePatientDeath_InputMessage">
+    <wsdl:part name="parameters" element="tns:SavePatientDeath" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_SavePatientDeath_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavePatientDeathResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetOPDDoctorsDict_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOPDDoctorsDict" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetOPDDoctorsDict_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOPDDoctorsDictResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_DeathCertificate_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeathCertificate" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_DeathCertificate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeathCertificateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_SaveChildBirth_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveChildBirth" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_SaveChildBirth_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveChildBirthResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_BirthCertificate_InputMessage">
+    <wsdl:part name="parameters" element="tns:BirthCertificate" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_BirthCertificate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BirthCertificateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetEmerDetailsForIPD_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmerDetailsForIPD" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetEmerDetailsForIPD_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmerDetailsForIPDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetIPDDoctorsList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetIPDDoctorsList" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetIPDDoctorsList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetIPDDoctorsListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetIPDDoctorsDict_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetIPDDoctorsDict" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetIPDDoctorsDict_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetIPDDoctorsDictResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetDeptGroupDicByType_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeptGroupDicByType" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetDeptGroupDicByType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeptGroupDicByTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetOPDDoctorDict_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOPDDoctorDict" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetOPDDoctorDict_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOPDDoctorDictResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_InsertIPDDoctors_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIPDDoctors" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_InsertIPDDoctors_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIPDDoctorsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetBillableItemDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillableItemDetails" />
+  </wsdl:message>
+  <wsdl:message name="IIPDWS_GetBillableItemDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBillableItemDetailsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IIPDWS">
+    <wsdl:operation name="SaveDeliveryType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/SaveDeliveryType" message="tns:IIPDWS_SaveDeliveryType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/SaveDeliveryTypeResponse" message="tns:IIPDWS_SaveDeliveryType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDelType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/UpdateDelType" message="tns:IIPDWS_UpdateDelType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/UpdateDelTypeResponse" message="tns:IIPDWS_UpdateDelType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDeliveryType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetDeliveryType" message="tns:IIPDWS_GetDeliveryType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetDeliveryTypeResponse" message="tns:IIPDWS_GetDeliveryType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyDelivery">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/VerifyDelivery" message="tns:IIPDWS_VerifyDelivery_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/VerifyDeliveryResponse" message="tns:IIPDWS_VerifyDelivery_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveAdmissionReason">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/SaveAdmissionReason" message="tns:IIPDWS_SaveAdmissionReason_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/SaveAdmissionReasonResponse" message="tns:IIPDWS_SaveAdmissionReason_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmReason">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetAdmReason" message="tns:IIPDWS_GetAdmReason_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetAdmReasonResponse" message="tns:IIPDWS_GetAdmReason_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAdmissionReason">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/UpdateAdmissionReason" message="tns:IIPDWS_UpdateAdmissionReason_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/UpdateAdmissionReasonResponse" message="tns:IIPDWS_UpdateAdmissionReason_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmReasonDict">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetAdmReasonDict" message="tns:IIPDWS_GetAdmReasonDict_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetAdmReasonDictResponse" message="tns:IIPDWS_GetAdmReasonDict_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveAdmReasonAss">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/SaveAdmReasonAss" message="tns:IIPDWS_SaveAdmReasonAss_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/SaveAdmReasonAssResponse" message="tns:IIPDWS_SaveAdmReasonAss_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmReasonAss">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetAdmReasonAss" message="tns:IIPDWS_GetAdmReasonAss_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetAdmReasonAssResponse" message="tns:IIPDWS_GetAdmReasonAss_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmResonDeptWise">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetAdmResonDeptWise" message="tns:IIPDWS_GetAdmResonDeptWise_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetAdmResonDeptWiseResponse" message="tns:IIPDWS_GetAdmResonDeptWise_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmReasonDeptWiseDict">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetAdmReasonDeptWiseDict" message="tns:IIPDWS_GetAdmReasonDeptWiseDict_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetAdmReasonDeptWiseDictResponse" message="tns:IIPDWS_GetAdmReasonDeptWiseDict_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMinStayingDays">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetMinStayingDays" message="tns:IIPDWS_GetMinStayingDays_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetMinStayingDaysResponse" message="tns:IIPDWS_GetMinStayingDays_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="saveAdmission">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/saveAdmission" message="tns:IIPDWS_saveAdmission_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/saveAdmissionResponse" message="tns:IIPDWS_saveAdmission_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmittedPatient">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetAdmittedPatient" message="tns:IIPDWS_GetAdmittedPatient_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetAdmittedPatientResponse" message="tns:IIPDWS_GetAdmittedPatient_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdvPay">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetAdvPay" message="tns:IIPDWS_GetAdvPay_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetAdvPayResponse" message="tns:IIPDWS_GetAdvPay_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveAdvanpay">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/SaveAdvanpay" message="tns:IIPDWS_SaveAdvanpay_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/SaveAdvanpayResponse" message="tns:IIPDWS_SaveAdvanpay_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveBedTransfer">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/SaveBedTransfer" message="tns:IIPDWS_SaveBedTransfer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/SaveBedTransferResponse" message="tns:IIPDWS_SaveBedTransfer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTotalAmount">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetTotalAmount" message="tns:IIPDWS_GetTotalAmount_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetTotalAmountResponse" message="tns:IIPDWS_GetTotalAmount_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveDeptTransfer">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/SaveDeptTransfer" message="tns:IIPDWS_SaveDeptTransfer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/SaveDeptTransferResponse" message="tns:IIPDWS_SaveDeptTransfer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBedHist">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetBedHist" message="tns:IIPDWS_GetBedHist_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetBedHistResponse" message="tns:IIPDWS_GetBedHist_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDeptHistory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetDeptHistory" message="tns:IIPDWS_GetDeptHistory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetDeptHistoryResponse" message="tns:IIPDWS_GetDeptHistory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyInPatient">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/VerifyInPatient" message="tns:IIPDWS_VerifyInPatient_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/VerifyInPatientResponse" message="tns:IIPDWS_VerifyInPatient_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDepartmentRevenue">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetDepartmentRevenue" message="tns:IIPDWS_GetDepartmentRevenue_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetDepartmentRevenueResponse" message="tns:IIPDWS_GetDepartmentRevenue_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDeptUnitDic">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetDeptUnitDic" message="tns:IIPDWS_GetDeptUnitDic_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetDeptUnitDicResponse" message="tns:IIPDWS_GetDeptUnitDic_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWards">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetWards" message="tns:IIPDWS_GetWards_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetWardsResponse" message="tns:IIPDWS_GetWards_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNurse">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetNurse" message="tns:IIPDWS_GetNurse_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetNurseResponse" message="tns:IIPDWS_GetNurse_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatient">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetPatient" message="tns:IIPDWS_GetPatient_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetPatientResponse" message="tns:IIPDWS_GetPatient_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyPatientNo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/VerifyPatientNo" message="tns:IIPDWS_VerifyPatientNo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/VerifyPatientNoResponse" message="tns:IIPDWS_VerifyPatientNo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBedRateSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetBedRateSetup" message="tns:IIPDWS_GetBedRateSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetBedRateSetupResponse" message="tns:IIPDWS_GetBedRateSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmissionMoneyReceipt">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetAdmissionMoneyReceipt" message="tns:IIPDWS_GetAdmissionMoneyReceipt_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetAdmissionMoneyReceiptResponse" message="tns:IIPDWS_GetAdmissionMoneyReceipt_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveAdmissionReffType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/SaveAdmissionReffType" message="tns:IIPDWS_SaveAdmissionReffType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/SaveAdmissionReffTypeResponse" message="tns:IIPDWS_SaveAdmissionReffType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmReffType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetAdmReffType" message="tns:IIPDWS_GetAdmReffType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetAdmReffTypeResponse" message="tns:IIPDWS_GetAdmReffType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAdmissionReffType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/UpdateAdmissionReffType" message="tns:IIPDWS_UpdateAdmissionReffType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/UpdateAdmissionReffTypeResponse" message="tns:IIPDWS_UpdateAdmissionReffType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmReffTypeDic">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetAdmReffTypeDic" message="tns:IIPDWS_GetAdmReffTypeDic_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetAdmReffTypeDicResponse" message="tns:IIPDWS_GetAdmReffTypeDic_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDepartmentHead">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetDepartmentHead" message="tns:IIPDWS_GetDepartmentHead_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetDepartmentHeadResponse" message="tns:IIPDWS_GetDepartmentHead_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetPatientDetails" message="tns:IIPDWS_GetPatientDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetPatientDetailsResponse" message="tns:IIPDWS_GetPatientDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyTicketNo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/VerifyTicketNo" message="tns:IIPDWS_VerifyTicketNo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/VerifyTicketNoResponse" message="tns:IIPDWS_VerifyTicketNo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDetailsForDis">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetPatientDetailsForDis" message="tns:IIPDWS_GetPatientDetailsForDis_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetPatientDetailsForDisResponse" message="tns:IIPDWS_GetPatientDetailsForDis_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientAdvancePayment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetPatientAdvancePayment" message="tns:IIPDWS_GetPatientAdvancePayment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetPatientAdvancePaymentResponse" message="tns:IIPDWS_GetPatientAdvancePayment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SavePatientForDischarge">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/SavePatientForDischarge" message="tns:IIPDWS_SavePatientForDischarge_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/SavePatientForDischargeResponse" message="tns:IIPDWS_SavePatientForDischarge_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatDischargeBillSummary">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetPatDischargeBillSummary" message="tns:IIPDWS_GetPatDischargeBillSummary_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetPatDischargeBillSummaryResponse" message="tns:IIPDWS_GetPatDischargeBillSummary_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyHcnNo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/VerifyHcnNo" message="tns:IIPDWS_VerifyHcnNo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/VerifyHcnNoResponse" message="tns:IIPDWS_VerifyHcnNo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyPatientDepartment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/VerifyPatientDepartment" message="tns:IIPDWS_VerifyPatientDepartment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/VerifyPatientDepartmentResponse" message="tns:IIPDWS_VerifyPatientDepartment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SavePatientAdmissionCancel">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/SavePatientAdmissionCancel" message="tns:IIPDWS_SavePatientAdmissionCancel_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/SavePatientAdmissionCancelResponse" message="tns:IIPDWS_SavePatientAdmissionCancel_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveCancelReason">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/SaveCancelReason" message="tns:IIPDWS_SaveCancelReason_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/SaveCancelReasonResponse" message="tns:IIPDWS_SaveCancelReason_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmCancelReasonDic">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetAdmCancelReasonDic" message="tns:IIPDWS_GetAdmCancelReasonDic_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetAdmCancelReasonDicResponse" message="tns:IIPDWS_GetAdmCancelReasonDic_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCancelReason">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/UpdateCancelReason" message="tns:IIPDWS_UpdateCancelReason_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/UpdateCancelReasonResponse" message="tns:IIPDWS_UpdateCancelReason_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCancelReason">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetCancelReason" message="tns:IIPDWS_GetCancelReason_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetCancelReasonResponse" message="tns:IIPDWS_GetCancelReason_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckPatStayingTime">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/CheckPatStayingTime" message="tns:IIPDWS_CheckPatStayingTime_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/CheckPatStayingTimeResponse" message="tns:IIPDWS_CheckPatStayingTime_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatRegID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetPatRegID" message="tns:IIPDWS_GetPatRegID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetPatRegIDResponse" message="tns:IIPDWS_GetPatRegID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientEmergencyContactDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetPatientEmergencyContactDetails" message="tns:IIPDWS_GetPatientEmergencyContactDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetPatientEmergencyContactDetailsResponse" message="tns:IIPDWS_GetPatientEmergencyContactDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientAdressInformation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetPatientAdressInformation" message="tns:IIPDWS_GetPatientAdressInformation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetPatientAdressInformationResponse" message="tns:IIPDWS_GetPatientAdressInformation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SavePackageMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/SavePackageMaster" message="tns:IIPDWS_SavePackageMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/SavePackageMasterResponse" message="tns:IIPDWS_SavePackageMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPackageMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetPackageMaster" message="tns:IIPDWS_GetPackageMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetPackageMasterResponse" message="tns:IIPDWS_GetPackageMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePackageMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/UpdatePackageMaster" message="tns:IIPDWS_UpdatePackageMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/UpdatePackageMasterResponse" message="tns:IIPDWS_UpdatePackageMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPackageMasteDic">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetPackageMasteDic" message="tns:IIPDWS_GetPackageMasteDic_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetPackageMasteDicResponse" message="tns:IIPDWS_GetPackageMasteDic_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmittedPatientList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetAdmittedPatientList" message="tns:IIPDWS_GetAdmittedPatientList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetAdmittedPatientListResponse" message="tns:IIPDWS_GetAdmittedPatientList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTotalAmountForDischarge">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetTotalAmountForDischarge" message="tns:IIPDWS_GetTotalAmountForDischarge_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetTotalAmountForDischargeResponse" message="tns:IIPDWS_GetTotalAmountForDischarge_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveBedFee">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/SaveBedFee" message="tns:IIPDWS_SaveBedFee_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/SaveBedFeeResponse" message="tns:IIPDWS_SaveBedFee_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBedFee">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/UpdateBedFee" message="tns:IIPDWS_UpdateBedFee_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/UpdateBedFeeResponse" message="tns:IIPDWS_UpdateBedFee_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBedRate">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetBedRate" message="tns:IIPDWS_GetBedRate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetBedRateResponse" message="tns:IIPDWS_GetBedRate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyBedTestFee">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/VerifyBedTestFee" message="tns:IIPDWS_VerifyBedTestFee_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/VerifyBedTestFeeResponse" message="tns:IIPDWS_VerifyBedTestFee_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBedtypeDict">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetBedtypeDict" message="tns:IIPDWS_GetBedtypeDict_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetBedtypeDictResponse" message="tns:IIPDWS_GetBedtypeDict_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBuildingDict">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetBuildingDict" message="tns:IIPDWS_GetBuildingDict_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetBuildingDictResponse" message="tns:IIPDWS_GetBuildingDict_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBedRates">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetBedRates" message="tns:IIPDWS_GetBedRates_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetBedRatesResponse" message="tns:IIPDWS_GetBedRates_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRevHdGrps">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetRevHdGrps" message="tns:IIPDWS_GetRevHdGrps_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetRevHdGrpsResponse" message="tns:IIPDWS_GetRevHdGrps_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRevenueHeads">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetRevenueHeads" message="tns:IIPDWS_GetRevenueHeads_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetRevenueHeadsResponse" message="tns:IIPDWS_GetRevenueHeads_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBedfacility">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetBedfacility" message="tns:IIPDWS_GetBedfacility_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetBedfacilityResponse" message="tns:IIPDWS_GetBedfacility_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBedInfoByBedID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetBedInfoByBedID" message="tns:IIPDWS_GetBedInfoByBedID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetBedInfoByBedIDResponse" message="tns:IIPDWS_GetBedInfoByBedID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBedSets">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetBedSets" message="tns:IIPDWS_GetBedSets_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetBedSetsResponse" message="tns:IIPDWS_GetBedSets_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNurseBeds">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetNurseBeds" message="tns:IIPDWS_GetNurseBeds_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetNurseBedsResponse" message="tns:IIPDWS_GetNurseBeds_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLevelWiseBeds">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetLevelWiseBeds" message="tns:IIPDWS_GetLevelWiseBeds_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetLevelWiseBedsResponse" message="tns:IIPDWS_GetLevelWiseBeds_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIssueDetailsByRegID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetIssueDetailsByRegID" message="tns:IIPDWS_GetIssueDetailsByRegID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetIssueDetailsByRegIDResponse" message="tns:IIPDWS_GetIssueDetailsByRegID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDmrTestsForIPD">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetDmrTestsForIPD" message="tns:IIPDWS_GetDmrTestsForIPD_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetDmrTestsForIPDResponse" message="tns:IIPDWS_GetDmrTestsForIPD_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRegDetailsFromOperarion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetRegDetailsFromOperarion" message="tns:IIPDWS_GetRegDetailsFromOperarion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetRegDetailsFromOperarionResponse" message="tns:IIPDWS_GetRegDetailsFromOperarion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOperationStatus">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetOperationStatus" message="tns:IIPDWS_GetOperationStatus_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetOperationStatusResponse" message="tns:IIPDWS_GetOperationStatus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientInfoByBedID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetPatientInfoByBedID" message="tns:IIPDWS_GetPatientInfoByBedID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetPatientInfoByBedIDResponse" message="tns:IIPDWS_GetPatientInfoByBedID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatDischargeBillDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetPatDischargeBillDetails" message="tns:IIPDWS_GetPatDischargeBillDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetPatDischargeBillDetailsResponse" message="tns:IIPDWS_GetPatDischargeBillDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdvPayment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetAdvPayment" message="tns:IIPDWS_GetAdvPayment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetAdvPaymentResponse" message="tns:IIPDWS_GetAdvPayment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDepartmentsetupDic">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetDepartmentsetupDic" message="tns:IIPDWS_GetDepartmentsetupDic_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetDepartmentsetupDicResponse" message="tns:IIPDWS_GetDepartmentsetupDic_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmittedPatReportList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetAdmittedPatReportList" message="tns:IIPDWS_GetAdmittedPatReportList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetAdmittedPatReportListResponse" message="tns:IIPDWS_GetAdmittedPatReportList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertUserCloseRegister">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/InsertUserCloseRegister" message="tns:IIPDWS_InsertUserCloseRegister_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/InsertUserCloseRegisterResponse" message="tns:IIPDWS_InsertUserCloseRegister_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCollectionToTransferAcc">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetCollectionToTransferAcc" message="tns:IIPDWS_GetCollectionToTransferAcc_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetCollectionToTransferAccResponse" message="tns:IIPDWS_GetCollectionToTransferAcc_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmissionCard">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetAdmissionCard" message="tns:IIPDWS_GetAdmissionCard_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetAdmissionCardResponse" message="tns:IIPDWS_GetAdmissionCard_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNurseStationDic">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetNurseStationDic" message="tns:IIPDWS_GetNurseStationDic_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetNurseStationDicResponse" message="tns:IIPDWS_GetNurseStationDic_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIPDVisitingFeeDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetIPDVisitingFeeDetails" message="tns:IIPDWS_GetIPDVisitingFeeDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetIPDVisitingFeeDetailsResponse" message="tns:IIPDWS_GetIPDVisitingFeeDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SavePatientDeath">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/SavePatientDeath" message="tns:IIPDWS_SavePatientDeath_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/SavePatientDeathResponse" message="tns:IIPDWS_SavePatientDeath_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOPDDoctorsDict">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetOPDDoctorsDict" message="tns:IIPDWS_GetOPDDoctorsDict_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetOPDDoctorsDictResponse" message="tns:IIPDWS_GetOPDDoctorsDict_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeathCertificate">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/DeathCertificate" message="tns:IIPDWS_DeathCertificate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/DeathCertificateResponse" message="tns:IIPDWS_DeathCertificate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveChildBirth">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/SaveChildBirth" message="tns:IIPDWS_SaveChildBirth_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/SaveChildBirthResponse" message="tns:IIPDWS_SaveChildBirth_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BirthCertificate">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/BirthCertificate" message="tns:IIPDWS_BirthCertificate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/BirthCertificateResponse" message="tns:IIPDWS_BirthCertificate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmerDetailsForIPD">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetEmerDetailsForIPD" message="tns:IIPDWS_GetEmerDetailsForIPD_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetEmerDetailsForIPDResponse" message="tns:IIPDWS_GetEmerDetailsForIPD_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIPDDoctorsList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetIPDDoctorsList" message="tns:IIPDWS_GetIPDDoctorsList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetIPDDoctorsListResponse" message="tns:IIPDWS_GetIPDDoctorsList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIPDDoctorsDict">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetIPDDoctorsDict" message="tns:IIPDWS_GetIPDDoctorsDict_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetIPDDoctorsDictResponse" message="tns:IIPDWS_GetIPDDoctorsDict_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDeptGroupDicByType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetDeptGroupDicByType" message="tns:IIPDWS_GetDeptGroupDicByType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetDeptGroupDicByTypeResponse" message="tns:IIPDWS_GetDeptGroupDicByType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOPDDoctorDict">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetOPDDoctorDict" message="tns:IIPDWS_GetOPDDoctorDict_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetOPDDoctorDictResponse" message="tns:IIPDWS_GetOPDDoctorDict_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertIPDDoctors">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/InsertIPDDoctors" message="tns:IIPDWS_InsertIPDDoctors_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/InsertIPDDoctorsResponse" message="tns:IIPDWS_InsertIPDDoctors_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBillableItemDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPDWS/GetBillableItemDetails" message="tns:IIPDWS_GetBillableItemDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPDWS/GetBillableItemDetailsResponse" message="tns:IIPDWS_GetBillableItemDetails_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IIPDWS" type="tns:IIPDWS">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SaveDeliveryType">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/SaveDeliveryType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDelType">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/UpdateDelType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeliveryType">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetDeliveryType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyDelivery">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/VerifyDelivery" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveAdmissionReason">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/SaveAdmissionReason" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmReason">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetAdmReason" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAdmissionReason">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/UpdateAdmissionReason" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmReasonDict">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetAdmReasonDict" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveAdmReasonAss">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/SaveAdmReasonAss" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmReasonAss">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetAdmReasonAss" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmResonDeptWise">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetAdmResonDeptWise" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmReasonDeptWiseDict">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetAdmReasonDeptWiseDict" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMinStayingDays">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetMinStayingDays" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="saveAdmission">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/saveAdmission" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmittedPatient">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetAdmittedPatient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdvPay">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetAdvPay" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveAdvanpay">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/SaveAdvanpay" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveBedTransfer">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/SaveBedTransfer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTotalAmount">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetTotalAmount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveDeptTransfer">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/SaveDeptTransfer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBedHist">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetBedHist" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeptHistory">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetDeptHistory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyInPatient">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/VerifyInPatient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDepartmentRevenue">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetDepartmentRevenue" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeptUnitDic">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetDeptUnitDic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWards">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetWards" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNurse">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetNurse" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatient">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetPatient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyPatientNo">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/VerifyPatientNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBedRateSetup">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetBedRateSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmissionMoneyReceipt">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetAdmissionMoneyReceipt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveAdmissionReffType">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/SaveAdmissionReffType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmReffType">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetAdmReffType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAdmissionReffType">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/UpdateAdmissionReffType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmReffTypeDic">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetAdmReffTypeDic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDepartmentHead">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetDepartmentHead" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDetails">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetPatientDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyTicketNo">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/VerifyTicketNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDetailsForDis">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetPatientDetailsForDis" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientAdvancePayment">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetPatientAdvancePayment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SavePatientForDischarge">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/SavePatientForDischarge" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatDischargeBillSummary">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetPatDischargeBillSummary" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyHcnNo">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/VerifyHcnNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyPatientDepartment">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/VerifyPatientDepartment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SavePatientAdmissionCancel">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/SavePatientAdmissionCancel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveCancelReason">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/SaveCancelReason" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmCancelReasonDic">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetAdmCancelReasonDic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCancelReason">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/UpdateCancelReason" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCancelReason">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetCancelReason" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckPatStayingTime">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/CheckPatStayingTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatRegID">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetPatRegID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientEmergencyContactDetails">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetPatientEmergencyContactDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientAdressInformation">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetPatientAdressInformation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SavePackageMaster">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/SavePackageMaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPackageMaster">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetPackageMaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePackageMaster">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/UpdatePackageMaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPackageMasteDic">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetPackageMasteDic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmittedPatientList">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetAdmittedPatientList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTotalAmountForDischarge">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetTotalAmountForDischarge" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveBedFee">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/SaveBedFee" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBedFee">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/UpdateBedFee" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBedRate">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetBedRate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyBedTestFee">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/VerifyBedTestFee" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBedtypeDict">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetBedtypeDict" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBuildingDict">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetBuildingDict" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBedRates">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetBedRates" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRevHdGrps">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetRevHdGrps" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRevenueHeads">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetRevenueHeads" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBedfacility">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetBedfacility" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBedInfoByBedID">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetBedInfoByBedID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBedSets">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetBedSets" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNurseBeds">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetNurseBeds" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLevelWiseBeds">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetLevelWiseBeds" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIssueDetailsByRegID">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetIssueDetailsByRegID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDmrTestsForIPD">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetDmrTestsForIPD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRegDetailsFromOperarion">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetRegDetailsFromOperarion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOperationStatus">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetOperationStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientInfoByBedID">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetPatientInfoByBedID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatDischargeBillDetails">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetPatDischargeBillDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdvPayment">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetAdvPayment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDepartmentsetupDic">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetDepartmentsetupDic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmittedPatReportList">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetAdmittedPatReportList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUserCloseRegister">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/InsertUserCloseRegister" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCollectionToTransferAcc">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetCollectionToTransferAcc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmissionCard">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetAdmissionCard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNurseStationDic">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetNurseStationDic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIPDVisitingFeeDetails">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetIPDVisitingFeeDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SavePatientDeath">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/SavePatientDeath" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOPDDoctorsDict">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetOPDDoctorsDict" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeathCertificate">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/DeathCertificate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveChildBirth">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/SaveChildBirth" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BirthCertificate">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/BirthCertificate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmerDetailsForIPD">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetEmerDetailsForIPD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIPDDoctorsList">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetIPDDoctorsList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIPDDoctorsDict">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetIPDDoctorsDict" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeptGroupDicByType">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetDeptGroupDicByType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOPDDoctorDict">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetOPDDoctorDict" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertIPDDoctors">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/InsertIPDDoctors" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBillableItemDetails">
+      <soap:operation soapAction="http://tempuri.org/IIPDWS/GetBillableItemDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="IPDWS">
+    <wsdl:port name="BasicHttpBinding_IIPDWS" binding="tns:BasicHttpBinding_IIPDWS">
+      <soap:address location="http://localhost:68/IPDNEW/IPDNEWService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

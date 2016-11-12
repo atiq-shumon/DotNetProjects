@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ACMSWS" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://it-atik.citygroupbd.com:90/ACMS/ACMSService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://it-atik.citygroupbd.com:90/ACMS/ACMSService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://it-atik.citygroupbd.com:90/ACMS/ACMSService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/AH.ACMS.MODEL" />
+      <xsd:import schemaLocation="http://it-atik.citygroupbd.com:90/ACMS/ACMSService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" />
+      <xsd:import schemaLocation="http://it-atik.citygroupbd.com:90/ACMS/ACMSService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/AH.HR.MODEL" />
+      <xsd:import schemaLocation="http://it-atik.citygroupbd.com:90/ACMS/ACMSService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/AH.DUtility" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IACMSWS_GetUserAccessControl_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserAccessControl" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetUserAccessControl_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserAccessControlResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_UACGroupReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:UACGroupReport" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_UACGroupReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UACGroupReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_UACModuleReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:UACModuleReport" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_UACModuleReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UACModuleReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetUserAccessReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserAccessReport" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetUserAccessReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserAccessReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_SaveAccessControl_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveAccessControl" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_SaveAccessControl_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveAccessControlResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetsAccessControl_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetsAccessControl" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetsAccessControl_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetsAccessControlResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetsAccessControlCbo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetsAccessControlCbo" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetsAccessControlCbo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetsAccessControlCboResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_EditAccessControl_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditAccessControl" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_EditAccessControl_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditAccessControlResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_DeleteAccessControl_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteAccessControl" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_DeleteAccessControl_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteAccessControlResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_SaveObjectSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveObjectSetup" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_SaveObjectSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveObjectSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetsObjectSetupGrid_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetsObjectSetupGrid" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetsObjectSetupGrid_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetsObjectSetupGridResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetsObjectSetupCbo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetsObjectSetupCbo" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetsObjectSetupCbo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetsObjectSetupCboResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_UpdateObject_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateObject" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_UpdateObject_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateObjectResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_DeleteObjectSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteObjectSetup" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_DeleteObjectSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteObjectSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetUserModule_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserModule" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetUserModule_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserModuleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_SaveSecQuestion_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveSecQuestion" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_SaveSecQuestion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveSecQuestionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetsSecurityQuestions_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetsSecurityQuestions" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetsSecurityQuestions_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetsSecurityQuestionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetsSecurityQuestionCbo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetsSecurityQuestionCbo" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetsSecurityQuestionCbo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetsSecurityQuestionCboResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_EditSecQuestion_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditSecQuestion" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_EditSecQuestion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditSecQuestionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_DeleteSecQuest_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteSecQuest" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_DeleteSecQuest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteSecQuestResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetsUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetsUser" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetsUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetsUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetsUserGroups_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetsUserGroups" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetsUserGroups_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetsUserGroupsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetsUserGroupCbo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetsUserGroupCbo" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetsUserGroupCbo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetsUserGroupCboResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetUsersCbo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsersCbo" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetUsersCbo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsersCboResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_SaveUserGroup_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveUserGroup" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_SaveUserGroup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveUserGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_SaveUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveUser" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_SaveUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_EditUserGroup_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditUserGroup" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_EditUserGroup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditUserGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_DeleteUserGroup_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteUserGroup" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_DeleteUserGroup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteUserGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_DeleteUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteUser" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_DeleteUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_SaveGroupObjectMap_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveGroupObjectMap" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_SaveGroupObjectMap_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveGroupObjectMapResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetsGroupObjectMap_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetsGroupObjectMap" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetsGroupObjectMap_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetsGroupObjectMapResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetsObjSetupCbo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetsObjSetupCbo" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetsObjSetupCbo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetsObjSetupCboResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_EditGroupObjectMap_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditGroupObjectMap" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_EditGroupObjectMap_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditGroupObjectMapResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_SaveUserGroupAssign_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveUserGroupAssign" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_SaveUserGroupAssign_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveUserGroupAssignResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetsUserNotAssigned_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetsUserNotAssigned" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetsUserNotAssigned_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetsUserNotAssignedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetsUserAssigned_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetsUserAssigned" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetsUserAssigned_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetsUserAssignedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_EditUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditUser" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_EditUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetUserObject_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserObject" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetUserObject_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserObjectResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetEmpoyee_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmpoyee" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetEmpoyee_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmpoyeeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUser" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_UpdateUserPassword_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateUserPassword" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_UpdateUserPassword_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateUserPasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetUserObjectList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserObjectList" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetUserObjectList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserObjectListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetsAssignedUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetsAssignedUser" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_GetsAssignedUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetsAssignedUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_SaveLoginHistory_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveLoginHistory" />
+  </wsdl:message>
+  <wsdl:message name="IACMSWS_SaveLoginHistory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveLoginHistoryResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IACMSWS">
+    <wsdl:operation name="GetUserAccessControl">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/GetUserAccessControl" message="tns:IACMSWS_GetUserAccessControl_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/GetUserAccessControlResponse" message="tns:IACMSWS_GetUserAccessControl_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UACGroupReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/UACGroupReport" message="tns:IACMSWS_UACGroupReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/UACGroupReportResponse" message="tns:IACMSWS_UACGroupReport_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UACModuleReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/UACModuleReport" message="tns:IACMSWS_UACModuleReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/UACModuleReportResponse" message="tns:IACMSWS_UACModuleReport_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserAccessReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/GetUserAccessReport" message="tns:IACMSWS_GetUserAccessReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/GetUserAccessReportResponse" message="tns:IACMSWS_GetUserAccessReport_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveAccessControl">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/SaveAccessControl" message="tns:IACMSWS_SaveAccessControl_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/SaveAccessControlResponse" message="tns:IACMSWS_SaveAccessControl_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetsAccessControl">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/GetsAccessControl" message="tns:IACMSWS_GetsAccessControl_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/GetsAccessControlResponse" message="tns:IACMSWS_GetsAccessControl_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetsAccessControlCbo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/GetsAccessControlCbo" message="tns:IACMSWS_GetsAccessControlCbo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/GetsAccessControlCboResponse" message="tns:IACMSWS_GetsAccessControlCbo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditAccessControl">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/EditAccessControl" message="tns:IACMSWS_EditAccessControl_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/EditAccessControlResponse" message="tns:IACMSWS_EditAccessControl_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAccessControl">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/DeleteAccessControl" message="tns:IACMSWS_DeleteAccessControl_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/DeleteAccessControlResponse" message="tns:IACMSWS_DeleteAccessControl_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveObjectSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/SaveObjectSetup" message="tns:IACMSWS_SaveObjectSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/SaveObjectSetupResponse" message="tns:IACMSWS_SaveObjectSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetsObjectSetupGrid">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/GetsObjectSetupGrid" message="tns:IACMSWS_GetsObjectSetupGrid_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/GetsObjectSetupGridResponse" message="tns:IACMSWS_GetsObjectSetupGrid_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetsObjectSetupCbo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/GetsObjectSetupCbo" message="tns:IACMSWS_GetsObjectSetupCbo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/GetsObjectSetupCboResponse" message="tns:IACMSWS_GetsObjectSetupCbo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateObject">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/UpdateObject" message="tns:IACMSWS_UpdateObject_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/UpdateObjectResponse" message="tns:IACMSWS_UpdateObject_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteObjectSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/DeleteObjectSetup" message="tns:IACMSWS_DeleteObjectSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/DeleteObjectSetupResponse" message="tns:IACMSWS_DeleteObjectSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserModule">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/GetUserModule" message="tns:IACMSWS_GetUserModule_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/GetUserModuleResponse" message="tns:IACMSWS_GetUserModule_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveSecQuestion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/SaveSecQuestion" message="tns:IACMSWS_SaveSecQuestion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/SaveSecQuestionResponse" message="tns:IACMSWS_SaveSecQuestion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetsSecurityQuestions">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/GetsSecurityQuestions" message="tns:IACMSWS_GetsSecurityQuestions_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/GetsSecurityQuestionsResponse" message="tns:IACMSWS_GetsSecurityQuestions_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetsSecurityQuestionCbo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/GetsSecurityQuestionCbo" message="tns:IACMSWS_GetsSecurityQuestionCbo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/GetsSecurityQuestionCboResponse" message="tns:IACMSWS_GetsSecurityQuestionCbo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditSecQuestion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/EditSecQuestion" message="tns:IACMSWS_EditSecQuestion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/EditSecQuestionResponse" message="tns:IACMSWS_EditSecQuestion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteSecQuest">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/DeleteSecQuest" message="tns:IACMSWS_DeleteSecQuest_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/DeleteSecQuestResponse" message="tns:IACMSWS_DeleteSecQuest_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetsUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/GetsUser" message="tns:IACMSWS_GetsUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/GetsUserResponse" message="tns:IACMSWS_GetsUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetsUserGroups">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/GetsUserGroups" message="tns:IACMSWS_GetsUserGroups_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/GetsUserGroupsResponse" message="tns:IACMSWS_GetsUserGroups_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetsUserGroupCbo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/GetsUserGroupCbo" message="tns:IACMSWS_GetsUserGroupCbo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/GetsUserGroupCboResponse" message="tns:IACMSWS_GetsUserGroupCbo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUsersCbo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/GetUsersCbo" message="tns:IACMSWS_GetUsersCbo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/GetUsersCboResponse" message="tns:IACMSWS_GetUsersCbo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveUserGroup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/SaveUserGroup" message="tns:IACMSWS_SaveUserGroup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/SaveUserGroupResponse" message="tns:IACMSWS_SaveUserGroup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/SaveUser" message="tns:IACMSWS_SaveUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/SaveUserResponse" message="tns:IACMSWS_SaveUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditUserGroup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/EditUserGroup" message="tns:IACMSWS_EditUserGroup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/EditUserGroupResponse" message="tns:IACMSWS_EditUserGroup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteUserGroup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/DeleteUserGroup" message="tns:IACMSWS_DeleteUserGroup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/DeleteUserGroupResponse" message="tns:IACMSWS_DeleteUserGroup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/DeleteUser" message="tns:IACMSWS_DeleteUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/DeleteUserResponse" message="tns:IACMSWS_DeleteUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveGroupObjectMap">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/SaveGroupObjectMap" message="tns:IACMSWS_SaveGroupObjectMap_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/SaveGroupObjectMapResponse" message="tns:IACMSWS_SaveGroupObjectMap_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetsGroupObjectMap">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/GetsGroupObjectMap" message="tns:IACMSWS_GetsGroupObjectMap_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/GetsGroupObjectMapResponse" message="tns:IACMSWS_GetsGroupObjectMap_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetsObjSetupCbo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/GetsObjSetupCbo" message="tns:IACMSWS_GetsObjSetupCbo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/GetsObjSetupCboResponse" message="tns:IACMSWS_GetsObjSetupCbo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditGroupObjectMap">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/EditGroupObjectMap" message="tns:IACMSWS_EditGroupObjectMap_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/EditGroupObjectMapResponse" message="tns:IACMSWS_EditGroupObjectMap_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveUserGroupAssign">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/SaveUserGroupAssign" message="tns:IACMSWS_SaveUserGroupAssign_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/SaveUserGroupAssignResponse" message="tns:IACMSWS_SaveUserGroupAssign_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetsUserNotAssigned">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/GetsUserNotAssigned" message="tns:IACMSWS_GetsUserNotAssigned_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/GetsUserNotAssignedResponse" message="tns:IACMSWS_GetsUserNotAssigned_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetsUserAssigned">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/GetsUserAssigned" message="tns:IACMSWS_GetsUserAssigned_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/GetsUserAssignedResponse" message="tns:IACMSWS_GetsUserAssigned_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/EditUser" message="tns:IACMSWS_EditUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/EditUserResponse" message="tns:IACMSWS_EditUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserObject">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/GetUserObject" message="tns:IACMSWS_GetUserObject_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/GetUserObjectResponse" message="tns:IACMSWS_GetUserObject_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmpoyee">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/GetEmpoyee" message="tns:IACMSWS_GetEmpoyee_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/GetEmpoyeeResponse" message="tns:IACMSWS_GetEmpoyee_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/GetUser" message="tns:IACMSWS_GetUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/GetUserResponse" message="tns:IACMSWS_GetUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUserPassword">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/UpdateUserPassword" message="tns:IACMSWS_UpdateUserPassword_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/UpdateUserPasswordResponse" message="tns:IACMSWS_UpdateUserPassword_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserObjectList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/GetUserObjectList" message="tns:IACMSWS_GetUserObjectList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/GetUserObjectListResponse" message="tns:IACMSWS_GetUserObjectList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetsAssignedUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/GetsAssignedUser" message="tns:IACMSWS_GetsAssignedUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/GetsAssignedUserResponse" message="tns:IACMSWS_GetsAssignedUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveLoginHistory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACMSWS/SaveLoginHistory" message="tns:IACMSWS_SaveLoginHistory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACMSWS/SaveLoginHistoryResponse" message="tns:IACMSWS_SaveLoginHistory_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IACMSWS" type="tns:IACMSWS">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetUserAccessControl">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/GetUserAccessControl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UACGroupReport">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/UACGroupReport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UACModuleReport">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/UACModuleReport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserAccessReport">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/GetUserAccessReport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveAccessControl">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/SaveAccessControl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetsAccessControl">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/GetsAccessControl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetsAccessControlCbo">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/GetsAccessControlCbo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditAccessControl">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/EditAccessControl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAccessControl">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/DeleteAccessControl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveObjectSetup">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/SaveObjectSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetsObjectSetupGrid">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/GetsObjectSetupGrid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetsObjectSetupCbo">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/GetsObjectSetupCbo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateObject">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/UpdateObject" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteObjectSetup">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/DeleteObjectSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserModule">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/GetUserModule" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveSecQuestion">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/SaveSecQuestion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetsSecurityQuestions">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/GetsSecurityQuestions" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetsSecurityQuestionCbo">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/GetsSecurityQuestionCbo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditSecQuestion">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/EditSecQuestion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteSecQuest">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/DeleteSecQuest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetsUser">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/GetsUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetsUserGroups">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/GetsUserGroups" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetsUserGroupCbo">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/GetsUserGroupCbo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUsersCbo">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/GetUsersCbo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveUserGroup">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/SaveUserGroup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveUser">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/SaveUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditUserGroup">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/EditUserGroup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteUserGroup">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/DeleteUserGroup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteUser">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/DeleteUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveGroupObjectMap">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/SaveGroupObjectMap" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetsGroupObjectMap">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/GetsGroupObjectMap" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetsObjSetupCbo">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/GetsObjSetupCbo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditGroupObjectMap">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/EditGroupObjectMap" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveUserGroupAssign">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/SaveUserGroupAssign" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetsUserNotAssigned">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/GetsUserNotAssigned" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetsUserAssigned">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/GetsUserAssigned" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditUser">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/EditUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserObject">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/GetUserObject" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmpoyee">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/GetEmpoyee" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUser">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/GetUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUserPassword">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/UpdateUserPassword" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserObjectList">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/GetUserObjectList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetsAssignedUser">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/GetsAssignedUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveLoginHistory">
+      <soap:operation soapAction="http://tempuri.org/IACMSWS/SaveLoginHistory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ACMSWS">
+    <wsdl:port name="BasicHttpBinding_IACMSWS" binding="tns:BasicHttpBinding_IACMSWS">
+      <soap:address location="http://it-atik.citygroupbd.com:90/ACMS/ACMSService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

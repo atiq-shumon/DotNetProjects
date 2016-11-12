@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/AH.IPDShared.MODEL" />
+  <xs:import schemaLocation="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/AH.DRUGS.MODEL" />
+  <xs:import schemaLocation="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd7" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:import schemaLocation="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd8" namespace="http://schemas.datacontract.org/2004/07/AH.DTMS.MODEL" />
+  <xs:import schemaLocation="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd11" namespace="http://schemas.datacontract.org/2004/07/AH.NWMS.MODEL" />
+  <xs:import schemaLocation="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/AH.PRMS.MODEL" />
+  <xs:import schemaLocation="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd12" namespace="http://schemas.datacontract.org/2004/07/AH.PHRMS.MODEL" />
+  <xs:import schemaLocation="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd14" namespace="http://schemas.datacontract.org/2004/07/AH.OPD.MODEL" />
+  <xs:import schemaLocation="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd13" namespace="http://schemas.datacontract.org/2004/07/AH.INVMS.MODEL" />
+  <xs:element name="GetDoctorsDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DocID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDoctorsDetailsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/AH.IPDShared.MODEL" minOccurs="0" name="GetDoctorsDetailsResult" nillable="true" type="q1:IPDDoctor" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDrugs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="age" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="drugID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDrugsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/AH.DRUGS.MODEL" minOccurs="0" name="GetDrugsResult" nillable="true" type="q2:ArrayOfDrugDose" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDiagnGrpDeptWise">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="type" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="department" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDiagnGrpDeptWiseResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetDiagnGrpDeptWiseResult" nillable="true" type="q3:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDeptUnitDic">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deptgrp" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="deptid" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDeptUnitDicResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetDeptUnitDicResult" nillable="true" type="q4:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOPDDoctorsDict">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deptID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UnitID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOPDDoctorsDictResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetOPDDoctorsDictResult" nillable="true" type="q5:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDrRoom">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DocID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDrRoomResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetDrRoomResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTestMain">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="department" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="group" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTestMainResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/AH.DTMS.MODEL" minOccurs="0" name="GetTestMainResult" nillable="true" type="q6:ArrayOfTestMain" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTestDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deptid" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="group" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="main" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTestDetailsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/AH.DTMS.MODEL" minOccurs="0" name="GetTestDetailsResult" nillable="true" type="q7:ArrayOfTestSub" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMedicineListOPD">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="MedicineName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PatAge" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMedicineListOPDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/AH.DRUGS.MODEL" minOccurs="0" name="GetMedicineListOPDResult" nillable="true" type="q8:ArrayOfDrugDose" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDrugDoseList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="patage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDrugDoseListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/AH.DRUGS.MODEL" minOccurs="0" name="GetDrugDoseListResult" nillable="true" type="q9:ArrayOfDrugDose" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAdmittedPatient">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RegistrationNo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAdmittedPatientResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/AH.IPDShared.MODEL" minOccurs="0" name="GetAdmittedPatientResult" nillable="true" type="q10:InPatient" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveNurseRequisition">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/AH.NWMS.MODEL" minOccurs="0" name="nrq" nillable="true" type="q11:NurseRequisition" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveNurseRequisitionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SaveNurseRequisitionResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VerifyInPatient">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="regNo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VerifyInPatientResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="VerifyInPatientResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDrugDoseListForAll">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDrugDoseListForAllResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/AH.DRUGS.MODEL" minOccurs="0" name="GetDrugDoseListForAllResult" nillable="true" type="q12:ArrayOfDrugDose" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPatRegID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="bedID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPatRegIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/AH.IPDShared.MODEL" minOccurs="0" name="GetPatRegIDResult" nillable="true" type="q13:InPatient" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ChangeBedStatus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/AH.PRMS.MODEL" minOccurs="0" name="bdst" nillable="true" type="q14:Bed" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ChangeBedStatusResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ChangeBedStatusResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReceiveRequisition">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="regId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReceiveRequisitionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/AH.NWMS.MODEL" minOccurs="0" name="ReceiveRequisitionResult" nillable="true" type="q15:ArrayOfNWMSReceiveRequisition" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReceiveReqTest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="regId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReceiveReqTestResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/AH.NWMS.MODEL" minOccurs="0" name="ReceiveReqTestResult" nillable="true" type="q16:ArrayOfNWMSReceiveRequisition" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveDrugReqRcv">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/AH.NWMS.MODEL" minOccurs="0" name="DrugRcv" nillable="true" type="q17:NWMSReceiveRequisition" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveDrugReqRcvResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SaveDrugReqRcvResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTestDets">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deptid" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="group" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="main" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTestDetsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/AH.DTMS.MODEL" minOccurs="0" name="GetTestDetsResult" nillable="true" type="q18:ArrayOfTestSub" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetIssueDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="issueID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetIssueDetailsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/AH.PHRMS.MODEL" minOccurs="0" name="GetIssueDetailsResult" nillable="true" type="q19:ArrayOfDrugIssue" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckIssueIDforRcv">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="issue_id" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckIssueIDforRcvResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CheckIssueIDforRcvResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VerifyIssueID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="issue_id" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Reg_id" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VerifyIssueIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="VerifyIssueIDResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDepartmentsetupDic">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="type" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="deptgr" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDepartmentsetupDicResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q20="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetDepartmentsetupDicResult" nillable="true" type="q20:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AdviceSetupInsert">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/AH.OPD.MODEL" minOccurs="0" name="oAdvice" nillable="true" type="q21:OPDAdvice" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AdviceSetupInsertResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AdviceSetupInsertResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveIPDPrescription">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/AH.NWMS.MODEL" minOccurs="0" name="prs" nillable="true" type="q22:IPDPrescription" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveIPDPrescriptionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SaveIPDPrescriptionResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditIPDPrescription">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/AH.NWMS.MODEL" minOccurs="0" name="Iprs" nillable="true" type="q23:IPDPrescription" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditIPDPrescriptionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="EditIPDPrescriptionResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetComplaints">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetComplaintsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/AH.OPD.MODEL" minOccurs="0" name="GetComplaintsResult" nillable="true" type="q24:ArrayOfComplaints" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetClinicalDiagnosis">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetClinicalDiagnosisResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/AH.OPD.MODEL" minOccurs="0" name="GetClinicalDiagnosisResult" nillable="true" type="q25:ArrayOfClinicalDiagnosis" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getConsumptionForm">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="type" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getConsumptionFormResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q26="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="getConsumptionFormResult" nillable="true" type="q26:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDrugDoseByDrugIPD">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="patage" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="drugname" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDrugDoseByDrugIPDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/AH.DRUGS.MODEL" minOccurs="0" name="GetDrugDoseByDrugIPDResult" nillable="true" type="q27:ArrayOfDrugDose" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDrugDoseByGroupNameIPD">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="patage" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="groupname" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDrugDoseByGroupNameIPDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/AH.DRUGS.MODEL" minOccurs="0" name="GetDrugDoseByGroupNameIPDResult" nillable="true" type="q28:ArrayOfDrugDose" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDrugDoseListByDrugName">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="patage" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="groupname" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDrugDoseListByDrugNameResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/AH.DRUGS.MODEL" minOccurs="0" name="GetDrugDoseListByDrugNameResult" nillable="true" type="q29:ArrayOfDrugDose" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDrugDoseListByGroupName">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="patage" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="groupname" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDrugDoseListByGroupNameResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/AH.DRUGS.MODEL" minOccurs="0" name="GetDrugDoseListByGroupNameResult" nillable="true" type="q30:ArrayOfDrugDose" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AdviceSetupGET">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AdviceSetupGETResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q31="http://schemas.datacontract.org/2004/07/AH.OPD.MODEL" minOccurs="0" name="AdviceSetupGETResult" nillable="true" type="q31:ArrayOfOPDAdvice" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPrescribedDrugs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="regId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPrescribedDrugsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/AH.NWMS.MODEL" minOccurs="0" name="GetPrescribedDrugsResult" nillable="true" type="q32:ArrayOfIPDPrescription" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPrescribedTests">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="regId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPrescribedTestsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q33="http://schemas.datacontract.org/2004/07/AH.NWMS.MODEL" minOccurs="0" name="GetPrescribedTestsResult" nillable="true" type="q33:ArrayOfIPDPrescription" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllMappingTest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="FeeCatagory" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllMappingTestResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q34="http://schemas.datacontract.org/2004/07/AH.DTMS.MODEL" minOccurs="0" name="GetAllMappingTestResult" nillable="true" type="q34:ArrayOfTestFee" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFeecatDict">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="type" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFeecatDictResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q35="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetFeecatDictResult" nillable="true" type="q35:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllProvidedDrugs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="regID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllProvidedDrugsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q36="http://schemas.datacontract.org/2004/07/AH.DRUGS.MODEL" minOccurs="0" name="GetAllProvidedDrugsResult" nillable="true" type="q36:ArrayOfDrugDose" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertIPDDoctors">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q37="http://schemas.datacontract.org/2004/07/AH.IPDShared.MODEL" minOccurs="0" name="oIPDDOc" nillable="true" type="q37:IPDDoctor" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertIPDDoctorsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertIPDDoctorsResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDeptGroupDicByType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="type" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDeptGroupDicByTypeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q38="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetDeptGroupDicByTypeResult" nillable="true" type="q38:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOPDDoctorDict">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeptID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UnitID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOPDDoctorDictResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q39="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetOPDDoctorDictResult" nillable="true" type="q39:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetIPDDoctorsList">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetIPDDoctorsListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q40="http://schemas.datacontract.org/2004/07/AH.IPDShared.MODEL" minOccurs="0" name="GetIPDDoctorsListResult" nillable="true" type="q40:ArrayOfIPDDoctor" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetIPDVisitingFeeDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="reg_ID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetIPDVisitingFeeDetailsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q41="http://schemas.datacontract.org/2004/07/AH.IPDShared.MODEL" minOccurs="0" name="GetIPDVisitingFeeDetailsResult" nillable="true" type="q41:ArrayOfIPDDoctor" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CancelIPDDrugs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q42="http://schemas.datacontract.org/2004/07/AH.NWMS.MODEL" minOccurs="0" name="nrq" nillable="true" type="q42:NurseRequisition" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CancelIPDDrugsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CancelIPDDrugsResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveDischargeAdvices">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q43="http://schemas.datacontract.org/2004/07/AH.NWMS.MODEL" minOccurs="0" name="prs" nillable="true" type="q43:IPDPrescription" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveDischargeAdvicesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SaveDischargeAdvicesResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetIPDDoctorsDict">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deptID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UnitID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetIPDDoctorsDictResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q44="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetIPDDoctorsDictResult" nillable="true" type="q44:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsDischargeAdvCreated">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="regId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsDischargeAdvCreatedResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="IsDischargeAdvCreatedResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDischargeAdvicesForEdit">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="regId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDischargeAdvicesForEditResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q45="http://schemas.datacontract.org/2004/07/AH.NWMS.MODEL" minOccurs="0" name="GetDischargeAdvicesForEditResult" nillable="true" type="q45:IPDPrescription" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditDischargeAdvices">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q46="http://schemas.datacontract.org/2004/07/AH.NWMS.MODEL" minOccurs="0" name="Iprs" nillable="true" type="q46:IPDPrescription" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditDischargeAdvicesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="EditDischargeAdvicesResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetGroupByMajorGrp">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strtype" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="majorgrp" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetGroupByMajorGrpResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q47="http://schemas.datacontract.org/2004/07/AH.INVMS.MODEL" minOccurs="0" name="GetGroupByMajorGrpResult" nillable="true" type="q47:ArrayOfGroupDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetItemStockForNS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="grpid" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strid" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetItemStockForNSResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q48="http://schemas.datacontract.org/2004/07/AH.INVMS.MODEL" minOccurs="0" name="GetItemStockForNSResult" nillable="true" type="q48:ArrayOfItemOrder" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IssueFromNurseStn">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q49="http://schemas.datacontract.org/2004/07/AH.NWMS.MODEL" minOccurs="0" name="nrq" nillable="true" type="q49:NurseRequisition" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IssueFromNurseStnResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="IssueFromNurseStnResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetIPDPrescriptionForEdit">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="visit_no" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Reg_ID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetIPDPrescriptionForEditResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q50="http://schemas.datacontract.org/2004/07/AH.NWMS.MODEL" minOccurs="0" name="GetIPDPrescriptionForEditResult" nillable="true" type="q50:IPDPrescription" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsDrugReqDone">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="visit_id" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="drug_id" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsDrugReqDoneResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="IsDrugReqDoneResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDischargeSummary">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="reg_ID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDischargeSummaryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q51="http://schemas.datacontract.org/2004/07/AH.NWMS.MODEL" minOccurs="0" name="GetDischargeSummaryResult" nillable="true" type="q51:ArrayOfNWMSReportRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DischargeAdvice">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="reg_ID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DischargeAdviceResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q52="http://schemas.datacontract.org/2004/07/AH.NWMS.MODEL" minOccurs="0" name="DischargeAdviceResult" nillable="true" type="q52:ArrayOfNWMSReportRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

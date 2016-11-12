@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ATMSWS" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:60/ATMS/ATMSService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:60/ATMS/ATMSService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:60/ATMS/ATMSService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/AH.ATMS.MODEL" />
+      <xsd:import schemaLocation="http://localhost:60/ATMS/ATMSService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" />
+      <xsd:import schemaLocation="http://localhost:60/ATMS/ATMSService.svc?xsd=xsd4" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost:60/ATMS/ATMSService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IATMSWS_SaveServiceWarrenty_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveServiceWarrenty" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_SaveServiceWarrenty_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveServiceWarrentyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_DeleteServiceWarrenty_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteServiceWarrenty" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_DeleteServiceWarrenty_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteServiceWarrentyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_DisplayvoucherReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayvoucherReport" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_DisplayvoucherReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayvoucherReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_DisplayvoucherIssueReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayvoucherIssueReport" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_DisplayvoucherIssueReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayvoucherIssueReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_SaveServiceProviderInfor_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveServiceProviderInfor" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_SaveServiceProviderInfor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveServiceProviderInforResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_UpdateServiceProviderInfor_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateServiceProviderInfor" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_UpdateServiceProviderInfor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateServiceProviderInforResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetDetailsInformation_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDetailsInformation" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetDetailsInformation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDetailsInformationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_SaveServiceDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveServiceDetails" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_SaveServiceDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveServiceDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetServiceProviderInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetServiceProviderInfo" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetServiceProviderInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetServiceProviderInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetServiceDetailsofSlno_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetServiceDetailsofSlno" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetServiceDetailsofSlno_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetServiceDetailsofSlnoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_DeleteServiceDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteServiceDetails" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_DeleteServiceDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteServiceDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetServiceProvider_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetServiceProvider" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetServiceProvider_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetServiceProviderResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetInvGroup_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetInvGroup" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetInvGroup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetInvGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetProductIssue_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetProductIssue" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetProductIssue_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetProductIssueResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_Savewarehousetype_InputMessage">
+    <wsdl:part name="parameters" element="tns:Savewarehousetype" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_Savewarehousetype_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavewarehousetypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_Updatewarehousetype_InputMessage">
+    <wsdl:part name="parameters" element="tns:Updatewarehousetype" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_Updatewarehousetype_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatewarehousetypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetWarehousetype_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWarehousetype" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetWarehousetype_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWarehousetypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_Savewarehouse_InputMessage">
+    <wsdl:part name="parameters" element="tns:Savewarehouse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_Savewarehouse_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavewarehouseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_Updatewarehouse_InputMessage">
+    <wsdl:part name="parameters" element="tns:Updatewarehouse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_Updatewarehouse_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatewarehouseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetWarehouse_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWarehouse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetWarehouse_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWarehouseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_LoadWarehouse_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadWarehouse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_LoadWarehouse_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadWarehouseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetStoreWhstoretype_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetStoreWhstoretype" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetStoreWhstoretype_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetStoreWhstoretypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetStockWHGroup_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetStockWHGroup" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetStockWHGroup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetStockWHGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetHkwarehouseType_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetHkwarehouseType" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetHkwarehouseType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetHkwarehouseTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GeHktwarehouse_InputMessage">
+    <wsdl:part name="parameters" element="tns:GeHktwarehouse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GeHktwarehouse_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GeHktwarehouseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GethkItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:GethkItem" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GethkItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GethkItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_SaveIomaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveIomaster" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_SaveIomaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveIomasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_SaveIoDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveIoDetails" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_SaveIoDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveIoDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetHkDirtyItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetHkDirtyItem" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetHkDirtyItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetHkDirtyItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetHkArchiveLog_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetHkArchiveLog" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetHkArchiveLog_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetHkArchiveLogResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetNurseStationDic_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNurseStationDic" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetNurseStationDic_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNurseStationDicResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetWarehouseStoreReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWarehouseStoreReport" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetWarehouseStoreReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWarehouseStoreReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_DisplayReceiptInformation_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayReceiptInformation" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_DisplayReceiptInformation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayReceiptInformationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetWarehouseItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWarehouseItem" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetWarehouseItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWarehouseItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_UpdateIoDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateIoDetails" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_UpdateIoDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateIoDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_UpdateIomaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateIomaster" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_UpdateIomaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateIomasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetWarehouseIssueItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWarehouseIssueItem" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetWarehouseIssueItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWarehouseIssueItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_DisplayIssueInformation_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayIssueInformation" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_DisplayIssueInformation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayIssueInformationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_LoadCategory_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadCategory" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_LoadCategory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetCostcenterTreeview_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCostcenterTreeview" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetCostcenterTreeview_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCostcenterTreeviewResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetBuildingDict_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBuildingDict" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetBuildingDict_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBuildingDictResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetDepartmentDict_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartmentDict" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetDepartmentDict_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartmentDictResponse" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetNumbers_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNumbers" />
+  </wsdl:message>
+  <wsdl:message name="IATMSWS_GetNumbers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNumbersResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IATMSWS">
+    <wsdl:operation name="SaveServiceWarrenty">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/SaveServiceWarrenty" message="tns:IATMSWS_SaveServiceWarrenty_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/SaveServiceWarrentyResponse" message="tns:IATMSWS_SaveServiceWarrenty_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteServiceWarrenty">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/DeleteServiceWarrenty" message="tns:IATMSWS_DeleteServiceWarrenty_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/DeleteServiceWarrentyResponse" message="tns:IATMSWS_DeleteServiceWarrenty_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayvoucherReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/DisplayvoucherReport" message="tns:IATMSWS_DisplayvoucherReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/DisplayvoucherReportResponse" message="tns:IATMSWS_DisplayvoucherReport_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayvoucherIssueReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/DisplayvoucherIssueReport" message="tns:IATMSWS_DisplayvoucherIssueReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/DisplayvoucherIssueReportResponse" message="tns:IATMSWS_DisplayvoucherIssueReport_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveServiceProviderInfor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/SaveServiceProviderInfor" message="tns:IATMSWS_SaveServiceProviderInfor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/SaveServiceProviderInforResponse" message="tns:IATMSWS_SaveServiceProviderInfor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateServiceProviderInfor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/UpdateServiceProviderInfor" message="tns:IATMSWS_UpdateServiceProviderInfor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/UpdateServiceProviderInforResponse" message="tns:IATMSWS_UpdateServiceProviderInfor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDetailsInformation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/GetDetailsInformation" message="tns:IATMSWS_GetDetailsInformation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/GetDetailsInformationResponse" message="tns:IATMSWS_GetDetailsInformation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveServiceDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/SaveServiceDetails" message="tns:IATMSWS_SaveServiceDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/SaveServiceDetailsResponse" message="tns:IATMSWS_SaveServiceDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServiceProviderInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/GetServiceProviderInfo" message="tns:IATMSWS_GetServiceProviderInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/GetServiceProviderInfoResponse" message="tns:IATMSWS_GetServiceProviderInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServiceDetailsofSlno">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/GetServiceDetailsofSlno" message="tns:IATMSWS_GetServiceDetailsofSlno_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/GetServiceDetailsofSlnoResponse" message="tns:IATMSWS_GetServiceDetailsofSlno_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteServiceDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/DeleteServiceDetails" message="tns:IATMSWS_DeleteServiceDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/DeleteServiceDetailsResponse" message="tns:IATMSWS_DeleteServiceDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServiceProvider">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/GetServiceProvider" message="tns:IATMSWS_GetServiceProvider_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/GetServiceProviderResponse" message="tns:IATMSWS_GetServiceProvider_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInvGroup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/GetInvGroup" message="tns:IATMSWS_GetInvGroup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/GetInvGroupResponse" message="tns:IATMSWS_GetInvGroup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProductIssue">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/GetProductIssue" message="tns:IATMSWS_GetProductIssue_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/GetProductIssueResponse" message="tns:IATMSWS_GetProductIssue_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Savewarehousetype">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/Savewarehousetype" message="tns:IATMSWS_Savewarehousetype_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/SavewarehousetypeResponse" message="tns:IATMSWS_Savewarehousetype_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Updatewarehousetype">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/Updatewarehousetype" message="tns:IATMSWS_Updatewarehousetype_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/UpdatewarehousetypeResponse" message="tns:IATMSWS_Updatewarehousetype_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWarehousetype">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/GetWarehousetype" message="tns:IATMSWS_GetWarehousetype_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/GetWarehousetypeResponse" message="tns:IATMSWS_GetWarehousetype_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Savewarehouse">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/Savewarehouse" message="tns:IATMSWS_Savewarehouse_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/SavewarehouseResponse" message="tns:IATMSWS_Savewarehouse_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Updatewarehouse">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/Updatewarehouse" message="tns:IATMSWS_Updatewarehouse_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/UpdatewarehouseResponse" message="tns:IATMSWS_Updatewarehouse_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWarehouse">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/GetWarehouse" message="tns:IATMSWS_GetWarehouse_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/GetWarehouseResponse" message="tns:IATMSWS_GetWarehouse_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadWarehouse">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/LoadWarehouse" message="tns:IATMSWS_LoadWarehouse_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/LoadWarehouseResponse" message="tns:IATMSWS_LoadWarehouse_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStoreWhstoretype">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/GetStoreWhstoretype" message="tns:IATMSWS_GetStoreWhstoretype_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/GetStoreWhstoretypeResponse" message="tns:IATMSWS_GetStoreWhstoretype_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStockWHGroup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/GetStockWHGroup" message="tns:IATMSWS_GetStockWHGroup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/GetStockWHGroupResponse" message="tns:IATMSWS_GetStockWHGroup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHkwarehouseType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/GetHkwarehouseType" message="tns:IATMSWS_GetHkwarehouseType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/GetHkwarehouseTypeResponse" message="tns:IATMSWS_GetHkwarehouseType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GeHktwarehouse">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/GeHktwarehouse" message="tns:IATMSWS_GeHktwarehouse_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/GeHktwarehouseResponse" message="tns:IATMSWS_GeHktwarehouse_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GethkItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/GethkItem" message="tns:IATMSWS_GethkItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/GethkItemResponse" message="tns:IATMSWS_GethkItem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveIomaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/SaveIomaster" message="tns:IATMSWS_SaveIomaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/SaveIomasterResponse" message="tns:IATMSWS_SaveIomaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveIoDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/SaveIoDetails" message="tns:IATMSWS_SaveIoDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/SaveIoDetailsResponse" message="tns:IATMSWS_SaveIoDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHkDirtyItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/GetHkDirtyItem" message="tns:IATMSWS_GetHkDirtyItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/GetHkDirtyItemResponse" message="tns:IATMSWS_GetHkDirtyItem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHkArchiveLog">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/GetHkArchiveLog" message="tns:IATMSWS_GetHkArchiveLog_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/GetHkArchiveLogResponse" message="tns:IATMSWS_GetHkArchiveLog_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNurseStationDic">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/GetNurseStationDic" message="tns:IATMSWS_GetNurseStationDic_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/GetNurseStationDicResponse" message="tns:IATMSWS_GetNurseStationDic_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWarehouseStoreReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/GetWarehouseStoreReport" message="tns:IATMSWS_GetWarehouseStoreReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/GetWarehouseStoreReportResponse" message="tns:IATMSWS_GetWarehouseStoreReport_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayReceiptInformation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/DisplayReceiptInformation" message="tns:IATMSWS_DisplayReceiptInformation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/DisplayReceiptInformationResponse" message="tns:IATMSWS_DisplayReceiptInformation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWarehouseItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/GetWarehouseItem" message="tns:IATMSWS_GetWarehouseItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/GetWarehouseItemResponse" message="tns:IATMSWS_GetWarehouseItem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateIoDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/UpdateIoDetails" message="tns:IATMSWS_UpdateIoDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/UpdateIoDetailsResponse" message="tns:IATMSWS_UpdateIoDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateIomaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/UpdateIomaster" message="tns:IATMSWS_UpdateIomaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/UpdateIomasterResponse" message="tns:IATMSWS_UpdateIomaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWarehouseIssueItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/GetWarehouseIssueItem" message="tns:IATMSWS_GetWarehouseIssueItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/GetWarehouseIssueItemResponse" message="tns:IATMSWS_GetWarehouseIssueItem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayIssueInformation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/DisplayIssueInformation" message="tns:IATMSWS_DisplayIssueInformation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/DisplayIssueInformationResponse" message="tns:IATMSWS_DisplayIssueInformation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadCategory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/LoadCategory" message="tns:IATMSWS_LoadCategory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/LoadCategoryResponse" message="tns:IATMSWS_LoadCategory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCostcenterTreeview">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/GetCostcenterTreeview" message="tns:IATMSWS_GetCostcenterTreeview_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/GetCostcenterTreeviewResponse" message="tns:IATMSWS_GetCostcenterTreeview_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBuildingDict">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/GetBuildingDict" message="tns:IATMSWS_GetBuildingDict_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/GetBuildingDictResponse" message="tns:IATMSWS_GetBuildingDict_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDepartmentDict">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/GetDepartmentDict" message="tns:IATMSWS_GetDepartmentDict_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/GetDepartmentDictResponse" message="tns:IATMSWS_GetDepartmentDict_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNumbers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IATMSWS/GetNumbers" message="tns:IATMSWS_GetNumbers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IATMSWS/GetNumbersResponse" message="tns:IATMSWS_GetNumbers_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IATMSWS" type="tns:IATMSWS">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SaveServiceWarrenty">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/SaveServiceWarrenty" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteServiceWarrenty">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/DeleteServiceWarrenty" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayvoucherReport">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/DisplayvoucherReport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayvoucherIssueReport">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/DisplayvoucherIssueReport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveServiceProviderInfor">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/SaveServiceProviderInfor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateServiceProviderInfor">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/UpdateServiceProviderInfor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDetailsInformation">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/GetDetailsInformation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveServiceDetails">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/SaveServiceDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServiceProviderInfo">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/GetServiceProviderInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServiceDetailsofSlno">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/GetServiceDetailsofSlno" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteServiceDetails">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/DeleteServiceDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServiceProvider">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/GetServiceProvider" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInvGroup">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/GetInvGroup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductIssue">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/GetProductIssue" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Savewarehousetype">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/Savewarehousetype" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Updatewarehousetype">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/Updatewarehousetype" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWarehousetype">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/GetWarehousetype" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Savewarehouse">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/Savewarehouse" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Updatewarehouse">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/Updatewarehouse" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWarehouse">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/GetWarehouse" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadWarehouse">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/LoadWarehouse" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStoreWhstoretype">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/GetStoreWhstoretype" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStockWHGroup">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/GetStockWHGroup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHkwarehouseType">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/GetHkwarehouseType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GeHktwarehouse">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/GeHktwarehouse" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GethkItem">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/GethkItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveIomaster">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/SaveIomaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveIoDetails">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/SaveIoDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHkDirtyItem">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/GetHkDirtyItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHkArchiveLog">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/GetHkArchiveLog" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNurseStationDic">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/GetNurseStationDic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWarehouseStoreReport">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/GetWarehouseStoreReport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayReceiptInformation">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/DisplayReceiptInformation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWarehouseItem">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/GetWarehouseItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateIoDetails">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/UpdateIoDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateIomaster">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/UpdateIomaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWarehouseIssueItem">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/GetWarehouseIssueItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayIssueInformation">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/DisplayIssueInformation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadCategory">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/LoadCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCostcenterTreeview">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/GetCostcenterTreeview" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBuildingDict">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/GetBuildingDict" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDepartmentDict">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/GetDepartmentDict" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNumbers">
+      <soap:operation soapAction="http://tempuri.org/IATMSWS/GetNumbers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ATMSWS">
+    <wsdl:port name="BasicHttpBinding_IATMSWS" binding="tns:BasicHttpBinding_IATMSWS">
+      <soap:address location="http://localhost:60/ATMS/ATMSService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

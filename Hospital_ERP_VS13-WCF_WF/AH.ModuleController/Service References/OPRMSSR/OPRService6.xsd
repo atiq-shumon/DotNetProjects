@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/AH.OPRMS.MODEL" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AH.OPRMS.MODEL" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:52/OPR/OPRService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" />
+  <xs:complexType name="Grade">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Active" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q1:EntryParameter" />
+      <xs:element minOccurs="0" name="GradeId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GradeTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TitleBangla" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Grade" nillable="true" type="tns:Grade" />
+  <xs:complexType name="ArrayOfGrade">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Grade" nillable="true" type="tns:Grade" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGrade" nillable="true" type="tns:ArrayOfGrade" />
+  <xs:complexType name="Theater">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Active" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BlockNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Buildid" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepSpe" nillable="true" type="xs:string" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q2:EntryParameter" />
+      <xs:element minOccurs="0" name="FloorNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Inchargeid" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NoofFacilities" type="xs:long" />
+      <xs:element minOccurs="0" name="PhoneNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RoomId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Theaterid" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Theatertitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TheatertitleBangla" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Theater" nillable="true" type="tns:Theater" />
+  <xs:complexType name="ArrayOfTheater">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Theater" nillable="true" type="tns:Theater" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTheater" nillable="true" type="tns:ArrayOfTheater" />
+  <xs:complexType name="AnesthesiaGroup">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Active" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AnesGroupID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AnesGroupTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AnesGroupTitleBeng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AnesRemarks" nillable="true" type="xs:string" />
+      <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q3:EntryParameter" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AnesthesiaGroup" nillable="true" type="tns:AnesthesiaGroup" />
+  <xs:complexType name="ArrayOfAnesthesiaGroup">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AnesthesiaGroup" nillable="true" type="tns:AnesthesiaGroup" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAnesthesiaGroup" nillable="true" type="tns:ArrayOfAnesthesiaGroup" />
+  <xs:complexType name="AnesthesiaMaster">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Active" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Anesesthesia" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Anesthesiatitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AnesthesiatitleBangla" nillable="true" type="xs:string" />
+      <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q4:EntryParameter" />
+      <xs:element minOccurs="0" name="GroupID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AnesthesiaMaster" nillable="true" type="tns:AnesthesiaMaster" />
+  <xs:complexType name="ArrayOfAnesthesiaMaster">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AnesthesiaMaster" nillable="true" type="tns:AnesthesiaMaster" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAnesthesiaMaster" nillable="true" type="tns:ArrayOfAnesthesiaMaster" />
+  <xs:complexType name="OperationMaster">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Active" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AnesFees" type="xs:double" />
+      <xs:element minOccurs="0" name="Anesthesiatitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AssistantFees" type="xs:double" />
+      <xs:element minOccurs="0" name="DrFees" type="xs:double" />
+      <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q5:EntryParameter" />
+      <xs:element minOccurs="0" name="ExpectedTimeHour" type="xs:double" />
+      <xs:element minOccurs="0" name="GradeID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OperationFees" type="xs:double" />
+      <xs:element minOccurs="0" name="OperationID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OperationTypeCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OprSubMenu" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PackageName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PackageNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RegId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RegName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="operationTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="operationTitleBang" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="OperationMaster" nillable="true" type="tns:OperationMaster" />
+  <xs:complexType name="ArrayOfOperationMaster">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="OperationMaster" nillable="true" type="tns:OperationMaster" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfOperationMaster" nillable="true" type="tns:ArrayOfOperationMaster" />
+  <xs:complexType name="DoctorsCategory">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CategoryName" nillable="true" type="xs:string" />
+      <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q6:EntryParameter" />
+      <xs:element minOccurs="0" name="FixedKeyMaster" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="assignId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="assignmenttype" type="xs:int" />
+      <xs:element minOccurs="0" name="doctorsName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="doctorscode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="empid" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DoctorsCategory" nillable="true" type="tns:DoctorsCategory" />
+  <xs:complexType name="ArrayOfDoctorsCategory">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DoctorsCategory" nillable="true" type="tns:DoctorsCategory" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDoctorsCategory" nillable="true" type="tns:ArrayOfDoctorsCategory" />
+  <xs:complexType name="PackageItem">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Bedstatus" type="xs:int" />
+      <xs:element minOccurs="0" name="Bedtype" nillable="true" type="xs:string" />
+      <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q7:EntryParameter" />
+      <xs:element minOccurs="0" name="ItemName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ItemNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ItemRate" type="xs:double" />
+      <xs:element minOccurs="0" name="NetAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="Oprtype" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PackChildNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PackageItemNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="fromdate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="submenuID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="todate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="unitID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="unitName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PackageItem" nillable="true" type="tns:PackageItem" />
+  <xs:complexType name="ArrayOfPackageItem">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PackageItem" nillable="true" type="tns:PackageItem" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPackageItem" nillable="true" type="tns:ArrayOfPackageItem" />
+  <xs:complexType name="CalenderOT">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AvailableFromTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AvailablrToTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Comments" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DoctorsCode" nillable="true" type="xs:string" />
+      <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q8:EntryParameter" />
+      <xs:element minOccurs="0" name="Fromtime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InchargeId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InchargeName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OprID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OprName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Oprtype" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PackageAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="PackageId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PackageName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PatientId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PatientName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RegDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RegNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ScheduleID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TheterId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Thetername" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TimeSlot" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Totime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="doctorsName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="intCol" type="xs:int" />
+      <xs:element minOccurs="0" name="intRow" type="xs:int" />
+      <xs:element minOccurs="0" name="packageitem" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="packageitemRate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="scheduleId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="status" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CalenderOT" nillable="true" type="tns:CalenderOT" />
+  <xs:complexType name="ArrayOfCalenderOT">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CalenderOT" nillable="true" type="tns:CalenderOT" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCalenderOT" nillable="true" type="tns:ArrayOfCalenderOT" />
+  <xs:complexType name="ChecklistItem">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ChecklistDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Checklistitemcode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Comments" nillable="true" type="xs:string" />
+      <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q9:EntryParameter" />
+      <xs:element minOccurs="0" name="PatientName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RegDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RegNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="endtime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="intNo" type="xs:int" />
+      <xs:element minOccurs="0" name="intYes" type="xs:int" />
+      <xs:element minOccurs="0" name="itemCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="itemName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="oprType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="startime" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ChecklistItem" nillable="true" type="tns:ChecklistItem" />
+  <xs:complexType name="ArrayOfChecklistItem">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ChecklistItem" nillable="true" type="tns:ChecklistItem" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfChecklistItem" nillable="true" type="tns:ArrayOfChecklistItem" />
+  <xs:complexType name="OperationType">
+    <xs:sequence>
+      <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q10:EntryParameter" />
+      <xs:element minOccurs="0" name="ID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TitleBeng" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="OperationType" nillable="true" type="tns:OperationType" />
+  <xs:complexType name="ArrayOfOperationType">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="OperationType" nillable="true" type="tns:OperationType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfOperationType" nillable="true" type="tns:ArrayOfOperationType" />
+  <xs:complexType name="ArrayOfOperationDetailsRO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="OperationDetailsRO" nillable="true" type="tns:OperationDetailsRO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfOperationDetailsRO" nillable="true" type="tns:ArrayOfOperationDetailsRO" />
+  <xs:complexType name="OperationDetailsRO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Endtime" nillable="true" type="xs:string" />
+      <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q11:EntryParameter" />
+      <xs:element minOccurs="0" name="OtStatus" type="xs:int" />
+      <xs:element minOccurs="0" name="PatinentName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RegDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="RegID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Sex" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StartTime" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="OperationDetailsRO" nillable="true" type="tns:OperationDetailsRO" />
+</xs:schema>

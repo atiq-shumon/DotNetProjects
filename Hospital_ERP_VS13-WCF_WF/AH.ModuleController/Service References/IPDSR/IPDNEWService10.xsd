@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/AH.OPRMS.MODEL" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AH.OPRMS.MODEL" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:68/IPDNEW/IPDNEWService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" />
+  <xs:complexType name="ArrayOfCalenderOT">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CalenderOT" nillable="true" type="tns:CalenderOT" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCalenderOT" nillable="true" type="tns:ArrayOfCalenderOT" />
+  <xs:complexType name="CalenderOT">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AvailableFromTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AvailablrToTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Comments" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DoctorsCode" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q1:EntryParameter" />
+      <xs:element minOccurs="0" name="Fromtime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InchargeId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InchargeName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OprID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OprName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Oprtype" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PackageAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="PackageId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PackageName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PatientId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PatientName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RegDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RegNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ScheduleID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TheterId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Thetername" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TimeSlot" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Totime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="doctorsName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="intCol" type="xs:int" />
+      <xs:element minOccurs="0" name="intRow" type="xs:int" />
+      <xs:element minOccurs="0" name="packageitem" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="packageitemRate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="scheduleId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="status" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CalenderOT" nillable="true" type="tns:CalenderOT" />
+</xs:schema>

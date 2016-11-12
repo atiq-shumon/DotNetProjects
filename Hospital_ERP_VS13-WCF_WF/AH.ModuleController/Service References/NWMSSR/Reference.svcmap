@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b8a4b2a9-f5e7-40bf-864f-03279c08a156" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:74/NWMS/NWMSService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="NWMSService1.xsd" MetadataType="Schema" ID="590da179-14c1-4a6a-b7bf-e4ba9528fccc" SourceId="1" SourceUrl="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd10" />
+    <MetadataFile FileName="NWMSService4.xsd" MetadataType="Schema" ID="2c7c7e98-29b5-4275-9204-70746b649696" SourceId="1" SourceUrl="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd14" />
+    <MetadataFile FileName="NWMSWS.wsdl" MetadataType="Wsdl" ID="1441a386-fd00-4c41-a433-cf47005b268c" SourceId="1" SourceUrl="http://localhost:74/NWMS/NWMSService.svc?wsdl" />
+    <MetadataFile FileName="NWMSService11.xsd" MetadataType="Schema" ID="84378a66-85c7-475c-acdd-07c2329d7006" SourceId="1" SourceUrl="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd7" />
+    <MetadataFile FileName="NWMSService12.xsd" MetadataType="Schema" ID="1ed338ec-2079-4d72-8c5d-3a765cc8b682" SourceId="1" SourceUrl="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd6" />
+    <MetadataFile FileName="NWMSService13.xsd" MetadataType="Schema" ID="2831280c-28ec-4038-8e07-647a2852d8ca" SourceId="1" SourceUrl="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd5" />
+    <MetadataFile FileName="NWMSService14.xsd" MetadataType="Schema" ID="4d73452d-a31d-4dbe-9cdd-ea3ae1c33ec4" SourceId="1" SourceUrl="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd4" />
+    <MetadataFile FileName="NWMSService.disco" MetadataType="Disco" ID="831e03c7-3293-464e-b999-be5c7ff9c75d" SourceId="1" SourceUrl="http://localhost:74/NWMS/NWMSService.svc?disco" />
+    <MetadataFile FileName="NWMSService15.xsd" MetadataType="Schema" ID="9903d06b-fb36-44f8-b206-7a595ebdec76" SourceId="1" SourceUrl="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd2" />
+    <MetadataFile FileName="NWMSService16.xsd" MetadataType="Schema" ID="f5d86fb8-8408-4e60-b11a-529917f3559f" SourceId="1" SourceUrl="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd1" />
+    <MetadataFile FileName="NWMSService.xsd" MetadataType="Schema" ID="f1a4c981-12e0-4062-84e1-4dc60f626abb" SourceId="1" SourceUrl="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd0" />
+    <MetadataFile FileName="NWMSService2.xsd" MetadataType="Schema" ID="3f315205-8b00-4f41-94f4-faaa5937ffbc" SourceId="1" SourceUrl="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd12" />
+    <MetadataFile FileName="NWMSService17.xsd" MetadataType="Schema" ID="c4cc2caf-1418-4756-8a6b-6625f1652e67" SourceId="1" SourceUrl="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd9" />
+    <MetadataFile FileName="NWMSService18.xsd" MetadataType="Schema" ID="bfb9828b-525f-4b93-881c-4811c64e8626" SourceId="1" SourceUrl="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd8" />
+    <MetadataFile FileName="NWMSService19.xsd" MetadataType="Schema" ID="285c7c4c-7c4e-460c-90be-1b2bdca7d7ef" SourceId="1" SourceUrl="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd3" />
+    <MetadataFile FileName="NWMSService3.xsd" MetadataType="Schema" ID="33eae799-6e88-40c1-9047-9ed9cd9be244" SourceId="1" SourceUrl="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd13" />
+    <MetadataFile FileName="NWMSService110.xsd" MetadataType="Schema" ID="756182b2-bb03-49c4-be5d-b62bc507d2d3" SourceId="1" SourceUrl="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd11" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

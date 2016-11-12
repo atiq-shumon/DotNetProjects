@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="PRMSWS" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:85/PRMS/PRMSService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:85/PRMS/PRMSService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:85/PRMS/PRMSService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/AH.PRMS.MODEL" />
+      <xsd:import schemaLocation="http://localhost:85/PRMS/PRMSService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" />
+      <xsd:import schemaLocation="http://localhost:85/PRMS/PRMSService.svc?xsd=xsd4" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IPRMSWS_VerifyRoomSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyRoomSetup" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_VerifyRoomSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyRoomSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_SaveRoomsetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveRoomsetup" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_SaveRoomsetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveRoomsetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_UpdateRoomSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateRoomSetup" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_UpdateRoomSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateRoomSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_VerifyBedFacility_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyBedFacility" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_VerifyBedFacility_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyBedFacilityResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_UpdateBedFacility_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateBedFacility" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_UpdateBedFacility_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateBedFacilityResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_SaveBedfacility_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveBedfacility" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_SaveBedfacility_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveBedfacilityResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_VerifyBedType_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyBedType" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_VerifyBedType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyBedTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_SaveBedtype_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveBedtype" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_SaveBedtype_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveBedtypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_UpdateBedType_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateBedType" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_UpdateBedType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateBedTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_VerifyWardSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyWardSetup" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_VerifyWardSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyWardSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_SaveWardsetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveWardsetup" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_SaveWardsetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveWardsetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_UpdateWardSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateWardSetup" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_UpdateWardSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateWardSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_VerifyBedSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyBedSetup" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_VerifyBedSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyBedSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_SaveBedsetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveBedsetup" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_SaveBedsetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveBedsetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_UpdateBedSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateBedSetup" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_UpdateBedSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateBedSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetBedfacility_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedfacility" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetBedfacility_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedfacilityResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetBedfacilityDict_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedfacilityDict" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetBedfacilityDict_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedfacilityDictResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetNumbers_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNumbers" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetNumbers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNumbersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetBedtype_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedtype" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetBedtype_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedtypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetBedStatus_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedStatus" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetBedStatus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetWards_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWards" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetWards_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWardsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetWardsDict_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWardsDict" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetWardsDict_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWardsDictResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetBuildingDict_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBuildingDict" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetBuildingDict_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBuildingDictResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetDepartmentDict_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartmentDict" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetDepartmentDict_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartmentDictResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetGenderDict_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGenderDict" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetGenderDict_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGenderDictResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetBeds_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBeds" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetBeds_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetBedtypeDict_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedtypeDict" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetBedtypeDict_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedtypeDictResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetRooms_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRooms" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetRooms_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRoomsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetRoomsDict_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRoomsDict" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetRoomsDict_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRoomsDictResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_VerifyRoomType_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyRoomType" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_VerifyRoomType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyRoomTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_SaveRoomType_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveRoomType" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_SaveRoomType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveRoomTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_UpdateRoomType_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateRoomType" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_UpdateRoomType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateRoomTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetRoomTypes_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRoomTypes" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetRoomTypes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRoomTypesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetRoomTypeDict_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRoomTypeDict" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetRoomTypeDict_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRoomTypeDictResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetBedSets_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedSets" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetBedSets_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedSetsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetBedList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedList" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetBedList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetRoomBedType_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRoomBedType" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetRoomBedType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRoomBedTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetRoomBedTypeDict_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRoomBedTypeDict" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetRoomBedTypeDict_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRoomBedTypeDictResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetRoomByBuild_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRoomByBuild" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetRoomByBuild_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRoomByBuildResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetNurseStation_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNurseStation" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetNurseStation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNurseStationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetNurseStationDic_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNurseStationDic" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetNurseStationDic_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNurseStationDicResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_SaveNurseStation_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveNurseStation" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_SaveNurseStation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveNurseStationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetNurseAllStation_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNurseAllStation" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetNurseAllStation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNurseAllStationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_UpdateNurseStation_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateNurseStation" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_UpdateNurseStation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateNurseStationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetNurseStationFloorWise_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNurseStationFloorWise" />
+  </wsdl:message>
+  <wsdl:message name="IPRMSWS_GetNurseStationFloorWise_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNurseStationFloorWiseResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IPRMSWS">
+    <wsdl:operation name="VerifyRoomSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/VerifyRoomSetup" message="tns:IPRMSWS_VerifyRoomSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/VerifyRoomSetupResponse" message="tns:IPRMSWS_VerifyRoomSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveRoomsetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/SaveRoomsetup" message="tns:IPRMSWS_SaveRoomsetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/SaveRoomsetupResponse" message="tns:IPRMSWS_SaveRoomsetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateRoomSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/UpdateRoomSetup" message="tns:IPRMSWS_UpdateRoomSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/UpdateRoomSetupResponse" message="tns:IPRMSWS_UpdateRoomSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyBedFacility">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/VerifyBedFacility" message="tns:IPRMSWS_VerifyBedFacility_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/VerifyBedFacilityResponse" message="tns:IPRMSWS_VerifyBedFacility_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBedFacility">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/UpdateBedFacility" message="tns:IPRMSWS_UpdateBedFacility_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/UpdateBedFacilityResponse" message="tns:IPRMSWS_UpdateBedFacility_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveBedfacility">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/SaveBedfacility" message="tns:IPRMSWS_SaveBedfacility_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/SaveBedfacilityResponse" message="tns:IPRMSWS_SaveBedfacility_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyBedType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/VerifyBedType" message="tns:IPRMSWS_VerifyBedType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/VerifyBedTypeResponse" message="tns:IPRMSWS_VerifyBedType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveBedtype">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/SaveBedtype" message="tns:IPRMSWS_SaveBedtype_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/SaveBedtypeResponse" message="tns:IPRMSWS_SaveBedtype_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBedType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/UpdateBedType" message="tns:IPRMSWS_UpdateBedType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/UpdateBedTypeResponse" message="tns:IPRMSWS_UpdateBedType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyWardSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/VerifyWardSetup" message="tns:IPRMSWS_VerifyWardSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/VerifyWardSetupResponse" message="tns:IPRMSWS_VerifyWardSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveWardsetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/SaveWardsetup" message="tns:IPRMSWS_SaveWardsetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/SaveWardsetupResponse" message="tns:IPRMSWS_SaveWardsetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateWardSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/UpdateWardSetup" message="tns:IPRMSWS_UpdateWardSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/UpdateWardSetupResponse" message="tns:IPRMSWS_UpdateWardSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyBedSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/VerifyBedSetup" message="tns:IPRMSWS_VerifyBedSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/VerifyBedSetupResponse" message="tns:IPRMSWS_VerifyBedSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveBedsetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/SaveBedsetup" message="tns:IPRMSWS_SaveBedsetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/SaveBedsetupResponse" message="tns:IPRMSWS_SaveBedsetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBedSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/UpdateBedSetup" message="tns:IPRMSWS_UpdateBedSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/UpdateBedSetupResponse" message="tns:IPRMSWS_UpdateBedSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBedfacility">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/GetBedfacility" message="tns:IPRMSWS_GetBedfacility_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/GetBedfacilityResponse" message="tns:IPRMSWS_GetBedfacility_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBedfacilityDict">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/GetBedfacilityDict" message="tns:IPRMSWS_GetBedfacilityDict_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/GetBedfacilityDictResponse" message="tns:IPRMSWS_GetBedfacilityDict_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNumbers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/GetNumbers" message="tns:IPRMSWS_GetNumbers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/GetNumbersResponse" message="tns:IPRMSWS_GetNumbers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBedtype">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/GetBedtype" message="tns:IPRMSWS_GetBedtype_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/GetBedtypeResponse" message="tns:IPRMSWS_GetBedtype_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBedStatus">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/GetBedStatus" message="tns:IPRMSWS_GetBedStatus_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/GetBedStatusResponse" message="tns:IPRMSWS_GetBedStatus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWards">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/GetWards" message="tns:IPRMSWS_GetWards_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/GetWardsResponse" message="tns:IPRMSWS_GetWards_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWardsDict">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/GetWardsDict" message="tns:IPRMSWS_GetWardsDict_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/GetWardsDictResponse" message="tns:IPRMSWS_GetWardsDict_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBuildingDict">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/GetBuildingDict" message="tns:IPRMSWS_GetBuildingDict_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/GetBuildingDictResponse" message="tns:IPRMSWS_GetBuildingDict_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDepartmentDict">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/GetDepartmentDict" message="tns:IPRMSWS_GetDepartmentDict_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/GetDepartmentDictResponse" message="tns:IPRMSWS_GetDepartmentDict_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGenderDict">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/GetGenderDict" message="tns:IPRMSWS_GetGenderDict_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/GetGenderDictResponse" message="tns:IPRMSWS_GetGenderDict_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBeds">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/GetBeds" message="tns:IPRMSWS_GetBeds_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/GetBedsResponse" message="tns:IPRMSWS_GetBeds_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBedtypeDict">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/GetBedtypeDict" message="tns:IPRMSWS_GetBedtypeDict_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/GetBedtypeDictResponse" message="tns:IPRMSWS_GetBedtypeDict_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRooms">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/GetRooms" message="tns:IPRMSWS_GetRooms_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/GetRoomsResponse" message="tns:IPRMSWS_GetRooms_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRoomsDict">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/GetRoomsDict" message="tns:IPRMSWS_GetRoomsDict_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/GetRoomsDictResponse" message="tns:IPRMSWS_GetRoomsDict_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyRoomType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/VerifyRoomType" message="tns:IPRMSWS_VerifyRoomType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/VerifyRoomTypeResponse" message="tns:IPRMSWS_VerifyRoomType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveRoomType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/SaveRoomType" message="tns:IPRMSWS_SaveRoomType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/SaveRoomTypeResponse" message="tns:IPRMSWS_SaveRoomType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateRoomType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/UpdateRoomType" message="tns:IPRMSWS_UpdateRoomType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/UpdateRoomTypeResponse" message="tns:IPRMSWS_UpdateRoomType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRoomTypes">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/GetRoomTypes" message="tns:IPRMSWS_GetRoomTypes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/GetRoomTypesResponse" message="tns:IPRMSWS_GetRoomTypes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRoomTypeDict">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/GetRoomTypeDict" message="tns:IPRMSWS_GetRoomTypeDict_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/GetRoomTypeDictResponse" message="tns:IPRMSWS_GetRoomTypeDict_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBedSets">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/GetBedSets" message="tns:IPRMSWS_GetBedSets_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/GetBedSetsResponse" message="tns:IPRMSWS_GetBedSets_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBedList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/GetBedList" message="tns:IPRMSWS_GetBedList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/GetBedListResponse" message="tns:IPRMSWS_GetBedList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRoomBedType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/GetRoomBedType" message="tns:IPRMSWS_GetRoomBedType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/GetRoomBedTypeResponse" message="tns:IPRMSWS_GetRoomBedType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRoomBedTypeDict">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/GetRoomBedTypeDict" message="tns:IPRMSWS_GetRoomBedTypeDict_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/GetRoomBedTypeDictResponse" message="tns:IPRMSWS_GetRoomBedTypeDict_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRoomByBuild">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/GetRoomByBuild" message="tns:IPRMSWS_GetRoomByBuild_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/GetRoomByBuildResponse" message="tns:IPRMSWS_GetRoomByBuild_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNurseStation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/GetNurseStation" message="tns:IPRMSWS_GetNurseStation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/GetNurseStationResponse" message="tns:IPRMSWS_GetNurseStation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNurseStationDic">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/GetNurseStationDic" message="tns:IPRMSWS_GetNurseStationDic_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/GetNurseStationDicResponse" message="tns:IPRMSWS_GetNurseStationDic_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveNurseStation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/SaveNurseStation" message="tns:IPRMSWS_SaveNurseStation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/SaveNurseStationResponse" message="tns:IPRMSWS_SaveNurseStation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNurseAllStation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/GetNurseAllStation" message="tns:IPRMSWS_GetNurseAllStation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/GetNurseAllStationResponse" message="tns:IPRMSWS_GetNurseAllStation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateNurseStation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/UpdateNurseStation" message="tns:IPRMSWS_UpdateNurseStation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/UpdateNurseStationResponse" message="tns:IPRMSWS_UpdateNurseStation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNurseStationFloorWise">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPRMSWS/GetNurseStationFloorWise" message="tns:IPRMSWS_GetNurseStationFloorWise_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPRMSWS/GetNurseStationFloorWiseResponse" message="tns:IPRMSWS_GetNurseStationFloorWise_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IPRMSWS" type="tns:IPRMSWS">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="VerifyRoomSetup">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/VerifyRoomSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveRoomsetup">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/SaveRoomsetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateRoomSetup">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/UpdateRoomSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyBedFacility">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/VerifyBedFacility" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBedFacility">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/UpdateBedFacility" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveBedfacility">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/SaveBedfacility" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyBedType">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/VerifyBedType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveBedtype">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/SaveBedtype" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBedType">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/UpdateBedType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyWardSetup">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/VerifyWardSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveWardsetup">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/SaveWardsetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateWardSetup">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/UpdateWardSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyBedSetup">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/VerifyBedSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveBedsetup">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/SaveBedsetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBedSetup">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/UpdateBedSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBedfacility">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/GetBedfacility" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBedfacilityDict">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/GetBedfacilityDict" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNumbers">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/GetNumbers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBedtype">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/GetBedtype" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBedStatus">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/GetBedStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWards">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/GetWards" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWardsDict">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/GetWardsDict" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBuildingDict">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/GetBuildingDict" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDepartmentDict">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/GetDepartmentDict" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGenderDict">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/GetGenderDict" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBeds">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/GetBeds" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBedtypeDict">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/GetBedtypeDict" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRooms">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/GetRooms" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRoomsDict">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/GetRoomsDict" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyRoomType">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/VerifyRoomType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveRoomType">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/SaveRoomType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateRoomType">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/UpdateRoomType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRoomTypes">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/GetRoomTypes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRoomTypeDict">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/GetRoomTypeDict" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBedSets">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/GetBedSets" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBedList">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/GetBedList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRoomBedType">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/GetRoomBedType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRoomBedTypeDict">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/GetRoomBedTypeDict" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRoomByBuild">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/GetRoomByBuild" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNurseStation">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/GetNurseStation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNurseStationDic">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/GetNurseStationDic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveNurseStation">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/SaveNurseStation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNurseAllStation">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/GetNurseAllStation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateNurseStation">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/UpdateNurseStation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNurseStationFloorWise">
+      <soap:operation soapAction="http://tempuri.org/IPRMSWS/GetNurseStationFloorWise" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PRMSWS">
+    <wsdl:port name="BasicHttpBinding_IPRMSWS" binding="tns:BasicHttpBinding_IPRMSWS">
+      <soap:address location="http://localhost:85/PRMS/PRMSService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

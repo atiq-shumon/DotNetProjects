@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:75/DRS/DRSService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" />
+  <xs:complexType name="Purpose">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="COA" nillable="true" type="tns:COA" />
+      <xs:element minOccurs="0" name="Codeallocation" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q1:EntryParameter" />
+      <xs:element minOccurs="0" name="GrpID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GrpName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PurposeID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PurposeTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PurposeTitleBeng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Purposecategory" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PurposecategoryName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TypeID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TypeName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Purpose" nillable="true" type="tns:Purpose" />
+  <xs:complexType name="COA">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AccCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AccTitle" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="COA" nillable="true" type="tns:COA" />
+</xs:schema>

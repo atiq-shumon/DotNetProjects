@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="PatientRegistrationWS" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:81/PatientRegistration/PatientRegistrationService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:81/PatientRegistration/PatientRegistrationService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:81/PatientRegistration/PatientRegistrationService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" />
+      <xsd:import schemaLocation="http://localhost:81/PatientRegistration/PatientRegistrationService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/AH.DUtility" />
+      <xsd:import schemaLocation="http://localhost:81/PatientRegistration/PatientRegistrationService.svc?xsd=xsd4" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost:81/PatientRegistration/PatientRegistrationService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/AH.HR.MODEL" />
+      <xsd:import schemaLocation="http://localhost:81/PatientRegistration/PatientRegistrationService.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/AH.PatReg.MODEL" />
+      <xsd:import schemaLocation="http://localhost:81/PatientRegistration/PatientRegistrationService.svc?xsd=xsd7" namespace="http://schemas.datacontract.org/2004/07/AH.APPOPD.MODEL" />
+      <xsd:import schemaLocation="http://localhost:81/PatientRegistration/PatientRegistrationService.svc?xsd=xsd8" namespace="http://schemas.datacontract.org/2004/07/AH.PRMS.MODEL" />
+      <xsd:import schemaLocation="http://localhost:81/PatientRegistration/PatientRegistrationService.svc?xsd=xsd9" namespace="http://schemas.datacontract.org/2004/07/AH.ORGMS.MODEL" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IPatientRegistrationWS_SavePatient_InputMessage">
+    <wsdl:part name="parameters" element="tns:SavePatient" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_SavePatient_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavePatientResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_UpdatePatientDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePatientDetails" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_UpdatePatientDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePatientDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_PatientCardIssue_InputMessage">
+    <wsdl:part name="parameters" element="tns:PatientCardIssue" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_PatientCardIssue_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PatientCardIssueResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_VerifyPatientNo_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyPatientNo" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_VerifyPatientNo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyPatientNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetPatients_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatients" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetPatients_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetPatient_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatient" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetPatient_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetStaffTypePatient_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetStaffTypePatient" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetStaffTypePatient_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetStaffTypePatientResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetNamePrefixes_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNamePrefixes" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetNamePrefixes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNamePrefixesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetBloodGroups_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBloodGroups" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetBloodGroups_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBloodGroupsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetSexes_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSexes" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetSexes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSexesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetReligions_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetReligions" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetReligions_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetReligionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetEducationLevels_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEducationLevels" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetEducationLevels_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEducationLevelsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetIncomeGroups_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetIncomeGroups" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetIncomeGroups_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetIncomeGroupsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetMaritalStatus_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMaritalStatus" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetMaritalStatus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMaritalStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetOccupations_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOccupations" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetOccupations_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOccupationsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetRelationships_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRelationships" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetRelationships_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRelationshipsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetDistricts_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDistricts" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetDistricts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDistrictsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetThanas_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetThanas" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetThanas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetThanasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetStaff_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetStaff" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetStaff_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetStaffResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetAgeIndicators_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAgeIndicators" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetAgeIndicators_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAgeIndicatorsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetDOB_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDOB" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetDOB_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDOBResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetEmpMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmpMaster" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetEmpMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmpMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetEmployeeMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmployeeMaster" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetEmployeeMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmployeeMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetEmpDependent_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmpDependent" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetEmpDependent_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmpDependentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_ViewList_InputMessage">
+    <wsdl:part name="parameters" element="tns:ViewList" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_ViewList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ViewListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetPatientRegistartionDetailsbyHCN_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientRegistartionDetailsbyHCN" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetPatientRegistartionDetailsbyHCN_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientRegistartionDetailsbyHCNResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetPatientRegistartionDetailsbyDateRange_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientRegistartionDetailsbyDateRange" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetPatientRegistartionDetailsbyDateRange_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientRegistartionDetailsbyDateRangeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetPatientRegistartionDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientRegistartionDetails" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetPatientRegistartionDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientRegistartionDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_PatientAdvanceSearch_InputMessage">
+    <wsdl:part name="parameters" element="tns:PatientAdvanceSearch" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_PatientAdvanceSearch_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PatientAdvanceSearchResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_SaveStaffType_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveStaffType" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_SaveStaffType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveStaffTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_UpdateStaffType_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateStaffType" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_UpdateStaffType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateStaffTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_getStaffType_InputMessage">
+    <wsdl:part name="parameters" element="tns:getStaffType" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_getStaffType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getStaffTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_getStaffTypeDic_InputMessage">
+    <wsdl:part name="parameters" element="tns:getStaffTypeDic" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_getStaffTypeDic_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getStaffTypeDicResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetPatientsDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientsDetails" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetPatientsDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientsDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetPatientDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientDetails" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetPatientDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetPatientDetailsAppointment_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientDetailsAppointment" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetPatientDetailsAppointment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientDetailsAppointmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetPatientListForHcn_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientListForHcn" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetPatientListForHcn_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientListForHcnResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetDistrictDict_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDistrictDict" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetDistrictDict_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDistrictDictResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetDistrictAndThana_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDistrictAndThana" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetDistrictAndThana_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDistrictAndThanaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_SearchPatients_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchPatients" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_SearchPatients_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchPatientsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_SaveCorpType_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveCorpType" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_SaveCorpType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveCorpTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_UpdateCorpType_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCorpType" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_UpdateCorpType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCorpTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetCorpTypes_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCorpTypes" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetCorpTypes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCorpTypesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetCorpTypeDic_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCorpTypeDic" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_GetCorpTypeDic_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCorpTypeDicResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_VerifyMobileOldORNew_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyMobileOldORNew" />
+  </wsdl:message>
+  <wsdl:message name="IPatientRegistrationWS_VerifyMobileOldORNew_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyMobileOldORNewResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IPatientRegistrationWS">
+    <wsdl:operation name="SavePatient">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/SavePatient" message="tns:IPatientRegistrationWS_SavePatient_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/SavePatientResponse" message="tns:IPatientRegistrationWS_SavePatient_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePatientDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/UpdatePatientDetails" message="tns:IPatientRegistrationWS_UpdatePatientDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/UpdatePatientDetailsResponse" message="tns:IPatientRegistrationWS_UpdatePatientDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PatientCardIssue">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/PatientCardIssue" message="tns:IPatientRegistrationWS_PatientCardIssue_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/PatientCardIssueResponse" message="tns:IPatientRegistrationWS_PatientCardIssue_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyPatientNo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/VerifyPatientNo" message="tns:IPatientRegistrationWS_VerifyPatientNo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/VerifyPatientNoResponse" message="tns:IPatientRegistrationWS_VerifyPatientNo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatients">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetPatients" message="tns:IPatientRegistrationWS_GetPatients_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetPatientsResponse" message="tns:IPatientRegistrationWS_GetPatients_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatient">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetPatient" message="tns:IPatientRegistrationWS_GetPatient_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetPatientResponse" message="tns:IPatientRegistrationWS_GetPatient_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStaffTypePatient">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetStaffTypePatient" message="tns:IPatientRegistrationWS_GetStaffTypePatient_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetStaffTypePatientResponse" message="tns:IPatientRegistrationWS_GetStaffTypePatient_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNamePrefixes">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetNamePrefixes" message="tns:IPatientRegistrationWS_GetNamePrefixes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetNamePrefixesResponse" message="tns:IPatientRegistrationWS_GetNamePrefixes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBloodGroups">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetBloodGroups" message="tns:IPatientRegistrationWS_GetBloodGroups_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetBloodGroupsResponse" message="tns:IPatientRegistrationWS_GetBloodGroups_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSexes">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetSexes" message="tns:IPatientRegistrationWS_GetSexes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetSexesResponse" message="tns:IPatientRegistrationWS_GetSexes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReligions">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetReligions" message="tns:IPatientRegistrationWS_GetReligions_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetReligionsResponse" message="tns:IPatientRegistrationWS_GetReligions_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEducationLevels">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetEducationLevels" message="tns:IPatientRegistrationWS_GetEducationLevels_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetEducationLevelsResponse" message="tns:IPatientRegistrationWS_GetEducationLevels_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIncomeGroups">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetIncomeGroups" message="tns:IPatientRegistrationWS_GetIncomeGroups_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetIncomeGroupsResponse" message="tns:IPatientRegistrationWS_GetIncomeGroups_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMaritalStatus">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetMaritalStatus" message="tns:IPatientRegistrationWS_GetMaritalStatus_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetMaritalStatusResponse" message="tns:IPatientRegistrationWS_GetMaritalStatus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOccupations">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetOccupations" message="tns:IPatientRegistrationWS_GetOccupations_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetOccupationsResponse" message="tns:IPatientRegistrationWS_GetOccupations_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRelationships">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetRelationships" message="tns:IPatientRegistrationWS_GetRelationships_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetRelationshipsResponse" message="tns:IPatientRegistrationWS_GetRelationships_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDistricts">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetDistricts" message="tns:IPatientRegistrationWS_GetDistricts_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetDistrictsResponse" message="tns:IPatientRegistrationWS_GetDistricts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetThanas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetThanas" message="tns:IPatientRegistrationWS_GetThanas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetThanasResponse" message="tns:IPatientRegistrationWS_GetThanas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStaff">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetStaff" message="tns:IPatientRegistrationWS_GetStaff_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetStaffResponse" message="tns:IPatientRegistrationWS_GetStaff_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAgeIndicators">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetAgeIndicators" message="tns:IPatientRegistrationWS_GetAgeIndicators_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetAgeIndicatorsResponse" message="tns:IPatientRegistrationWS_GetAgeIndicators_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDOB">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetDOB" message="tns:IPatientRegistrationWS_GetDOB_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetDOBResponse" message="tns:IPatientRegistrationWS_GetDOB_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmpMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetEmpMaster" message="tns:IPatientRegistrationWS_GetEmpMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetEmpMasterResponse" message="tns:IPatientRegistrationWS_GetEmpMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmployeeMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetEmployeeMaster" message="tns:IPatientRegistrationWS_GetEmployeeMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetEmployeeMasterResponse" message="tns:IPatientRegistrationWS_GetEmployeeMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmpDependent">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetEmpDependent" message="tns:IPatientRegistrationWS_GetEmpDependent_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetEmpDependentResponse" message="tns:IPatientRegistrationWS_GetEmpDependent_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ViewList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/ViewList" message="tns:IPatientRegistrationWS_ViewList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/ViewListResponse" message="tns:IPatientRegistrationWS_ViewList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientRegistartionDetailsbyHCN">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetPatientRegistartionDetailsbyHCN" message="tns:IPatientRegistrationWS_GetPatientRegistartionDetailsbyHCN_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetPatientRegistartionDetailsbyHCNResponse" message="tns:IPatientRegistrationWS_GetPatientRegistartionDetailsbyHCN_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientRegistartionDetailsbyDateRange">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetPatientRegistartionDetailsbyDateRange" message="tns:IPatientRegistrationWS_GetPatientRegistartionDetailsbyDateRange_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetPatientRegistartionDetailsbyDateRangeResponse" message="tns:IPatientRegistrationWS_GetPatientRegistartionDetailsbyDateRange_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientRegistartionDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetPatientRegistartionDetails" message="tns:IPatientRegistrationWS_GetPatientRegistartionDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetPatientRegistartionDetailsResponse" message="tns:IPatientRegistrationWS_GetPatientRegistartionDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PatientAdvanceSearch">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/PatientAdvanceSearch" message="tns:IPatientRegistrationWS_PatientAdvanceSearch_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/PatientAdvanceSearchResponse" message="tns:IPatientRegistrationWS_PatientAdvanceSearch_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveStaffType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/SaveStaffType" message="tns:IPatientRegistrationWS_SaveStaffType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/SaveStaffTypeResponse" message="tns:IPatientRegistrationWS_SaveStaffType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStaffType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/UpdateStaffType" message="tns:IPatientRegistrationWS_UpdateStaffType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/UpdateStaffTypeResponse" message="tns:IPatientRegistrationWS_UpdateStaffType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getStaffType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/getStaffType" message="tns:IPatientRegistrationWS_getStaffType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/getStaffTypeResponse" message="tns:IPatientRegistrationWS_getStaffType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getStaffTypeDic">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/getStaffTypeDic" message="tns:IPatientRegistrationWS_getStaffTypeDic_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/getStaffTypeDicResponse" message="tns:IPatientRegistrationWS_getStaffTypeDic_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientsDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetPatientsDetails" message="tns:IPatientRegistrationWS_GetPatientsDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetPatientsDetailsResponse" message="tns:IPatientRegistrationWS_GetPatientsDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetPatientDetails" message="tns:IPatientRegistrationWS_GetPatientDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetPatientDetailsResponse" message="tns:IPatientRegistrationWS_GetPatientDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDetailsAppointment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetPatientDetailsAppointment" message="tns:IPatientRegistrationWS_GetPatientDetailsAppointment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetPatientDetailsAppointmentResponse" message="tns:IPatientRegistrationWS_GetPatientDetailsAppointment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientListForHcn">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetPatientListForHcn" message="tns:IPatientRegistrationWS_GetPatientListForHcn_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetPatientListForHcnResponse" message="tns:IPatientRegistrationWS_GetPatientListForHcn_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDistrictDict">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetDistrictDict" message="tns:IPatientRegistrationWS_GetDistrictDict_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetDistrictDictResponse" message="tns:IPatientRegistrationWS_GetDistrictDict_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDistrictAndThana">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetDistrictAndThana" message="tns:IPatientRegistrationWS_GetDistrictAndThana_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetDistrictAndThanaResponse" message="tns:IPatientRegistrationWS_GetDistrictAndThana_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchPatients">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/SearchPatients" message="tns:IPatientRegistrationWS_SearchPatients_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/SearchPatientsResponse" message="tns:IPatientRegistrationWS_SearchPatients_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveCorpType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/SaveCorpType" message="tns:IPatientRegistrationWS_SaveCorpType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/SaveCorpTypeResponse" message="tns:IPatientRegistrationWS_SaveCorpType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCorpType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/UpdateCorpType" message="tns:IPatientRegistrationWS_UpdateCorpType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/UpdateCorpTypeResponse" message="tns:IPatientRegistrationWS_UpdateCorpType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCorpTypes">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetCorpTypes" message="tns:IPatientRegistrationWS_GetCorpTypes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetCorpTypesResponse" message="tns:IPatientRegistrationWS_GetCorpTypes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCorpTypeDic">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetCorpTypeDic" message="tns:IPatientRegistrationWS_GetCorpTypeDic_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/GetCorpTypeDicResponse" message="tns:IPatientRegistrationWS_GetCorpTypeDic_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyMobileOldORNew">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPatientRegistrationWS/VerifyMobileOldORNew" message="tns:IPatientRegistrationWS_VerifyMobileOldORNew_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPatientRegistrationWS/VerifyMobileOldORNewResponse" message="tns:IPatientRegistrationWS_VerifyMobileOldORNew_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IPatientRegistrationWS" type="tns:IPatientRegistrationWS">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SavePatient">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/SavePatient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePatientDetails">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/UpdatePatientDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PatientCardIssue">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/PatientCardIssue" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyPatientNo">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/VerifyPatientNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatients">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/GetPatients" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatient">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/GetPatient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStaffTypePatient">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/GetStaffTypePatient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNamePrefixes">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/GetNamePrefixes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBloodGroups">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/GetBloodGroups" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSexes">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/GetSexes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReligions">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/GetReligions" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEducationLevels">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/GetEducationLevels" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIncomeGroups">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/GetIncomeGroups" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMaritalStatus">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/GetMaritalStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOccupations">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/GetOccupations" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRelationships">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/GetRelationships" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDistricts">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/GetDistricts" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetThanas">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/GetThanas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStaff">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/GetStaff" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAgeIndicators">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/GetAgeIndicators" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDOB">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/GetDOB" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmpMaster">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/GetEmpMaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmployeeMaster">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/GetEmployeeMaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmpDependent">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/GetEmpDependent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ViewList">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/ViewList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientRegistartionDetailsbyHCN">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/GetPatientRegistartionDetailsbyHCN" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientRegistartionDetailsbyDateRange">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/GetPatientRegistartionDetailsbyDateRange" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientRegistartionDetails">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/GetPatientRegistartionDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PatientAdvanceSearch">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/PatientAdvanceSearch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveStaffType">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/SaveStaffType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStaffType">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/UpdateStaffType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getStaffType">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/getStaffType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getStaffTypeDic">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/getStaffTypeDic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientsDetails">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/GetPatientsDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDetails">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/GetPatientDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDetailsAppointment">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/GetPatientDetailsAppointment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientListForHcn">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/GetPatientListForHcn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDistrictDict">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/GetDistrictDict" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDistrictAndThana">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/GetDistrictAndThana" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchPatients">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/SearchPatients" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveCorpType">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/SaveCorpType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCorpType">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/UpdateCorpType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCorpTypes">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/GetCorpTypes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCorpTypeDic">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/GetCorpTypeDic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyMobileOldORNew">
+      <soap:operation soapAction="http://tempuri.org/IPatientRegistrationWS/VerifyMobileOldORNew" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PatientRegistrationWS">
+    <wsdl:port name="BasicHttpBinding_IPatientRegistrationWS" binding="tns:BasicHttpBinding_IPatientRegistrationWS">
+      <soap:address location="http://localhost:81/PatientRegistration/PatientRegistrationService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

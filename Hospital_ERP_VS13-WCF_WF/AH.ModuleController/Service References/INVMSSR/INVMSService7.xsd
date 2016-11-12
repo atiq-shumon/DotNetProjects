@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/AH.HR.MODEL" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AH.HR.MODEL" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:94/INVMS/INVMSService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" />
+  <xs:complexType name="EmployeeMaster">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Staff">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Age" type="xs:double" />
+          <xs:element minOccurs="0" name="AttnCardNumber" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="BankAccNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="BankID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CompanyId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ConfirmFlag" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ConsolidateScaleFlag" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ConsolidatedAmount" type="xs:double" />
+          <xs:element minOccurs="0" name="CurrentJobStatus" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DOC" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="DOJ" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="DOR" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="DeptId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DeptTitle" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EmpClass" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EmpId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EmpNameBeng" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EmployeeJobInformation" nillable="true" type="tns:EmployeeJobInformation" />
+          <xs:element minOccurs="0" name="EmployeeType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FringeBenefitGrp" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="GratuityMember" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="InsuranceNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="IntercomNumber" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="IsSentToDropList" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="JobType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="MiddleName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Nationality" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="NickName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Passport" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PayrollBase" nillable="true" type="tns:PayrollBase" />
+          <xs:element minOccurs="0" name="PersonalEmail" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PfAccNo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PfMember" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PhotoPath" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="RecruitmentType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Reff1" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Reff2" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="RosterString" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SalFlag" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SalFlagChangeDt" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="SalGradeID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SalScaleID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SalaryCycle" nillable="true" type="tns:SalaryCycle" />
+          <xs:element minOccurs="0" name="Shift" nillable="true" type="tns:Shift" />
+          <xs:element minOccurs="0" name="SignaturePath" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="TIN" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="EmployeeMaster" nillable="true" type="tns:EmployeeMaster" />
+  <xs:complexType name="Staff">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" base="q1:Person">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Department" nillable="true" type="q1:Department" />
+          <xs:element minOccurs="0" name="DepartmentUnit" nillable="true" type="q1:DepartmentUnit" />
+          <xs:element minOccurs="0" name="Designation" nillable="true" type="q1:Designation" />
+          <xs:element minOccurs="0" name="ID" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Staff" nillable="true" type="tns:Staff" />
+  <xs:complexType name="EmployeeJobInformation">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BenefitString" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Class" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ConsolidateScaleFlag" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ConsolidatedAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="DOJAsHead" nillable="true" type="xs:string" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="Department" nillable="true" type="q2:Department" />
+      <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="DepartmentGroup" nillable="true" type="q3:DepartmentGroup" />
+      <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="DepartmentUnit" nillable="true" type="q4:DepartmentUnit" />
+      <xs:element minOccurs="0" name="DeptHead" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DeptHeadName" nillable="true" type="xs:string" />
+      <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="DeptUnitAss" nillable="true" type="q5:DeptUnitAss" />
+      <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="Designation" nillable="true" type="q6:Designation" />
+      <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="DesignationGroup" nillable="true" type="q7:DesignationGroup" />
+      <xs:element minOccurs="0" name="EmployeeMaster" nillable="true" type="tns:EmployeeMaster" />
+      <xs:element minOccurs="0" name="EndDate" nillable="true" type="xs:dateTime" />
+      <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="Entryparameter" nillable="true" type="q8:EntryParameter" />
+      <xs:element minOccurs="0" name="FoodSubsidy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FringeBenefit" nillable="true" type="tns:FringeBenefit" />
+      <xs:element minOccurs="0" name="HeadString" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="JobDesc" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="JobType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="JobUpdateCauseType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OfficeOrderNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RecruitmentType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReportingPerson" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReportingPersonName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Responsibilities" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RetireDate" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="SalGradeID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SalScaleID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SerialNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ServiceBookReffNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StartDate" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="TransferDate" nillable="true" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EmployeeJobInformation" nillable="true" type="tns:EmployeeJobInformation" />
+  <xs:complexType name="FringeBenefit">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Amount" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BenID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BenTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BenTitleBeng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EffectiveDate" type="xs:dateTime" />
+      <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q9:EntryParameter" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Serial" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="YMDBasis" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="isAmount" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FringeBenefit" nillable="true" type="tns:FringeBenefit" />
+  <xs:complexType name="PayrollBase">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="EmployeeMaster" nillable="true" type="tns:EmployeeMaster" />
+      <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q10:EntryParameter" />
+      <xs:element minOccurs="0" name="HeadType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SalaryHead" nillable="true" type="tns:SalaryHead" />
+      <xs:element minOccurs="0" name="SalaryHeadString" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="amount" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PayrollBase" nillable="true" type="tns:PayrollBase" />
+  <xs:complexType name="SalaryHead">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Staff">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="HeadID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="HeadTitle" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="HeadTitleBeng" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SalaryHeadGroup" nillable="true" type="tns:SalaryHeadGroup" />
+          <xs:element minOccurs="0" name="Srl" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SalaryHead" nillable="true" type="tns:SalaryHead" />
+  <xs:complexType name="SalaryHeadGroup">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Staff">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="HeadGroupID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="HeadGroupTitle" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="HeadGroupTitleBeng" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="HeadType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SerialNumber" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SalaryHeadGroup" nillable="true" type="tns:SalaryHeadGroup" />
+  <xs:complexType name="SalaryCycle">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Staff">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CalculateDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="ConfigDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="EidFlag" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FromDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="Month" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="MonthEndFlag" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="MonthNumber" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="MonthStatus" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="MonthType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PaymentDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="ToDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="TotalFridays" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="TotalHolidays" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="TotalNoOfDays" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="TotalWorkDays" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Year" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SalaryCycle" nillable="true" type="tns:SalaryCycle" />
+  <xs:complexType name="Shift">
+    <xs:sequence>
+      <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="Department" nillable="true" type="q11:Department" />
+      <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="DepartmentGroup" nillable="true" type="q12:DepartmentGroup" />
+      <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="DepartmentUnit" nillable="true" type="q13:DepartmentUnit" />
+      <xs:element minOccurs="0" name="DutyDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EndDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EndTime" nillable="true" type="xs:string" />
+      <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q14:EntryParameter" />
+      <xs:element minOccurs="0" name="Mode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ShiftID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ShiftString" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ShiftTiming" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ShiftTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ShiftTitleBeng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StartDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StartTime" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Shift" nillable="true" type="tns:Shift" />
+</xs:schema>

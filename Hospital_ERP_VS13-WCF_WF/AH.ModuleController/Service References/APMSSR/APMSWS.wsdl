@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="APMSWS" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:93/APMS/APMSService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:93/APMS/APMSService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:93/APMS/APMSService.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost:93/APMS/APMSService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/AH.APMS.MODEL" />
+      <xsd:import schemaLocation="http://localhost:93/APMS/APMSService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" />
+      <xsd:import schemaLocation="http://localhost:93/APMS/APMSService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/AH.HR.MODEL" />
+      <xsd:import schemaLocation="http://localhost:93/APMS/APMSService.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/AH.PRMS.MODEL" />
+      <xsd:import schemaLocation="http://localhost:93/APMS/APMSService.svc?xsd=xsd7" namespace="http://schemas.datacontract.org/2004/07/AH.APPOPD.MODEL" />
+      <xsd:import schemaLocation="http://localhost:93/APMS/APMSService.svc?xsd=xsd8" namespace="http://schemas.datacontract.org/2004/07/AH.DUtility" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IAPMSWS_GetDepartmentsetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartmentsetup" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_GetDepartmentsetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartmentsetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_GetDeptUnitDic_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeptUnitDic" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_GetDeptUnitDic_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeptUnitDicResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_GetWeekDays_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWeekDays" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_GetWeekDays_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWeekDaysResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_GetDoctorVSTcal_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDoctorVSTcal" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_GetDoctorVSTcal_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDoctorVSTcalResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_InsertOpdAppointment_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertOpdAppointment" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_InsertOpdAppointment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertOpdAppointmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_GetDayList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDayList" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_GetDayList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDayListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_GetDoctorWeekDays_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDoctorWeekDays" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_GetDoctorWeekDays_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDoctorWeekDaysResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_SaveDoctorTiming_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDoctorTiming" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_SaveDoctorTiming_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDoctorTimingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_GetDoctorDutyTiming_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDoctorDutyTiming" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_GetDoctorDutyTiming_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDoctorDutyTimingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_GetPatientName_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientName" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_GetPatientName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_GetPatientInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_GetPatientInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_UpdatePatientInformation_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePatientInformation" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_UpdatePatientInformation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePatientInformationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_DeleteDoctorTiming_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteDoctorTiming" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_DeleteDoctorTiming_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteDoctorTimingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_GetOPDDoctorsDict_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOPDDoctorsDict" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_GetOPDDoctorsDict_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOPDDoctorsDictResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_GetPatientDetailsAppointment_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientDetailsAppointment" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_GetPatientDetailsAppointment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientDetailsAppointmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_Appointment_InputMessage">
+    <wsdl:part name="parameters" element="tns:Appointment" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_Appointment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AppointmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_GetOPDDoctors_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOPDDoctors" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_GetOPDDoctors_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOPDDoctorsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_GetPatientListForHcn_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientListForHcn" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_GetPatientListForHcn_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientListForHcnResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_GetTodaysDoctorList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTodaysDoctorList" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_GetTodaysDoctorList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTodaysDoctorListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_DeleteDoctorSchedule_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteDoctorSchedule" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_DeleteDoctorSchedule_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteDoctorScheduleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_ModifyDoctorCalendar_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModifyDoctorCalendar" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_ModifyDoctorCalendar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModifyDoctorCalendarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_GetDoctorTimingInterval_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDoctorTimingInterval" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_GetDoctorTimingInterval_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDoctorTimingIntervalResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_GetAppointedDate_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAppointedDate" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_GetAppointedDate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAppointedDateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_CheckForAppointment_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckForAppointment" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_CheckForAppointment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckForAppointmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_VerifyDoctorSchedule_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyDoctorSchedule" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_VerifyDoctorSchedule_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyDoctorScheduleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_SingleDayPatientList_InputMessage">
+    <wsdl:part name="parameters" element="tns:SingleDayPatientList" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_SingleDayPatientList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SingleDayPatientListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_PrescribePatientList_InputMessage">
+    <wsdl:part name="parameters" element="tns:PrescribePatientList" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_PrescribePatientList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PrescribePatientListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_TicketOkPatientList_InputMessage">
+    <wsdl:part name="parameters" element="tns:TicketOkPatientList" />
+  </wsdl:message>
+  <wsdl:message name="IAPMSWS_TicketOkPatientList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TicketOkPatientListResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IAPMSWS">
+    <wsdl:operation name="GetDepartmentsetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPMSWS/GetDepartmentsetup" message="tns:IAPMSWS_GetDepartmentsetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPMSWS/GetDepartmentsetupResponse" message="tns:IAPMSWS_GetDepartmentsetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDeptUnitDic">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPMSWS/GetDeptUnitDic" message="tns:IAPMSWS_GetDeptUnitDic_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPMSWS/GetDeptUnitDicResponse" message="tns:IAPMSWS_GetDeptUnitDic_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWeekDays">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPMSWS/GetWeekDays" message="tns:IAPMSWS_GetWeekDays_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPMSWS/GetWeekDaysResponse" message="tns:IAPMSWS_GetWeekDays_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDoctorVSTcal">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPMSWS/GetDoctorVSTcal" message="tns:IAPMSWS_GetDoctorVSTcal_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPMSWS/GetDoctorVSTcalResponse" message="tns:IAPMSWS_GetDoctorVSTcal_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertOpdAppointment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPMSWS/InsertOpdAppointment" message="tns:IAPMSWS_InsertOpdAppointment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPMSWS/InsertOpdAppointmentResponse" message="tns:IAPMSWS_InsertOpdAppointment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDayList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPMSWS/GetDayList" message="tns:IAPMSWS_GetDayList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPMSWS/GetDayListResponse" message="tns:IAPMSWS_GetDayList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDoctorWeekDays">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPMSWS/GetDoctorWeekDays" message="tns:IAPMSWS_GetDoctorWeekDays_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPMSWS/GetDoctorWeekDaysResponse" message="tns:IAPMSWS_GetDoctorWeekDays_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveDoctorTiming">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPMSWS/SaveDoctorTiming" message="tns:IAPMSWS_SaveDoctorTiming_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPMSWS/SaveDoctorTimingResponse" message="tns:IAPMSWS_SaveDoctorTiming_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDoctorDutyTiming">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPMSWS/GetDoctorDutyTiming" message="tns:IAPMSWS_GetDoctorDutyTiming_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPMSWS/GetDoctorDutyTimingResponse" message="tns:IAPMSWS_GetDoctorDutyTiming_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPMSWS/GetPatientName" message="tns:IAPMSWS_GetPatientName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPMSWS/GetPatientNameResponse" message="tns:IAPMSWS_GetPatientName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPMSWS/GetPatientInfo" message="tns:IAPMSWS_GetPatientInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPMSWS/GetPatientInfoResponse" message="tns:IAPMSWS_GetPatientInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePatientInformation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPMSWS/UpdatePatientInformation" message="tns:IAPMSWS_UpdatePatientInformation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPMSWS/UpdatePatientInformationResponse" message="tns:IAPMSWS_UpdatePatientInformation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDoctorTiming">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPMSWS/DeleteDoctorTiming" message="tns:IAPMSWS_DeleteDoctorTiming_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPMSWS/DeleteDoctorTimingResponse" message="tns:IAPMSWS_DeleteDoctorTiming_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOPDDoctorsDict">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPMSWS/GetOPDDoctorsDict" message="tns:IAPMSWS_GetOPDDoctorsDict_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPMSWS/GetOPDDoctorsDictResponse" message="tns:IAPMSWS_GetOPDDoctorsDict_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDetailsAppointment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPMSWS/GetPatientDetailsAppointment" message="tns:IAPMSWS_GetPatientDetailsAppointment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPMSWS/GetPatientDetailsAppointmentResponse" message="tns:IAPMSWS_GetPatientDetailsAppointment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Appointment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPMSWS/Appointment" message="tns:IAPMSWS_Appointment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPMSWS/AppointmentResponse" message="tns:IAPMSWS_Appointment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOPDDoctors">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPMSWS/GetOPDDoctors" message="tns:IAPMSWS_GetOPDDoctors_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPMSWS/GetOPDDoctorsResponse" message="tns:IAPMSWS_GetOPDDoctors_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientListForHcn">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPMSWS/GetPatientListForHcn" message="tns:IAPMSWS_GetPatientListForHcn_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPMSWS/GetPatientListForHcnResponse" message="tns:IAPMSWS_GetPatientListForHcn_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTodaysDoctorList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPMSWS/GetTodaysDoctorList" message="tns:IAPMSWS_GetTodaysDoctorList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPMSWS/GetTodaysDoctorListResponse" message="tns:IAPMSWS_GetTodaysDoctorList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDoctorSchedule">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPMSWS/DeleteDoctorSchedule" message="tns:IAPMSWS_DeleteDoctorSchedule_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPMSWS/DeleteDoctorScheduleResponse" message="tns:IAPMSWS_DeleteDoctorSchedule_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModifyDoctorCalendar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPMSWS/ModifyDoctorCalendar" message="tns:IAPMSWS_ModifyDoctorCalendar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPMSWS/ModifyDoctorCalendarResponse" message="tns:IAPMSWS_ModifyDoctorCalendar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDoctorTimingInterval">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPMSWS/GetDoctorTimingInterval" message="tns:IAPMSWS_GetDoctorTimingInterval_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPMSWS/GetDoctorTimingIntervalResponse" message="tns:IAPMSWS_GetDoctorTimingInterval_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAppointedDate">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPMSWS/GetAppointedDate" message="tns:IAPMSWS_GetAppointedDate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPMSWS/GetAppointedDateResponse" message="tns:IAPMSWS_GetAppointedDate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckForAppointment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPMSWS/CheckForAppointment" message="tns:IAPMSWS_CheckForAppointment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPMSWS/CheckForAppointmentResponse" message="tns:IAPMSWS_CheckForAppointment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyDoctorSchedule">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPMSWS/VerifyDoctorSchedule" message="tns:IAPMSWS_VerifyDoctorSchedule_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPMSWS/VerifyDoctorScheduleResponse" message="tns:IAPMSWS_VerifyDoctorSchedule_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SingleDayPatientList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPMSWS/SingleDayPatientList" message="tns:IAPMSWS_SingleDayPatientList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPMSWS/SingleDayPatientListResponse" message="tns:IAPMSWS_SingleDayPatientList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PrescribePatientList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPMSWS/PrescribePatientList" message="tns:IAPMSWS_PrescribePatientList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPMSWS/PrescribePatientListResponse" message="tns:IAPMSWS_PrescribePatientList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TicketOkPatientList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPMSWS/TicketOkPatientList" message="tns:IAPMSWS_TicketOkPatientList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPMSWS/TicketOkPatientListResponse" message="tns:IAPMSWS_TicketOkPatientList_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IAPMSWS" type="tns:IAPMSWS">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetDepartmentsetup">
+      <soap:operation soapAction="http://tempuri.org/IAPMSWS/GetDepartmentsetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeptUnitDic">
+      <soap:operation soapAction="http://tempuri.org/IAPMSWS/GetDeptUnitDic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWeekDays">
+      <soap:operation soapAction="http://tempuri.org/IAPMSWS/GetWeekDays" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDoctorVSTcal">
+      <soap:operation soapAction="http://tempuri.org/IAPMSWS/GetDoctorVSTcal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertOpdAppointment">
+      <soap:operation soapAction="http://tempuri.org/IAPMSWS/InsertOpdAppointment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDayList">
+      <soap:operation soapAction="http://tempuri.org/IAPMSWS/GetDayList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDoctorWeekDays">
+      <soap:operation soapAction="http://tempuri.org/IAPMSWS/GetDoctorWeekDays" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveDoctorTiming">
+      <soap:operation soapAction="http://tempuri.org/IAPMSWS/SaveDoctorTiming" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDoctorDutyTiming">
+      <soap:operation soapAction="http://tempuri.org/IAPMSWS/GetDoctorDutyTiming" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientName">
+      <soap:operation soapAction="http://tempuri.org/IAPMSWS/GetPatientName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientInfo">
+      <soap:operation soapAction="http://tempuri.org/IAPMSWS/GetPatientInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePatientInformation">
+      <soap:operation soapAction="http://tempuri.org/IAPMSWS/UpdatePatientInformation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDoctorTiming">
+      <soap:operation soapAction="http://tempuri.org/IAPMSWS/DeleteDoctorTiming" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOPDDoctorsDict">
+      <soap:operation soapAction="http://tempuri.org/IAPMSWS/GetOPDDoctorsDict" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDetailsAppointment">
+      <soap:operation soapAction="http://tempuri.org/IAPMSWS/GetPatientDetailsAppointment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Appointment">
+      <soap:operation soapAction="http://tempuri.org/IAPMSWS/Appointment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOPDDoctors">
+      <soap:operation soapAction="http://tempuri.org/IAPMSWS/GetOPDDoctors" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientListForHcn">
+      <soap:operation soapAction="http://tempuri.org/IAPMSWS/GetPatientListForHcn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTodaysDoctorList">
+      <soap:operation soapAction="http://tempuri.org/IAPMSWS/GetTodaysDoctorList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDoctorSchedule">
+      <soap:operation soapAction="http://tempuri.org/IAPMSWS/DeleteDoctorSchedule" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModifyDoctorCalendar">
+      <soap:operation soapAction="http://tempuri.org/IAPMSWS/ModifyDoctorCalendar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDoctorTimingInterval">
+      <soap:operation soapAction="http://tempuri.org/IAPMSWS/GetDoctorTimingInterval" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAppointedDate">
+      <soap:operation soapAction="http://tempuri.org/IAPMSWS/GetAppointedDate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckForAppointment">
+      <soap:operation soapAction="http://tempuri.org/IAPMSWS/CheckForAppointment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyDoctorSchedule">
+      <soap:operation soapAction="http://tempuri.org/IAPMSWS/VerifyDoctorSchedule" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SingleDayPatientList">
+      <soap:operation soapAction="http://tempuri.org/IAPMSWS/SingleDayPatientList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PrescribePatientList">
+      <soap:operation soapAction="http://tempuri.org/IAPMSWS/PrescribePatientList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TicketOkPatientList">
+      <soap:operation soapAction="http://tempuri.org/IAPMSWS/TicketOkPatientList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="APMSWS">
+    <wsdl:port name="BasicHttpBinding_IAPMSWS" binding="tns:BasicHttpBinding_IAPMSWS">
+      <soap:address location="http://localhost:93/APMS/APMSService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

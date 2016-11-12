@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="22f6dfd6-9a42-4d02-88a5-3ac56ba823cc" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:82/OPD/OPDService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="OPDService.xsd" MetadataType="Schema" ID="21244bcb-dad0-4855-8578-558e17c4e689" SourceId="1" SourceUrl="http://localhost:82/OPD/OPDService.svc?xsd=xsd4" />
+    <MetadataFile FileName="OPDService1.xsd" MetadataType="Schema" ID="063f709d-0413-463d-ab4c-74e65f4c0f6f" SourceId="1" SourceUrl="http://localhost:82/OPD/OPDService.svc?xsd=xsd3" />
+    <MetadataFile FileName="OPDService2.xsd" MetadataType="Schema" ID="1c235bbd-4cda-4a65-91f0-034dec5a1642" SourceId="1" SourceUrl="http://localhost:82/OPD/OPDService.svc?xsd=xsd9" />
+    <MetadataFile FileName="OPDService3.xsd" MetadataType="Schema" ID="677604ee-4279-4301-bf5e-aada092414d3" SourceId="1" SourceUrl="http://localhost:82/OPD/OPDService.svc?xsd=xsd0" />
+    <MetadataFile FileName="OPDWS.wsdl" MetadataType="Wsdl" ID="2e434782-47e3-45c8-8676-9b8d053d3fe7" SourceId="1" SourceUrl="http://localhost:82/OPD/OPDService.svc?wsdl" />
+    <MetadataFile FileName="OPDService4.xsd" MetadataType="Schema" ID="49d46abc-786c-47a5-96ce-d4bfbd0e8e28" SourceId="1" SourceUrl="http://localhost:82/OPD/OPDService.svc?xsd=xsd1" />
+    <MetadataFile FileName="OPDService5.xsd" MetadataType="Schema" ID="106ad6b9-bae5-4ba4-b2e1-c8d59015e9e7" SourceId="1" SourceUrl="http://localhost:82/OPD/OPDService.svc?xsd=xsd5" />
+    <MetadataFile FileName="OPDService6.xsd" MetadataType="Schema" ID="318b31ce-4ca0-44eb-ad75-dfa7a57149f5" SourceId="1" SourceUrl="http://localhost:82/OPD/OPDService.svc?xsd=xsd6" />
+    <MetadataFile FileName="OPDService7.xsd" MetadataType="Schema" ID="c052aaaa-9246-4bf9-bdc5-5aff2606dc5c" SourceId="1" SourceUrl="http://localhost:82/OPD/OPDService.svc?xsd=xsd2" />
+    <MetadataFile FileName="OPDService8.xsd" MetadataType="Schema" ID="8ea36151-8e3a-4685-9f1b-286cbeca3775" SourceId="1" SourceUrl="http://localhost:82/OPD/OPDService.svc?xsd=xsd10" />
+    <MetadataFile FileName="OPDService.disco" MetadataType="Disco" ID="0a4ba0c2-8244-4a55-9864-f8b0b9d4dc10" SourceId="1" SourceUrl="http://localhost:82/OPD/OPDService.svc?disco" />
+    <MetadataFile FileName="OPDService9.xsd" MetadataType="Schema" ID="d96a11d6-012a-4de2-a0fb-e09b1816b039" SourceId="1" SourceUrl="http://localhost:82/OPD/OPDService.svc?xsd=xsd8" />
+    <MetadataFile FileName="OPDService10.xsd" MetadataType="Schema" ID="88699af4-e863-42aa-abe7-8a96adb57d32" SourceId="1" SourceUrl="http://localhost:82/OPD/OPDService.svc?xsd=xsd7" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

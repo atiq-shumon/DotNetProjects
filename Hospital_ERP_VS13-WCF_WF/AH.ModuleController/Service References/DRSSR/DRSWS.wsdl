@@ -1,0 +1,2272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="DRSWS" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:75/DRS/DRSService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:75/DRS/DRSService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:75/DRS/DRSService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/AH.DTMS.MODEL" />
+      <xsd:import schemaLocation="http://localhost:75/DRS/DRSService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" />
+      <xsd:import schemaLocation="http://localhost:75/DRS/DRSService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/AH.PRMS.MODEL" />
+      <xsd:import schemaLocation="http://localhost:75/DRS/DRSService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/AH.HR.MODEL" />
+      <xsd:import schemaLocation="http://localhost:75/DRS/DRSService.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/AH.DRS.MODEL" />
+      <xsd:import schemaLocation="http://localhost:75/DRS/DRSService.svc?xsd=xsd7" namespace="http://schemas.datacontract.org/2004/07/AH.DMS.MODEL" />
+      <xsd:import schemaLocation="http://localhost:75/DRS/DRSService.svc?xsd=xsd8" namespace="http://schemas.datacontract.org/2004/07/AH.IPDShared.MODEL" />
+      <xsd:import schemaLocation="http://localhost:75/DRS/DRSService.svc?xsd=xsd9" namespace="http://schemas.datacontract.org/2004/07/AH.DUtility" />
+      <xsd:import schemaLocation="http://localhost:75/DRS/DRSService.svc?xsd=xsd10" namespace="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" />
+      <xsd:import schemaLocation="http://localhost:75/DRS/DRSService.svc?xsd=xsd11" namespace="http://schemas.datacontract.org/2004/07/AH.OPD.MODEL" />
+      <xsd:import schemaLocation="http://localhost:75/DRS/DRSService.svc?xsd=xsd12" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IDRSWS_GetResultHeads_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetResultHeads" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetResultHeads_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetResultHeadsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetResHead_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetResHead" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetResHead_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetResHeadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_SaveSpecimenCollection_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveSpecimenCollection" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_SaveSpecimenCollection_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveSpecimenCollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetSpecDict_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSpecDict" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetSpecDict_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSpecDictResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetDepartments_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartments" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetDepartments_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartmentsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetDepartmentsetupDic_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartmentsetupDic" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetDepartmentsetupDic_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartmentsetupDicResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetPatient_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatient" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetPatient_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetCurrentPatient_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCurrentPatient" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetCurrentPatient_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCurrentPatientResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetReportTest_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportTest" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetReportTest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportTestResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetRoomsDict_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRoomsDict" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetRoomsDict_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRoomsDictResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_VerifyDiagnosticResult_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyDiagnosticResult" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_VerifyDiagnosticResult_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyDiagnosticResultResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_SaveDiagnosticResult_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDiagnosticResult" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_SaveDiagnosticResult_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDiagnosticResultResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetSpecimenCollection_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSpecimenCollection" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetSpecimenCollection_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSpecimenCollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetInvestigationReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetInvestigationReport" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetInvestigationReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetInvestigationReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetRptgrpDictByDept_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRptgrpDictByDept" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetRptgrpDictByDept_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRptgrpDictByDeptResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetRptSecSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRptSecSetup" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetRptSecSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRptSecSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetRptgrpDic_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRptgrpDic" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetRptgrpDic_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRptgrpDicResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_verifyMrno_InputMessage">
+    <wsdl:part name="parameters" element="tns:verifyMrno" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_verifyMrno_OutputMessage">
+    <wsdl:part name="parameters" element="tns:verifyMrnoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetSpecimens_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSpecimens" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetSpecimens_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSpecimensResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_verifySpecimenNumbers_InputMessage">
+    <wsdl:part name="parameters" element="tns:verifySpecimenNumbers" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_verifySpecimenNumbers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:verifySpecimenNumbersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetSpcCollectedTest_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSpcCollectedTest" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetSpcCollectedTest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSpcCollectedTestResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetDmrTestForSpc_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDmrTestForSpc" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetDmrTestForSpc_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDmrTestForSpcResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetReportListToVerify_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportListToVerify" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetReportListToVerify_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportListToVerifyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetReportListToFinalised_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportListToFinalised" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetReportListToFinalised_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportListToFinalisedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetSpcTestReportGroup_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSpcTestReportGroup" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetSpcTestReportGroup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSpcTestReportGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetResultToVerify_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetResultToVerify" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetResultToVerify_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetResultToVerifyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetResultToFinalised_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetResultToFinalised" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetResultToFinalised_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetResultToFinalisedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_UpdateDiagnosticResult_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDiagnosticResult" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_UpdateDiagnosticResult_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDiagnosticResultResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_verifySpecimenNo_InputMessage">
+    <wsdl:part name="parameters" element="tns:verifySpecimenNo" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_verifySpecimenNo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:verifySpecimenNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetSpecimenCollectionByResultID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSpecimenCollectionByResultID" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetSpecimenCollectionByResultID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSpecimenCollectionByResultIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetNursStationWiseMoneyReceipt_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNursStationWiseMoneyReceipt" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetNursStationWiseMoneyReceipt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNursStationWiseMoneyReceiptResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetNurseStatonWiseMRNoForSampleReciv_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNurseStatonWiseMRNoForSampleReciv" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetNurseStatonWiseMRNoForSampleReciv_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNurseStatonWiseMRNoForSampleRecivResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_UpdateSpecimenReceivedBy_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateSpecimenReceivedBy" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_UpdateSpecimenReceivedBy_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateSpecimenReceivedByResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetDiagnosticMoneyReceiptList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDiagnosticMoneyReceiptList" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetDiagnosticMoneyReceiptList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDiagnosticMoneyReceiptListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetSpecimenList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSpecimenList" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetSpecimenList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSpecimenListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_OPDPendingMoneyRecipt_InputMessage">
+    <wsdl:part name="parameters" element="tns:OPDPendingMoneyRecipt" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_OPDPendingMoneyRecipt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OPDPendingMoneyReciptResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetNursStationWiseMRNoForResult_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNursStationWiseMRNoForResult" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetNursStationWiseMRNoForResult_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNursStationWiseMRNoForResultResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_OPDPendingSpecimenListForResult_InputMessage">
+    <wsdl:part name="parameters" element="tns:OPDPendingSpecimenListForResult" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_OPDPendingSpecimenListForResult_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OPDPendingSpecimenListForResultResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_SaveFinalDiagnosticResult_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveFinalDiagnosticResult" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_SaveFinalDiagnosticResult_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveFinalDiagnosticResultResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetTestByMRID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTestByMRID" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetTestByMRID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTestByMRIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetLatestResultToVerify_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLatestResultToVerify" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetLatestResultToVerify_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLatestResultToVerifyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_SaveVerifiedDiagnosticResult_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveVerifiedDiagnosticResult" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_SaveVerifiedDiagnosticResult_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveVerifiedDiagnosticResultResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetUpdatedVerifiedResult_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUpdatedVerifiedResult" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetUpdatedVerifiedResult_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUpdatedVerifiedResultResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetFinalisedResult_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFinalisedResult" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetFinalisedResult_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFinalisedResultResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetNurseStationMrForVerified_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNurseStationMrForVerified" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetNurseStationMrForVerified_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNurseStationMrForVerifiedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetOPDDMRToVerify_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOPDDMRToVerify" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetOPDDMRToVerify_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOPDDMRToVerifyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetOPDDMRToFinalised_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOPDDMRToFinalised" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetOPDDMRToFinalised_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOPDDMRToFinalisedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetNurseStnWiseMrForFinalised_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNurseStnWiseMrForFinalised" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetNurseStnWiseMrForFinalised_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNurseStnWiseMrForFinalisedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_SaveStainResult_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveStainResult" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_SaveStainResult_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveStainResultResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_SaveMicroBiologyResult_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveMicroBiologyResult" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_SaveMicroBiologyResult_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveMicroBiologyResultResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetNoGrowthResultToVerify_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNoGrowthResultToVerify" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetNoGrowthResultToVerify_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNoGrowthResultToVerifyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_SaveMicroBiologyVerifiedResult_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveMicroBiologyVerifiedResult" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_SaveMicroBiologyVerifiedResult_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveMicroBiologyVerifiedResultResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioRprtLstToVerify_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioRprtLstToVerify" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioRprtLstToVerify_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioRprtLstToVerifyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioRprtLstToFinalised_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioRprtLstToFinalised" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioRprtLstToFinalised_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioRprtLstToFinalisedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetNoGrowthResultToFinal_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNoGrowthResultToFinal" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetNoGrowthResultToFinal_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNoGrowthResultToFinalResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_SaveMicroBiologyFinaldResult_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveMicroBiologyFinaldResult" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_SaveMicroBiologyFinaldResult_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveMicroBiologyFinaldResultResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioReport" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_BulkReportPrint_InputMessage">
+    <wsdl:part name="parameters" element="tns:BulkReportPrint" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_BulkReportPrint_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BulkReportPrintResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_UpdatePrintFlag_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePrintFlag" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_UpdatePrintFlag_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePrintFlagResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetBulkReportPrint_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBulkReportPrint" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetBulkReportPrint_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBulkReportPrintResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultToVerify_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultToVerify" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultToVerify_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultToVerifyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultToFinalised_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultToFinalised" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultToFinalised_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultToFinalisedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultA_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultA" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultA_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultAResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultB_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultB" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultB_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultBResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultC_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultC" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultC_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultCResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_MBioOPDPendingSpcmenLstForRslt_InputMessage">
+    <wsdl:part name="parameters" element="tns:MBioOPDPendingSpcmenLstForRslt" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_MBioOPDPendingSpcmenLstForRslt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MBioOPDPendingSpcmenLstForRsltResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_MBioIPDNursStationWiseSpecimenNoForResult_InputMessage">
+    <wsdl:part name="parameters" element="tns:MBioIPDNursStationWiseSpecimenNoForResult" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_MBioIPDNursStationWiseSpecimenNoForResult_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MBioIPDNursStationWiseSpecimenNoForResultResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_MBioNSTNMrForVerified_InputMessage">
+    <wsdl:part name="parameters" element="tns:MBioNSTNMrForVerified" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_MBioNSTNMrForVerified_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MBioNSTNMrForVerifiedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_MBioNSTNMrForFinalised_InputMessage">
+    <wsdl:part name="parameters" element="tns:MBioNSTNMrForFinalised" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_MBioNSTNMrForFinalised_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MBioNSTNMrForFinalisedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetEmpoyee_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmpoyee" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetEmpoyee_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmpoyeeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_SaveUserReportAccess_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveUserReportAccess" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_SaveUserReportAccess_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveUserReportAccessResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetUserAccess_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserAccess" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetUserAccess_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserAccessResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMrListToPrint_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMrListToPrint" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMrListToPrint_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMrListToPrintResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetAllReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllReport" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetAllReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetIPDMRList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetIPDMRList" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetIPDMRList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetIPDMRListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetAllReportsByMRID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllReportsByMRID" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetAllReportsByMRID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllReportsByMRIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMacSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMacSetup" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMacSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMacSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetResHeads_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetResHeads" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetResHeads_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetResHeadsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_STN_OPD_SPECIMEN_LIST_RSLT_InputMessage">
+    <wsdl:part name="parameters" element="tns:STN_OPD_SPECIMEN_LIST_RSLT" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_STN_OPD_SPECIMEN_LIST_RSLT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:STN_OPD_SPECIMEN_LIST_RSLTResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_STN_SAVE_T_DR_DET_DRAFT_InputMessage">
+    <wsdl:part name="parameters" element="tns:STN_SAVE_T_DR_DET_DRAFT" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_STN_SAVE_T_DR_DET_DRAFT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:STN_SAVE_T_DR_DET_DRAFTResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GET_IPD_SPEC_NO_FOR_RESL_STAN_InputMessage">
+    <wsdl:part name="parameters" element="tns:GET_IPD_SPEC_NO_FOR_RESL_STAN" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GET_IPD_SPEC_NO_FOR_RESL_STAN_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GET_IPD_SPEC_NO_FOR_RESL_STANResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetEntryReportDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEntryReportDetails" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetEntryReportDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEntryReportDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetStainDraftResult_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetStainDraftResult" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetStainDraftResult_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetStainDraftResultResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetStainResultToFinalised_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetStainResultToFinalised" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetStainResultToFinalised_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetStainResultToFinalisedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetReportTestDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportTestDetails" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetReportTestDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetReportTestDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetWorkSheet_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWorkSheet" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetWorkSheet_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWorkSheetResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultA1_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultA1" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultA1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultA1Response" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultB1_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultB1" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultB1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultB1Response" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultC1_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultC1" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultC1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultC1Response" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_MBioBulkReportPrint_InputMessage">
+    <wsdl:part name="parameters" element="tns:MBioBulkReportPrint" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_MBioBulkReportPrint_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MBioBulkReportPrintResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultA2_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultA2" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultA2_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultA2Response" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultB2_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultB2" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultB2_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultB2Response" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultC2_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultC2" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultC2_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultC2Response" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetTestNameForVerify_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTestNameForVerify" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetTestNameForVerify_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTestNameForVerifyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetTestNameForFinalize_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTestNameForFinalize" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetTestNameForFinalize_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTestNameForFinalizeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetSpcCollforCancellation_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSpcCollforCancellation" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetSpcCollforCancellation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSpcCollforCancellationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_SaveDiagnosResultFromMachin_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDiagnosResultFromMachin" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_SaveDiagnosResultFromMachin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDiagnosResultFromMachinResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_PathologyReportVerify_InputMessage">
+    <wsdl:part name="parameters" element="tns:PathologyReportVerify" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_PathologyReportVerify_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PathologyReportVerifyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_MBIOReportVerify_InputMessage">
+    <wsdl:part name="parameters" element="tns:MBIOReportVerify" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_MBIOReportVerify_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MBIOReportVerifyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetInvestigationReportPreview_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetInvestigationReportPreview" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetInvestigationReportPreview_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetInvestigationReportPreviewResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultAA_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultAA" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultAA_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultAAResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultBB_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultBB" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultBB_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultBBResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_PatientListForLabelPrint_InputMessage">
+    <wsdl:part name="parameters" element="tns:PatientListForLabelPrint" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_PatientListForLabelPrint_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PatientListForLabelPrintResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_PatientListForLabelPrintReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:PatientListForLabelPrintReport" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_PatientListForLabelPrintReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PatientListForLabelPrintReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_CancelSpecimanCollection_InputMessage">
+    <wsdl:part name="parameters" element="tns:CancelSpecimanCollection" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_CancelSpecimanCollection_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CancelSpecimanCollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_SaveSpecimenCancellation_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveSpecimenCancellation" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_SaveSpecimenCancellation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveSpecimenCancellationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResCnt_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResCnt" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResCnt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResCntResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultABulk_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultABulk" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultABulk_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultABulkResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultBBulk_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultBBulk" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultBBulk_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultBBulkResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetWorkSheetForUI_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWorkSheetForUI" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetWorkSheetForUI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWorkSheetForUIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_SaveFinalDiagnosticResultPreview_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveFinalDiagnosticResultPreview" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_SaveFinalDiagnosticResultPreview_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveFinalDiagnosticResultPreviewResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_SaveMicroBiologyFinaldResultPrev_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveMicroBiologyFinaldResultPrev" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_SaveMicroBiologyFinaldResultPrev_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveMicroBiologyFinaldResultPrevResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioReportPreview_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioReportPreview" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioReportPreview_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioReportPreviewResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultAPreview_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultAPreview" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultAPreview_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultAPreviewResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultBPreview_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultBPreview" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMicroBioResultBPreview_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMicroBioResultBPreviewResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_MoneyReceiptLifeCycle_InputMessage">
+    <wsdl:part name="parameters" element="tns:MoneyReceiptLifeCycle" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_MoneyReceiptLifeCycle_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MoneyReceiptLifeCycleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetSpecimensReprint_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSpecimensReprint" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetSpecimensReprint_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSpecimensReprintResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMRForEmergencySampleColl_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMRForEmergencySampleColl" />
+  </wsdl:message>
+  <wsdl:message name="IDRSWS_GetMRForEmergencySampleColl_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMRForEmergencySampleCollResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IDRSWS">
+    <wsdl:operation name="GetResultHeads">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetResultHeads" message="tns:IDRSWS_GetResultHeads_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetResultHeadsResponse" message="tns:IDRSWS_GetResultHeads_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetResHead">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetResHead" message="tns:IDRSWS_GetResHead_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetResHeadResponse" message="tns:IDRSWS_GetResHead_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveSpecimenCollection">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/SaveSpecimenCollection" message="tns:IDRSWS_SaveSpecimenCollection_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/SaveSpecimenCollectionResponse" message="tns:IDRSWS_SaveSpecimenCollection_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecDict">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetSpecDict" message="tns:IDRSWS_GetSpecDict_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetSpecDictResponse" message="tns:IDRSWS_GetSpecDict_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDepartments">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetDepartments" message="tns:IDRSWS_GetDepartments_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetDepartmentsResponse" message="tns:IDRSWS_GetDepartments_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDepartmentsetupDic">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetDepartmentsetupDic" message="tns:IDRSWS_GetDepartmentsetupDic_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetDepartmentsetupDicResponse" message="tns:IDRSWS_GetDepartmentsetupDic_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatient">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetPatient" message="tns:IDRSWS_GetPatient_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetPatientResponse" message="tns:IDRSWS_GetPatient_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentPatient">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetCurrentPatient" message="tns:IDRSWS_GetCurrentPatient_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetCurrentPatientResponse" message="tns:IDRSWS_GetCurrentPatient_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReportTest">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetReportTest" message="tns:IDRSWS_GetReportTest_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetReportTestResponse" message="tns:IDRSWS_GetReportTest_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRoomsDict">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetRoomsDict" message="tns:IDRSWS_GetRoomsDict_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetRoomsDictResponse" message="tns:IDRSWS_GetRoomsDict_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyDiagnosticResult">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/VerifyDiagnosticResult" message="tns:IDRSWS_VerifyDiagnosticResult_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/VerifyDiagnosticResultResponse" message="tns:IDRSWS_VerifyDiagnosticResult_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveDiagnosticResult">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/SaveDiagnosticResult" message="tns:IDRSWS_SaveDiagnosticResult_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/SaveDiagnosticResultResponse" message="tns:IDRSWS_SaveDiagnosticResult_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecimenCollection">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetSpecimenCollection" message="tns:IDRSWS_GetSpecimenCollection_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetSpecimenCollectionResponse" message="tns:IDRSWS_GetSpecimenCollection_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInvestigationReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetInvestigationReport" message="tns:IDRSWS_GetInvestigationReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetInvestigationReportResponse" message="tns:IDRSWS_GetInvestigationReport_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRptgrpDictByDept">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetRptgrpDictByDept" message="tns:IDRSWS_GetRptgrpDictByDept_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetRptgrpDictByDeptResponse" message="tns:IDRSWS_GetRptgrpDictByDept_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRptSecSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetRptSecSetup" message="tns:IDRSWS_GetRptSecSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetRptSecSetupResponse" message="tns:IDRSWS_GetRptSecSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRptgrpDic">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetRptgrpDic" message="tns:IDRSWS_GetRptgrpDic_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetRptgrpDicResponse" message="tns:IDRSWS_GetRptgrpDic_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="verifyMrno">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/verifyMrno" message="tns:IDRSWS_verifyMrno_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/verifyMrnoResponse" message="tns:IDRSWS_verifyMrno_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecimens">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetSpecimens" message="tns:IDRSWS_GetSpecimens_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetSpecimensResponse" message="tns:IDRSWS_GetSpecimens_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="verifySpecimenNumbers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/verifySpecimenNumbers" message="tns:IDRSWS_verifySpecimenNumbers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/verifySpecimenNumbersResponse" message="tns:IDRSWS_verifySpecimenNumbers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSpcCollectedTest">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetSpcCollectedTest" message="tns:IDRSWS_GetSpcCollectedTest_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetSpcCollectedTestResponse" message="tns:IDRSWS_GetSpcCollectedTest_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDmrTestForSpc">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetDmrTestForSpc" message="tns:IDRSWS_GetDmrTestForSpc_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetDmrTestForSpcResponse" message="tns:IDRSWS_GetDmrTestForSpc_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReportListToVerify">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetReportListToVerify" message="tns:IDRSWS_GetReportListToVerify_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetReportListToVerifyResponse" message="tns:IDRSWS_GetReportListToVerify_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReportListToFinalised">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetReportListToFinalised" message="tns:IDRSWS_GetReportListToFinalised_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetReportListToFinalisedResponse" message="tns:IDRSWS_GetReportListToFinalised_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSpcTestReportGroup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetSpcTestReportGroup" message="tns:IDRSWS_GetSpcTestReportGroup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetSpcTestReportGroupResponse" message="tns:IDRSWS_GetSpcTestReportGroup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetResultToVerify">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetResultToVerify" message="tns:IDRSWS_GetResultToVerify_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetResultToVerifyResponse" message="tns:IDRSWS_GetResultToVerify_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetResultToFinalised">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetResultToFinalised" message="tns:IDRSWS_GetResultToFinalised_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetResultToFinalisedResponse" message="tns:IDRSWS_GetResultToFinalised_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDiagnosticResult">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/UpdateDiagnosticResult" message="tns:IDRSWS_UpdateDiagnosticResult_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/UpdateDiagnosticResultResponse" message="tns:IDRSWS_UpdateDiagnosticResult_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="verifySpecimenNo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/verifySpecimenNo" message="tns:IDRSWS_verifySpecimenNo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/verifySpecimenNoResponse" message="tns:IDRSWS_verifySpecimenNo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecimenCollectionByResultID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetSpecimenCollectionByResultID" message="tns:IDRSWS_GetSpecimenCollectionByResultID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetSpecimenCollectionByResultIDResponse" message="tns:IDRSWS_GetSpecimenCollectionByResultID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNursStationWiseMoneyReceipt">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetNursStationWiseMoneyReceipt" message="tns:IDRSWS_GetNursStationWiseMoneyReceipt_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetNursStationWiseMoneyReceiptResponse" message="tns:IDRSWS_GetNursStationWiseMoneyReceipt_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNurseStatonWiseMRNoForSampleReciv">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetNurseStatonWiseMRNoForSampleReciv" message="tns:IDRSWS_GetNurseStatonWiseMRNoForSampleReciv_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetNurseStatonWiseMRNoForSampleRecivResponse" message="tns:IDRSWS_GetNurseStatonWiseMRNoForSampleReciv_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateSpecimenReceivedBy">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/UpdateSpecimenReceivedBy" message="tns:IDRSWS_UpdateSpecimenReceivedBy_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/UpdateSpecimenReceivedByResponse" message="tns:IDRSWS_UpdateSpecimenReceivedBy_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDiagnosticMoneyReceiptList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetDiagnosticMoneyReceiptList" message="tns:IDRSWS_GetDiagnosticMoneyReceiptList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetDiagnosticMoneyReceiptListResponse" message="tns:IDRSWS_GetDiagnosticMoneyReceiptList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecimenList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetSpecimenList" message="tns:IDRSWS_GetSpecimenList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetSpecimenListResponse" message="tns:IDRSWS_GetSpecimenList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OPDPendingMoneyRecipt">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/OPDPendingMoneyRecipt" message="tns:IDRSWS_OPDPendingMoneyRecipt_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/OPDPendingMoneyReciptResponse" message="tns:IDRSWS_OPDPendingMoneyRecipt_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNursStationWiseMRNoForResult">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetNursStationWiseMRNoForResult" message="tns:IDRSWS_GetNursStationWiseMRNoForResult_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetNursStationWiseMRNoForResultResponse" message="tns:IDRSWS_GetNursStationWiseMRNoForResult_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OPDPendingSpecimenListForResult">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/OPDPendingSpecimenListForResult" message="tns:IDRSWS_OPDPendingSpecimenListForResult_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/OPDPendingSpecimenListForResultResponse" message="tns:IDRSWS_OPDPendingSpecimenListForResult_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveFinalDiagnosticResult">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/SaveFinalDiagnosticResult" message="tns:IDRSWS_SaveFinalDiagnosticResult_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/SaveFinalDiagnosticResultResponse" message="tns:IDRSWS_SaveFinalDiagnosticResult_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTestByMRID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetTestByMRID" message="tns:IDRSWS_GetTestByMRID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetTestByMRIDResponse" message="tns:IDRSWS_GetTestByMRID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLatestResultToVerify">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetLatestResultToVerify" message="tns:IDRSWS_GetLatestResultToVerify_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetLatestResultToVerifyResponse" message="tns:IDRSWS_GetLatestResultToVerify_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveVerifiedDiagnosticResult">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/SaveVerifiedDiagnosticResult" message="tns:IDRSWS_SaveVerifiedDiagnosticResult_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/SaveVerifiedDiagnosticResultResponse" message="tns:IDRSWS_SaveVerifiedDiagnosticResult_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdatedVerifiedResult">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetUpdatedVerifiedResult" message="tns:IDRSWS_GetUpdatedVerifiedResult_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetUpdatedVerifiedResultResponse" message="tns:IDRSWS_GetUpdatedVerifiedResult_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFinalisedResult">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetFinalisedResult" message="tns:IDRSWS_GetFinalisedResult_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetFinalisedResultResponse" message="tns:IDRSWS_GetFinalisedResult_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNurseStationMrForVerified">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetNurseStationMrForVerified" message="tns:IDRSWS_GetNurseStationMrForVerified_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetNurseStationMrForVerifiedResponse" message="tns:IDRSWS_GetNurseStationMrForVerified_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOPDDMRToVerify">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetOPDDMRToVerify" message="tns:IDRSWS_GetOPDDMRToVerify_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetOPDDMRToVerifyResponse" message="tns:IDRSWS_GetOPDDMRToVerify_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOPDDMRToFinalised">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetOPDDMRToFinalised" message="tns:IDRSWS_GetOPDDMRToFinalised_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetOPDDMRToFinalisedResponse" message="tns:IDRSWS_GetOPDDMRToFinalised_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNurseStnWiseMrForFinalised">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetNurseStnWiseMrForFinalised" message="tns:IDRSWS_GetNurseStnWiseMrForFinalised_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetNurseStnWiseMrForFinalisedResponse" message="tns:IDRSWS_GetNurseStnWiseMrForFinalised_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveStainResult">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/SaveStainResult" message="tns:IDRSWS_SaveStainResult_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/SaveStainResultResponse" message="tns:IDRSWS_SaveStainResult_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveMicroBiologyResult">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/SaveMicroBiologyResult" message="tns:IDRSWS_SaveMicroBiologyResult_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/SaveMicroBiologyResultResponse" message="tns:IDRSWS_SaveMicroBiologyResult_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNoGrowthResultToVerify">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetNoGrowthResultToVerify" message="tns:IDRSWS_GetNoGrowthResultToVerify_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetNoGrowthResultToVerifyResponse" message="tns:IDRSWS_GetNoGrowthResultToVerify_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveMicroBiologyVerifiedResult">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/SaveMicroBiologyVerifiedResult" message="tns:IDRSWS_SaveMicroBiologyVerifiedResult_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/SaveMicroBiologyVerifiedResultResponse" message="tns:IDRSWS_SaveMicroBiologyVerifiedResult_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioRprtLstToVerify">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioRprtLstToVerify" message="tns:IDRSWS_GetMicroBioRprtLstToVerify_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioRprtLstToVerifyResponse" message="tns:IDRSWS_GetMicroBioRprtLstToVerify_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioRprtLstToFinalised">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioRprtLstToFinalised" message="tns:IDRSWS_GetMicroBioRprtLstToFinalised_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioRprtLstToFinalisedResponse" message="tns:IDRSWS_GetMicroBioRprtLstToFinalised_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNoGrowthResultToFinal">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetNoGrowthResultToFinal" message="tns:IDRSWS_GetNoGrowthResultToFinal_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetNoGrowthResultToFinalResponse" message="tns:IDRSWS_GetNoGrowthResultToFinal_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveMicroBiologyFinaldResult">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/SaveMicroBiologyFinaldResult" message="tns:IDRSWS_SaveMicroBiologyFinaldResult_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/SaveMicroBiologyFinaldResultResponse" message="tns:IDRSWS_SaveMicroBiologyFinaldResult_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioReport" message="tns:IDRSWS_GetMicroBioReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioReportResponse" message="tns:IDRSWS_GetMicroBioReport_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BulkReportPrint">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/BulkReportPrint" message="tns:IDRSWS_BulkReportPrint_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/BulkReportPrintResponse" message="tns:IDRSWS_BulkReportPrint_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePrintFlag">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/UpdatePrintFlag" message="tns:IDRSWS_UpdatePrintFlag_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/UpdatePrintFlagResponse" message="tns:IDRSWS_UpdatePrintFlag_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBulkReportPrint">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetBulkReportPrint" message="tns:IDRSWS_GetBulkReportPrint_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetBulkReportPrintResponse" message="tns:IDRSWS_GetBulkReportPrint_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultToVerify">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultToVerify" message="tns:IDRSWS_GetMicroBioResultToVerify_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultToVerifyResponse" message="tns:IDRSWS_GetMicroBioResultToVerify_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultToFinalised">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultToFinalised" message="tns:IDRSWS_GetMicroBioResultToFinalised_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultToFinalisedResponse" message="tns:IDRSWS_GetMicroBioResultToFinalised_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultA">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultA" message="tns:IDRSWS_GetMicroBioResultA_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultAResponse" message="tns:IDRSWS_GetMicroBioResultA_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultB">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultB" message="tns:IDRSWS_GetMicroBioResultB_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultBResponse" message="tns:IDRSWS_GetMicroBioResultB_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultC">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultC" message="tns:IDRSWS_GetMicroBioResultC_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultCResponse" message="tns:IDRSWS_GetMicroBioResultC_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MBioOPDPendingSpcmenLstForRslt">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/MBioOPDPendingSpcmenLstForRslt" message="tns:IDRSWS_MBioOPDPendingSpcmenLstForRslt_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/MBioOPDPendingSpcmenLstForRsltResponse" message="tns:IDRSWS_MBioOPDPendingSpcmenLstForRslt_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MBioIPDNursStationWiseSpecimenNoForResult">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/MBioIPDNursStationWiseSpecimenNoForResult" message="tns:IDRSWS_MBioIPDNursStationWiseSpecimenNoForResult_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/MBioIPDNursStationWiseSpecimenNoForResultResponse" message="tns:IDRSWS_MBioIPDNursStationWiseSpecimenNoForResult_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MBioNSTNMrForVerified">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/MBioNSTNMrForVerified" message="tns:IDRSWS_MBioNSTNMrForVerified_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/MBioNSTNMrForVerifiedResponse" message="tns:IDRSWS_MBioNSTNMrForVerified_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MBioNSTNMrForFinalised">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/MBioNSTNMrForFinalised" message="tns:IDRSWS_MBioNSTNMrForFinalised_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/MBioNSTNMrForFinalisedResponse" message="tns:IDRSWS_MBioNSTNMrForFinalised_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmpoyee">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetEmpoyee" message="tns:IDRSWS_GetEmpoyee_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetEmpoyeeResponse" message="tns:IDRSWS_GetEmpoyee_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveUserReportAccess">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/SaveUserReportAccess" message="tns:IDRSWS_SaveUserReportAccess_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/SaveUserReportAccessResponse" message="tns:IDRSWS_SaveUserReportAccess_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserAccess">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetUserAccess" message="tns:IDRSWS_GetUserAccess_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetUserAccessResponse" message="tns:IDRSWS_GetUserAccess_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMrListToPrint">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetMrListToPrint" message="tns:IDRSWS_GetMrListToPrint_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetMrListToPrintResponse" message="tns:IDRSWS_GetMrListToPrint_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetAllReport" message="tns:IDRSWS_GetAllReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetAllReportResponse" message="tns:IDRSWS_GetAllReport_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIPDMRList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetIPDMRList" message="tns:IDRSWS_GetIPDMRList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetIPDMRListResponse" message="tns:IDRSWS_GetIPDMRList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllReportsByMRID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetAllReportsByMRID" message="tns:IDRSWS_GetAllReportsByMRID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetAllReportsByMRIDResponse" message="tns:IDRSWS_GetAllReportsByMRID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMacSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetMacSetup" message="tns:IDRSWS_GetMacSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetMacSetupResponse" message="tns:IDRSWS_GetMacSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetResHeads">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetResHeads" message="tns:IDRSWS_GetResHeads_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetResHeadsResponse" message="tns:IDRSWS_GetResHeads_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="STN_OPD_SPECIMEN_LIST_RSLT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/STN_OPD_SPECIMEN_LIST_RSLT" message="tns:IDRSWS_STN_OPD_SPECIMEN_LIST_RSLT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/STN_OPD_SPECIMEN_LIST_RSLTResponse" message="tns:IDRSWS_STN_OPD_SPECIMEN_LIST_RSLT_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="STN_SAVE_T_DR_DET_DRAFT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/STN_SAVE_T_DR_DET_DRAFT" message="tns:IDRSWS_STN_SAVE_T_DR_DET_DRAFT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/STN_SAVE_T_DR_DET_DRAFTResponse" message="tns:IDRSWS_STN_SAVE_T_DR_DET_DRAFT_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GET_IPD_SPEC_NO_FOR_RESL_STAN">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GET_IPD_SPEC_NO_FOR_RESL_STAN" message="tns:IDRSWS_GET_IPD_SPEC_NO_FOR_RESL_STAN_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GET_IPD_SPEC_NO_FOR_RESL_STANResponse" message="tns:IDRSWS_GET_IPD_SPEC_NO_FOR_RESL_STAN_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEntryReportDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetEntryReportDetails" message="tns:IDRSWS_GetEntryReportDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetEntryReportDetailsResponse" message="tns:IDRSWS_GetEntryReportDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStainDraftResult">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetStainDraftResult" message="tns:IDRSWS_GetStainDraftResult_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetStainDraftResultResponse" message="tns:IDRSWS_GetStainDraftResult_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStainResultToFinalised">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetStainResultToFinalised" message="tns:IDRSWS_GetStainResultToFinalised_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetStainResultToFinalisedResponse" message="tns:IDRSWS_GetStainResultToFinalised_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReportTestDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetReportTestDetails" message="tns:IDRSWS_GetReportTestDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetReportTestDetailsResponse" message="tns:IDRSWS_GetReportTestDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWorkSheet">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetWorkSheet" message="tns:IDRSWS_GetWorkSheet_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetWorkSheetResponse" message="tns:IDRSWS_GetWorkSheet_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultA1">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultA1" message="tns:IDRSWS_GetMicroBioResultA1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultA1Response" message="tns:IDRSWS_GetMicroBioResultA1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultB1">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultB1" message="tns:IDRSWS_GetMicroBioResultB1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultB1Response" message="tns:IDRSWS_GetMicroBioResultB1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultC1">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultC1" message="tns:IDRSWS_GetMicroBioResultC1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultC1Response" message="tns:IDRSWS_GetMicroBioResultC1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MBioBulkReportPrint">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/MBioBulkReportPrint" message="tns:IDRSWS_MBioBulkReportPrint_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/MBioBulkReportPrintResponse" message="tns:IDRSWS_MBioBulkReportPrint_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultA2">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultA2" message="tns:IDRSWS_GetMicroBioResultA2_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultA2Response" message="tns:IDRSWS_GetMicroBioResultA2_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultB2">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultB2" message="tns:IDRSWS_GetMicroBioResultB2_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultB2Response" message="tns:IDRSWS_GetMicroBioResultB2_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultC2">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultC2" message="tns:IDRSWS_GetMicroBioResultC2_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultC2Response" message="tns:IDRSWS_GetMicroBioResultC2_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTestNameForVerify">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetTestNameForVerify" message="tns:IDRSWS_GetTestNameForVerify_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetTestNameForVerifyResponse" message="tns:IDRSWS_GetTestNameForVerify_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTestNameForFinalize">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetTestNameForFinalize" message="tns:IDRSWS_GetTestNameForFinalize_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetTestNameForFinalizeResponse" message="tns:IDRSWS_GetTestNameForFinalize_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSpcCollforCancellation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetSpcCollforCancellation" message="tns:IDRSWS_GetSpcCollforCancellation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetSpcCollforCancellationResponse" message="tns:IDRSWS_GetSpcCollforCancellation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveDiagnosResultFromMachin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/SaveDiagnosResultFromMachin" message="tns:IDRSWS_SaveDiagnosResultFromMachin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/SaveDiagnosResultFromMachinResponse" message="tns:IDRSWS_SaveDiagnosResultFromMachin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PathologyReportVerify">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/PathologyReportVerify" message="tns:IDRSWS_PathologyReportVerify_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/PathologyReportVerifyResponse" message="tns:IDRSWS_PathologyReportVerify_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MBIOReportVerify">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/MBIOReportVerify" message="tns:IDRSWS_MBIOReportVerify_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/MBIOReportVerifyResponse" message="tns:IDRSWS_MBIOReportVerify_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInvestigationReportPreview">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetInvestigationReportPreview" message="tns:IDRSWS_GetInvestigationReportPreview_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetInvestigationReportPreviewResponse" message="tns:IDRSWS_GetInvestigationReportPreview_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultAA">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultAA" message="tns:IDRSWS_GetMicroBioResultAA_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultAAResponse" message="tns:IDRSWS_GetMicroBioResultAA_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultBB">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultBB" message="tns:IDRSWS_GetMicroBioResultBB_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultBBResponse" message="tns:IDRSWS_GetMicroBioResultBB_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PatientListForLabelPrint">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/PatientListForLabelPrint" message="tns:IDRSWS_PatientListForLabelPrint_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/PatientListForLabelPrintResponse" message="tns:IDRSWS_PatientListForLabelPrint_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PatientListForLabelPrintReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/PatientListForLabelPrintReport" message="tns:IDRSWS_PatientListForLabelPrintReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/PatientListForLabelPrintReportResponse" message="tns:IDRSWS_PatientListForLabelPrintReport_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelSpecimanCollection">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/CancelSpecimanCollection" message="tns:IDRSWS_CancelSpecimanCollection_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/CancelSpecimanCollectionResponse" message="tns:IDRSWS_CancelSpecimanCollection_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveSpecimenCancellation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/SaveSpecimenCancellation" message="tns:IDRSWS_SaveSpecimenCancellation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/SaveSpecimenCancellationResponse" message="tns:IDRSWS_SaveSpecimenCancellation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResCnt">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResCnt" message="tns:IDRSWS_GetMicroBioResCnt_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResCntResponse" message="tns:IDRSWS_GetMicroBioResCnt_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultABulk">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultABulk" message="tns:IDRSWS_GetMicroBioResultABulk_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultABulkResponse" message="tns:IDRSWS_GetMicroBioResultABulk_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultBBulk">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultBBulk" message="tns:IDRSWS_GetMicroBioResultBBulk_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultBBulkResponse" message="tns:IDRSWS_GetMicroBioResultBBulk_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWorkSheetForUI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetWorkSheetForUI" message="tns:IDRSWS_GetWorkSheetForUI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetWorkSheetForUIResponse" message="tns:IDRSWS_GetWorkSheetForUI_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveFinalDiagnosticResultPreview">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/SaveFinalDiagnosticResultPreview" message="tns:IDRSWS_SaveFinalDiagnosticResultPreview_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/SaveFinalDiagnosticResultPreviewResponse" message="tns:IDRSWS_SaveFinalDiagnosticResultPreview_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveMicroBiologyFinaldResultPrev">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/SaveMicroBiologyFinaldResultPrev" message="tns:IDRSWS_SaveMicroBiologyFinaldResultPrev_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/SaveMicroBiologyFinaldResultPrevResponse" message="tns:IDRSWS_SaveMicroBiologyFinaldResultPrev_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioReportPreview">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioReportPreview" message="tns:IDRSWS_GetMicroBioReportPreview_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioReportPreviewResponse" message="tns:IDRSWS_GetMicroBioReportPreview_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultAPreview">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultAPreview" message="tns:IDRSWS_GetMicroBioResultAPreview_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultAPreviewResponse" message="tns:IDRSWS_GetMicroBioResultAPreview_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultBPreview">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultBPreview" message="tns:IDRSWS_GetMicroBioResultBPreview_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetMicroBioResultBPreviewResponse" message="tns:IDRSWS_GetMicroBioResultBPreview_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MoneyReceiptLifeCycle">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/MoneyReceiptLifeCycle" message="tns:IDRSWS_MoneyReceiptLifeCycle_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/MoneyReceiptLifeCycleResponse" message="tns:IDRSWS_MoneyReceiptLifeCycle_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecimensReprint">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetSpecimensReprint" message="tns:IDRSWS_GetSpecimensReprint_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetSpecimensReprintResponse" message="tns:IDRSWS_GetSpecimensReprint_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMRForEmergencySampleColl">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDRSWS/GetMRForEmergencySampleColl" message="tns:IDRSWS_GetMRForEmergencySampleColl_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDRSWS/GetMRForEmergencySampleCollResponse" message="tns:IDRSWS_GetMRForEmergencySampleColl_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IDRSWS" type="tns:IDRSWS">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetResultHeads">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetResultHeads" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetResHead">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetResHead" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveSpecimenCollection">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/SaveSpecimenCollection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecDict">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetSpecDict" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDepartments">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetDepartments" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDepartmentsetupDic">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetDepartmentsetupDic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatient">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetPatient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentPatient">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetCurrentPatient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReportTest">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetReportTest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRoomsDict">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetRoomsDict" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyDiagnosticResult">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/VerifyDiagnosticResult" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveDiagnosticResult">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/SaveDiagnosticResult" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecimenCollection">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetSpecimenCollection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInvestigationReport">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetInvestigationReport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRptgrpDictByDept">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetRptgrpDictByDept" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRptSecSetup">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetRptSecSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRptgrpDic">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetRptgrpDic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="verifyMrno">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/verifyMrno" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecimens">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetSpecimens" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="verifySpecimenNumbers">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/verifySpecimenNumbers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpcCollectedTest">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetSpcCollectedTest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDmrTestForSpc">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetDmrTestForSpc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReportListToVerify">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetReportListToVerify" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReportListToFinalised">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetReportListToFinalised" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpcTestReportGroup">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetSpcTestReportGroup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetResultToVerify">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetResultToVerify" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetResultToFinalised">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetResultToFinalised" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDiagnosticResult">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/UpdateDiagnosticResult" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="verifySpecimenNo">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/verifySpecimenNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecimenCollectionByResultID">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetSpecimenCollectionByResultID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNursStationWiseMoneyReceipt">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetNursStationWiseMoneyReceipt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNurseStatonWiseMRNoForSampleReciv">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetNurseStatonWiseMRNoForSampleReciv" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateSpecimenReceivedBy">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/UpdateSpecimenReceivedBy" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDiagnosticMoneyReceiptList">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetDiagnosticMoneyReceiptList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecimenList">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetSpecimenList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OPDPendingMoneyRecipt">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/OPDPendingMoneyRecipt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNursStationWiseMRNoForResult">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetNursStationWiseMRNoForResult" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OPDPendingSpecimenListForResult">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/OPDPendingSpecimenListForResult" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveFinalDiagnosticResult">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/SaveFinalDiagnosticResult" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTestByMRID">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetTestByMRID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLatestResultToVerify">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetLatestResultToVerify" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveVerifiedDiagnosticResult">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/SaveVerifiedDiagnosticResult" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUpdatedVerifiedResult">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetUpdatedVerifiedResult" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFinalisedResult">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetFinalisedResult" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNurseStationMrForVerified">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetNurseStationMrForVerified" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOPDDMRToVerify">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetOPDDMRToVerify" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOPDDMRToFinalised">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetOPDDMRToFinalised" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNurseStnWiseMrForFinalised">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetNurseStnWiseMrForFinalised" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveStainResult">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/SaveStainResult" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveMicroBiologyResult">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/SaveMicroBiologyResult" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNoGrowthResultToVerify">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetNoGrowthResultToVerify" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveMicroBiologyVerifiedResult">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/SaveMicroBiologyVerifiedResult" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioRprtLstToVerify">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetMicroBioRprtLstToVerify" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioRprtLstToFinalised">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetMicroBioRprtLstToFinalised" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNoGrowthResultToFinal">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetNoGrowthResultToFinal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveMicroBiologyFinaldResult">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/SaveMicroBiologyFinaldResult" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioReport">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetMicroBioReport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BulkReportPrint">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/BulkReportPrint" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePrintFlag">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/UpdatePrintFlag" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBulkReportPrint">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetBulkReportPrint" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultToVerify">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetMicroBioResultToVerify" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultToFinalised">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetMicroBioResultToFinalised" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultA">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetMicroBioResultA" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultB">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetMicroBioResultB" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultC">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetMicroBioResultC" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MBioOPDPendingSpcmenLstForRslt">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/MBioOPDPendingSpcmenLstForRslt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MBioIPDNursStationWiseSpecimenNoForResult">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/MBioIPDNursStationWiseSpecimenNoForResult" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MBioNSTNMrForVerified">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/MBioNSTNMrForVerified" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MBioNSTNMrForFinalised">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/MBioNSTNMrForFinalised" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmpoyee">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetEmpoyee" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveUserReportAccess">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/SaveUserReportAccess" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserAccess">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetUserAccess" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMrListToPrint">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetMrListToPrint" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllReport">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetAllReport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIPDMRList">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetIPDMRList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllReportsByMRID">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetAllReportsByMRID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMacSetup">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetMacSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetResHeads">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetResHeads" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="STN_OPD_SPECIMEN_LIST_RSLT">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/STN_OPD_SPECIMEN_LIST_RSLT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="STN_SAVE_T_DR_DET_DRAFT">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/STN_SAVE_T_DR_DET_DRAFT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GET_IPD_SPEC_NO_FOR_RESL_STAN">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GET_IPD_SPEC_NO_FOR_RESL_STAN" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEntryReportDetails">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetEntryReportDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStainDraftResult">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetStainDraftResult" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStainResultToFinalised">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetStainResultToFinalised" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReportTestDetails">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetReportTestDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWorkSheet">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetWorkSheet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultA1">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetMicroBioResultA1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultB1">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetMicroBioResultB1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultC1">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetMicroBioResultC1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MBioBulkReportPrint">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/MBioBulkReportPrint" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultA2">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetMicroBioResultA2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultB2">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetMicroBioResultB2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultC2">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetMicroBioResultC2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTestNameForVerify">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetTestNameForVerify" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTestNameForFinalize">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetTestNameForFinalize" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpcCollforCancellation">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetSpcCollforCancellation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveDiagnosResultFromMachin">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/SaveDiagnosResultFromMachin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PathologyReportVerify">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/PathologyReportVerify" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MBIOReportVerify">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/MBIOReportVerify" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInvestigationReportPreview">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetInvestigationReportPreview" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultAA">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetMicroBioResultAA" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultBB">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetMicroBioResultBB" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PatientListForLabelPrint">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/PatientListForLabelPrint" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PatientListForLabelPrintReport">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/PatientListForLabelPrintReport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelSpecimanCollection">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/CancelSpecimanCollection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveSpecimenCancellation">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/SaveSpecimenCancellation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResCnt">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetMicroBioResCnt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultABulk">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetMicroBioResultABulk" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultBBulk">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetMicroBioResultBBulk" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWorkSheetForUI">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetWorkSheetForUI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveFinalDiagnosticResultPreview">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/SaveFinalDiagnosticResultPreview" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveMicroBiologyFinaldResultPrev">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/SaveMicroBiologyFinaldResultPrev" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioReportPreview">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetMicroBioReportPreview" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultAPreview">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetMicroBioResultAPreview" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMicroBioResultBPreview">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetMicroBioResultBPreview" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MoneyReceiptLifeCycle">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/MoneyReceiptLifeCycle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecimensReprint">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetSpecimensReprint" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMRForEmergencySampleColl">
+      <soap:operation soapAction="http://tempuri.org/IDRSWS/GetMRForEmergencySampleColl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DRSWS">
+    <wsdl:port name="BasicHttpBinding_IDRSWS" binding="tns:BasicHttpBinding_IDRSWS">
+      <soap:address location="http://localhost:75/DRS/DRSService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

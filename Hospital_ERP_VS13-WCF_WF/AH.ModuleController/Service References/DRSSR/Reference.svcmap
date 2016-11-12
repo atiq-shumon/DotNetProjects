@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d09df4de-6ed5-4d35-805c-4a3dc630e763" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:75/DRS/DRSService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="DRSService6.xsd" MetadataType="Schema" ID="b2db5f2a-52fa-4564-b80f-ed7462c6bee1" SourceId="1" SourceUrl="http://localhost:75/DRS/DRSService.svc?xsd=xsd7" />
+    <MetadataFile FileName="DRSWS.wsdl" MetadataType="Wsdl" ID="2dde50cb-7940-4de3-9c50-fb9ecc93d822" SourceId="1" SourceUrl="http://localhost:75/DRS/DRSService.svc?wsdl" />
+    <MetadataFile FileName="DRSService1.xsd" MetadataType="Schema" ID="4294cdc9-ccc3-41ba-8272-cbcc9ed77d49" SourceId="1" SourceUrl="http://localhost:75/DRS/DRSService.svc?xsd=xsd11" />
+    <MetadataFile FileName="DRSService5.xsd" MetadataType="Schema" ID="549b11fb-fa18-4668-96b7-127ebcbe8c60" SourceId="1" SourceUrl="http://localhost:75/DRS/DRSService.svc?xsd=xsd2" />
+    <MetadataFile FileName="DRSService2.xsd" MetadataType="Schema" ID="bbc27bc9-6d61-4776-93fc-5f0c3e0f66e2" SourceId="1" SourceUrl="http://localhost:75/DRS/DRSService.svc?xsd=xsd9" />
+    <MetadataFile FileName="DRSService3.xsd" MetadataType="Schema" ID="6d13a590-0622-4666-9498-13fdf3350132" SourceId="1" SourceUrl="http://localhost:75/DRS/DRSService.svc?xsd=xsd0" />
+    <MetadataFile FileName="DRSService.disco" MetadataType="Disco" ID="581e9dc0-1dc0-4c32-a089-6708b3b111bd" SourceId="1" SourceUrl="http://localhost:75/DRS/DRSService.svc?disco" />
+    <MetadataFile FileName="DRSService4.xsd" MetadataType="Schema" ID="3dadac4c-3809-4bb9-97f3-2c0c949f21d5" SourceId="1" SourceUrl="http://localhost:75/DRS/DRSService.svc?xsd=xsd4" />
+    <MetadataFile FileName="DRSService.xsd" MetadataType="Schema" ID="e077069d-41c8-4c97-bd4e-9e8e46bf865e" SourceId="1" SourceUrl="http://localhost:75/DRS/DRSService.svc?xsd=xsd6" />
+    <MetadataFile FileName="DRSService7.xsd" MetadataType="Schema" ID="51e256fd-dce1-47d2-b33c-2130ef492c6b" SourceId="1" SourceUrl="http://localhost:75/DRS/DRSService.svc?xsd=xsd1" />
+    <MetadataFile FileName="DRSService8.xsd" MetadataType="Schema" ID="bea77cd9-5efd-4cad-bb5c-0809a327f8fc" SourceId="1" SourceUrl="http://localhost:75/DRS/DRSService.svc?xsd=xsd10" />
+    <MetadataFile FileName="DRSService9.xsd" MetadataType="Schema" ID="d3d427fe-5070-4d8a-a076-a01bb0558b2a" SourceId="1" SourceUrl="http://localhost:75/DRS/DRSService.svc?xsd=xsd12" />
+    <MetadataFile FileName="DRSService10.xsd" MetadataType="Schema" ID="373792da-56a7-4722-beb4-891494f13940" SourceId="1" SourceUrl="http://localhost:75/DRS/DRSService.svc?xsd=xsd8" />
+    <MetadataFile FileName="DRSService11.xsd" MetadataType="Schema" ID="741c6e92-f17a-4c46-81ea-90ccb3ea1885" SourceId="1" SourceUrl="http://localhost:75/DRS/DRSService.svc?xsd=xsd3" />
+    <MetadataFile FileName="DRSService12.xsd" MetadataType="Schema" ID="c2aaeb5b-ee10-46d6-b72a-ddbeb51a0d95" SourceId="1" SourceUrl="http://localhost:75/DRS/DRSService.svc?xsd=xsd5" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

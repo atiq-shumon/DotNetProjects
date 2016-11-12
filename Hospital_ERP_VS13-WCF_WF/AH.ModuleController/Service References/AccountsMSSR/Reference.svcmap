@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4faabf13-2d2e-4f92-b43b-0849adea4f88" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:88/ACCMS/ACCMSService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ACCMSService3.xsd" MetadataType="Schema" ID="f7c26042-079a-4d6e-9944-1e19b34e1018" SourceId="1" SourceUrl="http://localhost:88/ACCMS/ACCMSService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ACCMSService.xsd" MetadataType="Schema" ID="32a42143-b900-413b-86f7-122778690679" SourceId="1" SourceUrl="http://localhost:88/ACCMS/ACCMSService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ACCMSWS.wsdl" MetadataType="Wsdl" ID="ba5b086d-1a38-49b6-a8a4-4c4380e1a668" SourceId="1" SourceUrl="http://localhost:88/ACCMS/ACCMSService.svc?wsdl" />
+    <MetadataFile FileName="ACCMSService1.xsd" MetadataType="Schema" ID="ecaefb71-33ae-4ba1-82a9-be02cc21f57a" SourceId="1" SourceUrl="http://localhost:88/ACCMS/ACCMSService.svc?xsd=xsd3" />
+    <MetadataFile FileName="ACCMSService2.xsd" MetadataType="Schema" ID="8832e698-83f7-4cc6-a454-1c53cbb16e29" SourceId="1" SourceUrl="http://localhost:88/ACCMS/ACCMSService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ACCMSService.disco" MetadataType="Disco" ID="107fa852-d9e9-4e65-bd5c-f4334457b2d6" SourceId="1" SourceUrl="http://localhost:88/ACCMS/ACCMSService.svc?disco" />
+    <MetadataFile FileName="ACCMSService4.xsd" MetadataType="Schema" ID="f1101301-f44e-4c8e-b9e7-3c199371c6a4" SourceId="1" SourceUrl="http://localhost:88/ACCMS/ACCMSService.svc?xsd=xsd4" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

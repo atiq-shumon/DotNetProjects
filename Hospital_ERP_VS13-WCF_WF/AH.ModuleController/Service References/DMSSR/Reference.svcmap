@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a9e22919-0e88-4b1a-adb1-94f65d21e41a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:73/DMS/DMSService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="DMSService.xsd" MetadataType="Schema" ID="03d7be90-0428-4e0e-b926-d3706e596d29" SourceId="1" SourceUrl="http://localhost:73/DMS/DMSService.svc?xsd=xsd5" />
+    <MetadataFile FileName="DMSService1.xsd" MetadataType="Schema" ID="2757cb4c-1edf-4b39-a892-791740fb7c79" SourceId="1" SourceUrl="http://localhost:73/DMS/DMSService.svc?xsd=xsd10" />
+    <MetadataFile FileName="DMSService2.xsd" MetadataType="Schema" ID="850be672-4ba8-483b-bbf8-133adbc44ee4" SourceId="1" SourceUrl="http://localhost:73/DMS/DMSService.svc?xsd=xsd8" />
+    <MetadataFile FileName="DMSService3.xsd" MetadataType="Schema" ID="fe5b9b20-e1d6-48bf-b0e2-91461f8711af" SourceId="1" SourceUrl="http://localhost:73/DMS/DMSService.svc?xsd=xsd1" />
+    <MetadataFile FileName="DMSService.disco" MetadataType="Disco" ID="dd0744bd-c9d1-416a-8397-bdebaa11f1fc" SourceId="1" SourceUrl="http://localhost:73/DMS/DMSService.svc?disco" />
+    <MetadataFile FileName="DMSService4.xsd" MetadataType="Schema" ID="9743a169-4dbf-4caf-950d-90288366bfeb" SourceId="1" SourceUrl="http://localhost:73/DMS/DMSService.svc?xsd=xsd4" />
+    <MetadataFile FileName="DMSService5.xsd" MetadataType="Schema" ID="51937c18-efaf-4c52-92f0-c8ab0d4caeb2" SourceId="1" SourceUrl="http://localhost:73/DMS/DMSService.svc?xsd=xsd0" />
+    <MetadataFile FileName="DMSService6.xsd" MetadataType="Schema" ID="6b82563d-eb15-4a6c-9639-54016b2610ce" SourceId="1" SourceUrl="http://localhost:73/DMS/DMSService.svc?xsd=xsd3" />
+    <MetadataFile FileName="DMSService7.xsd" MetadataType="Schema" ID="be9660d1-90d8-455e-bf1f-d08e462328f9" SourceId="1" SourceUrl="http://localhost:73/DMS/DMSService.svc?xsd=xsd7" />
+    <MetadataFile FileName="DMSWS.wsdl" MetadataType="Wsdl" ID="6e812009-21d9-4e7a-82eb-04563d2c0248" SourceId="1" SourceUrl="http://localhost:73/DMS/DMSService.svc?wsdl" />
+    <MetadataFile FileName="DMSService8.xsd" MetadataType="Schema" ID="9c21f99c-cf81-4f47-8f45-f7f763d20931" SourceId="1" SourceUrl="http://localhost:73/DMS/DMSService.svc?xsd=xsd6" />
+    <MetadataFile FileName="DMSService9.xsd" MetadataType="Schema" ID="37006647-05ff-49f3-839a-3068171a8830" SourceId="1" SourceUrl="http://localhost:73/DMS/DMSService.svc?xsd=xsd9" />
+    <MetadataFile FileName="DMSService10.xsd" MetadataType="Schema" ID="31715ac1-942d-4eca-aef3-181a325eb38b" SourceId="1" SourceUrl="http://localhost:73/DMS/DMSService.svc?xsd=xsd2" />
+    <MetadataFile FileName="DMSService11.xsd" MetadataType="Schema" ID="2e184bae-80cb-4f18-9494-acdf605b4e7c" SourceId="1" SourceUrl="http://localhost:73/DMS/DMSService.svc?xsd=xsd11" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

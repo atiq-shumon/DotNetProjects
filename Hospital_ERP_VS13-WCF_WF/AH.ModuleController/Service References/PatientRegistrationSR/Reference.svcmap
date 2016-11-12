@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="effcdd38-cb3c-4ba4-8c69-a63aa5b53e3c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:81/PatientRegistration/PatientRegistrationService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PatientRegistrationService9.xsd" MetadataType="Schema" ID="aaff81dd-f61e-4fd3-b3f4-3b4a86b48da0" SourceId="1" SourceUrl="http://localhost:81/PatientRegistration/PatientRegistrationService.svc?xsd=xsd9" />
+    <MetadataFile FileName="PatientRegistrationService.xsd" MetadataType="Schema" ID="66ab49bf-4f03-48f6-8f1a-031918191bb4" SourceId="1" SourceUrl="http://localhost:81/PatientRegistration/PatientRegistrationService.svc?xsd=xsd3" />
+    <MetadataFile FileName="PatientRegistrationService1.xsd" MetadataType="Schema" ID="25360f26-7337-4531-ad75-a1ad3646c973" SourceId="1" SourceUrl="http://localhost:81/PatientRegistration/PatientRegistrationService.svc?xsd=xsd0" />
+    <MetadataFile FileName="PatientRegistrationService2.xsd" MetadataType="Schema" ID="ddea1fd1-a16d-4d1e-ab7f-81beed8f257e" SourceId="1" SourceUrl="http://localhost:81/PatientRegistration/PatientRegistrationService.svc?xsd=xsd8" />
+    <MetadataFile FileName="PatientRegistrationService3.xsd" MetadataType="Schema" ID="38bac29e-4371-4466-8ef2-afd4e7f17dee" SourceId="1" SourceUrl="http://localhost:81/PatientRegistration/PatientRegistrationService.svc?xsd=xsd2" />
+    <MetadataFile FileName="PatientRegistrationService4.xsd" MetadataType="Schema" ID="e802dedc-8031-4a3c-84d6-0c74bf99f95b" SourceId="1" SourceUrl="http://localhost:81/PatientRegistration/PatientRegistrationService.svc?xsd=xsd7" />
+    <MetadataFile FileName="PatientRegistrationService5.xsd" MetadataType="Schema" ID="f562eea6-610c-4764-a532-27fa37f29abf" SourceId="1" SourceUrl="http://localhost:81/PatientRegistration/PatientRegistrationService.svc?xsd=xsd1" />
+    <MetadataFile FileName="PatientRegistrationService6.xsd" MetadataType="Schema" ID="27c15d76-c6f0-4220-bd9a-5759e8f46be8" SourceId="1" SourceUrl="http://localhost:81/PatientRegistration/PatientRegistrationService.svc?xsd=xsd5" />
+    <MetadataFile FileName="PatientRegistrationWS.wsdl" MetadataType="Wsdl" ID="c03af927-2b95-4f7c-a1be-44ce7e344c09" SourceId="1" SourceUrl="http://localhost:81/PatientRegistration/PatientRegistrationService.svc?wsdl" />
+    <MetadataFile FileName="PatientRegistrationService7.xsd" MetadataType="Schema" ID="85ef6916-3bb1-495c-a893-782727907021" SourceId="1" SourceUrl="http://localhost:81/PatientRegistration/PatientRegistrationService.svc?xsd=xsd4" />
+    <MetadataFile FileName="PatientRegistrationService8.xsd" MetadataType="Schema" ID="3d6d164b-868d-4308-9bc6-bcfbc2cf53b1" SourceId="1" SourceUrl="http://localhost:81/PatientRegistration/PatientRegistrationService.svc?xsd=xsd6" />
+    <MetadataFile FileName="PatientRegistrationService.disco" MetadataType="Disco" ID="6edc33d1-d5cd-4402-999d-f1e26d8b7408" SourceId="1" SourceUrl="http://localhost:81/PatientRegistration/PatientRegistrationService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

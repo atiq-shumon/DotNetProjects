@@ -1,0 +1,2114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="FNBWS" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:96/FNB/FNBService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:96/FNB/FNBService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:96/FNB/FNBService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" />
+      <xsd:import schemaLocation="http://localhost:96/FNB/FNBService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" />
+      <xsd:import schemaLocation="http://localhost:96/FNB/FNBService.svc?xsd=xsd4" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost:96/FNB/FNBService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/AH.HR.MODEL" />
+      <xsd:import schemaLocation="http://localhost:96/FNB/FNBService.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/AH.ORGMS.MODEL" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IFNBWS_GetMaterialRefNo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMaterialRefNo" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetMaterialRefNo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMaterialRefNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_number_InputMessage">
+    <wsdl:part name="parameters" element="tns:number" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_number_OutputMessage">
+    <wsdl:part name="parameters" element="tns:numberResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_DisplayDetailsAgainsrRef_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayDetailsAgainsrRef" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_DisplayDetailsAgainsrRef_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayDetailsAgainsrRefResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetStockGroup_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetStockGroup" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetStockGroup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetStockGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_SaveMrr_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveMrr" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_SaveMrr_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveMrrResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_SaveMrrTrans_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveMrrTrans" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_SaveMrrTrans_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveMrrTransResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetpopulatedList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetpopulatedList" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetpopulatedList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetpopulatedListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_Displaymaterialreceipt_InputMessage">
+    <wsdl:part name="parameters" element="tns:Displaymaterialreceipt" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_Displaymaterialreceipt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplaymaterialreceiptResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateMrr_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateMrr" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateMrr_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateMrrResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateMrrTrans_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateMrrTrans" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateMrrTrans_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateMrrTransResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertDietcat_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertDietcat" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertDietcat_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertDietcatResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateDietcat_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDietcat" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateDietcat_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDietcatResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LoadDietCategory_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadDietCategory" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LoadDietCategory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadDietCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertFoodcat_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertFoodcat" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertFoodcat_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertFoodcatResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateFoodcat_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateFoodcat" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateFoodcat_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateFoodcatResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LoadFoodCategory_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadFoodCategory" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LoadFoodCategory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadFoodCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetFoodCategory_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFoodCategory" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetFoodCategory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFoodCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetDietCategory_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDietCategory" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetDietCategory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDietCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertFoodItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertFoodItem" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertFoodItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertFoodItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateFoodItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateFoodItem" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateFoodItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateFoodItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LoadFoodItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadFoodItem" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LoadFoodItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadFoodItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertFoodMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertFoodMaster" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertFoodMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertFoodMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateFoodMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateFoodMaster" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateFoodMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateFoodMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LoadFoodMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadFoodMaster" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LoadFoodMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadFoodMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertFoodMenuSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertFoodMenuSetup" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertFoodMenuSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertFoodMenuSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateMenuFoodItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateMenuFoodItem" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateMenuFoodItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateMenuFoodItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LoadFoodMenuSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadFoodMenuSetup" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LoadFoodMenuSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadFoodMenuSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertServiceSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertServiceSetup" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertServiceSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertServiceSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateServiceSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateServiceSetup" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateServiceSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateServiceSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LoadServiceSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadServiceSetup" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LoadServiceSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadServiceSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetFoodItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFoodItem" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetFoodItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFoodItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertFoodTypeSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertFoodTypeSetup" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertFoodTypeSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertFoodTypeSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateFoodTypeSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateFoodTypeSetup" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateFoodTypeSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateFoodTypeSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetFoodMenuType_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFoodMenuType" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetFoodMenuType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFoodMenuTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetFoodMenuItemSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFoodMenuItemSetup" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetFoodMenuItemSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFoodMenuItemSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetFoodTypeSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFoodTypeSetup" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetFoodTypeSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFoodTypeSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertFoodRateItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertFoodRateItem" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertFoodRateItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertFoodRateItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateFoodRateItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateFoodRateItem" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateFoodRateItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateFoodRateItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LoadFoodItemrate_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadFoodItemrate" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LoadFoodItemrate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadFoodItemrateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_DisplayFoodItemrate_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayFoodItemrate" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_DisplayFoodItemrate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayFoodItemrateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertMealsetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertMealsetup" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertMealsetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertMealsetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateMealsetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateMealsetup" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateMealsetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateMealsetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LoadmealSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadmealSetup" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LoadmealSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadmealSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LoadWeeklyMealSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadWeeklyMealSetup" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LoadWeeklyMealSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadWeeklyMealSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertWeeklysetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertWeeklysetup" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertWeeklysetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertWeeklysetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateWeeklysetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateWeeklysetup" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateWeeklysetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateWeeklysetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetWeeklyMealSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWeeklyMealSetup" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetWeeklyMealSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWeeklyMealSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetWeeklySetmenu_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWeeklySetmenu" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetWeeklySetmenu_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWeeklySetmenuResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_DisplaySetmenuDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplaySetmenuDetails" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_DisplaySetmenuDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplaySetmenuDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetEmp_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmp" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetEmp_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmpResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertMealRegistermaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertMealRegistermaster" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertMealRegistermaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertMealRegistermasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertMealRegister_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertMealRegister" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertMealRegister_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertMealRegisterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetWeeklySetupregister_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWeeklySetupregister" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetWeeklySetupregister_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWeeklySetupregisterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateMealRegister_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateMealRegister" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateMealRegister_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateMealRegisterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LaodWeeklySetMenuType_InputMessage">
+    <wsdl:part name="parameters" element="tns:LaodWeeklySetMenuType" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LaodWeeklySetMenuType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LaodWeeklySetMenuTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetEmpMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmpMaster" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetEmpMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmpMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LaodWeeklyChart_InputMessage">
+    <wsdl:part name="parameters" element="tns:LaodWeeklyChart" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LaodWeeklyChart_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LaodWeeklyChartResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetVisitorsMenuItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetVisitorsMenuItem" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetVisitorsMenuItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetVisitorsMenuItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertVisitorsMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertVisitorsMaster" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertVisitorsMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertVisitorsMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertVisitorsTran_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertVisitorsTran" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertVisitorsTran_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertVisitorsTranResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetVisitors_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetVisitors" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetVisitors_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetVisitorsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_DisplaytVisitors_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplaytVisitors" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_DisplaytVisitors_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplaytVisitorsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateVisitorsMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateVisitorsMaster" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateVisitorsMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateVisitorsMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LoadFoodItemFromCat_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadFoodItemFromCat" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LoadFoodItemFromCat_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadFoodItemFromCatResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetItemRate_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetItemRate" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetItemRate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetItemRateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetFoodMenuItemSetupFromMenuID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFoodMenuItemSetupFromMenuID" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetFoodMenuItemSetupFromMenuID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFoodMenuItemSetupFromMenuIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertVisitorsOrderTran_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertVisitorsOrderTran" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertVisitorsOrderTran_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertVisitorsOrderTranResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetVisitorsSlipRo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetVisitorsSlipRo" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetVisitorsSlipRo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetVisitorsSlipRoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetCollectionAmount_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCollectionAmount" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetCollectionAmount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCollectionAmountResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertUserCloseRegister_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertUserCloseRegister" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertUserCloseRegister_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertUserCloseRegisterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetMealID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMealID" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetMealID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMealIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetWeeklySetmenuDetiails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWeeklySetmenuDetiails" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetWeeklySetmenuDetiails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWeeklySetmenuDetiailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetMealTime_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMealTime" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetMealTime_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMealTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LoadSetmenu_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadSetmenu" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LoadSetmenu_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadSetmenuResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetBarcodeLevel_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBarcodeLevel" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetBarcodeLevel_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBarcodeLevelResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateIssue_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateIssue" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateIssue_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateIssueResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LoadDailyCollection_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadDailyCollection" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LoadDailyCollection_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadDailyCollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetFoodItemCollection_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFoodItemCollection" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetFoodItemCollection_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFoodItemCollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LoadStaffCollection_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadStaffCollection" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LoadStaffCollection_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadStaffCollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetvisitorsHistory_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetvisitorsHistory" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetvisitorsHistory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetvisitorsHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetTotalAttendance_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTotalAttendance" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetTotalAttendance_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTotalAttendanceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetFoodID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFoodID" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetFoodID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFoodIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LoadStaffIssuesd_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadStaffIssuesd" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LoadStaffIssuesd_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadStaffIssuesdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetVisitorsCollection_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetVisitorsCollection" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetVisitorsCollection_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetVisitorsCollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LoadUserwiseCollection_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadUserwiseCollection" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_LoadUserwiseCollection_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadUserwiseCollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetVisitorsItemDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetVisitorsItemDetails" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetVisitorsItemDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetVisitorsItemDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetvisitorsHistoryDateRange_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetvisitorsHistoryDateRange" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetvisitorsHistoryDateRange_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetvisitorsHistoryDateRangeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetEmpStaffItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmpStaffItem" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetEmpStaffItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmpStaffItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetFoodSubsidy_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFoodSubsidy" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetFoodSubsidy_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFoodSubsidyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetWeeklyDayMeal_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWeeklyDayMeal" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetWeeklyDayMeal_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWeeklyDayMealResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertInventory_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertInventory" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertInventory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertInventoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetMonthVoucher_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMonthVoucher" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetMonthVoucher_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMonthVoucherResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_DisplayVoucher_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayVoucher" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_DisplayVoucher_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayVoucherResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateInventory_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInventory" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateInventory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInventoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetClosingQty_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetClosingQty" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetClosingQty_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetClosingQtyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetfnbInventoryDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetfnbInventoryDetails" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetfnbInventoryDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetfnbInventoryDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetDietSubType_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDietSubType" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetDietSubType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDietSubTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_SaveDietSubType_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDietSubType" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_SaveDietSubType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDietSubTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_DisplaySubType_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplaySubType" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_DisplaySubType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplaySubTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateDietSubType_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDietSubType" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdateDietSubType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDietSubTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetSubType_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSubType" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetSubType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSubTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetDeptGroupDicByType_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeptGroupDicByType" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetDeptGroupDicByType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeptGroupDicByTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetDepartmentsetupDic_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartmentsetupDic" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetDepartmentsetupDic_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartmentsetupDicResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetDeptUnitDic_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeptUnitDic" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetDeptUnitDic_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeptUnitDicResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetMonthWiseMealRegister_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMonthWiseMealRegister" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetMonthWiseMealRegister_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMonthWiseMealRegisterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertWeeklyDietMenu_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertWeeklyDietMenu" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_InsertWeeklyDietMenu_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertWeeklyDietMenuResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdatetWeeklyDietMenu_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatetWeeklyDietMenu" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_UpdatetWeeklyDietMenu_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatetWeeklyDietMenuResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetWeeklyDietSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWeeklyDietSetup" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetWeeklyDietSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWeeklyDietSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_CheckEmpID_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckEmpID" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_CheckEmpID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckEmpIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetMonthWiseMealRegisterAll_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMonthWiseMealRegisterAll" />
+  </wsdl:message>
+  <wsdl:message name="IFNBWS_GetMonthWiseMealRegisterAll_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMonthWiseMealRegisterAllResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IFNBWS">
+    <wsdl:operation name="GetMaterialRefNo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetMaterialRefNo" message="tns:IFNBWS_GetMaterialRefNo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetMaterialRefNoResponse" message="tns:IFNBWS_GetMaterialRefNo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="number">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/number" message="tns:IFNBWS_number_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/numberResponse" message="tns:IFNBWS_number_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayDetailsAgainsrRef">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/DisplayDetailsAgainsrRef" message="tns:IFNBWS_DisplayDetailsAgainsrRef_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/DisplayDetailsAgainsrRefResponse" message="tns:IFNBWS_DisplayDetailsAgainsrRef_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStockGroup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetStockGroup" message="tns:IFNBWS_GetStockGroup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetStockGroupResponse" message="tns:IFNBWS_GetStockGroup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveMrr">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/SaveMrr" message="tns:IFNBWS_SaveMrr_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/SaveMrrResponse" message="tns:IFNBWS_SaveMrr_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveMrrTrans">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/SaveMrrTrans" message="tns:IFNBWS_SaveMrrTrans_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/SaveMrrTransResponse" message="tns:IFNBWS_SaveMrrTrans_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetpopulatedList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetpopulatedList" message="tns:IFNBWS_GetpopulatedList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetpopulatedListResponse" message="tns:IFNBWS_GetpopulatedList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Displaymaterialreceipt">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/Displaymaterialreceipt" message="tns:IFNBWS_Displaymaterialreceipt_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/DisplaymaterialreceiptResponse" message="tns:IFNBWS_Displaymaterialreceipt_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateMrr">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/UpdateMrr" message="tns:IFNBWS_UpdateMrr_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/UpdateMrrResponse" message="tns:IFNBWS_UpdateMrr_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateMrrTrans">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/UpdateMrrTrans" message="tns:IFNBWS_UpdateMrrTrans_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/UpdateMrrTransResponse" message="tns:IFNBWS_UpdateMrrTrans_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertDietcat">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/InsertDietcat" message="tns:IFNBWS_InsertDietcat_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/InsertDietcatResponse" message="tns:IFNBWS_InsertDietcat_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDietcat">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/UpdateDietcat" message="tns:IFNBWS_UpdateDietcat_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/UpdateDietcatResponse" message="tns:IFNBWS_UpdateDietcat_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadDietCategory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/LoadDietCategory" message="tns:IFNBWS_LoadDietCategory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/LoadDietCategoryResponse" message="tns:IFNBWS_LoadDietCategory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertFoodcat">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/InsertFoodcat" message="tns:IFNBWS_InsertFoodcat_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/InsertFoodcatResponse" message="tns:IFNBWS_InsertFoodcat_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFoodcat">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/UpdateFoodcat" message="tns:IFNBWS_UpdateFoodcat_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/UpdateFoodcatResponse" message="tns:IFNBWS_UpdateFoodcat_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadFoodCategory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/LoadFoodCategory" message="tns:IFNBWS_LoadFoodCategory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/LoadFoodCategoryResponse" message="tns:IFNBWS_LoadFoodCategory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFoodCategory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetFoodCategory" message="tns:IFNBWS_GetFoodCategory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetFoodCategoryResponse" message="tns:IFNBWS_GetFoodCategory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDietCategory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetDietCategory" message="tns:IFNBWS_GetDietCategory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetDietCategoryResponse" message="tns:IFNBWS_GetDietCategory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertFoodItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/InsertFoodItem" message="tns:IFNBWS_InsertFoodItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/InsertFoodItemResponse" message="tns:IFNBWS_InsertFoodItem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFoodItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/UpdateFoodItem" message="tns:IFNBWS_UpdateFoodItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/UpdateFoodItemResponse" message="tns:IFNBWS_UpdateFoodItem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadFoodItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/LoadFoodItem" message="tns:IFNBWS_LoadFoodItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/LoadFoodItemResponse" message="tns:IFNBWS_LoadFoodItem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertFoodMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/InsertFoodMaster" message="tns:IFNBWS_InsertFoodMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/InsertFoodMasterResponse" message="tns:IFNBWS_InsertFoodMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFoodMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/UpdateFoodMaster" message="tns:IFNBWS_UpdateFoodMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/UpdateFoodMasterResponse" message="tns:IFNBWS_UpdateFoodMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadFoodMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/LoadFoodMaster" message="tns:IFNBWS_LoadFoodMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/LoadFoodMasterResponse" message="tns:IFNBWS_LoadFoodMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertFoodMenuSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/InsertFoodMenuSetup" message="tns:IFNBWS_InsertFoodMenuSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/InsertFoodMenuSetupResponse" message="tns:IFNBWS_InsertFoodMenuSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateMenuFoodItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/UpdateMenuFoodItem" message="tns:IFNBWS_UpdateMenuFoodItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/UpdateMenuFoodItemResponse" message="tns:IFNBWS_UpdateMenuFoodItem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadFoodMenuSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/LoadFoodMenuSetup" message="tns:IFNBWS_LoadFoodMenuSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/LoadFoodMenuSetupResponse" message="tns:IFNBWS_LoadFoodMenuSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertServiceSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/InsertServiceSetup" message="tns:IFNBWS_InsertServiceSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/InsertServiceSetupResponse" message="tns:IFNBWS_InsertServiceSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateServiceSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/UpdateServiceSetup" message="tns:IFNBWS_UpdateServiceSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/UpdateServiceSetupResponse" message="tns:IFNBWS_UpdateServiceSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadServiceSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/LoadServiceSetup" message="tns:IFNBWS_LoadServiceSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/LoadServiceSetupResponse" message="tns:IFNBWS_LoadServiceSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFoodItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetFoodItem" message="tns:IFNBWS_GetFoodItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetFoodItemResponse" message="tns:IFNBWS_GetFoodItem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertFoodTypeSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/InsertFoodTypeSetup" message="tns:IFNBWS_InsertFoodTypeSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/InsertFoodTypeSetupResponse" message="tns:IFNBWS_InsertFoodTypeSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFoodTypeSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/UpdateFoodTypeSetup" message="tns:IFNBWS_UpdateFoodTypeSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/UpdateFoodTypeSetupResponse" message="tns:IFNBWS_UpdateFoodTypeSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFoodMenuType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetFoodMenuType" message="tns:IFNBWS_GetFoodMenuType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetFoodMenuTypeResponse" message="tns:IFNBWS_GetFoodMenuType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFoodMenuItemSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetFoodMenuItemSetup" message="tns:IFNBWS_GetFoodMenuItemSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetFoodMenuItemSetupResponse" message="tns:IFNBWS_GetFoodMenuItemSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFoodTypeSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetFoodTypeSetup" message="tns:IFNBWS_GetFoodTypeSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetFoodTypeSetupResponse" message="tns:IFNBWS_GetFoodTypeSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertFoodRateItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/InsertFoodRateItem" message="tns:IFNBWS_InsertFoodRateItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/InsertFoodRateItemResponse" message="tns:IFNBWS_InsertFoodRateItem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFoodRateItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/UpdateFoodRateItem" message="tns:IFNBWS_UpdateFoodRateItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/UpdateFoodRateItemResponse" message="tns:IFNBWS_UpdateFoodRateItem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadFoodItemrate">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/LoadFoodItemrate" message="tns:IFNBWS_LoadFoodItemrate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/LoadFoodItemrateResponse" message="tns:IFNBWS_LoadFoodItemrate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayFoodItemrate">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/DisplayFoodItemrate" message="tns:IFNBWS_DisplayFoodItemrate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/DisplayFoodItemrateResponse" message="tns:IFNBWS_DisplayFoodItemrate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertMealsetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/InsertMealsetup" message="tns:IFNBWS_InsertMealsetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/InsertMealsetupResponse" message="tns:IFNBWS_InsertMealsetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateMealsetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/UpdateMealsetup" message="tns:IFNBWS_UpdateMealsetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/UpdateMealsetupResponse" message="tns:IFNBWS_UpdateMealsetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadmealSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/LoadmealSetup" message="tns:IFNBWS_LoadmealSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/LoadmealSetupResponse" message="tns:IFNBWS_LoadmealSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadWeeklyMealSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/LoadWeeklyMealSetup" message="tns:IFNBWS_LoadWeeklyMealSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/LoadWeeklyMealSetupResponse" message="tns:IFNBWS_LoadWeeklyMealSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertWeeklysetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/InsertWeeklysetup" message="tns:IFNBWS_InsertWeeklysetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/InsertWeeklysetupResponse" message="tns:IFNBWS_InsertWeeklysetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateWeeklysetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/UpdateWeeklysetup" message="tns:IFNBWS_UpdateWeeklysetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/UpdateWeeklysetupResponse" message="tns:IFNBWS_UpdateWeeklysetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWeeklyMealSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetWeeklyMealSetup" message="tns:IFNBWS_GetWeeklyMealSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetWeeklyMealSetupResponse" message="tns:IFNBWS_GetWeeklyMealSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWeeklySetmenu">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetWeeklySetmenu" message="tns:IFNBWS_GetWeeklySetmenu_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetWeeklySetmenuResponse" message="tns:IFNBWS_GetWeeklySetmenu_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplaySetmenuDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/DisplaySetmenuDetails" message="tns:IFNBWS_DisplaySetmenuDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/DisplaySetmenuDetailsResponse" message="tns:IFNBWS_DisplaySetmenuDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmp">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetEmp" message="tns:IFNBWS_GetEmp_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetEmpResponse" message="tns:IFNBWS_GetEmp_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertMealRegistermaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/InsertMealRegistermaster" message="tns:IFNBWS_InsertMealRegistermaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/InsertMealRegistermasterResponse" message="tns:IFNBWS_InsertMealRegistermaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertMealRegister">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/InsertMealRegister" message="tns:IFNBWS_InsertMealRegister_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/InsertMealRegisterResponse" message="tns:IFNBWS_InsertMealRegister_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWeeklySetupregister">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetWeeklySetupregister" message="tns:IFNBWS_GetWeeklySetupregister_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetWeeklySetupregisterResponse" message="tns:IFNBWS_GetWeeklySetupregister_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateMealRegister">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/UpdateMealRegister" message="tns:IFNBWS_UpdateMealRegister_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/UpdateMealRegisterResponse" message="tns:IFNBWS_UpdateMealRegister_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LaodWeeklySetMenuType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/LaodWeeklySetMenuType" message="tns:IFNBWS_LaodWeeklySetMenuType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/LaodWeeklySetMenuTypeResponse" message="tns:IFNBWS_LaodWeeklySetMenuType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmpMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetEmpMaster" message="tns:IFNBWS_GetEmpMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetEmpMasterResponse" message="tns:IFNBWS_GetEmpMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LaodWeeklyChart">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/LaodWeeklyChart" message="tns:IFNBWS_LaodWeeklyChart_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/LaodWeeklyChartResponse" message="tns:IFNBWS_LaodWeeklyChart_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVisitorsMenuItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetVisitorsMenuItem" message="tns:IFNBWS_GetVisitorsMenuItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetVisitorsMenuItemResponse" message="tns:IFNBWS_GetVisitorsMenuItem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertVisitorsMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/InsertVisitorsMaster" message="tns:IFNBWS_InsertVisitorsMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/InsertVisitorsMasterResponse" message="tns:IFNBWS_InsertVisitorsMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertVisitorsTran">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/InsertVisitorsTran" message="tns:IFNBWS_InsertVisitorsTran_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/InsertVisitorsTranResponse" message="tns:IFNBWS_InsertVisitorsTran_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVisitors">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetVisitors" message="tns:IFNBWS_GetVisitors_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetVisitorsResponse" message="tns:IFNBWS_GetVisitors_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplaytVisitors">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/DisplaytVisitors" message="tns:IFNBWS_DisplaytVisitors_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/DisplaytVisitorsResponse" message="tns:IFNBWS_DisplaytVisitors_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateVisitorsMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/UpdateVisitorsMaster" message="tns:IFNBWS_UpdateVisitorsMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/UpdateVisitorsMasterResponse" message="tns:IFNBWS_UpdateVisitorsMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadFoodItemFromCat">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/LoadFoodItemFromCat" message="tns:IFNBWS_LoadFoodItemFromCat_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/LoadFoodItemFromCatResponse" message="tns:IFNBWS_LoadFoodItemFromCat_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetItemRate">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetItemRate" message="tns:IFNBWS_GetItemRate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetItemRateResponse" message="tns:IFNBWS_GetItemRate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFoodMenuItemSetupFromMenuID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetFoodMenuItemSetupFromMenuID" message="tns:IFNBWS_GetFoodMenuItemSetupFromMenuID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetFoodMenuItemSetupFromMenuIDResponse" message="tns:IFNBWS_GetFoodMenuItemSetupFromMenuID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertVisitorsOrderTran">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/InsertVisitorsOrderTran" message="tns:IFNBWS_InsertVisitorsOrderTran_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/InsertVisitorsOrderTranResponse" message="tns:IFNBWS_InsertVisitorsOrderTran_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVisitorsSlipRo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetVisitorsSlipRo" message="tns:IFNBWS_GetVisitorsSlipRo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetVisitorsSlipRoResponse" message="tns:IFNBWS_GetVisitorsSlipRo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCollectionAmount">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetCollectionAmount" message="tns:IFNBWS_GetCollectionAmount_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetCollectionAmountResponse" message="tns:IFNBWS_GetCollectionAmount_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertUserCloseRegister">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/InsertUserCloseRegister" message="tns:IFNBWS_InsertUserCloseRegister_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/InsertUserCloseRegisterResponse" message="tns:IFNBWS_InsertUserCloseRegister_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMealID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetMealID" message="tns:IFNBWS_GetMealID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetMealIDResponse" message="tns:IFNBWS_GetMealID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWeeklySetmenuDetiails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetWeeklySetmenuDetiails" message="tns:IFNBWS_GetWeeklySetmenuDetiails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetWeeklySetmenuDetiailsResponse" message="tns:IFNBWS_GetWeeklySetmenuDetiails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMealTime">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetMealTime" message="tns:IFNBWS_GetMealTime_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetMealTimeResponse" message="tns:IFNBWS_GetMealTime_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadSetmenu">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/LoadSetmenu" message="tns:IFNBWS_LoadSetmenu_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/LoadSetmenuResponse" message="tns:IFNBWS_LoadSetmenu_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBarcodeLevel">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetBarcodeLevel" message="tns:IFNBWS_GetBarcodeLevel_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetBarcodeLevelResponse" message="tns:IFNBWS_GetBarcodeLevel_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateIssue">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/UpdateIssue" message="tns:IFNBWS_UpdateIssue_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/UpdateIssueResponse" message="tns:IFNBWS_UpdateIssue_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadDailyCollection">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/LoadDailyCollection" message="tns:IFNBWS_LoadDailyCollection_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/LoadDailyCollectionResponse" message="tns:IFNBWS_LoadDailyCollection_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFoodItemCollection">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetFoodItemCollection" message="tns:IFNBWS_GetFoodItemCollection_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetFoodItemCollectionResponse" message="tns:IFNBWS_GetFoodItemCollection_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadStaffCollection">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/LoadStaffCollection" message="tns:IFNBWS_LoadStaffCollection_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/LoadStaffCollectionResponse" message="tns:IFNBWS_LoadStaffCollection_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetvisitorsHistory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetvisitorsHistory" message="tns:IFNBWS_GetvisitorsHistory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetvisitorsHistoryResponse" message="tns:IFNBWS_GetvisitorsHistory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTotalAttendance">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetTotalAttendance" message="tns:IFNBWS_GetTotalAttendance_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetTotalAttendanceResponse" message="tns:IFNBWS_GetTotalAttendance_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFoodID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetFoodID" message="tns:IFNBWS_GetFoodID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetFoodIDResponse" message="tns:IFNBWS_GetFoodID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadStaffIssuesd">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/LoadStaffIssuesd" message="tns:IFNBWS_LoadStaffIssuesd_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/LoadStaffIssuesdResponse" message="tns:IFNBWS_LoadStaffIssuesd_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVisitorsCollection">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetVisitorsCollection" message="tns:IFNBWS_GetVisitorsCollection_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetVisitorsCollectionResponse" message="tns:IFNBWS_GetVisitorsCollection_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadUserwiseCollection">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/LoadUserwiseCollection" message="tns:IFNBWS_LoadUserwiseCollection_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/LoadUserwiseCollectionResponse" message="tns:IFNBWS_LoadUserwiseCollection_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVisitorsItemDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetVisitorsItemDetails" message="tns:IFNBWS_GetVisitorsItemDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetVisitorsItemDetailsResponse" message="tns:IFNBWS_GetVisitorsItemDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetvisitorsHistoryDateRange">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetvisitorsHistoryDateRange" message="tns:IFNBWS_GetvisitorsHistoryDateRange_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetvisitorsHistoryDateRangeResponse" message="tns:IFNBWS_GetvisitorsHistoryDateRange_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmpStaffItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetEmpStaffItem" message="tns:IFNBWS_GetEmpStaffItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetEmpStaffItemResponse" message="tns:IFNBWS_GetEmpStaffItem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFoodSubsidy">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetFoodSubsidy" message="tns:IFNBWS_GetFoodSubsidy_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetFoodSubsidyResponse" message="tns:IFNBWS_GetFoodSubsidy_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWeeklyDayMeal">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetWeeklyDayMeal" message="tns:IFNBWS_GetWeeklyDayMeal_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetWeeklyDayMealResponse" message="tns:IFNBWS_GetWeeklyDayMeal_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertInventory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/InsertInventory" message="tns:IFNBWS_InsertInventory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/InsertInventoryResponse" message="tns:IFNBWS_InsertInventory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMonthVoucher">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetMonthVoucher" message="tns:IFNBWS_GetMonthVoucher_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetMonthVoucherResponse" message="tns:IFNBWS_GetMonthVoucher_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayVoucher">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/DisplayVoucher" message="tns:IFNBWS_DisplayVoucher_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/DisplayVoucherResponse" message="tns:IFNBWS_DisplayVoucher_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInventory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/UpdateInventory" message="tns:IFNBWS_UpdateInventory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/UpdateInventoryResponse" message="tns:IFNBWS_UpdateInventory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetClosingQty">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetClosingQty" message="tns:IFNBWS_GetClosingQty_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetClosingQtyResponse" message="tns:IFNBWS_GetClosingQty_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetfnbInventoryDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetfnbInventoryDetails" message="tns:IFNBWS_GetfnbInventoryDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetfnbInventoryDetailsResponse" message="tns:IFNBWS_GetfnbInventoryDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDietSubType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetDietSubType" message="tns:IFNBWS_GetDietSubType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetDietSubTypeResponse" message="tns:IFNBWS_GetDietSubType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveDietSubType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/SaveDietSubType" message="tns:IFNBWS_SaveDietSubType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/SaveDietSubTypeResponse" message="tns:IFNBWS_SaveDietSubType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplaySubType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/DisplaySubType" message="tns:IFNBWS_DisplaySubType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/DisplaySubTypeResponse" message="tns:IFNBWS_DisplaySubType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDietSubType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/UpdateDietSubType" message="tns:IFNBWS_UpdateDietSubType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/UpdateDietSubTypeResponse" message="tns:IFNBWS_UpdateDietSubType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSubType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetSubType" message="tns:IFNBWS_GetSubType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetSubTypeResponse" message="tns:IFNBWS_GetSubType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDeptGroupDicByType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetDeptGroupDicByType" message="tns:IFNBWS_GetDeptGroupDicByType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetDeptGroupDicByTypeResponse" message="tns:IFNBWS_GetDeptGroupDicByType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDepartmentsetupDic">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetDepartmentsetupDic" message="tns:IFNBWS_GetDepartmentsetupDic_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetDepartmentsetupDicResponse" message="tns:IFNBWS_GetDepartmentsetupDic_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDeptUnitDic">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetDeptUnitDic" message="tns:IFNBWS_GetDeptUnitDic_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetDeptUnitDicResponse" message="tns:IFNBWS_GetDeptUnitDic_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMonthWiseMealRegister">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetMonthWiseMealRegister" message="tns:IFNBWS_GetMonthWiseMealRegister_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetMonthWiseMealRegisterResponse" message="tns:IFNBWS_GetMonthWiseMealRegister_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertWeeklyDietMenu">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/InsertWeeklyDietMenu" message="tns:IFNBWS_InsertWeeklyDietMenu_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/InsertWeeklyDietMenuResponse" message="tns:IFNBWS_InsertWeeklyDietMenu_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatetWeeklyDietMenu">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/UpdatetWeeklyDietMenu" message="tns:IFNBWS_UpdatetWeeklyDietMenu_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/UpdatetWeeklyDietMenuResponse" message="tns:IFNBWS_UpdatetWeeklyDietMenu_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWeeklyDietSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetWeeklyDietSetup" message="tns:IFNBWS_GetWeeklyDietSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetWeeklyDietSetupResponse" message="tns:IFNBWS_GetWeeklyDietSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckEmpID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/CheckEmpID" message="tns:IFNBWS_CheckEmpID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/CheckEmpIDResponse" message="tns:IFNBWS_CheckEmpID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMonthWiseMealRegisterAll">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFNBWS/GetMonthWiseMealRegisterAll" message="tns:IFNBWS_GetMonthWiseMealRegisterAll_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFNBWS/GetMonthWiseMealRegisterAllResponse" message="tns:IFNBWS_GetMonthWiseMealRegisterAll_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IFNBWS" type="tns:IFNBWS">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetMaterialRefNo">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetMaterialRefNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="number">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/number" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayDetailsAgainsrRef">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/DisplayDetailsAgainsrRef" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStockGroup">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetStockGroup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveMrr">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/SaveMrr" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveMrrTrans">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/SaveMrrTrans" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetpopulatedList">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetpopulatedList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Displaymaterialreceipt">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/Displaymaterialreceipt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateMrr">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/UpdateMrr" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateMrrTrans">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/UpdateMrrTrans" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertDietcat">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/InsertDietcat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDietcat">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/UpdateDietcat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadDietCategory">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/LoadDietCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertFoodcat">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/InsertFoodcat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFoodcat">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/UpdateFoodcat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadFoodCategory">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/LoadFoodCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFoodCategory">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetFoodCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDietCategory">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetDietCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertFoodItem">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/InsertFoodItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFoodItem">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/UpdateFoodItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadFoodItem">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/LoadFoodItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertFoodMaster">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/InsertFoodMaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFoodMaster">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/UpdateFoodMaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadFoodMaster">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/LoadFoodMaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertFoodMenuSetup">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/InsertFoodMenuSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateMenuFoodItem">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/UpdateMenuFoodItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadFoodMenuSetup">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/LoadFoodMenuSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertServiceSetup">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/InsertServiceSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateServiceSetup">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/UpdateServiceSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadServiceSetup">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/LoadServiceSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFoodItem">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetFoodItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertFoodTypeSetup">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/InsertFoodTypeSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFoodTypeSetup">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/UpdateFoodTypeSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFoodMenuType">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetFoodMenuType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFoodMenuItemSetup">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetFoodMenuItemSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFoodTypeSetup">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetFoodTypeSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertFoodRateItem">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/InsertFoodRateItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFoodRateItem">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/UpdateFoodRateItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadFoodItemrate">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/LoadFoodItemrate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayFoodItemrate">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/DisplayFoodItemrate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertMealsetup">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/InsertMealsetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateMealsetup">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/UpdateMealsetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadmealSetup">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/LoadmealSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadWeeklyMealSetup">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/LoadWeeklyMealSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertWeeklysetup">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/InsertWeeklysetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateWeeklysetup">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/UpdateWeeklysetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWeeklyMealSetup">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetWeeklyMealSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWeeklySetmenu">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetWeeklySetmenu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplaySetmenuDetails">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/DisplaySetmenuDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmp">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetEmp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertMealRegistermaster">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/InsertMealRegistermaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertMealRegister">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/InsertMealRegister" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWeeklySetupregister">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetWeeklySetupregister" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateMealRegister">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/UpdateMealRegister" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LaodWeeklySetMenuType">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/LaodWeeklySetMenuType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmpMaster">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetEmpMaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LaodWeeklyChart">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/LaodWeeklyChart" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVisitorsMenuItem">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetVisitorsMenuItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertVisitorsMaster">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/InsertVisitorsMaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertVisitorsTran">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/InsertVisitorsTran" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVisitors">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetVisitors" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplaytVisitors">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/DisplaytVisitors" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateVisitorsMaster">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/UpdateVisitorsMaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadFoodItemFromCat">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/LoadFoodItemFromCat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemRate">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetItemRate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFoodMenuItemSetupFromMenuID">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetFoodMenuItemSetupFromMenuID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertVisitorsOrderTran">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/InsertVisitorsOrderTran" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVisitorsSlipRo">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetVisitorsSlipRo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCollectionAmount">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetCollectionAmount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUserCloseRegister">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/InsertUserCloseRegister" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMealID">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetMealID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWeeklySetmenuDetiails">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetWeeklySetmenuDetiails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMealTime">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetMealTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadSetmenu">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/LoadSetmenu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBarcodeLevel">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetBarcodeLevel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateIssue">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/UpdateIssue" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadDailyCollection">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/LoadDailyCollection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFoodItemCollection">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetFoodItemCollection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadStaffCollection">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/LoadStaffCollection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetvisitorsHistory">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetvisitorsHistory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTotalAttendance">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetTotalAttendance" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFoodID">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetFoodID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadStaffIssuesd">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/LoadStaffIssuesd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVisitorsCollection">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetVisitorsCollection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadUserwiseCollection">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/LoadUserwiseCollection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVisitorsItemDetails">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetVisitorsItemDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetvisitorsHistoryDateRange">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetvisitorsHistoryDateRange" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmpStaffItem">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetEmpStaffItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFoodSubsidy">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetFoodSubsidy" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWeeklyDayMeal">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetWeeklyDayMeal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertInventory">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/InsertInventory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMonthVoucher">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetMonthVoucher" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayVoucher">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/DisplayVoucher" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInventory">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/UpdateInventory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetClosingQty">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetClosingQty" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetfnbInventoryDetails">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetfnbInventoryDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDietSubType">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetDietSubType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveDietSubType">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/SaveDietSubType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplaySubType">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/DisplaySubType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDietSubType">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/UpdateDietSubType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSubType">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetSubType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeptGroupDicByType">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetDeptGroupDicByType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDepartmentsetupDic">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetDepartmentsetupDic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeptUnitDic">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetDeptUnitDic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMonthWiseMealRegister">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetMonthWiseMealRegister" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertWeeklyDietMenu">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/InsertWeeklyDietMenu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatetWeeklyDietMenu">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/UpdatetWeeklyDietMenu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWeeklyDietSetup">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetWeeklyDietSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckEmpID">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/CheckEmpID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMonthWiseMealRegisterAll">
+      <soap:operation soapAction="http://tempuri.org/IFNBWS/GetMonthWiseMealRegisterAll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="FNBWS">
+    <wsdl:port name="BasicHttpBinding_IFNBWS" binding="tns:BasicHttpBinding_IFNBWS">
+      <soap:address location="http://localhost:96/FNB/FNBService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="bf42fedc-4850-47b3-ae6d-aa19bd5d96c7" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:96/FNB/FNBService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="FNBService.xsd" MetadataType="Schema" ID="cab43ce2-77bd-47f6-8d1b-137a554fbe31" SourceId="1" SourceUrl="http://localhost:96/FNB/FNBService.svc?xsd=xsd1" />
+    <MetadataFile FileName="FNBService.disco" MetadataType="Disco" ID="86e72733-ece5-420b-92cf-e635c126930c" SourceId="1" SourceUrl="http://localhost:96/FNB/FNBService.svc?disco" />
+    <MetadataFile FileName="FNBService1.xsd" MetadataType="Schema" ID="64a95871-e5a3-4b91-a4aa-d716a09314a2" SourceId="1" SourceUrl="http://localhost:96/FNB/FNBService.svc?xsd=xsd3" />
+    <MetadataFile FileName="FNBWS.wsdl" MetadataType="Wsdl" ID="79b53043-dbeb-4dce-acc0-b0f46f1ec55b" SourceId="1" SourceUrl="http://localhost:96/FNB/FNBService.svc?wsdl" />
+    <MetadataFile FileName="FNBService2.xsd" MetadataType="Schema" ID="7fd5201d-61e9-4f35-953d-92f9e7a7208d" SourceId="1" SourceUrl="http://localhost:96/FNB/FNBService.svc?xsd=xsd4" />
+    <MetadataFile FileName="FNBService6.xsd" MetadataType="Schema" ID="6f14ed33-dffa-40c5-8f75-2e17526e8871" SourceId="1" SourceUrl="http://localhost:96/FNB/FNBService.svc?xsd=xsd6" />
+    <MetadataFile FileName="FNBService3.xsd" MetadataType="Schema" ID="a07fdfbf-13d6-4003-bd16-cb0c67eb4887" SourceId="1" SourceUrl="http://localhost:96/FNB/FNBService.svc?xsd=xsd0" />
+    <MetadataFile FileName="FNBService4.xsd" MetadataType="Schema" ID="8c965d66-49df-4723-af31-1d68fe54938b" SourceId="1" SourceUrl="http://localhost:96/FNB/FNBService.svc?xsd=xsd5" />
+    <MetadataFile FileName="FNBService5.xsd" MetadataType="Schema" ID="e2acda90-7090-411b-bf08-3f0c16903219" SourceId="1" SourceUrl="http://localhost:96/FNB/FNBService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0f13bd0d-cd89-4bd7-90e0-f604f48d0daa" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://IT-Atik.citygroupbd.com:90/ACMS/ACMSService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ACMSService1.disco" MetadataType="Disco" ID="b8b5a1ae-1cd7-4445-9881-c6605cc33da1" SourceId="1" SourceUrl="http://it-atik.citygroupbd.com:90/ACMS/ACMSService.svc?disco" />
+    <MetadataFile FileName="ACMSService.xsd" MetadataType="Schema" ID="f25587dc-e3e5-49fc-8ea3-fc9a1ca6ce94" SourceId="1" SourceUrl="http://it-atik.citygroupbd.com:90/ACMS/ACMSService.svc?xsd=xsd4" />
+    <MetadataFile FileName="ACMSWS1.wsdl" MetadataType="Wsdl" ID="28645a78-89f5-4ca6-b341-eac99fa72303" SourceId="1" SourceUrl="http://it-atik.citygroupbd.com:90/ACMS/ACMSService.svc?wsdl" />
+    <MetadataFile FileName="ACMSService1.xsd" MetadataType="Schema" ID="8e2119fb-a1d0-460a-bc20-9c1d22b29a89" SourceId="1" SourceUrl="http://it-atik.citygroupbd.com:90/ACMS/ACMSService.svc?xsd=xsd5" />
+    <MetadataFile FileName="ACMSService41.xsd" MetadataType="Schema" ID="7bef6fdc-5f07-49b3-badd-3eae19c6b8a1" SourceId="1" SourceUrl="http://it-atik.citygroupbd.com:90/ACMS/ACMSService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ACMSService42.xsd" MetadataType="Schema" ID="3221b3ca-7cc5-488c-a87c-34354a73e944" SourceId="1" SourceUrl="http://it-atik.citygroupbd.com:90/ACMS/ACMSService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ACMSService4.xsd" MetadataType="Schema" ID="b49385b1-2de2-4fe6-9556-df5bfa109f27" SourceId="1" SourceUrl="http://it-atik.citygroupbd.com:90/ACMS/ACMSService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ACMSService43.xsd" MetadataType="Schema" ID="545878ae-5912-4663-9fc6-b67992d3e073" SourceId="1" SourceUrl="http://it-atik.citygroupbd.com:90/ACMS/ACMSService.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

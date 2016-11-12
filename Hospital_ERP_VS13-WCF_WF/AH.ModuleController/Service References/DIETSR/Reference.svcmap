@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ff230686-3e7c-494a-8ea7-23301bc23cb9" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:112/DIET/DIETService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="DIETService.xsd" MetadataType="Schema" ID="2f2ab195-d089-40a9-87dd-9efa26b5e5ca" SourceId="1" SourceUrl="http://localhost:112/DIET/DIETService.svc?xsd=xsd10" />
+    <MetadataFile FileName="DIETService1.xsd" MetadataType="Schema" ID="db2b3b97-7a78-4aad-96e7-d9c6407b7059" SourceId="1" SourceUrl="http://localhost:112/DIET/DIETService.svc?xsd=xsd8" />
+    <MetadataFile FileName="DIETService2.xsd" MetadataType="Schema" ID="6b71fa59-0372-42b1-8f92-a59cd676c99d" SourceId="1" SourceUrl="http://localhost:112/DIET/DIETService.svc?xsd=xsd0" />
+    <MetadataFile FileName="DIETService3.xsd" MetadataType="Schema" ID="d7556a91-78b1-4060-b705-76e475decd57" SourceId="1" SourceUrl="http://localhost:112/DIET/DIETService.svc?xsd=xsd4" />
+    <MetadataFile FileName="DIETService4.xsd" MetadataType="Schema" ID="8e69cfc8-4bd4-49de-accb-3f4f5418f296" SourceId="1" SourceUrl="http://localhost:112/DIET/DIETService.svc?xsd=xsd9" />
+    <MetadataFile FileName="DIETService5.xsd" MetadataType="Schema" ID="74e9a29f-067e-449e-91ff-de30cece392b" SourceId="1" SourceUrl="http://localhost:112/DIET/DIETService.svc?xsd=xsd1" />
+    <MetadataFile FileName="DIETService6.xsd" MetadataType="Schema" ID="aab4a792-9b5e-4275-8d1e-2874b97f8d1f" SourceId="1" SourceUrl="http://localhost:112/DIET/DIETService.svc?xsd=xsd5" />
+    <MetadataFile FileName="DIETService.disco" MetadataType="Disco" ID="1ad23708-e59d-4cfc-b3de-bdd6d5776dea" SourceId="1" SourceUrl="http://localhost:112/DIET/DIETService.svc?disco" />
+    <MetadataFile FileName="DIETService7.xsd" MetadataType="Schema" ID="d2e67d94-d113-4dc5-b217-63dbc052080c" SourceId="1" SourceUrl="http://localhost:112/DIET/DIETService.svc?xsd=xsd2" />
+    <MetadataFile FileName="DIETService8.xsd" MetadataType="Schema" ID="a4f784a2-36a4-46ea-8759-97831dcc5d87" SourceId="1" SourceUrl="http://localhost:112/DIET/DIETService.svc?xsd=xsd6" />
+    <MetadataFile FileName="DIETWS.wsdl" MetadataType="Wsdl" ID="5767a2f9-ad97-47fe-9a99-195d1b6c1203" SourceId="1" SourceUrl="http://localhost:112/DIET/DIETService.svc?wsdl" />
+    <MetadataFile FileName="DIETService9.xsd" MetadataType="Schema" ID="9dc5209e-eef7-4ad3-bf0b-69a544104fdf" SourceId="1" SourceUrl="http://localhost:112/DIET/DIETService.svc?xsd=xsd3" />
+    <MetadataFile FileName="DIETService10.xsd" MetadataType="Schema" ID="131f0c35-fa2c-4730-bc7d-378001a47170" SourceId="1" SourceUrl="http://localhost:112/DIET/DIETService.svc?xsd=xsd7" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

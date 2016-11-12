@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="DIETWS" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:112/DIET/DIETService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:112/DIET/DIETService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:112/DIET/DIETService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/AH.DIET.MODEL" />
+      <xsd:import schemaLocation="http://localhost:112/DIET/DIETService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" />
+      <xsd:import schemaLocation="http://localhost:112/DIET/DIETService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" />
+      <xsd:import schemaLocation="http://localhost:112/DIET/DIETService.svc?xsd=xsd5" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost:112/DIET/DIETService.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/AH.IPDShared.MODEL" />
+      <xsd:import schemaLocation="http://localhost:112/DIET/DIETService.svc?xsd=xsd7" namespace="http://schemas.datacontract.org/2004/07/AH.DUtility" />
+      <xsd:import schemaLocation="http://localhost:112/DIET/DIETService.svc?xsd=xsd8" namespace="http://schemas.datacontract.org/2004/07/AH.PRMS.MODEL" />
+      <xsd:import schemaLocation="http://localhost:112/DIET/DIETService.svc?xsd=xsd9" namespace="http://schemas.datacontract.org/2004/07/AH.HR.MODEL" />
+      <xsd:import schemaLocation="http://localhost:112/DIET/DIETService.svc?xsd=xsd10" namespace="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IDIETWS_SaveIPDPatientDiet_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveIPDPatientDiet" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_SaveIPDPatientDiet_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveIPDPatientDietResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_GetDietDic_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDietDic" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_GetDietDic_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDietDicResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_GetIPDDiet_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetIPDDiet" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_GetIPDDiet_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetIPDDietResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_GetDietList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDietList" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_GetDietList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDietListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_SaveIPDPatientDietReg_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveIPDPatientDietReg" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_SaveIPDPatientDietReg_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveIPDPatientDietRegResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_GetNurseStnWiseDietType_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNurseStnWiseDietType" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_GetNurseStnWiseDietType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNurseStnWiseDietTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_UpdateOrderedIPDPatientDietList_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateOrderedIPDPatientDietList" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_UpdateOrderedIPDPatientDietList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateOrderedIPDPatientDietListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_DietTypeOrderedDelevered_InputMessage">
+    <wsdl:part name="parameters" element="tns:DietTypeOrderedDelevered" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_DietTypeOrderedDelevered_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DietTypeOrderedDeleveredResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_GetTotalOrderList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTotalOrderList" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_GetTotalOrderList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTotalOrderListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_Total_InputMessage">
+    <wsdl:part name="parameters" element="tns:Total" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_Total_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TotalResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_LoadmealSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadmealSetup" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_LoadmealSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadmealSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_GetAdmittedPatientListNSWise_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmittedPatientListNSWise" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_GetAdmittedPatientListNSWise_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmittedPatientListNSWiseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_NSWisePatientListDiet_InputMessage">
+    <wsdl:part name="parameters" element="tns:NSWisePatientListDiet" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_NSWisePatientListDiet_OutputMessage">
+    <wsdl:part name="parameters" element="tns:NSWisePatientListDietResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_OrderdNSWisePatientListDiet_InputMessage">
+    <wsdl:part name="parameters" element="tns:OrderdNSWisePatientListDiet" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_OrderdNSWisePatientListDiet_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OrderdNSWisePatientListDietResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_ReadyToDelevPatientListDiet_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReadyToDelevPatientListDiet" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_ReadyToDelevPatientListDiet_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReadyToDelevPatientListDietResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_UpdateFoodServedtDietList_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateFoodServedtDietList" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_UpdateFoodServedtDietList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateFoodServedtDietListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_GetNewPatient_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewPatient" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_GetNewPatient_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewPatientResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_PatList_InputMessage">
+    <wsdl:part name="parameters" element="tns:PatList" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_PatList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PatListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_BedTransferPatList_InputMessage">
+    <wsdl:part name="parameters" element="tns:BedTransferPatList" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_BedTransferPatList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BedTransferPatListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_GetAdmittedAllPatList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmittedAllPatList" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_GetAdmittedAllPatList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmittedAllPatListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_GetAdmDateWisePatList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmDateWisePatList" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_GetAdmDateWisePatList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmDateWisePatListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_GetBedTransferDateWisePatList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedTransferDateWisePatList" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_GetBedTransferDateWisePatList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedTransferDateWisePatListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_GetDischargeDateWisePatList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDischargeDateWisePatList" />
+  </wsdl:message>
+  <wsdl:message name="IDIETWS_GetDischargeDateWisePatList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDischargeDateWisePatListResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IDIETWS">
+    <wsdl:operation name="SaveIPDPatientDiet">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDIETWS/SaveIPDPatientDiet" message="tns:IDIETWS_SaveIPDPatientDiet_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDIETWS/SaveIPDPatientDietResponse" message="tns:IDIETWS_SaveIPDPatientDiet_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDietDic">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDIETWS/GetDietDic" message="tns:IDIETWS_GetDietDic_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDIETWS/GetDietDicResponse" message="tns:IDIETWS_GetDietDic_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIPDDiet">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDIETWS/GetIPDDiet" message="tns:IDIETWS_GetIPDDiet_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDIETWS/GetIPDDietResponse" message="tns:IDIETWS_GetIPDDiet_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDietList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDIETWS/GetDietList" message="tns:IDIETWS_GetDietList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDIETWS/GetDietListResponse" message="tns:IDIETWS_GetDietList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveIPDPatientDietReg">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDIETWS/SaveIPDPatientDietReg" message="tns:IDIETWS_SaveIPDPatientDietReg_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDIETWS/SaveIPDPatientDietRegResponse" message="tns:IDIETWS_SaveIPDPatientDietReg_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNurseStnWiseDietType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDIETWS/GetNurseStnWiseDietType" message="tns:IDIETWS_GetNurseStnWiseDietType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDIETWS/GetNurseStnWiseDietTypeResponse" message="tns:IDIETWS_GetNurseStnWiseDietType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOrderedIPDPatientDietList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDIETWS/UpdateOrderedIPDPatientDietList" message="tns:IDIETWS_UpdateOrderedIPDPatientDietList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDIETWS/UpdateOrderedIPDPatientDietListResponse" message="tns:IDIETWS_UpdateOrderedIPDPatientDietList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DietTypeOrderedDelevered">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDIETWS/DietTypeOrderedDelevered" message="tns:IDIETWS_DietTypeOrderedDelevered_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDIETWS/DietTypeOrderedDeleveredResponse" message="tns:IDIETWS_DietTypeOrderedDelevered_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTotalOrderList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDIETWS/GetTotalOrderList" message="tns:IDIETWS_GetTotalOrderList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDIETWS/GetTotalOrderListResponse" message="tns:IDIETWS_GetTotalOrderList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Total">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDIETWS/Total" message="tns:IDIETWS_Total_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDIETWS/TotalResponse" message="tns:IDIETWS_Total_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadmealSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDIETWS/LoadmealSetup" message="tns:IDIETWS_LoadmealSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDIETWS/LoadmealSetupResponse" message="tns:IDIETWS_LoadmealSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmittedPatientListNSWise">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDIETWS/GetAdmittedPatientListNSWise" message="tns:IDIETWS_GetAdmittedPatientListNSWise_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDIETWS/GetAdmittedPatientListNSWiseResponse" message="tns:IDIETWS_GetAdmittedPatientListNSWise_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="NSWisePatientListDiet">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDIETWS/NSWisePatientListDiet" message="tns:IDIETWS_NSWisePatientListDiet_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDIETWS/NSWisePatientListDietResponse" message="tns:IDIETWS_NSWisePatientListDiet_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OrderdNSWisePatientListDiet">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDIETWS/OrderdNSWisePatientListDiet" message="tns:IDIETWS_OrderdNSWisePatientListDiet_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDIETWS/OrderdNSWisePatientListDietResponse" message="tns:IDIETWS_OrderdNSWisePatientListDiet_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReadyToDelevPatientListDiet">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDIETWS/ReadyToDelevPatientListDiet" message="tns:IDIETWS_ReadyToDelevPatientListDiet_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDIETWS/ReadyToDelevPatientListDietResponse" message="tns:IDIETWS_ReadyToDelevPatientListDiet_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFoodServedtDietList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDIETWS/UpdateFoodServedtDietList" message="tns:IDIETWS_UpdateFoodServedtDietList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDIETWS/UpdateFoodServedtDietListResponse" message="tns:IDIETWS_UpdateFoodServedtDietList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNewPatient">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDIETWS/GetNewPatient" message="tns:IDIETWS_GetNewPatient_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDIETWS/GetNewPatientResponse" message="tns:IDIETWS_GetNewPatient_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PatList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDIETWS/PatList" message="tns:IDIETWS_PatList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDIETWS/PatListResponse" message="tns:IDIETWS_PatList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BedTransferPatList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDIETWS/BedTransferPatList" message="tns:IDIETWS_BedTransferPatList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDIETWS/BedTransferPatListResponse" message="tns:IDIETWS_BedTransferPatList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmittedAllPatList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDIETWS/GetAdmittedAllPatList" message="tns:IDIETWS_GetAdmittedAllPatList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDIETWS/GetAdmittedAllPatListResponse" message="tns:IDIETWS_GetAdmittedAllPatList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmDateWisePatList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDIETWS/GetAdmDateWisePatList" message="tns:IDIETWS_GetAdmDateWisePatList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDIETWS/GetAdmDateWisePatListResponse" message="tns:IDIETWS_GetAdmDateWisePatList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBedTransferDateWisePatList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDIETWS/GetBedTransferDateWisePatList" message="tns:IDIETWS_GetBedTransferDateWisePatList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDIETWS/GetBedTransferDateWisePatListResponse" message="tns:IDIETWS_GetBedTransferDateWisePatList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDischargeDateWisePatList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDIETWS/GetDischargeDateWisePatList" message="tns:IDIETWS_GetDischargeDateWisePatList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDIETWS/GetDischargeDateWisePatListResponse" message="tns:IDIETWS_GetDischargeDateWisePatList_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IDIETWS" type="tns:IDIETWS">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SaveIPDPatientDiet">
+      <soap:operation soapAction="http://tempuri.org/IDIETWS/SaveIPDPatientDiet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDietDic">
+      <soap:operation soapAction="http://tempuri.org/IDIETWS/GetDietDic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIPDDiet">
+      <soap:operation soapAction="http://tempuri.org/IDIETWS/GetIPDDiet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDietList">
+      <soap:operation soapAction="http://tempuri.org/IDIETWS/GetDietList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveIPDPatientDietReg">
+      <soap:operation soapAction="http://tempuri.org/IDIETWS/SaveIPDPatientDietReg" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNurseStnWiseDietType">
+      <soap:operation soapAction="http://tempuri.org/IDIETWS/GetNurseStnWiseDietType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOrderedIPDPatientDietList">
+      <soap:operation soapAction="http://tempuri.org/IDIETWS/UpdateOrderedIPDPatientDietList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DietTypeOrderedDelevered">
+      <soap:operation soapAction="http://tempuri.org/IDIETWS/DietTypeOrderedDelevered" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTotalOrderList">
+      <soap:operation soapAction="http://tempuri.org/IDIETWS/GetTotalOrderList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Total">
+      <soap:operation soapAction="http://tempuri.org/IDIETWS/Total" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadmealSetup">
+      <soap:operation soapAction="http://tempuri.org/IDIETWS/LoadmealSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmittedPatientListNSWise">
+      <soap:operation soapAction="http://tempuri.org/IDIETWS/GetAdmittedPatientListNSWise" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NSWisePatientListDiet">
+      <soap:operation soapAction="http://tempuri.org/IDIETWS/NSWisePatientListDiet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OrderdNSWisePatientListDiet">
+      <soap:operation soapAction="http://tempuri.org/IDIETWS/OrderdNSWisePatientListDiet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReadyToDelevPatientListDiet">
+      <soap:operation soapAction="http://tempuri.org/IDIETWS/ReadyToDelevPatientListDiet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFoodServedtDietList">
+      <soap:operation soapAction="http://tempuri.org/IDIETWS/UpdateFoodServedtDietList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNewPatient">
+      <soap:operation soapAction="http://tempuri.org/IDIETWS/GetNewPatient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PatList">
+      <soap:operation soapAction="http://tempuri.org/IDIETWS/PatList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BedTransferPatList">
+      <soap:operation soapAction="http://tempuri.org/IDIETWS/BedTransferPatList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmittedAllPatList">
+      <soap:operation soapAction="http://tempuri.org/IDIETWS/GetAdmittedAllPatList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmDateWisePatList">
+      <soap:operation soapAction="http://tempuri.org/IDIETWS/GetAdmDateWisePatList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBedTransferDateWisePatList">
+      <soap:operation soapAction="http://tempuri.org/IDIETWS/GetBedTransferDateWisePatList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDischargeDateWisePatList">
+      <soap:operation soapAction="http://tempuri.org/IDIETWS/GetDischargeDateWisePatList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DIETWS">
+    <wsdl:port name="BasicHttpBinding_IDIETWS" binding="tns:BasicHttpBinding_IDIETWS">
+      <soap:address location="http://localhost:112/DIET/DIETService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

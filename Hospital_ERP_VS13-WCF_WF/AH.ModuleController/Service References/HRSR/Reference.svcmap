@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0f495c7d-7c50-4318-aa4f-164ab24a2bfa" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:86/HR/HRService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="HRService.xsd" MetadataType="Schema" ID="086b954a-617e-4f54-8cc2-0c087228943b" SourceId="1" SourceUrl="http://localhost:86/HR/HRService.svc?xsd=xsd3" />
+    <MetadataFile FileName="HRService1.xsd" MetadataType="Schema" ID="70300531-456c-4ab4-8cc7-3ed7c1cdfd92" SourceId="1" SourceUrl="http://localhost:86/HR/HRService.svc?xsd=xsd2" />
+    <MetadataFile FileName="HRService2.xsd" MetadataType="Schema" ID="62bd327a-d817-4357-8e0c-1939d5de0c2e" SourceId="1" SourceUrl="http://localhost:86/HR/HRService.svc?xsd=xsd0" />
+    <MetadataFile FileName="HRService3.xsd" MetadataType="Schema" ID="bbc5bedb-8df3-4a84-bbed-bf5f74a5b3eb" SourceId="1" SourceUrl="http://localhost:86/HR/HRService.svc?xsd=xsd4" />
+    <MetadataFile FileName="HRService6.xsd" MetadataType="Schema" ID="0c94ad53-e9c6-4396-aaea-942497fd4db3" SourceId="1" SourceUrl="http://localhost:86/HR/HRService.svc?xsd=xsd6" />
+    <MetadataFile FileName="HRService4.xsd" MetadataType="Schema" ID="cabcd0c9-657a-4732-8677-78b243e52af4" SourceId="1" SourceUrl="http://localhost:86/HR/HRService.svc?xsd=xsd1" />
+    <MetadataFile FileName="HRWS.wsdl" MetadataType="Wsdl" ID="eef24e33-e362-421e-a926-fcd423b5f615" SourceId="1" SourceUrl="http://localhost:86/HR/HRService.svc?wsdl" />
+    <MetadataFile FileName="HRService5.xsd" MetadataType="Schema" ID="4157f70d-3297-4146-8b5c-4f786cb67bb8" SourceId="1" SourceUrl="http://localhost:86/HR/HRService.svc?xsd=xsd5" />
+    <MetadataFile FileName="HRService.disco" MetadataType="Disco" ID="2a510621-0b7c-43c8-8925-89061fe79272" SourceId="1" SourceUrl="http://localhost:86/HR/HRService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

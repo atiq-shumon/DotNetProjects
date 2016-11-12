@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c4572989-0194-4139-a9d6-0e4c862aacc5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:94/INVMS/INVMSService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="INVMSService.xsd" MetadataType="Schema" ID="db54131b-a145-46b9-905b-122a541319f9" SourceId="1" SourceUrl="http://localhost:94/INVMS/INVMSService.svc?xsd=xsd3" />
+    <MetadataFile FileName="INVMSService1.xsd" MetadataType="Schema" ID="02fe4e42-83b2-499f-8a42-306aa04a7841" SourceId="1" SourceUrl="http://localhost:94/INVMS/INVMSService.svc?xsd=xsd5" />
+    <MetadataFile FileName="INVMSService.disco" MetadataType="Disco" ID="c888c15d-653a-4697-b123-979951abbdad" SourceId="1" SourceUrl="http://localhost:94/INVMS/INVMSService.svc?disco" />
+    <MetadataFile FileName="INVMSService2.xsd" MetadataType="Schema" ID="cd492c85-0dda-4a70-8c93-64fe80fdd673" SourceId="1" SourceUrl="http://localhost:94/INVMS/INVMSService.svc?xsd=xsd2" />
+    <MetadataFile FileName="INVMSService3.xsd" MetadataType="Schema" ID="c8b7f7e8-5fb5-4780-9cb1-63dfddaf52fd" SourceId="1" SourceUrl="http://localhost:94/INVMS/INVMSService.svc?xsd=xsd4" />
+    <MetadataFile FileName="INVMSService6.xsd" MetadataType="Schema" ID="3f916189-d0e9-453a-b29f-9d2ec289ed70" SourceId="1" SourceUrl="http://localhost:94/INVMS/INVMSService.svc?xsd=xsd6" />
+    <MetadataFile FileName="INVMSService4.xsd" MetadataType="Schema" ID="5bc3a271-34fb-43b9-812b-fa40f331f7f9" SourceId="1" SourceUrl="http://localhost:94/INVMS/INVMSService.svc?xsd=xsd1" />
+    <MetadataFile FileName="INVMSWS.wsdl" MetadataType="Wsdl" ID="d42955ba-a110-436f-922f-89ee8e5ce269" SourceId="1" SourceUrl="http://localhost:94/INVMS/INVMSService.svc?wsdl" />
+    <MetadataFile FileName="INVMSService7.xsd" MetadataType="Schema" ID="089f29ee-550b-4913-affe-21f89f94d871" SourceId="1" SourceUrl="http://localhost:94/INVMS/INVMSService.svc?xsd=xsd7" />
+    <MetadataFile FileName="INVMSService5.xsd" MetadataType="Schema" ID="3e8f24a0-4e70-4d03-83cb-0c235230d1b7" SourceId="1" SourceUrl="http://localhost:94/INVMS/INVMSService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

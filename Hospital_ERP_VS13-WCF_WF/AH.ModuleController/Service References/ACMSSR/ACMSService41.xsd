@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/AH.ACMS.MODEL" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AH.ACMS.MODEL" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://it-atik.citygroupbd.com:90/ACMS/ACMSService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" />
+  <xs:complexType name="ArrayOfAccessControlRO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AccessControlRO" nillable="true" type="tns:AccessControlRO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAccessControlRO" nillable="true" type="tns:ArrayOfAccessControlRO" />
+  <xs:complexType name="AccessControlRO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Auth_Level" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Auth_Lvl" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="E_Mail" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Emp_ID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Grp_ID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Grp_Title" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ModuleName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Module_ID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nick_Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ObjType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Obj_Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Obj_Type" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AccessControlRO" nillable="true" type="tns:AccessControlRO" />
+  <xs:complexType name="AccessControl">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AuthLevel" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AuthenticationLevel" type="xs:int" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q1:EntryParameter" />
+      <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Module" nillable="true" type="tns:Module" />
+      <xs:element minOccurs="0" name="Object" nillable="true" type="xs:anyType" />
+      <xs:element minOccurs="0" name="ObjectSetup" nillable="true" type="tns:ObjectSetup" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="User" nillable="true" type="tns:User" />
+      <xs:element minOccurs="0" name="UserGroup" nillable="true" type="tns:UserGroup" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AccessControl" nillable="true" type="tns:AccessControl" />
+  <xs:complexType name="Module">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ModuleID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ModuleName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Module" nillable="true" type="tns:Module" />
+  <xs:complexType name="ObjectSetup">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AuthenticationLevel" nillable="true" type="xs:string" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q2:EntryParameter" />
+      <xs:element minOccurs="0" name="Module" nillable="true" type="tns:Module" />
+      <xs:element minOccurs="0" name="ObjID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ObjName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ObjSerial" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ObjType" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ObjectSetup" nillable="true" type="tns:ObjectSetup" />
+  <xs:complexType name="User">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ActiveDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AutoLogOut" nillable="true" type="xs:string" />
+      <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="Department" nillable="true" type="q3:Department" />
+      <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="DepartmentUnit" nillable="true" type="q4:DepartmentUnit" />
+      <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="Designation" nillable="true" type="q5:Designation" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EmpID" nillable="true" type="xs:string" />
+      <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q6:EntryParameter" />
+      <xs:element minOccurs="0" name="LockedStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LoginAs" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Module" nillable="true" type="tns:Module" />
+      <xs:element minOccurs="0" name="NickName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PhotoPath" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PinCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SecurityQuestion" nillable="true" type="tns:SecurityQuestion" />
+      <xs:element minOccurs="0" name="UserGroup" nillable="true" type="tns:UserGroup" />
+      <xs:element minOccurs="0" name="UserPassw" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ValidUpto" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="User" nillable="true" type="tns:User" />
+  <xs:complexType name="SecurityQuestion">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Answer" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Date" nillable="true" type="xs:string" />
+      <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q7:EntryParameter" />
+      <xs:element minOccurs="0" name="QID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="QTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="QTitleBangla" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SecurityQuestion" nillable="true" type="tns:SecurityQuestion" />
+  <xs:complexType name="UserGroup">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Date" nillable="true" type="xs:string" />
+      <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q8:EntryParameter" />
+      <xs:element minOccurs="0" name="GroupID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GroupTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GroupTitleBang" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UserGroup" nillable="true" type="tns:UserGroup" />
+  <xs:complexType name="ArrayOfAccessControl">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AccessControl" nillable="true" type="tns:AccessControl" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAccessControl" nillable="true" type="tns:ArrayOfAccessControl" />
+  <xs:complexType name="ArrayOfObjectSetup">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ObjectSetup" nillable="true" type="tns:ObjectSetup" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfObjectSetup" nillable="true" type="tns:ArrayOfObjectSetup" />
+  <xs:complexType name="ArrayOfModule">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Module" nillable="true" type="tns:Module" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfModule" nillable="true" type="tns:ArrayOfModule" />
+  <xs:complexType name="ArrayOfSecurityQuestion">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SecurityQuestion" nillable="true" type="tns:SecurityQuestion" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSecurityQuestion" nillable="true" type="tns:ArrayOfSecurityQuestion" />
+  <xs:complexType name="ArrayOfUser">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="User" nillable="true" type="tns:User" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfUser" nillable="true" type="tns:ArrayOfUser" />
+  <xs:complexType name="ArrayOfUserGroup">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="UserGroup" nillable="true" type="tns:UserGroup" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfUserGroup" nillable="true" type="tns:ArrayOfUserGroup" />
+  <xs:complexType name="ArrayOfGroupObjectMap">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="GroupObjectMap" nillable="true" type="tns:GroupObjectMap" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGroupObjectMap" nillable="true" type="tns:ArrayOfGroupObjectMap" />
+  <xs:complexType name="GroupObjectMap">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AuthLevID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AuthenticationLevel" nillable="true" type="xs:string" />
+      <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q9:EntryParameter" />
+      <xs:element minOccurs="0" name="Module" nillable="true" type="tns:Module" />
+      <xs:element minOccurs="0" name="Object" nillable="true" type="xs:anyType" />
+      <xs:element minOccurs="0" name="ObjectSetup" nillable="true" type="tns:ObjectSetup" />
+      <xs:element minOccurs="0" name="UserGroup" nillable="true" type="tns:UserGroup" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GroupObjectMap" nillable="true" type="tns:GroupObjectMap" />
+  <xs:complexType name="UserGroupAssign">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Date" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EmpIDs" nillable="true" type="xs:string" />
+      <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q10:EntryParameter" />
+      <xs:element minOccurs="0" name="Module" nillable="true" type="tns:Module" />
+      <xs:element minOccurs="0" name="User" nillable="true" type="tns:User" />
+      <xs:element minOccurs="0" name="UserGroup" nillable="true" type="tns:UserGroup" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UserGroupAssign" nillable="true" type="tns:UserGroupAssign" />
+  <xs:complexType name="ArrayOfUserGroupAssign">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="UserGroupAssign" nillable="true" type="tns:UserGroupAssign" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfUserGroupAssign" nillable="true" type="tns:ArrayOfUserGroupAssign" />
+</xs:schema>

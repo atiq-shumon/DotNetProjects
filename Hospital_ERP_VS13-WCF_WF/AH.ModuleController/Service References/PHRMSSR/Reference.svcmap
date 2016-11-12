@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="deab201a-01d7-433a-95f8-7d5ffd25b3b6" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://IT-Atik.citygroupbd.com:91/PHRMS/PHRMSService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PHRMSService3.xsd" MetadataType="Schema" ID="502abd0d-5b4b-472c-81cf-5c26f3fcdf56" SourceId="1" SourceUrl="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc?xsd=xsd7" />
+    <MetadataFile FileName="PHRMSService2.xsd" MetadataType="Schema" ID="9d883e24-3bb9-4a72-a062-d04c93503615" SourceId="1" SourceUrl="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc?xsd=xsd6" />
+    <MetadataFile FileName="PHRMSService1.xsd" MetadataType="Schema" ID="8959d46d-4c4d-474b-99ce-7477de8e813f" SourceId="1" SourceUrl="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc?xsd=xsd5" />
+    <MetadataFile FileName="PHRMSService.xsd" MetadataType="Schema" ID="ef3ac6da-54f7-408f-8684-a867f8461017" SourceId="1" SourceUrl="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc?xsd=xsd4" />
+    <MetadataFile FileName="PHRMSService4.xsd" MetadataType="Schema" ID="da245f71-b38c-420c-b3b3-d44a139bc57f" SourceId="1" SourceUrl="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc?xsd=xsd3" />
+    <MetadataFile FileName="PHRMSService43.xsd" MetadataType="Schema" ID="b2492588-75de-49eb-882d-afa93651faec" SourceId="1" SourceUrl="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc?xsd=xsd2" />
+    <MetadataFile FileName="PHRMSService41.xsd" MetadataType="Schema" ID="eb5b9566-cbd7-4768-94d9-5cd1b390f1ab" SourceId="1" SourceUrl="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc?xsd=xsd1" />
+    <MetadataFile FileName="PHRMSService42.xsd" MetadataType="Schema" ID="9b336f14-b159-402b-a26c-6b6a14403c2a" SourceId="1" SourceUrl="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc?xsd=xsd0" />
+    <MetadataFile FileName="PHRMSService7.xsd" MetadataType="Schema" ID="ece751b9-5a79-41e4-b029-1adbd3d0e225" SourceId="1" SourceUrl="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc?xsd=xsd13" />
+    <MetadataFile FileName="PHRMSService1.disco" MetadataType="Disco" ID="0c2c3148-55e6-4a7d-af72-b53cdb73576f" SourceId="1" SourceUrl="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc?disco" />
+    <MetadataFile FileName="PHRMSService6.xsd" MetadataType="Schema" ID="24336c56-bff7-44bd-9847-b32ac20f1867" SourceId="1" SourceUrl="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc?xsd=xsd12" />
+    <MetadataFile FileName="PHRMSService5.xsd" MetadataType="Schema" ID="88bddb1f-6474-49a8-9723-4a0357fe32ee" SourceId="1" SourceUrl="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc?xsd=xsd11" />
+    <MetadataFile FileName="PHRMSService31.xsd" MetadataType="Schema" ID="4980b1b4-4a91-49ff-a9ba-2c7e87a270f0" SourceId="1" SourceUrl="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc?xsd=xsd10" />
+    <MetadataFile FileName="PHRMSWS1.wsdl" MetadataType="Wsdl" ID="83b36c7f-e949-465c-8b40-fecc69207ee0" SourceId="1" SourceUrl="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc?wsdl" />
+    <MetadataFile FileName="PHRMSService32.xsd" MetadataType="Schema" ID="8a447f6a-668c-42cf-ac7d-6c6e1dfa0981" SourceId="1" SourceUrl="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc?xsd=xsd9" />
+    <MetadataFile FileName="PHRMSService33.xsd" MetadataType="Schema" ID="81ab90d9-6788-4f59-ad0c-42bb15bec942" SourceId="1" SourceUrl="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc?xsd=xsd8" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

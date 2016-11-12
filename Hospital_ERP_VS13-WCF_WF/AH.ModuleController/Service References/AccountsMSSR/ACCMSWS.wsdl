@@ -1,0 +1,2416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ACCMSWS" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:88/ACCMS/ACCMSService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:88/ACCMS/ACCMSService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:88/ACCMS/ACCMSService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" />
+      <xsd:import schemaLocation="http://localhost:88/ACCMS/ACCMSService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" />
+      <xsd:import schemaLocation="http://localhost:88/ACCMS/ACCMSService.svc?xsd=xsd4" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IACCMSWS_SavePurposeSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:SavePurposeSetup" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_SavePurposeSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavePurposeSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_UpdatePurpose_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePurpose" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_UpdatePurpose_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePurposeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetPurpose_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPurpose" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetPurpose_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPurposeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_VerifyPurpose_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyPurpose" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_VerifyPurpose_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyPurposeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetCollectionDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCollectionDetails" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetCollectionDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCollectionDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetsSummary_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetsSummary" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetsSummary_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetsSummaryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_SaveBranchSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveBranchSetup" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_SaveBranchSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveBranchSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetBranch_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBranch" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetBranch_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBranchResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetGroups_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroups" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetGroups_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_SaveGroupSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveGroupSetup" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_SaveGroupSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveGroupSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetGroupsConfiguration_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupsConfiguration" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetGroupsConfiguration_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupsConfigurationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetGroupTreeview_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupTreeview" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetGroupTreeview_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupTreeviewResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLegerTreeview_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLegerTreeview" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLegerTreeview_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLegerTreeviewResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLedgerUnder_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLedgerUnder" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLedgerUnder_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLedgerUnderResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_SaveLedgerSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveLedgerSetup" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_SaveLedgerSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveLedgerSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetDebitTotal_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDebitTotal" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetDebitTotal_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDebitTotalResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetCreditTotal_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCreditTotal" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetCreditTotal_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCreditTotalResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLedgersNameDr_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLedgersNameDr" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLedgersNameDr_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLedgersNameDrResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLedgersNameCr_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLedgersNameCr" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLedgersNameCr_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLedgersNameCrResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_CheckBankLedger_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckBankLedger" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_CheckBankLedger_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckBankLedgerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetAllLedgers_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllLedgers" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetAllLedgers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllLedgersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetVoucherNo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetVoucherNo" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetVoucherNo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetVoucherNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_SaveVoucherSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveVoucherSetup" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_SaveVoucherSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveVoucherSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_SaveVoucheChildrSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveVoucheChildrSetup" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_SaveVoucheChildrSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveVoucheChildrSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetVoucherTransactionDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetVoucherTransactionDetails" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetVoucherTransactionDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetVoucherTransactionDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_UpdateBranchSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateBranchSetup" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_UpdateBranchSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateBranchSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_DeleteBranch_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteBranch" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_DeleteBranch_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteBranchResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_UpdateGroupSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGroupSetup" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_UpdateGroupSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGroupSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_DeleteGroupSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGroupSetup" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_DeleteGroupSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGroupSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLedgersDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLedgersDetails" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLedgersDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLedgersDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_DeleteLedger_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteLedger" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_DeleteLedger_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteLedgerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetDisplayLedgers_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDisplayLedgers" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetDisplayLedgers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDisplayLedgersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_UpdateLedgerSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateLedgerSetup" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_UpdateLedgerSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateLedgerSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLedegrCode_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLedegrCode" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLedegrCode_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLedegrCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLederName_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLederName" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLederName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLederNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_DeleteVoucher_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteVoucher" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_DeleteVoucher_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteVoucherResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_SaveFixedAssetsSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveFixedAssetsSetup" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_SaveFixedAssetsSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveFixedAssetsSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetFixedAssetsLedger_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFixedAssetsLedger" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetFixedAssetsLedger_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFixedAssetsLedgerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetdisplayvoucherDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetdisplayvoucherDetails" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetdisplayvoucherDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetdisplayvoucherDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLedgerReports_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLedgerReports" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLedgerReports_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLedgerReportsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetBranchConfig_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBranchConfig" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetBranchConfig_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBranchConfigResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetTraiBalanceReports_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTraiBalanceReports" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetTraiBalanceReports_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTraiBalanceReportsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_DisplayTrailBalance_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayTrailBalance" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_DisplayTrailBalance_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayTrailBalanceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetIndividualVoucherNo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetIndividualVoucherNo" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetIndividualVoucherNo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetIndividualVoucherNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetIndividualVoucherReports_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetIndividualVoucherReports" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetIndividualVoucherReports_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetIndividualVoucherReportsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLedgerInformation_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLedgerInformation" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLedgerInformation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLedgerInformationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLedgerDetailsReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLedgerDetailsReport" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLedgerDetailsReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLedgerDetailsReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetVoucherSearch_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetVoucherSearch" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetVoucherSearch_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetVoucherSearchResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_InsertLedgerOpening_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertLedgerOpening" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_InsertLedgerOpening_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertLedgerOpeningResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_UpdateLedgerOpening_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateLedgerOpening" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_UpdateLedgerOpening_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateLedgerOpeningResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLedgerOpn_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLedgerOpn" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLedgerOpn_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLedgerOpnResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLedgersNameDrNew_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLedgersNameDrNew" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLedgersNameDrNew_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLedgersNameDrNewResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetBraNewConfig_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBraNewConfig" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetBraNewConfig_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBraNewConfigResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_DisplayBalanceSheet_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayBalanceSheet" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_DisplayBalanceSheet_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayBalanceSheetResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetBalanceSheetReports_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBalanceSheetReports" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetBalanceSheetReports_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBalanceSheetReportsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetIncomeExpensesReports_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetIncomeExpensesReports" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetIncomeExpensesReports_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetIncomeExpensesReportsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetProfitLossReports_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetProfitLossReports" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetProfitLossReports_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetProfitLossReportsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_LoadFixedAssetsLedger_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadFixedAssetsLedger" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_LoadFixedAssetsLedger_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadFixedAssetsLedgerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_UpdateFixedAssetsSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateFixedAssetsSetup" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_UpdateFixedAssetsSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateFixedAssetsSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_DeleteFixedAssetsSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteFixedAssetsSetup" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_DeleteFixedAssetsSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteFixedAssetsSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetTreeview_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTreeview" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetTreeview_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTreeviewResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetgroupDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetgroupDetails" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetgroupDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetgroupDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_SaveCategorySetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveCategorySetup" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_SaveCategorySetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveCategorySetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_UpdateCategorySetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCategorySetup" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_UpdateCategorySetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCategorySetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_DeleteCategorySetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteCategorySetup" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_DeleteCategorySetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteCategorySetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetCostCategory_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCostCategory" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetCostCategory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCostCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_LoadCategory_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadCategory" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_LoadCategory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_SaveRevenueHeadGr_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveRevenueHeadGr" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_SaveRevenueHeadGr_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveRevenueHeadGrResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_UpdateRevHdGr_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateRevHdGr" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_UpdateRevHdGr_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateRevHdGrResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_SaveRevenueHead_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveRevenueHead" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_SaveRevenueHead_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveRevenueHeadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_UpdateRevHead_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateRevHead" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_UpdateRevHead_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateRevHeadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetRevHdGrps_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRevHdGrps" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetRevHdGrps_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRevHdGrpsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_VerifyRevHdGr_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyRevHdGr" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_VerifyRevHdGr_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyRevHdGrResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetRevenueHead_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRevenueHead" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetRevenueHead_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRevenueHeadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetRevenueHeads_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRevenueHeads" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetRevenueHeads_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRevenueHeadsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_VerifyRevHead_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyRevHead" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_VerifyRevHead_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyRevHeadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_SaveHeadAssign_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveHeadAssign" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_SaveHeadAssign_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveHeadAssignResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_UpdateHdAss_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateHdAss" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_UpdateHdAss_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateHdAssResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetHeadAssign_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetHeadAssign" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetHeadAssign_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetHeadAssignResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetRevenueGroup_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRevenueGroup" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetRevenueGroup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRevenueGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLedgerCodeAllocation_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLedgerCodeAllocation" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLedgerCodeAllocation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLedgerCodeAllocationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetCostCenterTransaction_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCostCenterTransaction" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetCostCenterTransaction_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCostCenterTransactionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_DisplayCostcenterTransaction_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayCostcenterTransaction" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_DisplayCostcenterTransaction_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayCostcenterTransactionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_SaveCostCentertransaction_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveCostCentertransaction" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_SaveCostCentertransaction_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveCostCentertransactionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_UpdateCostCenterTran_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCostCenterTran" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_UpdateCostCenterTran_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCostCenterTranResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetCostCategoryReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCostCategoryReport" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetCostCategoryReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCostCategoryReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetCashflowReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCashflowReport" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetCashflowReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCashflowReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_SaveTree_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveTree" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_SaveTree_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveTreeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetCostcategoryTreeview_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCostcategoryTreeview" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetCostcategoryTreeview_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCostcategoryTreeviewResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetCostcenterTreeview_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCostcenterTreeview" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetCostcenterTreeview_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCostcenterTreeviewResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetCollectionHospital_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCollectionHospital" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetCollectionHospital_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCollectionHospitalResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetGroupTreeviewSelection_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupTreeviewSelection" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetGroupTreeviewSelection_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupTreeviewSelectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetArchieve_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetArchieve" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetArchieve_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetArchieveResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetBankReconcilation_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBankReconcilation" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetBankReconcilation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBankReconcilationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetParticulars_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetParticulars" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetParticulars_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetParticularsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLedgerNameBank_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLedgerNameBank" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLedgerNameBank_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLedgerNameBankResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_SaveBankReconcilationSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveBankReconcilationSetup" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_SaveBankReconcilationSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveBankReconcilationSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetBankReconcilationRpt_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBankReconcilationRpt" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetBankReconcilationRpt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBankReconcilationRptResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLocation_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLocation" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLocation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLocationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_Getsupplier_InputMessage">
+    <wsdl:part name="parameters" element="tns:Getsupplier" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_Getsupplier_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetsupplierResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_SaveAdjustment_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveAdjustment" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_SaveAdjustment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveAdjustmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_UpdateAdjustment_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAdjustment" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_UpdateAdjustment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAdjustmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_DeleteAdjustment_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteAdjustment" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_DeleteAdjustment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteAdjustmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetFixedAssetsAdjustment_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFixedAssetsAdjustment" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetFixedAssetsAdjustment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFixedAssetsAdjustmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetFixedAssetsRo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFixedAssetsRo" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetFixedAssetsRo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFixedAssetsRoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetFxdDepreciationLedger_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFxdDepreciationLedger" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetFxdDepreciationLedger_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFxdDepreciationLedgerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetSupplierLedger_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSupplierLedger" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetSupplierLedger_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSupplierLedgerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetManufacturerName_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetManufacturerName" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetManufacturerName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetManufacturerNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetFixedAssetsDetailsRo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFixedAssetsDetailsRo" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetFixedAssetsDetailsRo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFixedAssetsDetailsRoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_SaveWrittenDownValue_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveWrittenDownValue" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_SaveWrittenDownValue_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveWrittenDownValueResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetTraiBalanceReportsLedger_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTraiBalanceReportsLedger" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetTraiBalanceReportsLedger_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTraiBalanceReportsLedgerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetCashOpening_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCashOpening" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetCashOpening_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCashOpeningResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_UpdateScript_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateScript" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_UpdateScript_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateScriptResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_InsertFiscalYear_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertFiscalYear" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_InsertFiscalYear_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertFiscalYearResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_UpdateFiscalYear_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateFiscalYear" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_UpdateFiscalYear_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateFiscalYearResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetFiscalYear_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFiscalYear" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetFiscalYear_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFiscalYearResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetActiveFiscalYear_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetActiveFiscalYear" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetActiveFiscalYear_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetActiveFiscalYearResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_DeleteLedgerTreeview_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteLedgerTreeview" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_DeleteLedgerTreeview_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteLedgerTreeviewResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_DeleteGroupTreeview_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGroupTreeview" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_DeleteGroupTreeview_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGroupTreeviewResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLedgerInformationGrid_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLedgerInformationGrid" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetLedgerInformationGrid_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLedgerInformationGridResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetCollectionSummary_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCollectionSummary" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetCollectionSummary_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCollectionSummaryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetBankReconPost_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBankReconPost" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetBankReconPost_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBankReconPostResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_InsertIntegretedBr_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntegretedBr" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_InsertIntegretedBr_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntegretedBrResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetDeptGroupDicByType_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeptGroupDicByType" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetDeptGroupDicByType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeptGroupDicByTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetDepartmentsetupDic_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartmentsetupDic" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetDepartmentsetupDic_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartmentsetupDicResponse" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetDeptUnitDic_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeptUnitDic" />
+  </wsdl:message>
+  <wsdl:message name="IACCMSWS_GetDeptUnitDic_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeptUnitDicResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IACCMSWS">
+    <wsdl:operation name="SavePurposeSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/SavePurposeSetup" message="tns:IACCMSWS_SavePurposeSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/SavePurposeSetupResponse" message="tns:IACCMSWS_SavePurposeSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePurpose">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/UpdatePurpose" message="tns:IACCMSWS_UpdatePurpose_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/UpdatePurposeResponse" message="tns:IACCMSWS_UpdatePurpose_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPurpose">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetPurpose" message="tns:IACCMSWS_GetPurpose_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetPurposeResponse" message="tns:IACCMSWS_GetPurpose_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyPurpose">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/VerifyPurpose" message="tns:IACCMSWS_VerifyPurpose_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/VerifyPurposeResponse" message="tns:IACCMSWS_VerifyPurpose_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCollectionDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetCollectionDetails" message="tns:IACCMSWS_GetCollectionDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetCollectionDetailsResponse" message="tns:IACCMSWS_GetCollectionDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetsSummary">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetsSummary" message="tns:IACCMSWS_GetsSummary_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetsSummaryResponse" message="tns:IACCMSWS_GetsSummary_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveBranchSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/SaveBranchSetup" message="tns:IACCMSWS_SaveBranchSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/SaveBranchSetupResponse" message="tns:IACCMSWS_SaveBranchSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBranch">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetBranch" message="tns:IACCMSWS_GetBranch_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetBranchResponse" message="tns:IACCMSWS_GetBranch_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGroups">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetGroups" message="tns:IACCMSWS_GetGroups_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetGroupsResponse" message="tns:IACCMSWS_GetGroups_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveGroupSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/SaveGroupSetup" message="tns:IACCMSWS_SaveGroupSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/SaveGroupSetupResponse" message="tns:IACCMSWS_SaveGroupSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupsConfiguration">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetGroupsConfiguration" message="tns:IACCMSWS_GetGroupsConfiguration_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetGroupsConfigurationResponse" message="tns:IACCMSWS_GetGroupsConfiguration_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupTreeview">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetGroupTreeview" message="tns:IACCMSWS_GetGroupTreeview_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetGroupTreeviewResponse" message="tns:IACCMSWS_GetGroupTreeview_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLegerTreeview">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetLegerTreeview" message="tns:IACCMSWS_GetLegerTreeview_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetLegerTreeviewResponse" message="tns:IACCMSWS_GetLegerTreeview_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLedgerUnder">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetLedgerUnder" message="tns:IACCMSWS_GetLedgerUnder_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetLedgerUnderResponse" message="tns:IACCMSWS_GetLedgerUnder_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveLedgerSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/SaveLedgerSetup" message="tns:IACCMSWS_SaveLedgerSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/SaveLedgerSetupResponse" message="tns:IACCMSWS_SaveLedgerSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDebitTotal">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetDebitTotal" message="tns:IACCMSWS_GetDebitTotal_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetDebitTotalResponse" message="tns:IACCMSWS_GetDebitTotal_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCreditTotal">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetCreditTotal" message="tns:IACCMSWS_GetCreditTotal_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetCreditTotalResponse" message="tns:IACCMSWS_GetCreditTotal_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLedgersNameDr">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetLedgersNameDr" message="tns:IACCMSWS_GetLedgersNameDr_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetLedgersNameDrResponse" message="tns:IACCMSWS_GetLedgersNameDr_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLedgersNameCr">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetLedgersNameCr" message="tns:IACCMSWS_GetLedgersNameCr_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetLedgersNameCrResponse" message="tns:IACCMSWS_GetLedgersNameCr_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckBankLedger">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/CheckBankLedger" message="tns:IACCMSWS_CheckBankLedger_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/CheckBankLedgerResponse" message="tns:IACCMSWS_CheckBankLedger_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllLedgers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetAllLedgers" message="tns:IACCMSWS_GetAllLedgers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetAllLedgersResponse" message="tns:IACCMSWS_GetAllLedgers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVoucherNo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetVoucherNo" message="tns:IACCMSWS_GetVoucherNo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetVoucherNoResponse" message="tns:IACCMSWS_GetVoucherNo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveVoucherSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/SaveVoucherSetup" message="tns:IACCMSWS_SaveVoucherSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/SaveVoucherSetupResponse" message="tns:IACCMSWS_SaveVoucherSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveVoucheChildrSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/SaveVoucheChildrSetup" message="tns:IACCMSWS_SaveVoucheChildrSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/SaveVoucheChildrSetupResponse" message="tns:IACCMSWS_SaveVoucheChildrSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVoucherTransactionDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetVoucherTransactionDetails" message="tns:IACCMSWS_GetVoucherTransactionDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetVoucherTransactionDetailsResponse" message="tns:IACCMSWS_GetVoucherTransactionDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBranchSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/UpdateBranchSetup" message="tns:IACCMSWS_UpdateBranchSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/UpdateBranchSetupResponse" message="tns:IACCMSWS_UpdateBranchSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteBranch">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/DeleteBranch" message="tns:IACCMSWS_DeleteBranch_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/DeleteBranchResponse" message="tns:IACCMSWS_DeleteBranch_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGroupSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/UpdateGroupSetup" message="tns:IACCMSWS_UpdateGroupSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/UpdateGroupSetupResponse" message="tns:IACCMSWS_UpdateGroupSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGroupSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/DeleteGroupSetup" message="tns:IACCMSWS_DeleteGroupSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/DeleteGroupSetupResponse" message="tns:IACCMSWS_DeleteGroupSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLedgersDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetLedgersDetails" message="tns:IACCMSWS_GetLedgersDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetLedgersDetailsResponse" message="tns:IACCMSWS_GetLedgersDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteLedger">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/DeleteLedger" message="tns:IACCMSWS_DeleteLedger_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/DeleteLedgerResponse" message="tns:IACCMSWS_DeleteLedger_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDisplayLedgers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetDisplayLedgers" message="tns:IACCMSWS_GetDisplayLedgers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetDisplayLedgersResponse" message="tns:IACCMSWS_GetDisplayLedgers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateLedgerSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/UpdateLedgerSetup" message="tns:IACCMSWS_UpdateLedgerSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/UpdateLedgerSetupResponse" message="tns:IACCMSWS_UpdateLedgerSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLedegrCode">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetLedegrCode" message="tns:IACCMSWS_GetLedegrCode_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetLedegrCodeResponse" message="tns:IACCMSWS_GetLedegrCode_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLederName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetLederName" message="tns:IACCMSWS_GetLederName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetLederNameResponse" message="tns:IACCMSWS_GetLederName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteVoucher">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/DeleteVoucher" message="tns:IACCMSWS_DeleteVoucher_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/DeleteVoucherResponse" message="tns:IACCMSWS_DeleteVoucher_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveFixedAssetsSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/SaveFixedAssetsSetup" message="tns:IACCMSWS_SaveFixedAssetsSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/SaveFixedAssetsSetupResponse" message="tns:IACCMSWS_SaveFixedAssetsSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFixedAssetsLedger">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetFixedAssetsLedger" message="tns:IACCMSWS_GetFixedAssetsLedger_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetFixedAssetsLedgerResponse" message="tns:IACCMSWS_GetFixedAssetsLedger_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetdisplayvoucherDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetdisplayvoucherDetails" message="tns:IACCMSWS_GetdisplayvoucherDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetdisplayvoucherDetailsResponse" message="tns:IACCMSWS_GetdisplayvoucherDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLedgerReports">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetLedgerReports" message="tns:IACCMSWS_GetLedgerReports_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetLedgerReportsResponse" message="tns:IACCMSWS_GetLedgerReports_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBranchConfig">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetBranchConfig" message="tns:IACCMSWS_GetBranchConfig_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetBranchConfigResponse" message="tns:IACCMSWS_GetBranchConfig_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTraiBalanceReports">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetTraiBalanceReports" message="tns:IACCMSWS_GetTraiBalanceReports_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetTraiBalanceReportsResponse" message="tns:IACCMSWS_GetTraiBalanceReports_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayTrailBalance">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/DisplayTrailBalance" message="tns:IACCMSWS_DisplayTrailBalance_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/DisplayTrailBalanceResponse" message="tns:IACCMSWS_DisplayTrailBalance_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIndividualVoucherNo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetIndividualVoucherNo" message="tns:IACCMSWS_GetIndividualVoucherNo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetIndividualVoucherNoResponse" message="tns:IACCMSWS_GetIndividualVoucherNo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIndividualVoucherReports">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetIndividualVoucherReports" message="tns:IACCMSWS_GetIndividualVoucherReports_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetIndividualVoucherReportsResponse" message="tns:IACCMSWS_GetIndividualVoucherReports_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLedgerInformation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetLedgerInformation" message="tns:IACCMSWS_GetLedgerInformation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetLedgerInformationResponse" message="tns:IACCMSWS_GetLedgerInformation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLedgerDetailsReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetLedgerDetailsReport" message="tns:IACCMSWS_GetLedgerDetailsReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetLedgerDetailsReportResponse" message="tns:IACCMSWS_GetLedgerDetailsReport_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVoucherSearch">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetVoucherSearch" message="tns:IACCMSWS_GetVoucherSearch_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetVoucherSearchResponse" message="tns:IACCMSWS_GetVoucherSearch_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertLedgerOpening">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/InsertLedgerOpening" message="tns:IACCMSWS_InsertLedgerOpening_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/InsertLedgerOpeningResponse" message="tns:IACCMSWS_InsertLedgerOpening_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateLedgerOpening">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/UpdateLedgerOpening" message="tns:IACCMSWS_UpdateLedgerOpening_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/UpdateLedgerOpeningResponse" message="tns:IACCMSWS_UpdateLedgerOpening_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLedgerOpn">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetLedgerOpn" message="tns:IACCMSWS_GetLedgerOpn_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetLedgerOpnResponse" message="tns:IACCMSWS_GetLedgerOpn_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLedgersNameDrNew">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetLedgersNameDrNew" message="tns:IACCMSWS_GetLedgersNameDrNew_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetLedgersNameDrNewResponse" message="tns:IACCMSWS_GetLedgersNameDrNew_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBraNewConfig">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetBraNewConfig" message="tns:IACCMSWS_GetBraNewConfig_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetBraNewConfigResponse" message="tns:IACCMSWS_GetBraNewConfig_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayBalanceSheet">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/DisplayBalanceSheet" message="tns:IACCMSWS_DisplayBalanceSheet_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/DisplayBalanceSheetResponse" message="tns:IACCMSWS_DisplayBalanceSheet_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBalanceSheetReports">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetBalanceSheetReports" message="tns:IACCMSWS_GetBalanceSheetReports_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetBalanceSheetReportsResponse" message="tns:IACCMSWS_GetBalanceSheetReports_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIncomeExpensesReports">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetIncomeExpensesReports" message="tns:IACCMSWS_GetIncomeExpensesReports_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetIncomeExpensesReportsResponse" message="tns:IACCMSWS_GetIncomeExpensesReports_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProfitLossReports">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetProfitLossReports" message="tns:IACCMSWS_GetProfitLossReports_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetProfitLossReportsResponse" message="tns:IACCMSWS_GetProfitLossReports_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadFixedAssetsLedger">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/LoadFixedAssetsLedger" message="tns:IACCMSWS_LoadFixedAssetsLedger_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/LoadFixedAssetsLedgerResponse" message="tns:IACCMSWS_LoadFixedAssetsLedger_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFixedAssetsSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/UpdateFixedAssetsSetup" message="tns:IACCMSWS_UpdateFixedAssetsSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/UpdateFixedAssetsSetupResponse" message="tns:IACCMSWS_UpdateFixedAssetsSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFixedAssetsSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/DeleteFixedAssetsSetup" message="tns:IACCMSWS_DeleteFixedAssetsSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/DeleteFixedAssetsSetupResponse" message="tns:IACCMSWS_DeleteFixedAssetsSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTreeview">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetTreeview" message="tns:IACCMSWS_GetTreeview_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetTreeviewResponse" message="tns:IACCMSWS_GetTreeview_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetgroupDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetgroupDetails" message="tns:IACCMSWS_GetgroupDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetgroupDetailsResponse" message="tns:IACCMSWS_GetgroupDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveCategorySetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/SaveCategorySetup" message="tns:IACCMSWS_SaveCategorySetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/SaveCategorySetupResponse" message="tns:IACCMSWS_SaveCategorySetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCategorySetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/UpdateCategorySetup" message="tns:IACCMSWS_UpdateCategorySetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/UpdateCategorySetupResponse" message="tns:IACCMSWS_UpdateCategorySetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteCategorySetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/DeleteCategorySetup" message="tns:IACCMSWS_DeleteCategorySetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/DeleteCategorySetupResponse" message="tns:IACCMSWS_DeleteCategorySetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCostCategory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetCostCategory" message="tns:IACCMSWS_GetCostCategory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetCostCategoryResponse" message="tns:IACCMSWS_GetCostCategory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadCategory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/LoadCategory" message="tns:IACCMSWS_LoadCategory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/LoadCategoryResponse" message="tns:IACCMSWS_LoadCategory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveRevenueHeadGr">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/SaveRevenueHeadGr" message="tns:IACCMSWS_SaveRevenueHeadGr_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/SaveRevenueHeadGrResponse" message="tns:IACCMSWS_SaveRevenueHeadGr_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateRevHdGr">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/UpdateRevHdGr" message="tns:IACCMSWS_UpdateRevHdGr_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/UpdateRevHdGrResponse" message="tns:IACCMSWS_UpdateRevHdGr_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveRevenueHead">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/SaveRevenueHead" message="tns:IACCMSWS_SaveRevenueHead_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/SaveRevenueHeadResponse" message="tns:IACCMSWS_SaveRevenueHead_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateRevHead">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/UpdateRevHead" message="tns:IACCMSWS_UpdateRevHead_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/UpdateRevHeadResponse" message="tns:IACCMSWS_UpdateRevHead_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRevHdGrps">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetRevHdGrps" message="tns:IACCMSWS_GetRevHdGrps_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetRevHdGrpsResponse" message="tns:IACCMSWS_GetRevHdGrps_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyRevHdGr">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/VerifyRevHdGr" message="tns:IACCMSWS_VerifyRevHdGr_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/VerifyRevHdGrResponse" message="tns:IACCMSWS_VerifyRevHdGr_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRevenueHead">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetRevenueHead" message="tns:IACCMSWS_GetRevenueHead_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetRevenueHeadResponse" message="tns:IACCMSWS_GetRevenueHead_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRevenueHeads">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetRevenueHeads" message="tns:IACCMSWS_GetRevenueHeads_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetRevenueHeadsResponse" message="tns:IACCMSWS_GetRevenueHeads_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyRevHead">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/VerifyRevHead" message="tns:IACCMSWS_VerifyRevHead_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/VerifyRevHeadResponse" message="tns:IACCMSWS_VerifyRevHead_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveHeadAssign">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/SaveHeadAssign" message="tns:IACCMSWS_SaveHeadAssign_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/SaveHeadAssignResponse" message="tns:IACCMSWS_SaveHeadAssign_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateHdAss">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/UpdateHdAss" message="tns:IACCMSWS_UpdateHdAss_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/UpdateHdAssResponse" message="tns:IACCMSWS_UpdateHdAss_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHeadAssign">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetHeadAssign" message="tns:IACCMSWS_GetHeadAssign_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetHeadAssignResponse" message="tns:IACCMSWS_GetHeadAssign_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRevenueGroup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetRevenueGroup" message="tns:IACCMSWS_GetRevenueGroup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetRevenueGroupResponse" message="tns:IACCMSWS_GetRevenueGroup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLedgerCodeAllocation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetLedgerCodeAllocation" message="tns:IACCMSWS_GetLedgerCodeAllocation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetLedgerCodeAllocationResponse" message="tns:IACCMSWS_GetLedgerCodeAllocation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCostCenterTransaction">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetCostCenterTransaction" message="tns:IACCMSWS_GetCostCenterTransaction_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetCostCenterTransactionResponse" message="tns:IACCMSWS_GetCostCenterTransaction_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayCostcenterTransaction">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/DisplayCostcenterTransaction" message="tns:IACCMSWS_DisplayCostcenterTransaction_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/DisplayCostcenterTransactionResponse" message="tns:IACCMSWS_DisplayCostcenterTransaction_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveCostCentertransaction">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/SaveCostCentertransaction" message="tns:IACCMSWS_SaveCostCentertransaction_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/SaveCostCentertransactionResponse" message="tns:IACCMSWS_SaveCostCentertransaction_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCostCenterTran">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/UpdateCostCenterTran" message="tns:IACCMSWS_UpdateCostCenterTran_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/UpdateCostCenterTranResponse" message="tns:IACCMSWS_UpdateCostCenterTran_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCostCategoryReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetCostCategoryReport" message="tns:IACCMSWS_GetCostCategoryReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetCostCategoryReportResponse" message="tns:IACCMSWS_GetCostCategoryReport_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCashflowReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetCashflowReport" message="tns:IACCMSWS_GetCashflowReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetCashflowReportResponse" message="tns:IACCMSWS_GetCashflowReport_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveTree">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/SaveTree" message="tns:IACCMSWS_SaveTree_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/SaveTreeResponse" message="tns:IACCMSWS_SaveTree_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCostcategoryTreeview">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetCostcategoryTreeview" message="tns:IACCMSWS_GetCostcategoryTreeview_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetCostcategoryTreeviewResponse" message="tns:IACCMSWS_GetCostcategoryTreeview_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCostcenterTreeview">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetCostcenterTreeview" message="tns:IACCMSWS_GetCostcenterTreeview_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetCostcenterTreeviewResponse" message="tns:IACCMSWS_GetCostcenterTreeview_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCollectionHospital">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetCollectionHospital" message="tns:IACCMSWS_GetCollectionHospital_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetCollectionHospitalResponse" message="tns:IACCMSWS_GetCollectionHospital_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupTreeviewSelection">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetGroupTreeviewSelection" message="tns:IACCMSWS_GetGroupTreeviewSelection_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetGroupTreeviewSelectionResponse" message="tns:IACCMSWS_GetGroupTreeviewSelection_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetArchieve">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetArchieve" message="tns:IACCMSWS_GetArchieve_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetArchieveResponse" message="tns:IACCMSWS_GetArchieve_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBankReconcilation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetBankReconcilation" message="tns:IACCMSWS_GetBankReconcilation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetBankReconcilationResponse" message="tns:IACCMSWS_GetBankReconcilation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetParticulars">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetParticulars" message="tns:IACCMSWS_GetParticulars_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetParticularsResponse" message="tns:IACCMSWS_GetParticulars_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLedgerNameBank">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetLedgerNameBank" message="tns:IACCMSWS_GetLedgerNameBank_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetLedgerNameBankResponse" message="tns:IACCMSWS_GetLedgerNameBank_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveBankReconcilationSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/SaveBankReconcilationSetup" message="tns:IACCMSWS_SaveBankReconcilationSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/SaveBankReconcilationSetupResponse" message="tns:IACCMSWS_SaveBankReconcilationSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBankReconcilationRpt">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetBankReconcilationRpt" message="tns:IACCMSWS_GetBankReconcilationRpt_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetBankReconcilationRptResponse" message="tns:IACCMSWS_GetBankReconcilationRpt_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLocation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetLocation" message="tns:IACCMSWS_GetLocation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetLocationResponse" message="tns:IACCMSWS_GetLocation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Getsupplier">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/Getsupplier" message="tns:IACCMSWS_Getsupplier_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetsupplierResponse" message="tns:IACCMSWS_Getsupplier_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveAdjustment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/SaveAdjustment" message="tns:IACCMSWS_SaveAdjustment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/SaveAdjustmentResponse" message="tns:IACCMSWS_SaveAdjustment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAdjustment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/UpdateAdjustment" message="tns:IACCMSWS_UpdateAdjustment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/UpdateAdjustmentResponse" message="tns:IACCMSWS_UpdateAdjustment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAdjustment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/DeleteAdjustment" message="tns:IACCMSWS_DeleteAdjustment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/DeleteAdjustmentResponse" message="tns:IACCMSWS_DeleteAdjustment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFixedAssetsAdjustment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetFixedAssetsAdjustment" message="tns:IACCMSWS_GetFixedAssetsAdjustment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetFixedAssetsAdjustmentResponse" message="tns:IACCMSWS_GetFixedAssetsAdjustment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFixedAssetsRo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetFixedAssetsRo" message="tns:IACCMSWS_GetFixedAssetsRo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetFixedAssetsRoResponse" message="tns:IACCMSWS_GetFixedAssetsRo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFxdDepreciationLedger">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetFxdDepreciationLedger" message="tns:IACCMSWS_GetFxdDepreciationLedger_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetFxdDepreciationLedgerResponse" message="tns:IACCMSWS_GetFxdDepreciationLedger_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSupplierLedger">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetSupplierLedger" message="tns:IACCMSWS_GetSupplierLedger_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetSupplierLedgerResponse" message="tns:IACCMSWS_GetSupplierLedger_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetManufacturerName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetManufacturerName" message="tns:IACCMSWS_GetManufacturerName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetManufacturerNameResponse" message="tns:IACCMSWS_GetManufacturerName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFixedAssetsDetailsRo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetFixedAssetsDetailsRo" message="tns:IACCMSWS_GetFixedAssetsDetailsRo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetFixedAssetsDetailsRoResponse" message="tns:IACCMSWS_GetFixedAssetsDetailsRo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveWrittenDownValue">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/SaveWrittenDownValue" message="tns:IACCMSWS_SaveWrittenDownValue_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/SaveWrittenDownValueResponse" message="tns:IACCMSWS_SaveWrittenDownValue_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTraiBalanceReportsLedger">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetTraiBalanceReportsLedger" message="tns:IACCMSWS_GetTraiBalanceReportsLedger_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetTraiBalanceReportsLedgerResponse" message="tns:IACCMSWS_GetTraiBalanceReportsLedger_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCashOpening">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetCashOpening" message="tns:IACCMSWS_GetCashOpening_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetCashOpeningResponse" message="tns:IACCMSWS_GetCashOpening_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateScript">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/UpdateScript" message="tns:IACCMSWS_UpdateScript_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/UpdateScriptResponse" message="tns:IACCMSWS_UpdateScript_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertFiscalYear">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/InsertFiscalYear" message="tns:IACCMSWS_InsertFiscalYear_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/InsertFiscalYearResponse" message="tns:IACCMSWS_InsertFiscalYear_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFiscalYear">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/UpdateFiscalYear" message="tns:IACCMSWS_UpdateFiscalYear_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/UpdateFiscalYearResponse" message="tns:IACCMSWS_UpdateFiscalYear_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFiscalYear">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetFiscalYear" message="tns:IACCMSWS_GetFiscalYear_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetFiscalYearResponse" message="tns:IACCMSWS_GetFiscalYear_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetActiveFiscalYear">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetActiveFiscalYear" message="tns:IACCMSWS_GetActiveFiscalYear_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetActiveFiscalYearResponse" message="tns:IACCMSWS_GetActiveFiscalYear_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteLedgerTreeview">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/DeleteLedgerTreeview" message="tns:IACCMSWS_DeleteLedgerTreeview_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/DeleteLedgerTreeviewResponse" message="tns:IACCMSWS_DeleteLedgerTreeview_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGroupTreeview">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/DeleteGroupTreeview" message="tns:IACCMSWS_DeleteGroupTreeview_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/DeleteGroupTreeviewResponse" message="tns:IACCMSWS_DeleteGroupTreeview_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLedgerInformationGrid">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetLedgerInformationGrid" message="tns:IACCMSWS_GetLedgerInformationGrid_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetLedgerInformationGridResponse" message="tns:IACCMSWS_GetLedgerInformationGrid_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCollectionSummary">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetCollectionSummary" message="tns:IACCMSWS_GetCollectionSummary_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetCollectionSummaryResponse" message="tns:IACCMSWS_GetCollectionSummary_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBankReconPost">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetBankReconPost" message="tns:IACCMSWS_GetBankReconPost_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetBankReconPostResponse" message="tns:IACCMSWS_GetBankReconPost_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntegretedBr">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/InsertIntegretedBr" message="tns:IACCMSWS_InsertIntegretedBr_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/InsertIntegretedBrResponse" message="tns:IACCMSWS_InsertIntegretedBr_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDeptGroupDicByType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetDeptGroupDicByType" message="tns:IACCMSWS_GetDeptGroupDicByType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetDeptGroupDicByTypeResponse" message="tns:IACCMSWS_GetDeptGroupDicByType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDepartmentsetupDic">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetDepartmentsetupDic" message="tns:IACCMSWS_GetDepartmentsetupDic_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetDepartmentsetupDicResponse" message="tns:IACCMSWS_GetDepartmentsetupDic_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDeptUnitDic">
+      <wsdl:input wsaw:Action="http://tempuri.org/IACCMSWS/GetDeptUnitDic" message="tns:IACCMSWS_GetDeptUnitDic_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IACCMSWS/GetDeptUnitDicResponse" message="tns:IACCMSWS_GetDeptUnitDic_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IACCMSWS" type="tns:IACCMSWS">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SavePurposeSetup">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/SavePurposeSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePurpose">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/UpdatePurpose" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPurpose">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetPurpose" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyPurpose">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/VerifyPurpose" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCollectionDetails">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetCollectionDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetsSummary">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetsSummary" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveBranchSetup">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/SaveBranchSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBranch">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetBranch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGroups">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetGroups" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveGroupSetup">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/SaveGroupSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupsConfiguration">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetGroupsConfiguration" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupTreeview">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetGroupTreeview" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLegerTreeview">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetLegerTreeview" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLedgerUnder">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetLedgerUnder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveLedgerSetup">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/SaveLedgerSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDebitTotal">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetDebitTotal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCreditTotal">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetCreditTotal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLedgersNameDr">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetLedgersNameDr" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLedgersNameCr">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetLedgersNameCr" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckBankLedger">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/CheckBankLedger" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllLedgers">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetAllLedgers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVoucherNo">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetVoucherNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveVoucherSetup">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/SaveVoucherSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveVoucheChildrSetup">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/SaveVoucheChildrSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVoucherTransactionDetails">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetVoucherTransactionDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBranchSetup">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/UpdateBranchSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteBranch">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/DeleteBranch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGroupSetup">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/UpdateGroupSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGroupSetup">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/DeleteGroupSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLedgersDetails">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetLedgersDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteLedger">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/DeleteLedger" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDisplayLedgers">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetDisplayLedgers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateLedgerSetup">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/UpdateLedgerSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLedegrCode">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetLedegrCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLederName">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetLederName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteVoucher">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/DeleteVoucher" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveFixedAssetsSetup">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/SaveFixedAssetsSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFixedAssetsLedger">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetFixedAssetsLedger" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetdisplayvoucherDetails">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetdisplayvoucherDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLedgerReports">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetLedgerReports" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBranchConfig">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetBranchConfig" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTraiBalanceReports">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetTraiBalanceReports" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayTrailBalance">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/DisplayTrailBalance" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIndividualVoucherNo">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetIndividualVoucherNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIndividualVoucherReports">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetIndividualVoucherReports" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLedgerInformation">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetLedgerInformation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLedgerDetailsReport">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetLedgerDetailsReport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVoucherSearch">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetVoucherSearch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertLedgerOpening">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/InsertLedgerOpening" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateLedgerOpening">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/UpdateLedgerOpening" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLedgerOpn">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetLedgerOpn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLedgersNameDrNew">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetLedgersNameDrNew" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBraNewConfig">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetBraNewConfig" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayBalanceSheet">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/DisplayBalanceSheet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBalanceSheetReports">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetBalanceSheetReports" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIncomeExpensesReports">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetIncomeExpensesReports" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProfitLossReports">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetProfitLossReports" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadFixedAssetsLedger">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/LoadFixedAssetsLedger" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFixedAssetsSetup">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/UpdateFixedAssetsSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFixedAssetsSetup">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/DeleteFixedAssetsSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTreeview">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetTreeview" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetgroupDetails">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetgroupDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveCategorySetup">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/SaveCategorySetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCategorySetup">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/UpdateCategorySetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteCategorySetup">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/DeleteCategorySetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCostCategory">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetCostCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadCategory">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/LoadCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveRevenueHeadGr">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/SaveRevenueHeadGr" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateRevHdGr">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/UpdateRevHdGr" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveRevenueHead">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/SaveRevenueHead" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateRevHead">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/UpdateRevHead" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRevHdGrps">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetRevHdGrps" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyRevHdGr">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/VerifyRevHdGr" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRevenueHead">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetRevenueHead" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRevenueHeads">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetRevenueHeads" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyRevHead">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/VerifyRevHead" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveHeadAssign">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/SaveHeadAssign" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateHdAss">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/UpdateHdAss" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHeadAssign">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetHeadAssign" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRevenueGroup">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetRevenueGroup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLedgerCodeAllocation">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetLedgerCodeAllocation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCostCenterTransaction">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetCostCenterTransaction" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayCostcenterTransaction">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/DisplayCostcenterTransaction" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveCostCentertransaction">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/SaveCostCentertransaction" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCostCenterTran">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/UpdateCostCenterTran" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCostCategoryReport">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetCostCategoryReport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCashflowReport">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetCashflowReport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveTree">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/SaveTree" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCostcategoryTreeview">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetCostcategoryTreeview" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCostcenterTreeview">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetCostcenterTreeview" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCollectionHospital">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetCollectionHospital" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupTreeviewSelection">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetGroupTreeviewSelection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetArchieve">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetArchieve" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBankReconcilation">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetBankReconcilation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetParticulars">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetParticulars" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLedgerNameBank">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetLedgerNameBank" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveBankReconcilationSetup">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/SaveBankReconcilationSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBankReconcilationRpt">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetBankReconcilationRpt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLocation">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetLocation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Getsupplier">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/Getsupplier" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveAdjustment">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/SaveAdjustment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAdjustment">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/UpdateAdjustment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAdjustment">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/DeleteAdjustment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFixedAssetsAdjustment">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetFixedAssetsAdjustment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFixedAssetsRo">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetFixedAssetsRo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFxdDepreciationLedger">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetFxdDepreciationLedger" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSupplierLedger">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetSupplierLedger" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetManufacturerName">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetManufacturerName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFixedAssetsDetailsRo">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetFixedAssetsDetailsRo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveWrittenDownValue">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/SaveWrittenDownValue" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTraiBalanceReportsLedger">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetTraiBalanceReportsLedger" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCashOpening">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetCashOpening" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateScript">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/UpdateScript" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertFiscalYear">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/InsertFiscalYear" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFiscalYear">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/UpdateFiscalYear" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFiscalYear">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetFiscalYear" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetActiveFiscalYear">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetActiveFiscalYear" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteLedgerTreeview">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/DeleteLedgerTreeview" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGroupTreeview">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/DeleteGroupTreeview" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLedgerInformationGrid">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetLedgerInformationGrid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCollectionSummary">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetCollectionSummary" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBankReconPost">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetBankReconPost" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntegretedBr">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/InsertIntegretedBr" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeptGroupDicByType">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetDeptGroupDicByType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDepartmentsetupDic">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetDepartmentsetupDic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeptUnitDic">
+      <soap:operation soapAction="http://tempuri.org/IACCMSWS/GetDeptUnitDic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ACCMSWS">
+    <wsdl:port name="BasicHttpBinding_IACCMSWS" binding="tns:BasicHttpBinding_IACCMSWS">
+      <soap:address location="http://localhost:88/ACCMS/ACCMSService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

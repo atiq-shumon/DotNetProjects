@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="EntryParameter">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Active" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CompanyID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EntryBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EntryDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="EntryName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LocationID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MachineID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SysDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="UpdateBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UpdateByName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EntryParameter" nillable="true" type="tns:EntryParameter" />
+  <xs:complexType name="Department">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DepartmentCategory" nillable="true" type="tns:DepartmentCategory" />
+      <xs:element minOccurs="0" name="DepartmentGroup" nillable="true" type="tns:DepartmentGroup" />
+      <xs:element minOccurs="0" name="DepartmentID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepartmentTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepartmentTitleBeng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepartmentType" nillable="true" type="tns:DepartmentType" />
+      <xs:element minOccurs="0" name="DepartmentUnit" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepartmentUnitHead" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepartmentUnitHeadID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EntryParameter" nillable="true" type="tns:EntryParameter" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Serial" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Department" nillable="true" type="tns:Department" />
+  <xs:complexType name="DepartmentCategory">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DepartmentCategoryID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepartmentCategoryTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepartmentCategoryTitleBeng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepartmentType" nillable="true" type="tns:DepartmentType" />
+      <xs:element minOccurs="0" name="EntryParameter" nillable="true" type="tns:EntryParameter" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DepartmentCategory" nillable="true" type="tns:DepartmentCategory" />
+  <xs:complexType name="DepartmentType">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="TypeID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TypeTitle" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DepartmentType" nillable="true" type="tns:DepartmentType" />
+  <xs:complexType name="DepartmentGroup">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DepartmentCategory" nillable="true" type="tns:DepartmentCategory" />
+      <xs:element minOccurs="0" name="DepartmentGroupID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepartmentGroupTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepartmentGroupTitleBeng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepartmentType" nillable="true" type="tns:DepartmentType" />
+      <xs:element minOccurs="0" name="DepartmentTypeID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EntryParameter" nillable="true" type="tns:EntryParameter" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Serial" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DepartmentGroup" nillable="true" type="tns:DepartmentGroup" />
+</xs:schema>

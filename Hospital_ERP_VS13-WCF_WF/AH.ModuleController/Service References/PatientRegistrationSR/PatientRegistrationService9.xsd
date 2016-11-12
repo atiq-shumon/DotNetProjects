@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/AH.ORGMS.MODEL" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AH.ORGMS.MODEL" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfDistrictThana">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DistrictThana" nillable="true" type="tns:DistrictThana" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDistrictThana" nillable="true" type="tns:ArrayOfDistrictThana" />
+  <xs:complexType name="DistrictThana">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DistName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OldPostCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OldPostOfficeName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OldThanaName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PerThanaName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PostCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PostOfficeName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ThanaName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DistrictThana" nillable="true" type="tns:DistrictThana" />
+</xs:schema>

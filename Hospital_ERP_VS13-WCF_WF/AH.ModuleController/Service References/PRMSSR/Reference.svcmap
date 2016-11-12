@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d03d82a7-69b6-4f78-884a-f9d64649c761" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:85/PRMS/PRMSService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PRMSWS.wsdl" MetadataType="Wsdl" ID="ce9cfec3-8e66-4242-91b2-7a9997be21cb" SourceId="1" SourceUrl="http://localhost:85/PRMS/PRMSService.svc?wsdl" />
+    <MetadataFile FileName="PRMSService.xsd" MetadataType="Schema" ID="b47eda12-b6a2-4551-ab17-757358028627" SourceId="1" SourceUrl="http://localhost:85/PRMS/PRMSService.svc?xsd=xsd4" />
+    <MetadataFile FileName="PRMSService2.xsd" MetadataType="Schema" ID="843e7edd-3581-496a-8ec0-6033ac6bb412" SourceId="1" SourceUrl="http://localhost:85/PRMS/PRMSService.svc?xsd=xsd2" />
+    <MetadataFile FileName="PRMSService3.xsd" MetadataType="Schema" ID="bb8e35ad-239d-45dc-99d4-a67027fe192d" SourceId="1" SourceUrl="http://localhost:85/PRMS/PRMSService.svc?xsd=xsd3" />
+    <MetadataFile FileName="PRMSService4.xsd" MetadataType="Schema" ID="7dabb782-d624-4d7c-9904-b7ae833caa33" SourceId="1" SourceUrl="http://localhost:85/PRMS/PRMSService.svc?xsd=xsd0" />
+    <MetadataFile FileName="PRMSService5.xsd" MetadataType="Schema" ID="93b5b7df-3952-40f2-a0d6-10442a94f602" SourceId="1" SourceUrl="http://localhost:85/PRMS/PRMSService.svc?xsd=xsd1" />
+    <MetadataFile FileName="PRMSService.disco" MetadataType="Disco" ID="9eba1d0f-5dc3-4442-9102-5b2768df0b47" SourceId="1" SourceUrl="http://localhost:85/PRMS/PRMSService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

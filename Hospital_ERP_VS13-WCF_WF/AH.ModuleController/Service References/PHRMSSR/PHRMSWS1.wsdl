@@ -1,0 +1,2824 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="PHRMSWS" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/AH.DRUGS.MODEL" />
+      <xsd:import schemaLocation="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" />
+      <xsd:import schemaLocation="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/AH.PHRMS.MODEL" />
+      <xsd:import schemaLocation="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/AH.PRMS.MODEL" />
+      <xsd:import schemaLocation="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" />
+      <xsd:import schemaLocation="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc?xsd=xsd7" namespace="http://schemas.datacontract.org/2004/07/AH.INVMS.MODEL" />
+      <xsd:import schemaLocation="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc?xsd=xsd8" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc?xsd=xsd9" namespace="http://schemas.datacontract.org/2004/07/AH.HR.MODEL" />
+      <xsd:import schemaLocation="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc?xsd=xsd10" namespace="http://schemas.datacontract.org/2004/07/AH.IPDShared.MODEL" />
+      <xsd:import schemaLocation="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc?xsd=xsd11" namespace="http://schemas.datacontract.org/2004/07/AH.DUtility" />
+      <xsd:import schemaLocation="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc?xsd=xsd12" namespace="http://schemas.datacontract.org/2004/07/AH.OPD.MODEL" />
+      <xsd:import schemaLocation="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc?xsd=xsd13" namespace="http://schemas.datacontract.org/2004/07/AH.DTMS.MODEL" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IPHRMSWS_GetDrugRoute_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugRoute" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugRoute_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugRouteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveDrugRoute_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDrugRoute" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveDrugRoute_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDrugRouteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_ModifyDrugRoute_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModifyDrugRoute" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_ModifyDrugRoute_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModifyDrugRouteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_VarifyDuplicateBatch_InputMessage">
+    <wsdl:part name="parameters" element="tns:VarifyDuplicateBatch" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_VarifyDuplicateBatch_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VarifyDuplicateBatchResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_VarifyExpireDate_InputMessage">
+    <wsdl:part name="parameters" element="tns:VarifyExpireDate" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_VarifyExpireDate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VarifyExpireDateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveDemandRequisition_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDemandRequisition" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveDemandRequisition_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDemandRequisitionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveTransferRequisition_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveTransferRequisition" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveTransferRequisition_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveTransferRequisitionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetUserByID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserByID" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetUserByID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetTRID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTRID" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetTRID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTRIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetTRDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTRDetails" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetTRDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTRDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugDetailsBatch_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugDetailsBatch" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugDetailsBatch_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugDetailsBatchResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveTransferReceive_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveTransferReceive" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveTransferReceive_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveTransferReceiveResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetWarehouse_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWarehouse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetWarehouse_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWarehouseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetWarehouseTypewise_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWarehouseTypewise" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetWarehouseTypewise_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWarehouseTypewiseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugStockByPharmacy_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugStockByPharmacy" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugStockByPharmacy_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugStockByPharmacyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetTRDetSearch_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTRDetSearch" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetTRDetSearch_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTRDetSearchResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetWhTypeforCentral_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWhTypeforCentral" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetWhTypeforCentral_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWhTypeforCentralResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetSalRetReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSalRetReport" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetSalRetReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSalRetReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetSalRetReportDet_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSalRetReportDet" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetSalRetReportDet_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSalRetReportDetResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveDrugCompany_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDrugCompany" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveDrugCompany_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDrugCompanyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_UpdateDrugCompany_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDrugCompany" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_UpdateDrugCompany_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDrugCompanyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveDrugGroup_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDrugGroup" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveDrugGroup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDrugGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_UpdateGroup_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGroup" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_UpdateGroup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveDrugUnit_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDrugUnit" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveDrugUnit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDrugUnitResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_UpdateDrugUnit_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDrugUnit" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_UpdateDrugUnit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDrugUnitResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveDrugPackType_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDrugPackType" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveDrugPackType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDrugPackTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_UpdateDrugPackType_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDrugPackType" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_UpdateDrugPackType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDrugPackTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugCompany_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugCompany" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugCompany_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugCompanyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugGroup_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugGroup" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugGroup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugUnit_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugUnit" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugUnit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugUnitResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugPackType_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugPackType" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugPackType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugPackTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugCompDic_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugCompDic" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugCompDic_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugCompDicResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugGroupDic_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugGroupDic" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugGroupDic_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugGroupDicResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugUnitDic_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugUnitDic" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugUnitDic_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugUnitDicResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugPacketDic_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugPacketDic" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugPacketDic_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugPacketDicResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveDrugMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDrugMaster" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveDrugMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDrugMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_UpdateDrugMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDrugMaster" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_UpdateDrugMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDrugMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugMaster" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugMasterList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugMasterList" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugMasterList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugMasterListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SavePharmacyLocation_InputMessage">
+    <wsdl:part name="parameters" element="tns:SavePharmacyLocation" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SavePharmacyLocation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavePharmacyLocationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_UpdatePharmacyLocation_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePharmacyLocation" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_UpdatePharmacyLocation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePharmacyLocationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetBuildingDict_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBuildingDict" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetBuildingDict_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBuildingDictResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetNumbers_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNumbers" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetNumbers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNumbersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveSupplier_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveSupplier" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveSupplier_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveSupplierResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_UpdateSupplier_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateSupplier" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_UpdateSupplier_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateSupplierResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPharmacyLocation_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPharmacyLocation" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPharmacyLocation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPharmacyLocationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetSupplierList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSupplierList" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetSupplierList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSupplierListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetSupplierListed_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSupplierListed" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetSupplierListed_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSupplierListedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveConsumerPurpose_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveConsumerPurpose" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveConsumerPurpose_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveConsumerPurposeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_UpdateConsumerPurpose_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateConsumerPurpose" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_UpdateConsumerPurpose_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateConsumerPurposeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetConsumerPurpose_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetConsumerPurpose" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetConsumerPurpose_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetConsumerPurposeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPharmacyName_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPharmacyName" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPharmacyName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPharmacyNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SavePurchaseOrder_InputMessage">
+    <wsdl:part name="parameters" element="tns:SavePurchaseOrder" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SavePurchaseOrder_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavePurchaseOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveDrugDose_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDrugDose" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveDrugDose_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDrugDoseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_UpdateDrugDose_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDrugDose" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_UpdateDrugDose_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDrugDoseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugDose_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugDose" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugDose_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugDoseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveDrugIssue_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDrugIssue" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveDrugIssue_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDrugIssueResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetOpdDrugsTkt_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOpdDrugsTkt" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetOpdDrugsTkt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOpdDrugsTktResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_VerifyTicketNo_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyTicketNo" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_VerifyTicketNo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyTicketNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetTicket_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTicket" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetTicket_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTicketResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveItemRates_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveItemRates" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveItemRates_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveItemRatesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_UpdateItemRates_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateItemRates" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_UpdateItemRates_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateItemRatesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetItemRates_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetItemRates" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetItemRates_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetItemRatesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUser" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SavePharmacyUsers_InputMessage">
+    <wsdl:part name="parameters" element="tns:SavePharmacyUsers" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SavePharmacyUsers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavePharmacyUsersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetMedicineName_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMedicineName" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetMedicineName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMedicineNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugListStock_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugListStock" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugListStock_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugListStockResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugListByGroupName_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugListByGroupName" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugListByGroupName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugListByGroupNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugListByGroupNameForIPD_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugListByGroupNameForIPD" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugListByGroupNameForIPD_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugListByGroupNameForIPDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugStockByGroup_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugStockByGroup" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugStockByGroup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugStockByGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugsCompanyWise_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugsCompanyWise" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugsCompanyWise_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugsCompanyWiseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetSalesReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSalesReport" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetSalesReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSalesReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetSalesReportDet_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSalesReportDet" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetSalesReportDet_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSalesReportDetResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugsStock_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugsStock" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugsStock_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugsStockResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugStockList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugStockList" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugStockList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugStockListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveMaterialReceive_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveMaterialReceive" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveMaterialReceive_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveMaterialReceiveResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPONumbers_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPONumbers" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPONumbers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPONumbersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPODetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPODetails" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPODetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPODetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPOReportDet_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPOReportDet" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPOReportDet_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPOReportDetResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_VerifyPOID_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyPOID" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_VerifyPOID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyPOIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SavePOType_InputMessage">
+    <wsdl:part name="parameters" element="tns:SavePOType" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SavePOType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavePOTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPOTypes_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPOTypes" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPOTypes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPOTypesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_ModifyPOType_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModifyPOType" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_ModifyPOType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModifyPOTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetProductLedger_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetProductLedger" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetProductLedger_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetProductLedgerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_StartDayClose_InputMessage">
+    <wsdl:part name="parameters" element="tns:StartDayClose" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_StartDayClose_OutputMessage">
+    <wsdl:part name="parameters" element="tns:StartDayCloseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_VerifyDate_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyDate" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_VerifyDate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyDateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetOpeningEntry_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOpeningEntry" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetOpeningEntry_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOpeningEntryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetMRRNumber_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMRRNumber" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetMRRNumber_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMRRNumberResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_UpdateOpeningEntry_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateOpeningEntry" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_UpdateOpeningEntry_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateOpeningEntryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPOReportDateWise_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPOReportDateWise" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPOReportDateWise_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPOReportDateWiseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetMrrReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMrrReport" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetMrrReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMrrReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugStockListDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugStockListDetails" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugStockListDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugStockListDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_VerifyOpeningDrugID_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyOpeningDrugID" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_VerifyOpeningDrugID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyOpeningDrugIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetItemRatesReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetItemRatesReport" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetItemRatesReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetItemRatesReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetItemRatesHistReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetItemRatesHistReport" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetItemRatesHistReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetItemRatesHistReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetAdmittedPatient_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmittedPatient" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetAdmittedPatient_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmittedPatientResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_VerifyInPatient_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyInPatient" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_VerifyInPatient_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyInPatientResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetEmpMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmpMaster" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetEmpMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmpMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDepartments_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartments" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDepartments_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartmentsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetUnitDict_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUnitDict" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetUnitDict_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUnitDictResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SavePurchaseRequisition_InputMessage">
+    <wsdl:part name="parameters" element="tns:SavePurchaseRequisition" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SavePurchaseRequisition_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavePurchaseRequisitionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPRID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPRID" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPRID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPRIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPRDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPRDetails" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPRDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPRDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveIssueReturn_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveIssueReturn" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveIssueReturn_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveIssueReturnResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetIssueDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetIssueDetails" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetIssueDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetIssueDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SavePurchaseReturn_InputMessage">
+    <wsdl:part name="parameters" element="tns:SavePurchaseReturn" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SavePurchaseReturn_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavePurchaseReturnResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPOList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPOList" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPOList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPOListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPONum_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPONum" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPONum_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPONumResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetConsumption_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetConsumption" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetConsumption_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetConsumptionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveDrugConsumption_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDrugConsumption" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveDrugConsumption_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveDrugConsumptionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_ModifyDrugConsumption_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModifyDrugConsumption" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_ModifyDrugConsumption_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModifyDrugConsumptionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDeptUnitDic_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeptUnitDic" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDeptUnitDic_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeptUnitDicResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDepartmentsetupDic_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartmentsetupDic" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDepartmentsetupDic_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepartmentsetupDicResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetCostcategory_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCostcategory" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetCostcategory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCostcategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetCostcenter_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCostcenter" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetCostcenter_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCostcenterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDRID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDRID" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDRID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDRIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetReqDetForIPDIssue_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetReqDetForIPDIssue" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetReqDetForIPDIssue_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetReqDetForIPDIssueResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPatient_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatient" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPatient_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPatientDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientDetails" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPatientDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPatientDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetOpeningReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOpeningReport" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetOpeningReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOpeningReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugsByExpireDate_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugsByExpireDate" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugsByExpireDate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugsByExpireDateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugMasterListCompanyWise_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugMasterListCompanyWise" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugMasterListCompanyWise_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugMasterListCompanyWiseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugDoseListByDrugName_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugDoseListByDrugName" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugDoseListByDrugName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugDoseListByDrugNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugDoseListByGroupName_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugDoseListByGroupName" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugDoseListByGroupName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugDoseListByGroupNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveTermsandCondition_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveTermsandCondition" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_SaveTermsandCondition_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveTermsandConditionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetTermsandCondition_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTermsandCondition" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetTermsandCondition_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTermsandConditionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_ModifyTermsandCondition_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModifyTermsandCondition" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_ModifyTermsandCondition_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModifyTermsandConditionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPOTermsConditions_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPOTermsConditions" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPOTermsConditions_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPOTermsConditionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetIssueDetailsByRegID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetIssueDetailsByRegID" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetIssueDetailsByRegID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetIssueDetailsByRegIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugMasterByCompany_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugMasterByCompany" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugMasterByCompany_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugMasterByCompanyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetMrrReportByMrID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMrrReportByMrID" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetMrrReportByMrID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMrrReportByMrIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetMrrDetailsForPurchaseReturn_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMrrDetailsForPurchaseReturn" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetMrrDetailsForPurchaseReturn_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMrrDetailsForPurchaseReturnResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_VarifyDrugForReturn_InputMessage">
+    <wsdl:part name="parameters" element="tns:VarifyDrugForReturn" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_VarifyDrugForReturn_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VarifyDrugForReturnResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPRreport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPRreport" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPRreport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPRreportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPRDetSearch_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPRDetSearch" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPRDetSearch_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPRDetSearchResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPRSearchDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPRSearchDetails" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPRSearchDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPRSearchDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_VarifyPurchaseReqNo_InputMessage">
+    <wsdl:part name="parameters" element="tns:VarifyPurchaseReqNo" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_VarifyPurchaseReqNo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VarifyPurchaseReqNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetTicketFees_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTicketFees" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetTicketFees_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTicketFeesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_InsertUserCloseRegister_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertUserCloseRegister" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_InsertUserCloseRegister_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertUserCloseRegisterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetSupplierLedger_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSupplierLedger" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetSupplierLedger_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSupplierLedgerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugCompanyDictionary_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugCompanyDictionary" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugCompanyDictionary_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugCompanyDictionaryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugListCompanyWise_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugListCompanyWise" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetDrugListCompanyWise_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDrugListCompanyWiseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetRequisitionTrack_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequisitionTrack" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetRequisitionTrack_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequisitionTrackResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPOTracking_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPOTracking" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPOTracking_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPOTrackingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPOTrackingByPrId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPOTrackingByPrId" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetPOTrackingByPrId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPOTrackingByPrIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetMrrTracking_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMrrTracking" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetMrrTracking_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMrrTrackingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetMrrTrackingByPONo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMrrTrackingByPONo" />
+  </wsdl:message>
+  <wsdl:message name="IPHRMSWS_GetMrrTrackingByPONo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMrrTrackingByPONoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IPHRMSWS">
+    <wsdl:operation name="GetDrugRoute">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugRoute" message="tns:IPHRMSWS_GetDrugRoute_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugRouteResponse" message="tns:IPHRMSWS_GetDrugRoute_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveDrugRoute">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/SaveDrugRoute" message="tns:IPHRMSWS_SaveDrugRoute_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/SaveDrugRouteResponse" message="tns:IPHRMSWS_SaveDrugRoute_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModifyDrugRoute">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/ModifyDrugRoute" message="tns:IPHRMSWS_ModifyDrugRoute_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/ModifyDrugRouteResponse" message="tns:IPHRMSWS_ModifyDrugRoute_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VarifyDuplicateBatch">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/VarifyDuplicateBatch" message="tns:IPHRMSWS_VarifyDuplicateBatch_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/VarifyDuplicateBatchResponse" message="tns:IPHRMSWS_VarifyDuplicateBatch_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VarifyExpireDate">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/VarifyExpireDate" message="tns:IPHRMSWS_VarifyExpireDate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/VarifyExpireDateResponse" message="tns:IPHRMSWS_VarifyExpireDate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveDemandRequisition">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/SaveDemandRequisition" message="tns:IPHRMSWS_SaveDemandRequisition_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/SaveDemandRequisitionResponse" message="tns:IPHRMSWS_SaveDemandRequisition_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveTransferRequisition">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/SaveTransferRequisition" message="tns:IPHRMSWS_SaveTransferRequisition_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/SaveTransferRequisitionResponse" message="tns:IPHRMSWS_SaveTransferRequisition_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserByID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetUserByID" message="tns:IPHRMSWS_GetUserByID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetUserByIDResponse" message="tns:IPHRMSWS_GetUserByID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTRID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetTRID" message="tns:IPHRMSWS_GetTRID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetTRIDResponse" message="tns:IPHRMSWS_GetTRID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTRDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetTRDetails" message="tns:IPHRMSWS_GetTRDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetTRDetailsResponse" message="tns:IPHRMSWS_GetTRDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugDetailsBatch">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugDetailsBatch" message="tns:IPHRMSWS_GetDrugDetailsBatch_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugDetailsBatchResponse" message="tns:IPHRMSWS_GetDrugDetailsBatch_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveTransferReceive">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/SaveTransferReceive" message="tns:IPHRMSWS_SaveTransferReceive_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/SaveTransferReceiveResponse" message="tns:IPHRMSWS_SaveTransferReceive_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWarehouse">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetWarehouse" message="tns:IPHRMSWS_GetWarehouse_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetWarehouseResponse" message="tns:IPHRMSWS_GetWarehouse_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWarehouseTypewise">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetWarehouseTypewise" message="tns:IPHRMSWS_GetWarehouseTypewise_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetWarehouseTypewiseResponse" message="tns:IPHRMSWS_GetWarehouseTypewise_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugStockByPharmacy">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugStockByPharmacy" message="tns:IPHRMSWS_GetDrugStockByPharmacy_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugStockByPharmacyResponse" message="tns:IPHRMSWS_GetDrugStockByPharmacy_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTRDetSearch">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetTRDetSearch" message="tns:IPHRMSWS_GetTRDetSearch_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetTRDetSearchResponse" message="tns:IPHRMSWS_GetTRDetSearch_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWhTypeforCentral">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetWhTypeforCentral" message="tns:IPHRMSWS_GetWhTypeforCentral_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetWhTypeforCentralResponse" message="tns:IPHRMSWS_GetWhTypeforCentral_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSalRetReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetSalRetReport" message="tns:IPHRMSWS_GetSalRetReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetSalRetReportResponse" message="tns:IPHRMSWS_GetSalRetReport_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSalRetReportDet">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetSalRetReportDet" message="tns:IPHRMSWS_GetSalRetReportDet_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetSalRetReportDetResponse" message="tns:IPHRMSWS_GetSalRetReportDet_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveDrugCompany">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/SaveDrugCompany" message="tns:IPHRMSWS_SaveDrugCompany_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/SaveDrugCompanyResponse" message="tns:IPHRMSWS_SaveDrugCompany_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDrugCompany">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/UpdateDrugCompany" message="tns:IPHRMSWS_UpdateDrugCompany_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/UpdateDrugCompanyResponse" message="tns:IPHRMSWS_UpdateDrugCompany_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveDrugGroup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/SaveDrugGroup" message="tns:IPHRMSWS_SaveDrugGroup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/SaveDrugGroupResponse" message="tns:IPHRMSWS_SaveDrugGroup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGroup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/UpdateGroup" message="tns:IPHRMSWS_UpdateGroup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/UpdateGroupResponse" message="tns:IPHRMSWS_UpdateGroup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveDrugUnit">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/SaveDrugUnit" message="tns:IPHRMSWS_SaveDrugUnit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/SaveDrugUnitResponse" message="tns:IPHRMSWS_SaveDrugUnit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDrugUnit">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/UpdateDrugUnit" message="tns:IPHRMSWS_UpdateDrugUnit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/UpdateDrugUnitResponse" message="tns:IPHRMSWS_UpdateDrugUnit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveDrugPackType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/SaveDrugPackType" message="tns:IPHRMSWS_SaveDrugPackType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/SaveDrugPackTypeResponse" message="tns:IPHRMSWS_SaveDrugPackType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDrugPackType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/UpdateDrugPackType" message="tns:IPHRMSWS_UpdateDrugPackType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/UpdateDrugPackTypeResponse" message="tns:IPHRMSWS_UpdateDrugPackType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugCompany">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugCompany" message="tns:IPHRMSWS_GetDrugCompany_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugCompanyResponse" message="tns:IPHRMSWS_GetDrugCompany_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugGroup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugGroup" message="tns:IPHRMSWS_GetDrugGroup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugGroupResponse" message="tns:IPHRMSWS_GetDrugGroup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugUnit">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugUnit" message="tns:IPHRMSWS_GetDrugUnit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugUnitResponse" message="tns:IPHRMSWS_GetDrugUnit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugPackType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugPackType" message="tns:IPHRMSWS_GetDrugPackType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugPackTypeResponse" message="tns:IPHRMSWS_GetDrugPackType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugCompDic">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugCompDic" message="tns:IPHRMSWS_GetDrugCompDic_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugCompDicResponse" message="tns:IPHRMSWS_GetDrugCompDic_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugGroupDic">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugGroupDic" message="tns:IPHRMSWS_GetDrugGroupDic_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugGroupDicResponse" message="tns:IPHRMSWS_GetDrugGroupDic_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugUnitDic">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugUnitDic" message="tns:IPHRMSWS_GetDrugUnitDic_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugUnitDicResponse" message="tns:IPHRMSWS_GetDrugUnitDic_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugPacketDic">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugPacketDic" message="tns:IPHRMSWS_GetDrugPacketDic_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugPacketDicResponse" message="tns:IPHRMSWS_GetDrugPacketDic_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveDrugMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/SaveDrugMaster" message="tns:IPHRMSWS_SaveDrugMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/SaveDrugMasterResponse" message="tns:IPHRMSWS_SaveDrugMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDrugMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/UpdateDrugMaster" message="tns:IPHRMSWS_UpdateDrugMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/UpdateDrugMasterResponse" message="tns:IPHRMSWS_UpdateDrugMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugMaster" message="tns:IPHRMSWS_GetDrugMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugMasterResponse" message="tns:IPHRMSWS_GetDrugMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugMasterList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugMasterList" message="tns:IPHRMSWS_GetDrugMasterList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugMasterListResponse" message="tns:IPHRMSWS_GetDrugMasterList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SavePharmacyLocation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/SavePharmacyLocation" message="tns:IPHRMSWS_SavePharmacyLocation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/SavePharmacyLocationResponse" message="tns:IPHRMSWS_SavePharmacyLocation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePharmacyLocation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/UpdatePharmacyLocation" message="tns:IPHRMSWS_UpdatePharmacyLocation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/UpdatePharmacyLocationResponse" message="tns:IPHRMSWS_UpdatePharmacyLocation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBuildingDict">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetBuildingDict" message="tns:IPHRMSWS_GetBuildingDict_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetBuildingDictResponse" message="tns:IPHRMSWS_GetBuildingDict_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNumbers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetNumbers" message="tns:IPHRMSWS_GetNumbers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetNumbersResponse" message="tns:IPHRMSWS_GetNumbers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveSupplier">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/SaveSupplier" message="tns:IPHRMSWS_SaveSupplier_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/SaveSupplierResponse" message="tns:IPHRMSWS_SaveSupplier_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateSupplier">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/UpdateSupplier" message="tns:IPHRMSWS_UpdateSupplier_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/UpdateSupplierResponse" message="tns:IPHRMSWS_UpdateSupplier_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPharmacyLocation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetPharmacyLocation" message="tns:IPHRMSWS_GetPharmacyLocation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetPharmacyLocationResponse" message="tns:IPHRMSWS_GetPharmacyLocation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSupplierList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetSupplierList" message="tns:IPHRMSWS_GetSupplierList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetSupplierListResponse" message="tns:IPHRMSWS_GetSupplierList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSupplierListed">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetSupplierListed" message="tns:IPHRMSWS_GetSupplierListed_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetSupplierListedResponse" message="tns:IPHRMSWS_GetSupplierListed_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveConsumerPurpose">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/SaveConsumerPurpose" message="tns:IPHRMSWS_SaveConsumerPurpose_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/SaveConsumerPurposeResponse" message="tns:IPHRMSWS_SaveConsumerPurpose_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateConsumerPurpose">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/UpdateConsumerPurpose" message="tns:IPHRMSWS_UpdateConsumerPurpose_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/UpdateConsumerPurposeResponse" message="tns:IPHRMSWS_UpdateConsumerPurpose_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetConsumerPurpose">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetConsumerPurpose" message="tns:IPHRMSWS_GetConsumerPurpose_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetConsumerPurposeResponse" message="tns:IPHRMSWS_GetConsumerPurpose_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPharmacyName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetPharmacyName" message="tns:IPHRMSWS_GetPharmacyName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetPharmacyNameResponse" message="tns:IPHRMSWS_GetPharmacyName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SavePurchaseOrder">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/SavePurchaseOrder" message="tns:IPHRMSWS_SavePurchaseOrder_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/SavePurchaseOrderResponse" message="tns:IPHRMSWS_SavePurchaseOrder_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveDrugDose">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/SaveDrugDose" message="tns:IPHRMSWS_SaveDrugDose_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/SaveDrugDoseResponse" message="tns:IPHRMSWS_SaveDrugDose_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDrugDose">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/UpdateDrugDose" message="tns:IPHRMSWS_UpdateDrugDose_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/UpdateDrugDoseResponse" message="tns:IPHRMSWS_UpdateDrugDose_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugDose">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugDose" message="tns:IPHRMSWS_GetDrugDose_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugDoseResponse" message="tns:IPHRMSWS_GetDrugDose_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveDrugIssue">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/SaveDrugIssue" message="tns:IPHRMSWS_SaveDrugIssue_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/SaveDrugIssueResponse" message="tns:IPHRMSWS_SaveDrugIssue_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOpdDrugsTkt">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetOpdDrugsTkt" message="tns:IPHRMSWS_GetOpdDrugsTkt_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetOpdDrugsTktResponse" message="tns:IPHRMSWS_GetOpdDrugsTkt_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyTicketNo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/VerifyTicketNo" message="tns:IPHRMSWS_VerifyTicketNo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/VerifyTicketNoResponse" message="tns:IPHRMSWS_VerifyTicketNo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTicket">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetTicket" message="tns:IPHRMSWS_GetTicket_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetTicketResponse" message="tns:IPHRMSWS_GetTicket_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveItemRates">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/SaveItemRates" message="tns:IPHRMSWS_SaveItemRates_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/SaveItemRatesResponse" message="tns:IPHRMSWS_SaveItemRates_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateItemRates">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/UpdateItemRates" message="tns:IPHRMSWS_UpdateItemRates_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/UpdateItemRatesResponse" message="tns:IPHRMSWS_UpdateItemRates_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetItemRates">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetItemRates" message="tns:IPHRMSWS_GetItemRates_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetItemRatesResponse" message="tns:IPHRMSWS_GetItemRates_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetUser" message="tns:IPHRMSWS_GetUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetUserResponse" message="tns:IPHRMSWS_GetUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SavePharmacyUsers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/SavePharmacyUsers" message="tns:IPHRMSWS_SavePharmacyUsers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/SavePharmacyUsersResponse" message="tns:IPHRMSWS_SavePharmacyUsers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMedicineName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetMedicineName" message="tns:IPHRMSWS_GetMedicineName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetMedicineNameResponse" message="tns:IPHRMSWS_GetMedicineName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugListStock">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugListStock" message="tns:IPHRMSWS_GetDrugListStock_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugListStockResponse" message="tns:IPHRMSWS_GetDrugListStock_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugListByGroupName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugListByGroupName" message="tns:IPHRMSWS_GetDrugListByGroupName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugListByGroupNameResponse" message="tns:IPHRMSWS_GetDrugListByGroupName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugListByGroupNameForIPD">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugListByGroupNameForIPD" message="tns:IPHRMSWS_GetDrugListByGroupNameForIPD_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugListByGroupNameForIPDResponse" message="tns:IPHRMSWS_GetDrugListByGroupNameForIPD_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugStockByGroup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugStockByGroup" message="tns:IPHRMSWS_GetDrugStockByGroup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugStockByGroupResponse" message="tns:IPHRMSWS_GetDrugStockByGroup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugsCompanyWise">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugsCompanyWise" message="tns:IPHRMSWS_GetDrugsCompanyWise_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugsCompanyWiseResponse" message="tns:IPHRMSWS_GetDrugsCompanyWise_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSalesReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetSalesReport" message="tns:IPHRMSWS_GetSalesReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetSalesReportResponse" message="tns:IPHRMSWS_GetSalesReport_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSalesReportDet">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetSalesReportDet" message="tns:IPHRMSWS_GetSalesReportDet_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetSalesReportDetResponse" message="tns:IPHRMSWS_GetSalesReportDet_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugsStock">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugsStock" message="tns:IPHRMSWS_GetDrugsStock_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugsStockResponse" message="tns:IPHRMSWS_GetDrugsStock_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugStockList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugStockList" message="tns:IPHRMSWS_GetDrugStockList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugStockListResponse" message="tns:IPHRMSWS_GetDrugStockList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveMaterialReceive">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/SaveMaterialReceive" message="tns:IPHRMSWS_SaveMaterialReceive_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/SaveMaterialReceiveResponse" message="tns:IPHRMSWS_SaveMaterialReceive_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPONumbers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetPONumbers" message="tns:IPHRMSWS_GetPONumbers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetPONumbersResponse" message="tns:IPHRMSWS_GetPONumbers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPODetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetPODetails" message="tns:IPHRMSWS_GetPODetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetPODetailsResponse" message="tns:IPHRMSWS_GetPODetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPOReportDet">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetPOReportDet" message="tns:IPHRMSWS_GetPOReportDet_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetPOReportDetResponse" message="tns:IPHRMSWS_GetPOReportDet_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyPOID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/VerifyPOID" message="tns:IPHRMSWS_VerifyPOID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/VerifyPOIDResponse" message="tns:IPHRMSWS_VerifyPOID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SavePOType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/SavePOType" message="tns:IPHRMSWS_SavePOType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/SavePOTypeResponse" message="tns:IPHRMSWS_SavePOType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPOTypes">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetPOTypes" message="tns:IPHRMSWS_GetPOTypes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetPOTypesResponse" message="tns:IPHRMSWS_GetPOTypes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModifyPOType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/ModifyPOType" message="tns:IPHRMSWS_ModifyPOType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/ModifyPOTypeResponse" message="tns:IPHRMSWS_ModifyPOType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProductLedger">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetProductLedger" message="tns:IPHRMSWS_GetProductLedger_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetProductLedgerResponse" message="tns:IPHRMSWS_GetProductLedger_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="StartDayClose">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/StartDayClose" message="tns:IPHRMSWS_StartDayClose_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/StartDayCloseResponse" message="tns:IPHRMSWS_StartDayClose_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyDate">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/VerifyDate" message="tns:IPHRMSWS_VerifyDate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/VerifyDateResponse" message="tns:IPHRMSWS_VerifyDate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOpeningEntry">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetOpeningEntry" message="tns:IPHRMSWS_GetOpeningEntry_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetOpeningEntryResponse" message="tns:IPHRMSWS_GetOpeningEntry_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMRRNumber">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetMRRNumber" message="tns:IPHRMSWS_GetMRRNumber_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetMRRNumberResponse" message="tns:IPHRMSWS_GetMRRNumber_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOpeningEntry">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/UpdateOpeningEntry" message="tns:IPHRMSWS_UpdateOpeningEntry_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/UpdateOpeningEntryResponse" message="tns:IPHRMSWS_UpdateOpeningEntry_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPOReportDateWise">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetPOReportDateWise" message="tns:IPHRMSWS_GetPOReportDateWise_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetPOReportDateWiseResponse" message="tns:IPHRMSWS_GetPOReportDateWise_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMrrReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetMrrReport" message="tns:IPHRMSWS_GetMrrReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetMrrReportResponse" message="tns:IPHRMSWS_GetMrrReport_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugStockListDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugStockListDetails" message="tns:IPHRMSWS_GetDrugStockListDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugStockListDetailsResponse" message="tns:IPHRMSWS_GetDrugStockListDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyOpeningDrugID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/VerifyOpeningDrugID" message="tns:IPHRMSWS_VerifyOpeningDrugID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/VerifyOpeningDrugIDResponse" message="tns:IPHRMSWS_VerifyOpeningDrugID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetItemRatesReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetItemRatesReport" message="tns:IPHRMSWS_GetItemRatesReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetItemRatesReportResponse" message="tns:IPHRMSWS_GetItemRatesReport_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetItemRatesHistReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetItemRatesHistReport" message="tns:IPHRMSWS_GetItemRatesHistReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetItemRatesHistReportResponse" message="tns:IPHRMSWS_GetItemRatesHistReport_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmittedPatient">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetAdmittedPatient" message="tns:IPHRMSWS_GetAdmittedPatient_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetAdmittedPatientResponse" message="tns:IPHRMSWS_GetAdmittedPatient_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyInPatient">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/VerifyInPatient" message="tns:IPHRMSWS_VerifyInPatient_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/VerifyInPatientResponse" message="tns:IPHRMSWS_VerifyInPatient_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmpMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetEmpMaster" message="tns:IPHRMSWS_GetEmpMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetEmpMasterResponse" message="tns:IPHRMSWS_GetEmpMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDepartments">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDepartments" message="tns:IPHRMSWS_GetDepartments_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDepartmentsResponse" message="tns:IPHRMSWS_GetDepartments_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUnitDict">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetUnitDict" message="tns:IPHRMSWS_GetUnitDict_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetUnitDictResponse" message="tns:IPHRMSWS_GetUnitDict_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SavePurchaseRequisition">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/SavePurchaseRequisition" message="tns:IPHRMSWS_SavePurchaseRequisition_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/SavePurchaseRequisitionResponse" message="tns:IPHRMSWS_SavePurchaseRequisition_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPRID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetPRID" message="tns:IPHRMSWS_GetPRID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetPRIDResponse" message="tns:IPHRMSWS_GetPRID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPRDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetPRDetails" message="tns:IPHRMSWS_GetPRDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetPRDetailsResponse" message="tns:IPHRMSWS_GetPRDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveIssueReturn">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/SaveIssueReturn" message="tns:IPHRMSWS_SaveIssueReturn_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/SaveIssueReturnResponse" message="tns:IPHRMSWS_SaveIssueReturn_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIssueDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetIssueDetails" message="tns:IPHRMSWS_GetIssueDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetIssueDetailsResponse" message="tns:IPHRMSWS_GetIssueDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SavePurchaseReturn">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/SavePurchaseReturn" message="tns:IPHRMSWS_SavePurchaseReturn_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/SavePurchaseReturnResponse" message="tns:IPHRMSWS_SavePurchaseReturn_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPOList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetPOList" message="tns:IPHRMSWS_GetPOList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetPOListResponse" message="tns:IPHRMSWS_GetPOList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPONum">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetPONum" message="tns:IPHRMSWS_GetPONum_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetPONumResponse" message="tns:IPHRMSWS_GetPONum_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetConsumption">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetConsumption" message="tns:IPHRMSWS_GetConsumption_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetConsumptionResponse" message="tns:IPHRMSWS_GetConsumption_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveDrugConsumption">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/SaveDrugConsumption" message="tns:IPHRMSWS_SaveDrugConsumption_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/SaveDrugConsumptionResponse" message="tns:IPHRMSWS_SaveDrugConsumption_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModifyDrugConsumption">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/ModifyDrugConsumption" message="tns:IPHRMSWS_ModifyDrugConsumption_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/ModifyDrugConsumptionResponse" message="tns:IPHRMSWS_ModifyDrugConsumption_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDeptUnitDic">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDeptUnitDic" message="tns:IPHRMSWS_GetDeptUnitDic_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDeptUnitDicResponse" message="tns:IPHRMSWS_GetDeptUnitDic_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDepartmentsetupDic">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDepartmentsetupDic" message="tns:IPHRMSWS_GetDepartmentsetupDic_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDepartmentsetupDicResponse" message="tns:IPHRMSWS_GetDepartmentsetupDic_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCostcategory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetCostcategory" message="tns:IPHRMSWS_GetCostcategory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetCostcategoryResponse" message="tns:IPHRMSWS_GetCostcategory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCostcenter">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetCostcenter" message="tns:IPHRMSWS_GetCostcenter_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetCostcenterResponse" message="tns:IPHRMSWS_GetCostcenter_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDRID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDRID" message="tns:IPHRMSWS_GetDRID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDRIDResponse" message="tns:IPHRMSWS_GetDRID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReqDetForIPDIssue">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetReqDetForIPDIssue" message="tns:IPHRMSWS_GetReqDetForIPDIssue_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetReqDetForIPDIssueResponse" message="tns:IPHRMSWS_GetReqDetForIPDIssue_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatient">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetPatient" message="tns:IPHRMSWS_GetPatient_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetPatientResponse" message="tns:IPHRMSWS_GetPatient_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetPatientDetails" message="tns:IPHRMSWS_GetPatientDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetPatientDetailsResponse" message="tns:IPHRMSWS_GetPatientDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOpeningReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetOpeningReport" message="tns:IPHRMSWS_GetOpeningReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetOpeningReportResponse" message="tns:IPHRMSWS_GetOpeningReport_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugsByExpireDate">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugsByExpireDate" message="tns:IPHRMSWS_GetDrugsByExpireDate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugsByExpireDateResponse" message="tns:IPHRMSWS_GetDrugsByExpireDate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugMasterListCompanyWise">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugMasterListCompanyWise" message="tns:IPHRMSWS_GetDrugMasterListCompanyWise_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugMasterListCompanyWiseResponse" message="tns:IPHRMSWS_GetDrugMasterListCompanyWise_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugDoseListByDrugName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugDoseListByDrugName" message="tns:IPHRMSWS_GetDrugDoseListByDrugName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugDoseListByDrugNameResponse" message="tns:IPHRMSWS_GetDrugDoseListByDrugName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugDoseListByGroupName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugDoseListByGroupName" message="tns:IPHRMSWS_GetDrugDoseListByGroupName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugDoseListByGroupNameResponse" message="tns:IPHRMSWS_GetDrugDoseListByGroupName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveTermsandCondition">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/SaveTermsandCondition" message="tns:IPHRMSWS_SaveTermsandCondition_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/SaveTermsandConditionResponse" message="tns:IPHRMSWS_SaveTermsandCondition_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTermsandCondition">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetTermsandCondition" message="tns:IPHRMSWS_GetTermsandCondition_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetTermsandConditionResponse" message="tns:IPHRMSWS_GetTermsandCondition_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModifyTermsandCondition">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/ModifyTermsandCondition" message="tns:IPHRMSWS_ModifyTermsandCondition_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/ModifyTermsandConditionResponse" message="tns:IPHRMSWS_ModifyTermsandCondition_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPOTermsConditions">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetPOTermsConditions" message="tns:IPHRMSWS_GetPOTermsConditions_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetPOTermsConditionsResponse" message="tns:IPHRMSWS_GetPOTermsConditions_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIssueDetailsByRegID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetIssueDetailsByRegID" message="tns:IPHRMSWS_GetIssueDetailsByRegID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetIssueDetailsByRegIDResponse" message="tns:IPHRMSWS_GetIssueDetailsByRegID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugMasterByCompany">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugMasterByCompany" message="tns:IPHRMSWS_GetDrugMasterByCompany_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugMasterByCompanyResponse" message="tns:IPHRMSWS_GetDrugMasterByCompany_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMrrReportByMrID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetMrrReportByMrID" message="tns:IPHRMSWS_GetMrrReportByMrID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetMrrReportByMrIDResponse" message="tns:IPHRMSWS_GetMrrReportByMrID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMrrDetailsForPurchaseReturn">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetMrrDetailsForPurchaseReturn" message="tns:IPHRMSWS_GetMrrDetailsForPurchaseReturn_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetMrrDetailsForPurchaseReturnResponse" message="tns:IPHRMSWS_GetMrrDetailsForPurchaseReturn_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VarifyDrugForReturn">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/VarifyDrugForReturn" message="tns:IPHRMSWS_VarifyDrugForReturn_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/VarifyDrugForReturnResponse" message="tns:IPHRMSWS_VarifyDrugForReturn_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPRreport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetPRreport" message="tns:IPHRMSWS_GetPRreport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetPRreportResponse" message="tns:IPHRMSWS_GetPRreport_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPRDetSearch">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetPRDetSearch" message="tns:IPHRMSWS_GetPRDetSearch_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetPRDetSearchResponse" message="tns:IPHRMSWS_GetPRDetSearch_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPRSearchDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetPRSearchDetails" message="tns:IPHRMSWS_GetPRSearchDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetPRSearchDetailsResponse" message="tns:IPHRMSWS_GetPRSearchDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VarifyPurchaseReqNo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/VarifyPurchaseReqNo" message="tns:IPHRMSWS_VarifyPurchaseReqNo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/VarifyPurchaseReqNoResponse" message="tns:IPHRMSWS_VarifyPurchaseReqNo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTicketFees">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetTicketFees" message="tns:IPHRMSWS_GetTicketFees_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetTicketFeesResponse" message="tns:IPHRMSWS_GetTicketFees_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertUserCloseRegister">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/InsertUserCloseRegister" message="tns:IPHRMSWS_InsertUserCloseRegister_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/InsertUserCloseRegisterResponse" message="tns:IPHRMSWS_InsertUserCloseRegister_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSupplierLedger">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetSupplierLedger" message="tns:IPHRMSWS_GetSupplierLedger_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetSupplierLedgerResponse" message="tns:IPHRMSWS_GetSupplierLedger_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugCompanyDictionary">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugCompanyDictionary" message="tns:IPHRMSWS_GetDrugCompanyDictionary_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugCompanyDictionaryResponse" message="tns:IPHRMSWS_GetDrugCompanyDictionary_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugListCompanyWise">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugListCompanyWise" message="tns:IPHRMSWS_GetDrugListCompanyWise_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetDrugListCompanyWiseResponse" message="tns:IPHRMSWS_GetDrugListCompanyWise_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRequisitionTrack">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetRequisitionTrack" message="tns:IPHRMSWS_GetRequisitionTrack_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetRequisitionTrackResponse" message="tns:IPHRMSWS_GetRequisitionTrack_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPOTracking">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetPOTracking" message="tns:IPHRMSWS_GetPOTracking_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetPOTrackingResponse" message="tns:IPHRMSWS_GetPOTracking_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPOTrackingByPrId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetPOTrackingByPrId" message="tns:IPHRMSWS_GetPOTrackingByPrId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetPOTrackingByPrIdResponse" message="tns:IPHRMSWS_GetPOTrackingByPrId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMrrTracking">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetMrrTracking" message="tns:IPHRMSWS_GetMrrTracking_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetMrrTrackingResponse" message="tns:IPHRMSWS_GetMrrTracking_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMrrTrackingByPONo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPHRMSWS/GetMrrTrackingByPONo" message="tns:IPHRMSWS_GetMrrTrackingByPONo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPHRMSWS/GetMrrTrackingByPONoResponse" message="tns:IPHRMSWS_GetMrrTrackingByPONo_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IPHRMSWS" type="tns:IPHRMSWS">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetDrugRoute">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDrugRoute" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveDrugRoute">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/SaveDrugRoute" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModifyDrugRoute">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/ModifyDrugRoute" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VarifyDuplicateBatch">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/VarifyDuplicateBatch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VarifyExpireDate">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/VarifyExpireDate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveDemandRequisition">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/SaveDemandRequisition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveTransferRequisition">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/SaveTransferRequisition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserByID">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetUserByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTRID">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetTRID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTRDetails">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetTRDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugDetailsBatch">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDrugDetailsBatch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveTransferReceive">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/SaveTransferReceive" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWarehouse">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetWarehouse" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWarehouseTypewise">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetWarehouseTypewise" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugStockByPharmacy">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDrugStockByPharmacy" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTRDetSearch">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetTRDetSearch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWhTypeforCentral">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetWhTypeforCentral" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSalRetReport">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetSalRetReport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSalRetReportDet">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetSalRetReportDet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveDrugCompany">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/SaveDrugCompany" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDrugCompany">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/UpdateDrugCompany" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveDrugGroup">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/SaveDrugGroup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGroup">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/UpdateGroup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveDrugUnit">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/SaveDrugUnit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDrugUnit">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/UpdateDrugUnit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveDrugPackType">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/SaveDrugPackType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDrugPackType">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/UpdateDrugPackType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugCompany">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDrugCompany" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugGroup">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDrugGroup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugUnit">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDrugUnit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugPackType">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDrugPackType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugCompDic">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDrugCompDic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugGroupDic">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDrugGroupDic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugUnitDic">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDrugUnitDic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugPacketDic">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDrugPacketDic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveDrugMaster">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/SaveDrugMaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDrugMaster">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/UpdateDrugMaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugMaster">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDrugMaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugMasterList">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDrugMasterList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SavePharmacyLocation">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/SavePharmacyLocation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePharmacyLocation">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/UpdatePharmacyLocation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBuildingDict">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetBuildingDict" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNumbers">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetNumbers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveSupplier">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/SaveSupplier" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateSupplier">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/UpdateSupplier" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPharmacyLocation">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetPharmacyLocation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSupplierList">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetSupplierList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSupplierListed">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetSupplierListed" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveConsumerPurpose">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/SaveConsumerPurpose" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateConsumerPurpose">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/UpdateConsumerPurpose" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetConsumerPurpose">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetConsumerPurpose" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPharmacyName">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetPharmacyName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SavePurchaseOrder">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/SavePurchaseOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveDrugDose">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/SaveDrugDose" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDrugDose">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/UpdateDrugDose" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugDose">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDrugDose" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveDrugIssue">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/SaveDrugIssue" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOpdDrugsTkt">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetOpdDrugsTkt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyTicketNo">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/VerifyTicketNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTicket">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetTicket" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveItemRates">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/SaveItemRates" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateItemRates">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/UpdateItemRates" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemRates">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetItemRates" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUser">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SavePharmacyUsers">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/SavePharmacyUsers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMedicineName">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetMedicineName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugListStock">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDrugListStock" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugListByGroupName">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDrugListByGroupName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugListByGroupNameForIPD">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDrugListByGroupNameForIPD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugStockByGroup">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDrugStockByGroup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugsCompanyWise">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDrugsCompanyWise" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSalesReport">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetSalesReport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSalesReportDet">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetSalesReportDet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugsStock">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDrugsStock" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugStockList">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDrugStockList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveMaterialReceive">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/SaveMaterialReceive" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPONumbers">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetPONumbers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPODetails">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetPODetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPOReportDet">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetPOReportDet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyPOID">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/VerifyPOID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SavePOType">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/SavePOType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPOTypes">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetPOTypes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModifyPOType">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/ModifyPOType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductLedger">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetProductLedger" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StartDayClose">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/StartDayClose" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyDate">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/VerifyDate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOpeningEntry">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetOpeningEntry" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMRRNumber">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetMRRNumber" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOpeningEntry">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/UpdateOpeningEntry" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPOReportDateWise">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetPOReportDateWise" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMrrReport">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetMrrReport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugStockListDetails">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDrugStockListDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyOpeningDrugID">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/VerifyOpeningDrugID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemRatesReport">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetItemRatesReport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemRatesHistReport">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetItemRatesHistReport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmittedPatient">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetAdmittedPatient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyInPatient">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/VerifyInPatient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmpMaster">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetEmpMaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDepartments">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDepartments" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUnitDict">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetUnitDict" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SavePurchaseRequisition">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/SavePurchaseRequisition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPRID">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetPRID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPRDetails">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetPRDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveIssueReturn">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/SaveIssueReturn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIssueDetails">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetIssueDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SavePurchaseReturn">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/SavePurchaseReturn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPOList">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetPOList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPONum">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetPONum" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetConsumption">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetConsumption" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveDrugConsumption">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/SaveDrugConsumption" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModifyDrugConsumption">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/ModifyDrugConsumption" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeptUnitDic">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDeptUnitDic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDepartmentsetupDic">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDepartmentsetupDic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCostcategory">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetCostcategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCostcenter">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetCostcenter" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDRID">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDRID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReqDetForIPDIssue">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetReqDetForIPDIssue" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatient">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetPatient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDetails">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetPatientDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOpeningReport">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetOpeningReport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugsByExpireDate">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDrugsByExpireDate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugMasterListCompanyWise">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDrugMasterListCompanyWise" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugDoseListByDrugName">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDrugDoseListByDrugName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugDoseListByGroupName">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDrugDoseListByGroupName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveTermsandCondition">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/SaveTermsandCondition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTermsandCondition">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetTermsandCondition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModifyTermsandCondition">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/ModifyTermsandCondition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPOTermsConditions">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetPOTermsConditions" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIssueDetailsByRegID">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetIssueDetailsByRegID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugMasterByCompany">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDrugMasterByCompany" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMrrReportByMrID">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetMrrReportByMrID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMrrDetailsForPurchaseReturn">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetMrrDetailsForPurchaseReturn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VarifyDrugForReturn">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/VarifyDrugForReturn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPRreport">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetPRreport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPRDetSearch">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetPRDetSearch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPRSearchDetails">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetPRSearchDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VarifyPurchaseReqNo">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/VarifyPurchaseReqNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTicketFees">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetTicketFees" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUserCloseRegister">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/InsertUserCloseRegister" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSupplierLedger">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetSupplierLedger" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugCompanyDictionary">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDrugCompanyDictionary" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDrugListCompanyWise">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetDrugListCompanyWise" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRequisitionTrack">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetRequisitionTrack" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPOTracking">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetPOTracking" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPOTrackingByPrId">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetPOTrackingByPrId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMrrTracking">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetMrrTracking" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMrrTrackingByPONo">
+      <soap:operation soapAction="http://tempuri.org/IPHRMSWS/GetMrrTrackingByPONo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PHRMSWS">
+    <wsdl:port name="BasicHttpBinding_IPHRMSWS" binding="tns:BasicHttpBinding_IPHRMSWS">
+      <soap:address location="http://it-atik.citygroupbd.com:91/PHRMS/PHRMSService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

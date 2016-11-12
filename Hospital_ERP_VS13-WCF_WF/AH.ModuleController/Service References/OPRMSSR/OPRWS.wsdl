@@ -1,0 +1,1908 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="OPRWS" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:52/OPR/OPRService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:52/OPR/OPRService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:52/OPR/OPRService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/AH.OPRMS.MODEL" />
+      <xsd:import schemaLocation="http://localhost:52/OPR/OPRService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" />
+      <xsd:import schemaLocation="http://localhost:52/OPR/OPRService.svc?xsd=xsd4" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost:52/OPR/OPRService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/AH.IPDShared.MODEL" />
+      <xsd:import schemaLocation="http://localhost:52/OPR/OPRService.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/AH.DUtility" />
+      <xsd:import schemaLocation="http://localhost:52/OPR/OPRService.svc?xsd=xsd7" namespace="http://schemas.datacontract.org/2004/07/AH.PRMS.MODEL" />
+      <xsd:import schemaLocation="http://localhost:52/OPR/OPRService.svc?xsd=xsd8" namespace="http://schemas.datacontract.org/2004/07/AH.HR.MODEL" />
+      <xsd:import schemaLocation="http://localhost:52/OPR/OPRService.svc?xsd=xsd9" namespace="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IOPRWS_SaveGradeSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveGradeSetup" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SaveGradeSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveGradeSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetGrade_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGrade" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetGrade_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGradeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_UpdateGradeSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGradeSetup" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_UpdateGradeSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGradeSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DeleteGrade_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGrade" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DeleteGrade_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGradeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SavetheaterSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:SavetheaterSetup" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SavetheaterSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavetheaterSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_UpdatetheaterSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatetheaterSetup" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_UpdatetheaterSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatetheaterSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_Deletetheater_InputMessage">
+    <wsdl:part name="parameters" element="tns:Deletetheater" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_Deletetheater_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeletetheaterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetTheater_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTheater" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetTheater_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTheaterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SaveAnesSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveAnesSetup" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SaveAnesSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveAnesSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_UpdateAnesSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAnesSetup" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_UpdateAnesSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAnesSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DeleteAnesGroup_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteAnesGroup" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DeleteAnesGroup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteAnesGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetTAnesthesia_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTAnesthesia" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetTAnesthesia_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTAnesthesiaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetAnesthesiaGroups_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAnesthesiaGroups" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetAnesthesiaGroups_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAnesthesiaGroupsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SaveAnesSetupMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveAnesSetupMaster" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SaveAnesSetupMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveAnesSetupMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_UpdateAnesSetupMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAnesSetupMaster" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_UpdateAnesSetupMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAnesSetupMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetAnesthesiaMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAnesthesiaMaster" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetAnesthesiaMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAnesthesiaMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DeleteAnesMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteAnesMaster" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DeleteAnesMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteAnesMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetOperationType_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOperationType" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetOperationType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOperationTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_LoadGrade_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadGrade" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_LoadGrade_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadGradeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_LoadAnesthesiaID_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadAnesthesiaID" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_LoadAnesthesiaID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadAnesthesiaIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SaveOperationSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveOperationSetup" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SaveOperationSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveOperationSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_UpdateOperationSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateOperationSetup" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_UpdateOperationSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateOperationSetupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_LoadOperationMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadOperationMaster" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_LoadOperationMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadOperationMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetDepID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepID" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetDepID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetTheaterBed_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTheaterBed" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetTheaterBed_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTheaterBedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetRegID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRegID" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetRegID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRegIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetRoomIdFromTheater_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRoomIdFromTheater" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetRoomIdFromTheater_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRoomIdFromTheaterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetDoctorsCategory_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDoctorsCategory" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetDoctorsCategory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDoctorsCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SavedDoctotsCategory_InputMessage">
+    <wsdl:part name="parameters" element="tns:SavedDoctotsCategory" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SavedDoctotsCategory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavedDoctotsCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SavedDoctotsCategoryMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:SavedDoctotsCategoryMaster" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SavedDoctotsCategoryMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavedDoctotsCategoryMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DisplayDoctorsCategory_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayDoctorsCategory" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DisplayDoctorsCategory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayDoctorsCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetDoctorsAssign_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDoctorsAssign" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetDoctorsAssign_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDoctorsAssignResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SavedPackagedItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:SavedPackagedItem" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SavedPackagedItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavedPackagedItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_UpdatePackagedItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePackagedItem" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_UpdatePackagedItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePackagedItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetPackageItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPackageItem" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetPackageItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPackageItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SavedPackageMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:SavedPackageMaster" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SavedPackageMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavedPackageMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SavedPackageChild_InputMessage">
+    <wsdl:part name="parameters" element="tns:SavedPackageChild" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SavedPackageChild_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavedPackageChildResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetPackage_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPackage" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetPackage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPackageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DisplayPackage_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayPackage" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DisplayPackage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayPackageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_UpdatePackageMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePackageMaster" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_UpdatePackageMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePackageMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_UpdatePackageChild_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePackageChild" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_UpdatePackageChild_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePackageChildResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DispalyTeamAssign_InputMessage">
+    <wsdl:part name="parameters" element="tns:DispalyTeamAssign" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DispalyTeamAssign_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DispalyTeamAssignResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetRegScheduling_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRegScheduling" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetRegScheduling_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRegSchedulingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetInchargeID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetInchargeID" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetInchargeID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetInchargeIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetPacageInformation_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPacageInformation" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetPacageInformation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPacageInformationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SavedOperationSchedulingMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:SavedOperationSchedulingMaster" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SavedOperationSchedulingMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavedOperationSchedulingMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SavedOperationSchedulingChild_InputMessage">
+    <wsdl:part name="parameters" element="tns:SavedOperationSchedulingChild" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SavedOperationSchedulingChild_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavedOperationSchedulingChildResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SavedOTteam_InputMessage">
+    <wsdl:part name="parameters" element="tns:SavedOTteam" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SavedOTteam_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavedOTteamResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_LoadOTtheater_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadOTtheater" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_LoadOTtheater_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadOTtheaterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DisplayOTScheduling_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayOTScheduling" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DisplayOTScheduling_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayOTSchedulingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DisplayOTSschedulingDoctors_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayOTSschedulingDoctors" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DisplayOTSschedulingDoctors_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayOTSschedulingDoctorsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DisplayOTPackage_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayOTPackage" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DisplayOTPackage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayOTPackageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetInchargeIDBar_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetInchargeIDBar" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetInchargeIDBar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetInchargeIDBarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetInchargeIDBarchart_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetInchargeIDBarchart" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetInchargeIDBarchart_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetInchargeIDBarchartResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetRowposofBarchat_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRowposofBarchat" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetRowposofBarchat_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRowposofBarchatResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_Displayotscheduling_InputMessage">
+    <wsdl:part name="parameters" element="tns:Displayotscheduling" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_Displayotscheduling_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayotschedulingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetOTschedulingDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOTschedulingDetails" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetOTschedulingDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOTschedulingDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_UpdateOperationSchedulingMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateOperationSchedulingMaster" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_UpdateOperationSchedulingMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateOperationSchedulingMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DisplayDashBoard_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayDashBoard" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DisplayDashBoard_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayDashBoardResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DisplayHistory_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayHistory" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DisplayHistory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DisplayPatregistration_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayPatregistration" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DisplayPatregistration_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayPatregistrationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DisplayDoctorsInformation_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayDoctorsInformation" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DisplayDoctorsInformation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayDoctorsInformationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DisplayPackageInformation_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayPackageInformation" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DisplayPackageInformation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayPackageInformationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DisplayInchargeInformation_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayInchargeInformation" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DisplayInchargeInformation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayInchargeInformationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_UpdateOTstatus_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateOTstatus" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_UpdateOTstatus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateOTstatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_Getbedconfig_InputMessage">
+    <wsdl:part name="parameters" element="tns:Getbedconfig" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_Getbedconfig_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetbedconfigResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_Savedchecklist_InputMessage">
+    <wsdl:part name="parameters" element="tns:Savedchecklist" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_Savedchecklist_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavedchecklistResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_Updatedchecklist_InputMessage">
+    <wsdl:part name="parameters" element="tns:Updatedchecklist" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_Updatedchecklist_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatedchecklistResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_Deletechecklist_InputMessage">
+    <wsdl:part name="parameters" element="tns:Deletechecklist" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_Deletechecklist_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeletechecklistResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetChekcList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetChekcList" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetChekcList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetChekcListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetCheklistOprtype_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCheklistOprtype" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetCheklistOprtype_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCheklistOprtypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetCheklistRegNo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCheklistRegNo" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetCheklistRegNo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCheklistRegNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetRegNotoChecklist_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRegNotoChecklist" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetRegNotoChecklist_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRegNotoChecklistResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SavedChecklistConfigMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:SavedChecklistConfigMaster" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SavedChecklistConfigMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavedChecklistConfigMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SavedChecklistConfigChild_InputMessage">
+    <wsdl:part name="parameters" element="tns:SavedChecklistConfigChild" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SavedChecklistConfigChild_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavedChecklistConfigChildResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_LoadCheckList_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadCheckList" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_LoadCheckList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadCheckListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DisplayChecklistfromChecklistNo_InputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayChecklistfromChecklistNo" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DisplayChecklistfromChecklistNo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisplayChecklistfromChecklistNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_UpdateChecklistConfigChild_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateChecklistConfigChild" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_UpdateChecklistConfigChild_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateChecklistConfigChildResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_UpdateChecklistConfigMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateChecklistConfigMaster" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_UpdateChecklistConfigMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateChecklistConfigMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SavedOperationInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:SavedOperationInfo" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SavedOperationInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavedOperationInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_UpdatOperationInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatOperationInfo" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_UpdatOperationInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatOperationInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DeleteOperationInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteOperationInfo" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_DeleteOperationInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteOperationInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetoperationInformation_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetoperationInformation" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetoperationInformation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetoperationInformationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetOTnameFromOTtype_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOTnameFromOTtype" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetOTnameFromOTtype_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOTnameFromOTtypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SaveOperationType_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveOperationType" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SaveOperationType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveOperationTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_UpdateOperation_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateOperation" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_UpdateOperation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateOperationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_VerifyOperation_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyOperation" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_VerifyOperation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyOperationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetOperationConfig_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOperationConfig" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetOperationConfig_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOperationConfigResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetAdmittedPatient_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmittedPatient" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetAdmittedPatient_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdmittedPatientResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetRegDetailsFromOperarion_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRegDetailsFromOperarion" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetRegDetailsFromOperarion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRegDetailsFromOperarionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetDoctorsAvaiable_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDoctorsAvaiable" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetDoctorsAvaiable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDoctorsAvaiableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetOprDetailsReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOprDetailsReport" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetOprDetailsReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOprDetailsReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SavePackageOprMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:SavePackageOprMaster" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_SavePackageOprMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavePackageOprMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_UpdatePackageOprMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePackageOprMaster" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_UpdatePackageOprMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePackageOprMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetPackageMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPackageMaster" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetPackageMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPackageMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetUnits_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUnits" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetUnits_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUnitsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetOprSubItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOprSubItem" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetOprSubItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOprSubItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetPackageItemConfig_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPackageItemConfig" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetPackageItemConfig_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPackageItemConfigResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetOperationStatus_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOperationStatus" />
+  </wsdl:message>
+  <wsdl:message name="IOPRWS_GetOperationStatus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOperationStatusResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IOPRWS">
+    <wsdl:operation name="SaveGradeSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/SaveGradeSetup" message="tns:IOPRWS_SaveGradeSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/SaveGradeSetupResponse" message="tns:IOPRWS_SaveGradeSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGrade">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetGrade" message="tns:IOPRWS_GetGrade_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetGradeResponse" message="tns:IOPRWS_GetGrade_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGradeSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/UpdateGradeSetup" message="tns:IOPRWS_UpdateGradeSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/UpdateGradeSetupResponse" message="tns:IOPRWS_UpdateGradeSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGrade">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/DeleteGrade" message="tns:IOPRWS_DeleteGrade_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/DeleteGradeResponse" message="tns:IOPRWS_DeleteGrade_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SavetheaterSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/SavetheaterSetup" message="tns:IOPRWS_SavetheaterSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/SavetheaterSetupResponse" message="tns:IOPRWS_SavetheaterSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatetheaterSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/UpdatetheaterSetup" message="tns:IOPRWS_UpdatetheaterSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/UpdatetheaterSetupResponse" message="tns:IOPRWS_UpdatetheaterSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Deletetheater">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/Deletetheater" message="tns:IOPRWS_Deletetheater_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/DeletetheaterResponse" message="tns:IOPRWS_Deletetheater_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTheater">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetTheater" message="tns:IOPRWS_GetTheater_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetTheaterResponse" message="tns:IOPRWS_GetTheater_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveAnesSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/SaveAnesSetup" message="tns:IOPRWS_SaveAnesSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/SaveAnesSetupResponse" message="tns:IOPRWS_SaveAnesSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAnesSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/UpdateAnesSetup" message="tns:IOPRWS_UpdateAnesSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/UpdateAnesSetupResponse" message="tns:IOPRWS_UpdateAnesSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAnesGroup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/DeleteAnesGroup" message="tns:IOPRWS_DeleteAnesGroup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/DeleteAnesGroupResponse" message="tns:IOPRWS_DeleteAnesGroup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTAnesthesia">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetTAnesthesia" message="tns:IOPRWS_GetTAnesthesia_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetTAnesthesiaResponse" message="tns:IOPRWS_GetTAnesthesia_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAnesthesiaGroups">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetAnesthesiaGroups" message="tns:IOPRWS_GetAnesthesiaGroups_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetAnesthesiaGroupsResponse" message="tns:IOPRWS_GetAnesthesiaGroups_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveAnesSetupMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/SaveAnesSetupMaster" message="tns:IOPRWS_SaveAnesSetupMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/SaveAnesSetupMasterResponse" message="tns:IOPRWS_SaveAnesSetupMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAnesSetupMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/UpdateAnesSetupMaster" message="tns:IOPRWS_UpdateAnesSetupMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/UpdateAnesSetupMasterResponse" message="tns:IOPRWS_UpdateAnesSetupMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAnesthesiaMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetAnesthesiaMaster" message="tns:IOPRWS_GetAnesthesiaMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetAnesthesiaMasterResponse" message="tns:IOPRWS_GetAnesthesiaMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAnesMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/DeleteAnesMaster" message="tns:IOPRWS_DeleteAnesMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/DeleteAnesMasterResponse" message="tns:IOPRWS_DeleteAnesMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOperationType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetOperationType" message="tns:IOPRWS_GetOperationType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetOperationTypeResponse" message="tns:IOPRWS_GetOperationType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadGrade">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/LoadGrade" message="tns:IOPRWS_LoadGrade_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/LoadGradeResponse" message="tns:IOPRWS_LoadGrade_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadAnesthesiaID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/LoadAnesthesiaID" message="tns:IOPRWS_LoadAnesthesiaID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/LoadAnesthesiaIDResponse" message="tns:IOPRWS_LoadAnesthesiaID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveOperationSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/SaveOperationSetup" message="tns:IOPRWS_SaveOperationSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/SaveOperationSetupResponse" message="tns:IOPRWS_SaveOperationSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOperationSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/UpdateOperationSetup" message="tns:IOPRWS_UpdateOperationSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/UpdateOperationSetupResponse" message="tns:IOPRWS_UpdateOperationSetup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadOperationMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/LoadOperationMaster" message="tns:IOPRWS_LoadOperationMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/LoadOperationMasterResponse" message="tns:IOPRWS_LoadOperationMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDepID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetDepID" message="tns:IOPRWS_GetDepID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetDepIDResponse" message="tns:IOPRWS_GetDepID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTheaterBed">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetTheaterBed" message="tns:IOPRWS_GetTheaterBed_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetTheaterBedResponse" message="tns:IOPRWS_GetTheaterBed_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRegID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetRegID" message="tns:IOPRWS_GetRegID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetRegIDResponse" message="tns:IOPRWS_GetRegID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRoomIdFromTheater">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetRoomIdFromTheater" message="tns:IOPRWS_GetRoomIdFromTheater_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetRoomIdFromTheaterResponse" message="tns:IOPRWS_GetRoomIdFromTheater_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDoctorsCategory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetDoctorsCategory" message="tns:IOPRWS_GetDoctorsCategory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetDoctorsCategoryResponse" message="tns:IOPRWS_GetDoctorsCategory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SavedDoctotsCategory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/SavedDoctotsCategory" message="tns:IOPRWS_SavedDoctotsCategory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/SavedDoctotsCategoryResponse" message="tns:IOPRWS_SavedDoctotsCategory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SavedDoctotsCategoryMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/SavedDoctotsCategoryMaster" message="tns:IOPRWS_SavedDoctotsCategoryMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/SavedDoctotsCategoryMasterResponse" message="tns:IOPRWS_SavedDoctotsCategoryMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayDoctorsCategory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/DisplayDoctorsCategory" message="tns:IOPRWS_DisplayDoctorsCategory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/DisplayDoctorsCategoryResponse" message="tns:IOPRWS_DisplayDoctorsCategory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDoctorsAssign">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetDoctorsAssign" message="tns:IOPRWS_GetDoctorsAssign_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetDoctorsAssignResponse" message="tns:IOPRWS_GetDoctorsAssign_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SavedPackagedItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/SavedPackagedItem" message="tns:IOPRWS_SavedPackagedItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/SavedPackagedItemResponse" message="tns:IOPRWS_SavedPackagedItem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePackagedItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/UpdatePackagedItem" message="tns:IOPRWS_UpdatePackagedItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/UpdatePackagedItemResponse" message="tns:IOPRWS_UpdatePackagedItem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPackageItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetPackageItem" message="tns:IOPRWS_GetPackageItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetPackageItemResponse" message="tns:IOPRWS_GetPackageItem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SavedPackageMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/SavedPackageMaster" message="tns:IOPRWS_SavedPackageMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/SavedPackageMasterResponse" message="tns:IOPRWS_SavedPackageMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SavedPackageChild">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/SavedPackageChild" message="tns:IOPRWS_SavedPackageChild_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/SavedPackageChildResponse" message="tns:IOPRWS_SavedPackageChild_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPackage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetPackage" message="tns:IOPRWS_GetPackage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetPackageResponse" message="tns:IOPRWS_GetPackage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayPackage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/DisplayPackage" message="tns:IOPRWS_DisplayPackage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/DisplayPackageResponse" message="tns:IOPRWS_DisplayPackage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePackageMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/UpdatePackageMaster" message="tns:IOPRWS_UpdatePackageMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/UpdatePackageMasterResponse" message="tns:IOPRWS_UpdatePackageMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePackageChild">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/UpdatePackageChild" message="tns:IOPRWS_UpdatePackageChild_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/UpdatePackageChildResponse" message="tns:IOPRWS_UpdatePackageChild_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DispalyTeamAssign">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/DispalyTeamAssign" message="tns:IOPRWS_DispalyTeamAssign_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/DispalyTeamAssignResponse" message="tns:IOPRWS_DispalyTeamAssign_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRegScheduling">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetRegScheduling" message="tns:IOPRWS_GetRegScheduling_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetRegSchedulingResponse" message="tns:IOPRWS_GetRegScheduling_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInchargeID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetInchargeID" message="tns:IOPRWS_GetInchargeID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetInchargeIDResponse" message="tns:IOPRWS_GetInchargeID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPacageInformation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetPacageInformation" message="tns:IOPRWS_GetPacageInformation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetPacageInformationResponse" message="tns:IOPRWS_GetPacageInformation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SavedOperationSchedulingMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/SavedOperationSchedulingMaster" message="tns:IOPRWS_SavedOperationSchedulingMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/SavedOperationSchedulingMasterResponse" message="tns:IOPRWS_SavedOperationSchedulingMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SavedOperationSchedulingChild">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/SavedOperationSchedulingChild" message="tns:IOPRWS_SavedOperationSchedulingChild_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/SavedOperationSchedulingChildResponse" message="tns:IOPRWS_SavedOperationSchedulingChild_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SavedOTteam">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/SavedOTteam" message="tns:IOPRWS_SavedOTteam_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/SavedOTteamResponse" message="tns:IOPRWS_SavedOTteam_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadOTtheater">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/LoadOTtheater" message="tns:IOPRWS_LoadOTtheater_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/LoadOTtheaterResponse" message="tns:IOPRWS_LoadOTtheater_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayOTScheduling">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/DisplayOTScheduling" message="tns:IOPRWS_DisplayOTScheduling_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/DisplayOTSchedulingResponse" message="tns:IOPRWS_DisplayOTScheduling_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayOTSschedulingDoctors">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/DisplayOTSschedulingDoctors" message="tns:IOPRWS_DisplayOTSschedulingDoctors_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/DisplayOTSschedulingDoctorsResponse" message="tns:IOPRWS_DisplayOTSschedulingDoctors_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayOTPackage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/DisplayOTPackage" message="tns:IOPRWS_DisplayOTPackage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/DisplayOTPackageResponse" message="tns:IOPRWS_DisplayOTPackage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInchargeIDBar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetInchargeIDBar" message="tns:IOPRWS_GetInchargeIDBar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetInchargeIDBarResponse" message="tns:IOPRWS_GetInchargeIDBar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInchargeIDBarchart">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetInchargeIDBarchart" message="tns:IOPRWS_GetInchargeIDBarchart_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetInchargeIDBarchartResponse" message="tns:IOPRWS_GetInchargeIDBarchart_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRowposofBarchat">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetRowposofBarchat" message="tns:IOPRWS_GetRowposofBarchat_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetRowposofBarchatResponse" message="tns:IOPRWS_GetRowposofBarchat_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Displayotscheduling">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/Displayotscheduling" message="tns:IOPRWS_Displayotscheduling_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/DisplayotschedulingResponse" message="tns:IOPRWS_Displayotscheduling_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOTschedulingDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetOTschedulingDetails" message="tns:IOPRWS_GetOTschedulingDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetOTschedulingDetailsResponse" message="tns:IOPRWS_GetOTschedulingDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOperationSchedulingMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/UpdateOperationSchedulingMaster" message="tns:IOPRWS_UpdateOperationSchedulingMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/UpdateOperationSchedulingMasterResponse" message="tns:IOPRWS_UpdateOperationSchedulingMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayDashBoard">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/DisplayDashBoard" message="tns:IOPRWS_DisplayDashBoard_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/DisplayDashBoardResponse" message="tns:IOPRWS_DisplayDashBoard_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayHistory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/DisplayHistory" message="tns:IOPRWS_DisplayHistory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/DisplayHistoryResponse" message="tns:IOPRWS_DisplayHistory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayPatregistration">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/DisplayPatregistration" message="tns:IOPRWS_DisplayPatregistration_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/DisplayPatregistrationResponse" message="tns:IOPRWS_DisplayPatregistration_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayDoctorsInformation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/DisplayDoctorsInformation" message="tns:IOPRWS_DisplayDoctorsInformation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/DisplayDoctorsInformationResponse" message="tns:IOPRWS_DisplayDoctorsInformation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayPackageInformation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/DisplayPackageInformation" message="tns:IOPRWS_DisplayPackageInformation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/DisplayPackageInformationResponse" message="tns:IOPRWS_DisplayPackageInformation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayInchargeInformation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/DisplayInchargeInformation" message="tns:IOPRWS_DisplayInchargeInformation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/DisplayInchargeInformationResponse" message="tns:IOPRWS_DisplayInchargeInformation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOTstatus">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/UpdateOTstatus" message="tns:IOPRWS_UpdateOTstatus_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/UpdateOTstatusResponse" message="tns:IOPRWS_UpdateOTstatus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Getbedconfig">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/Getbedconfig" message="tns:IOPRWS_Getbedconfig_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetbedconfigResponse" message="tns:IOPRWS_Getbedconfig_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Savedchecklist">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/Savedchecklist" message="tns:IOPRWS_Savedchecklist_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/SavedchecklistResponse" message="tns:IOPRWS_Savedchecklist_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Updatedchecklist">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/Updatedchecklist" message="tns:IOPRWS_Updatedchecklist_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/UpdatedchecklistResponse" message="tns:IOPRWS_Updatedchecklist_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Deletechecklist">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/Deletechecklist" message="tns:IOPRWS_Deletechecklist_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/DeletechecklistResponse" message="tns:IOPRWS_Deletechecklist_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetChekcList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetChekcList" message="tns:IOPRWS_GetChekcList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetChekcListResponse" message="tns:IOPRWS_GetChekcList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCheklistOprtype">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetCheklistOprtype" message="tns:IOPRWS_GetCheklistOprtype_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetCheklistOprtypeResponse" message="tns:IOPRWS_GetCheklistOprtype_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCheklistRegNo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetCheklistRegNo" message="tns:IOPRWS_GetCheklistRegNo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetCheklistRegNoResponse" message="tns:IOPRWS_GetCheklistRegNo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRegNotoChecklist">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetRegNotoChecklist" message="tns:IOPRWS_GetRegNotoChecklist_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetRegNotoChecklistResponse" message="tns:IOPRWS_GetRegNotoChecklist_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SavedChecklistConfigMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/SavedChecklistConfigMaster" message="tns:IOPRWS_SavedChecklistConfigMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/SavedChecklistConfigMasterResponse" message="tns:IOPRWS_SavedChecklistConfigMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SavedChecklistConfigChild">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/SavedChecklistConfigChild" message="tns:IOPRWS_SavedChecklistConfigChild_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/SavedChecklistConfigChildResponse" message="tns:IOPRWS_SavedChecklistConfigChild_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadCheckList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/LoadCheckList" message="tns:IOPRWS_LoadCheckList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/LoadCheckListResponse" message="tns:IOPRWS_LoadCheckList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayChecklistfromChecklistNo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/DisplayChecklistfromChecklistNo" message="tns:IOPRWS_DisplayChecklistfromChecklistNo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/DisplayChecklistfromChecklistNoResponse" message="tns:IOPRWS_DisplayChecklistfromChecklistNo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateChecklistConfigChild">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/UpdateChecklistConfigChild" message="tns:IOPRWS_UpdateChecklistConfigChild_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/UpdateChecklistConfigChildResponse" message="tns:IOPRWS_UpdateChecklistConfigChild_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateChecklistConfigMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/UpdateChecklistConfigMaster" message="tns:IOPRWS_UpdateChecklistConfigMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/UpdateChecklistConfigMasterResponse" message="tns:IOPRWS_UpdateChecklistConfigMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SavedOperationInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/SavedOperationInfo" message="tns:IOPRWS_SavedOperationInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/SavedOperationInfoResponse" message="tns:IOPRWS_SavedOperationInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatOperationInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/UpdatOperationInfo" message="tns:IOPRWS_UpdatOperationInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/UpdatOperationInfoResponse" message="tns:IOPRWS_UpdatOperationInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteOperationInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/DeleteOperationInfo" message="tns:IOPRWS_DeleteOperationInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/DeleteOperationInfoResponse" message="tns:IOPRWS_DeleteOperationInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetoperationInformation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetoperationInformation" message="tns:IOPRWS_GetoperationInformation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetoperationInformationResponse" message="tns:IOPRWS_GetoperationInformation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOTnameFromOTtype">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetOTnameFromOTtype" message="tns:IOPRWS_GetOTnameFromOTtype_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetOTnameFromOTtypeResponse" message="tns:IOPRWS_GetOTnameFromOTtype_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveOperationType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/SaveOperationType" message="tns:IOPRWS_SaveOperationType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/SaveOperationTypeResponse" message="tns:IOPRWS_SaveOperationType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOperation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/UpdateOperation" message="tns:IOPRWS_UpdateOperation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/UpdateOperationResponse" message="tns:IOPRWS_UpdateOperation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyOperation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/VerifyOperation" message="tns:IOPRWS_VerifyOperation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/VerifyOperationResponse" message="tns:IOPRWS_VerifyOperation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOperationConfig">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetOperationConfig" message="tns:IOPRWS_GetOperationConfig_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetOperationConfigResponse" message="tns:IOPRWS_GetOperationConfig_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmittedPatient">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetAdmittedPatient" message="tns:IOPRWS_GetAdmittedPatient_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetAdmittedPatientResponse" message="tns:IOPRWS_GetAdmittedPatient_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRegDetailsFromOperarion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetRegDetailsFromOperarion" message="tns:IOPRWS_GetRegDetailsFromOperarion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetRegDetailsFromOperarionResponse" message="tns:IOPRWS_GetRegDetailsFromOperarion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDoctorsAvaiable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetDoctorsAvaiable" message="tns:IOPRWS_GetDoctorsAvaiable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetDoctorsAvaiableResponse" message="tns:IOPRWS_GetDoctorsAvaiable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOprDetailsReport">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetOprDetailsReport" message="tns:IOPRWS_GetOprDetailsReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetOprDetailsReportResponse" message="tns:IOPRWS_GetOprDetailsReport_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SavePackageOprMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/SavePackageOprMaster" message="tns:IOPRWS_SavePackageOprMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/SavePackageOprMasterResponse" message="tns:IOPRWS_SavePackageOprMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePackageOprMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/UpdatePackageOprMaster" message="tns:IOPRWS_UpdatePackageOprMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/UpdatePackageOprMasterResponse" message="tns:IOPRWS_UpdatePackageOprMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPackageMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetPackageMaster" message="tns:IOPRWS_GetPackageMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetPackageMasterResponse" message="tns:IOPRWS_GetPackageMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUnits">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetUnits" message="tns:IOPRWS_GetUnits_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetUnitsResponse" message="tns:IOPRWS_GetUnits_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOprSubItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetOprSubItem" message="tns:IOPRWS_GetOprSubItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetOprSubItemResponse" message="tns:IOPRWS_GetOprSubItem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPackageItemConfig">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetPackageItemConfig" message="tns:IOPRWS_GetPackageItemConfig_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetPackageItemConfigResponse" message="tns:IOPRWS_GetPackageItemConfig_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOperationStatus">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOPRWS/GetOperationStatus" message="tns:IOPRWS_GetOperationStatus_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOPRWS/GetOperationStatusResponse" message="tns:IOPRWS_GetOperationStatus_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IOPRWS" type="tns:IOPRWS">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SaveGradeSetup">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/SaveGradeSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGrade">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetGrade" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGradeSetup">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/UpdateGradeSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGrade">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/DeleteGrade" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SavetheaterSetup">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/SavetheaterSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatetheaterSetup">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/UpdatetheaterSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Deletetheater">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/Deletetheater" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTheater">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetTheater" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveAnesSetup">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/SaveAnesSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAnesSetup">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/UpdateAnesSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAnesGroup">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/DeleteAnesGroup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTAnesthesia">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetTAnesthesia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAnesthesiaGroups">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetAnesthesiaGroups" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveAnesSetupMaster">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/SaveAnesSetupMaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAnesSetupMaster">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/UpdateAnesSetupMaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAnesthesiaMaster">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetAnesthesiaMaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAnesMaster">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/DeleteAnesMaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOperationType">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetOperationType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadGrade">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/LoadGrade" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadAnesthesiaID">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/LoadAnesthesiaID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveOperationSetup">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/SaveOperationSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOperationSetup">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/UpdateOperationSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadOperationMaster">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/LoadOperationMaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDepID">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetDepID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTheaterBed">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetTheaterBed" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRegID">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetRegID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRoomIdFromTheater">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetRoomIdFromTheater" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDoctorsCategory">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetDoctorsCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SavedDoctotsCategory">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/SavedDoctotsCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SavedDoctotsCategoryMaster">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/SavedDoctotsCategoryMaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayDoctorsCategory">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/DisplayDoctorsCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDoctorsAssign">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetDoctorsAssign" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SavedPackagedItem">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/SavedPackagedItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePackagedItem">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/UpdatePackagedItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPackageItem">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetPackageItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SavedPackageMaster">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/SavedPackageMaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SavedPackageChild">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/SavedPackageChild" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPackage">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetPackage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayPackage">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/DisplayPackage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePackageMaster">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/UpdatePackageMaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePackageChild">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/UpdatePackageChild" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DispalyTeamAssign">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/DispalyTeamAssign" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRegScheduling">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetRegScheduling" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInchargeID">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetInchargeID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPacageInformation">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetPacageInformation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SavedOperationSchedulingMaster">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/SavedOperationSchedulingMaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SavedOperationSchedulingChild">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/SavedOperationSchedulingChild" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SavedOTteam">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/SavedOTteam" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadOTtheater">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/LoadOTtheater" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayOTScheduling">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/DisplayOTScheduling" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayOTSschedulingDoctors">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/DisplayOTSschedulingDoctors" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayOTPackage">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/DisplayOTPackage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInchargeIDBar">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetInchargeIDBar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInchargeIDBarchart">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetInchargeIDBarchart" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRowposofBarchat">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetRowposofBarchat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Displayotscheduling">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/Displayotscheduling" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOTschedulingDetails">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetOTschedulingDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOperationSchedulingMaster">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/UpdateOperationSchedulingMaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayDashBoard">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/DisplayDashBoard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayHistory">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/DisplayHistory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayPatregistration">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/DisplayPatregistration" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayDoctorsInformation">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/DisplayDoctorsInformation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayPackageInformation">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/DisplayPackageInformation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayInchargeInformation">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/DisplayInchargeInformation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOTstatus">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/UpdateOTstatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Getbedconfig">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/Getbedconfig" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Savedchecklist">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/Savedchecklist" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Updatedchecklist">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/Updatedchecklist" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Deletechecklist">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/Deletechecklist" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetChekcList">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetChekcList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCheklistOprtype">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetCheklistOprtype" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCheklistRegNo">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetCheklistRegNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRegNotoChecklist">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetRegNotoChecklist" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SavedChecklistConfigMaster">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/SavedChecklistConfigMaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SavedChecklistConfigChild">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/SavedChecklistConfigChild" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadCheckList">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/LoadCheckList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayChecklistfromChecklistNo">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/DisplayChecklistfromChecklistNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateChecklistConfigChild">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/UpdateChecklistConfigChild" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateChecklistConfigMaster">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/UpdateChecklistConfigMaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SavedOperationInfo">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/SavedOperationInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatOperationInfo">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/UpdatOperationInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteOperationInfo">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/DeleteOperationInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetoperationInformation">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetoperationInformation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOTnameFromOTtype">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetOTnameFromOTtype" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveOperationType">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/SaveOperationType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOperation">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/UpdateOperation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyOperation">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/VerifyOperation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOperationConfig">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetOperationConfig" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdmittedPatient">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetAdmittedPatient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRegDetailsFromOperarion">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetRegDetailsFromOperarion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDoctorsAvaiable">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetDoctorsAvaiable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOprDetailsReport">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetOprDetailsReport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SavePackageOprMaster">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/SavePackageOprMaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePackageOprMaster">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/UpdatePackageOprMaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPackageMaster">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetPackageMaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUnits">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetUnits" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOprSubItem">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetOprSubItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPackageItemConfig">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetPackageItemConfig" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOperationStatus">
+      <soap:operation soapAction="http://tempuri.org/IOPRWS/GetOperationStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="OPRWS">
+    <wsdl:port name="BasicHttpBinding_IOPRWS" binding="tns:BasicHttpBinding_IOPRWS">
+      <soap:address location="http://localhost:52/OPR/OPRService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/AH.PatReg.MODEL" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AH.PatReg.MODEL" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:81/PatientRegistration/PatientRegistrationService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" />
+  <xs:complexType name="ArrayOfPatRegRO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PatRegRO" nillable="true" type="tns:PatRegRO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPatRegRO" nillable="true" type="tns:ArrayOfPatRegRO" />
+  <xs:complexType name="PatRegRO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BloodGroup" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DateofBirth" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EducationLevel" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EntryDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FatherName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GuardianName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HCN" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HomePhoneNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IncomeGroup" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MaritalStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MobileNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MotherName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Occupation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PatientName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RelationshipGuardian" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Religion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Sex" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SpouseName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="YearlyIncome" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="category_id" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="corporate_id" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="district_code" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="e_address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="e_address_beng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="e_cell_phone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="e_cont_person" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="e_cont_person_beng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="e_home_phone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="e_rel_with_pat" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="fname_beng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="guardian_name_beng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ho_vi_ar_rd_beng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="mname_beng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="pat_name_beng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="per_district_code" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="per_ho_vi_ar_rd" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="per_post_code" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="per_thana_code" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="post_code" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="spouse_name_beng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="staff_id" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="thana_code" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PatRegRO" nillable="true" type="tns:PatRegRO" />
+  <xs:complexType name="StaffType">
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q1:EntryParameter" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TypeID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TypeTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TypeTitleBeng" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="StaffType" nillable="true" type="tns:StaffType" />
+  <xs:complexType name="ArrayOfStaffType">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="StaffType" nillable="true" type="tns:StaffType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfStaffType" nillable="true" type="tns:ArrayOfStaffType" />
+  <xs:complexType name="CorporateType">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CorpAddress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CorpEmail" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CorpID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CorpMobile" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CorpPhone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CorpTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CorpTitleBeng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CorpTypeID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CorpWeb" nillable="true" type="xs:string" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q2:EntryParameter" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CorporateType" nillable="true" type="tns:CorporateType" />
+  <xs:complexType name="ArrayOfCorporateType">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CorporateType" nillable="true" type="tns:CorporateType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCorporateType" nillable="true" type="tns:ArrayOfCorporateType" />
+</xs:schema>

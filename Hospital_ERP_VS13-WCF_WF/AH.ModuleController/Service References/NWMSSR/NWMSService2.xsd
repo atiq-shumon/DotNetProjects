@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/AH.PHRMS.MODEL" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AH.PHRMS.MODEL" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd10" namespace="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" />
+  <xs:import schemaLocation="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" />
+  <xs:import schemaLocation="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/AH.DRUGS.MODEL" />
+  <xs:import schemaLocation="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/AH.HR.MODEL" />
+  <xs:import schemaLocation="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd13" namespace="http://schemas.datacontract.org/2004/07/AH.INVMS.MODEL" />
+  <xs:import schemaLocation="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/AH.IPDShared.MODEL" />
+  <xs:import schemaLocation="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/AH.PRMS.MODEL" />
+  <xs:complexType name="ArrayOfDrugIssue">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DrugIssue" nillable="true" type="tns:DrugIssue" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDrugIssue" nillable="true" type="tns:ArrayOfDrugIssue" />
+  <xs:complexType name="DrugIssue">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BatchID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CompareQty" type="xs:float" />
+      <xs:element minOccurs="0" name="ConsumptionHeadID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ConsumptionID" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="CostCategoryTreeview" nillable="true" type="q1:CostCategoryTreeview" />
+      <xs:element minOccurs="0" name="DRID" nillable="true" type="xs:string" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="Department" nillable="true" type="q2:Department" />
+      <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="DepartmentUnit" nillable="true" type="q3:DepartmentUnit" />
+      <xs:element minOccurs="0" name="Doctor" nillable="true" type="xs:string" />
+      <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/AH.DRUGS.MODEL" minOccurs="0" name="DrugMaster" nillable="true" type="q4:DrugMaster" />
+      <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/AH.HR.MODEL" minOccurs="0" name="EmployeeMaster" nillable="true" type="q5:EmployeeMaster" />
+      <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q6:EntryParameter" />
+      <xs:element minOccurs="0" name="HCN" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IssueDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="IssueQty" type="xs:float" />
+      <xs:element minOccurs="0" name="IssueString" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IssueType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NurseDemandRequisition" nillable="true" type="tns:NurseDemandRequisition" />
+      <xs:element minOccurs="0" name="Pharmacy" nillable="true" type="tns:Pharmacy" />
+      <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="PharmacyPayment" nillable="true" type="q7:OPDPayment" />
+      <xs:element minOccurs="0" name="PurchaseOrder" nillable="true" type="tns:PurchaseOrder" />
+      <xs:element minOccurs="0" name="ReceivedBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RegID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReturnQty" type="xs:float" />
+      <xs:element minOccurs="0" name="Staff" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TicketNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TransactionType" nillable="true" type="xs:string" />
+      <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/AH.INVMS.MODEL" minOccurs="0" name="Warehouse" nillable="true" type="q8:Warehouse" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DrugIssue" nillable="true" type="tns:DrugIssue" />
+  <xs:complexType name="NurseDemandRequisition">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Department" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Doctor" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DrID" nillable="true" type="xs:string" />
+      <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/AH.DRUGS.MODEL" minOccurs="0" name="DrugMaster" nillable="true" type="q9:DrugMaster" />
+      <xs:element minOccurs="0" name="HCN" nillable="true" type="xs:string" />
+      <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/AH.IPDShared.MODEL" minOccurs="0" name="InPatient" nillable="true" type="q10:InPatient" />
+      <xs:element minOccurs="0" name="NurseDemandQty" type="xs:float" />
+      <xs:element minOccurs="0" name="NurseStationID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NurseStationTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Pharmacy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrescriptionNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RemainingQty" type="xs:float" />
+      <xs:element minOccurs="0" name="StockHelper" nillable="true" type="tns:StockHelper" />
+      <xs:element minOccurs="0" name="Unit" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="NurseDemandRequisition" nillable="true" type="tns:NurseDemandRequisition" />
+  <xs:complexType name="StockHelper">
+    <xs:sequence>
+      <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/AH.DRUGS.MODEL" minOccurs="0" name="DrugMaster" nillable="true" type="q11:DrugMaster" />
+      <xs:element minOccurs="0" name="Pharmacy" nillable="true" type="tns:Pharmacy" />
+      <xs:element minOccurs="0" name="StockQty" type="xs:float" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="StockHelper" nillable="true" type="tns:StockHelper" />
+  <xs:complexType name="Pharmacy">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Block" nillable="true" type="xs:string" />
+      <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/AH.PRMS.MODEL" minOccurs="0" name="Building" nillable="true" type="q12:Building" />
+      <xs:element minOccurs="0" name="ContactPerson" nillable="true" type="xs:string" />
+      <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q13:EntryParameter" />
+      <xs:element minOccurs="0" name="PharmacyID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PharmacyTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Phone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Priority" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Pharmacy" nillable="true" type="tns:Pharmacy" />
+  <xs:complexType name="PurchaseOrder">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Deliverydate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Deliverynote" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Details" nillable="true" type="xs:string" />
+      <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q14:EntryParameter" />
+      <xs:element minOccurs="0" name="ID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ItemsOrder" nillable="true" type="tns:ItemsOrder" />
+      <xs:element minOccurs="0" name="PODate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="POString" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PurchaseRequisition" nillable="true" type="tns:PurchaseRequisition" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Supplier" nillable="true" type="tns:Supplier" />
+      <xs:element minOccurs="0" name="TermsDetails" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TransactionType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
+      <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/AH.INVMS.MODEL" minOccurs="0" name="Warehouse" nillable="true" type="q15:Warehouse" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PurchaseOrder" nillable="true" type="tns:PurchaseOrder" />
+  <xs:complexType name="ItemsOrder">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Brand" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Discount" type="xs:float" />
+      <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/AH.DRUGS.MODEL" minOccurs="0" name="DrugMaster" nillable="true" type="q16:DrugMaster" />
+      <xs:element minOccurs="0" name="Model" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="POQty" type="xs:float" />
+      <xs:element minOccurs="0" name="PRQty" type="xs:float" />
+      <xs:element minOccurs="0" name="PendQty" type="xs:float" />
+      <xs:element minOccurs="0" name="PurchaseBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RackRate" type="xs:float" />
+      <xs:element minOccurs="0" name="RemQty" type="xs:float" />
+      <xs:element minOccurs="0" name="RetQty" type="xs:float" />
+      <xs:element minOccurs="0" name="SlRate" type="xs:float" />
+      <xs:element minOccurs="0" name="URate" type="xs:float" />
+      <xs:element minOccurs="0" name="UsdQty" type="xs:float" />
+      <xs:element minOccurs="0" name="VAT" type="xs:float" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ItemsOrder" nillable="true" type="tns:ItemsOrder" />
+  <xs:complexType name="PurchaseRequisition">
+    <xs:sequence>
+      <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="CostCategoryTreeview" nillable="true" type="q17:CostCategoryTreeview" />
+      <xs:element minOccurs="0" name="DeliveryDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DemandRequisition" nillable="true" type="xs:string" />
+      <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="Department" nillable="true" type="q18:Department" />
+      <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="DepartmentUnit" nillable="true" type="q19:DepartmentUnit" />
+      <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/AH.DRUGS.MODEL" minOccurs="0" name="DrugMaster" nillable="true" type="q20:DrugMaster" />
+      <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q21:EntryParameter" />
+      <xs:element minOccurs="0" name="ID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrDetails" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Priority" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RemainingQty" type="xs:float" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RequisitionBy" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RequisitionDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="RequisitionQty" type="xs:float" />
+      <xs:element minOccurs="0" name="RequisitionType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Supplier" nillable="true" type="tns:Supplier" />
+      <xs:element minOccurs="0" name="TransactionType" nillable="true" type="xs:string" />
+      <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/AH.INVMS.MODEL" minOccurs="0" name="Warehouse" nillable="true" type="q22:Warehouse" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PurchaseRequisition" nillable="true" type="tns:PurchaseRequisition" />
+  <xs:complexType name="Supplier">
+    <xs:sequence>
+      <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="Acc_code" nillable="true" type="q23:Ledgers" />
+      <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ContactPerson" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q24:EntryParameter" />
+      <xs:element minOccurs="0" name="Fax" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NameBeng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ParentAccCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Phone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Priority" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Web" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Supplier" nillable="true" type="tns:Supplier" />
+</xs:schema>

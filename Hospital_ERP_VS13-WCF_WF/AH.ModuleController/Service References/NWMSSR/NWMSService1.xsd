@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:74/NWMS/NWMSService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" />
+  <xs:complexType name="Purpose">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="COA" nillable="true" type="tns:COA" />
+      <xs:element minOccurs="0" name="Codeallocation" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q1:EntryParameter" />
+      <xs:element minOccurs="0" name="GrpID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GrpName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PurposeID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PurposeTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PurposeTitleBeng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Purposecategory" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PurposecategoryName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TypeID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TypeName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Purpose" nillable="true" type="tns:Purpose" />
+  <xs:complexType name="COA">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AccCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AccTitle" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="COA" nillable="true" type="tns:COA" />
+  <xs:complexType name="CostCategoryTreeview">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CategoryID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CategoryName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CostCenterCategory" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CostCenterID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CostcenterName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CostCategoryTreeview" nillable="true" type="tns:CostCategoryTreeview" />
+  <xs:complexType name="Ledgers">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CodeAllocation" nillable="true" type="xs:string" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q2:EntryParameter" />
+      <xs:element minOccurs="0" name="dblopeningBalance" type="xs:double" />
+      <xs:element minOccurs="0" name="intCostCenter" type="xs:int" />
+      <xs:element minOccurs="0" name="lngDefaultLedger" type="xs:long" />
+      <xs:element minOccurs="0" name="lngLedgerPrimaryType" type="xs:long" />
+      <xs:element minOccurs="0" name="lngLegerGroup" type="xs:long" />
+      <xs:element minOccurs="0" name="lngSlNo" type="xs:long" />
+      <xs:element minOccurs="0" name="strAddress1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="strCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="strComments" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="strCurrencsysymbol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="strDRCR" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="strEmail" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="strFax" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="strGrUnder" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="strLedgerCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="strLedgerName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="strPhone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="strPostal" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="strStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="straddress2" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Ledgers" nillable="true" type="tns:Ledgers" />
+</xs:schema>

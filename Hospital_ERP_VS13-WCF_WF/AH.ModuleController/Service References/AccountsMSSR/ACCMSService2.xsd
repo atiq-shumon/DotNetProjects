@@ -1,0 +1,1836 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:88/ACCMS/ACCMSService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" />
+  <xs:import schemaLocation="http://localhost:88/ACCMS/ACCMSService.svc?xsd=xsd4" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:import schemaLocation="http://localhost:88/ACCMS/ACCMSService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" />
+  <xs:element name="SavePurposeSetup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="prs" nillable="true" type="q1:Purpose" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SavePurposeSetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SavePurposeSetupResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdatePurpose">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="uprs" nillable="true" type="q2:Purpose" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdatePurposeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdatePurposeResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPurpose">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPurposeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetPurposeResult" nillable="true" type="q3:ArrayOfPurpose" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VerifyPurpose">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="purposeid" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VerifyPurposeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="VerifyPurposeResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCollectionDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="wherecondition" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCollectionDetailsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetCollectionDetailsResult" nillable="true" type="q4:ArrayOfCollectionSummaryRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetsSummary">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="wherecondition" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetsSummaryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetsSummaryResult" nillable="true" type="q5:ArrayOfCollectionSummaryRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveBranchSetup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="Branch" nillable="true" type="q6:Branch" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveBranchSetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SaveBranchSetupResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBranch">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBranchResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetBranchResult" nillable="true" type="q7:ArrayOfBranch" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetGroups">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="type" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetGroupsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetGroupsResult" nillable="true" type="q8:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveGroupSetup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="grp" nillable="true" type="q9:GroupsConfig" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveGroupSetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SaveGroupSetupResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetGroupsConfiguration">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetGroupsConfigurationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetGroupsConfigurationResult" nillable="true" type="q10:ArrayOfGroupsConfig" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetGroupTreeview">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetGroupTreeviewResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetGroupTreeviewResult" nillable="true" type="q11:ArrayOfGroupsConfig" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLegerTreeview">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strGroups" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLegerTreeviewResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetLegerTreeviewResult" nillable="true" type="q12:ArrayOfLedgers" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLedgerUnder">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="type" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLedgerUnderResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetLedgerUnderResult" nillable="true" type="q13:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveLedgerSetup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="Ledger" nillable="true" type="q14:Ledgers" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveLedgerSetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SaveLedgerSetupResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDebitTotal">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDebitTotalResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetDebitTotalResult" nillable="true" type="q15:ArrayOfLedgers" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCreditTotal">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCreditTotalResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetCreditTotalResult" nillable="true" type="q16:ArrayOfLedgers" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLedgersNameDr">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLedgersNameDrResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetLedgersNameDrResult" nillable="true" type="q17:ArrayOfLedgers" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLedgersNameCr">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLedgersNameCrResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetLedgersNameCrResult" nillable="true" type="q18:ArrayOfLedgers" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckBankLedger">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strLedgerName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckBankLedgerResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="CheckBankLedgerResult" nillable="true" type="q19:ArrayOfLedgers" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllLedgers">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllLedgersResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetAllLedgersResult" nillable="true" type="q20:ArrayOfLedgers" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetVoucherNo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="lngVoucherType" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetVoucherNoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetVoucherNoResult" nillable="true" type="q21:ArrayOfVoucherTransaction" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveVoucherSetup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strRefNo" nillable="true" type="xs:string" />
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="objVoucher" nillable="true" type="q22:VoucherTransaction" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveVoucherSetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SaveVoucherSetupResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveVoucheChildrSetup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strRefNo" nillable="true" type="xs:string" />
+        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="objVoucher" nillable="true" type="q23:VoucherTransaction" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveVoucheChildrSetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SaveVoucheChildrSetupResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetVoucherTransactionDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="lngVoucherType" type="xs:int" />
+        <xs:element minOccurs="0" name="fdate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="tdate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Poststatus" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetVoucherTransactionDetailsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetVoucherTransactionDetailsResult" nillable="true" type="q24:ArrayOfVoucherTransaction" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateBranchSetup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="Branch" nillable="true" type="q25:Branch" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateBranchSetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateBranchSetupResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteBranch">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="Branch" nillable="true" type="q26:Branch" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteBranchResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteBranchResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateGroupSetup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="groups" nillable="true" type="q27:GroupsConfig" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateGroupSetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateGroupSetupResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteGroupSetup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="groups" nillable="true" type="q28:GroupsConfig" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteGroupSetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteGroupSetupResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLedgersDetails">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLedgersDetailsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetLedgersDetailsResult" nillable="true" type="q29:ArrayOfLedgers" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteLedger">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="lngSlNo" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteLedgerResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteLedgerResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDisplayLedgers">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="lngSlNo" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDisplayLedgersResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetDisplayLedgersResult" nillable="true" type="q30:ArrayOfLedgers" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateLedgerSetup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q31="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="ldr" nillable="true" type="q31:Ledgers" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateLedgerSetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateLedgerSetupResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLedegrCode">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strLedgerName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLedegrCodeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetLedegrCodeResult" nillable="true" type="q32:ArrayOfLedgers" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLederName">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strLedgerCode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLederNameResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q33="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetLederNameResult" nillable="true" type="q33:ArrayOfLedgers" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteVoucher">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strVoucherNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="vintVoucherType" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteVoucherResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteVoucherResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveFixedAssetsSetup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q34="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="fassets" nillable="true" type="q34:FixedAssets" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveFixedAssetsSetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SaveFixedAssetsSetupResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFixedAssetsLedger">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFixedAssetsLedgerResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q35="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetFixedAssetsLedgerResult" nillable="true" type="q35:ArrayOfFixedAssets" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetdisplayvoucherDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strRefNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="vType" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetdisplayvoucherDetailsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q36="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetdisplayvoucherDetailsResult" nillable="true" type="q36:ArrayOfVoucherTransaction" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLedgerReports">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strRefNo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLedgerReportsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q37="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetLedgerReportsResult" nillable="true" type="q37:ArrayOfLedgerRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBranchConfig">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="type" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBranchConfigResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q38="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetBranchConfigResult" nillable="true" type="q38:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTraiBalanceReports">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="f_date" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="t_date" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strBranchID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTraiBalanceReportsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q39="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetTraiBalanceReportsResult" nillable="true" type="q39:ArrayOfTrailBalanceRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DisplayTrailBalance">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strDiffName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dblDiffAmount" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DisplayTrailBalanceResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q40="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="DisplayTrailBalanceResult" nillable="true" type="q40:ArrayOfTrailBalanceRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetIndividualVoucherNo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="intvouchertype" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetIndividualVoucherNoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q41="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetIndividualVoucherNoResult" nillable="true" type="q41:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetIndividualVoucherReports">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="F_Date" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="T_date" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strBranchID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="intVType" type="xs:int" />
+        <xs:element minOccurs="0" name="strControlsName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strVoucherNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PostStatus" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetIndividualVoucherReportsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q42="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetIndividualVoucherReportsResult" nillable="true" type="q42:ArrayOfVoucherRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLedgerInformation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strControl" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLedgerInformationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q43="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetLedgerInformationResult" nillable="true" type="q43:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLedgerDetailsReport">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strLedgercode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strBranchId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fDate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="tDate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strControl" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLedgerDetailsReportResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q44="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetLedgerDetailsReportResult" nillable="true" type="q44:ArrayOfLedgerRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetVoucherSearch">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strVoucherNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="intvtype" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetVoucherSearchResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q45="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetVoucherSearchResult" nillable="true" type="q45:ArrayOfVoucherTransaction" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertLedgerOpening">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q46="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="objTran" nillable="true" type="q46:LedgerOpening" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertLedgerOpeningResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertLedgerOpeningResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateLedgerOpening">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q47="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="objTran" nillable="true" type="q47:LedgerOpening" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateLedgerOpeningResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateLedgerOpeningResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLedgerOpn">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLedgerOpnResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q48="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetLedgerOpnResult" nillable="true" type="q48:ArrayOfLedgerOpening" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLedgersNameDrNew">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="type" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLedgersNameDrNewResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q49="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetLedgersNameDrNewResult" nillable="true" type="q49:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBraNewConfig">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="type" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBraNewConfigResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q50="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetBraNewConfigResult" nillable="true" type="q50:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DisplayBalanceSheet">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strbranchId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strFDate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strTdate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strDiff" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="intPrimaryType" type="xs:int" />
+        <xs:element minOccurs="0" name="dblAmount" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DisplayBalanceSheetResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q51="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="DisplayBalanceSheetResult" nillable="true" type="q51:ArrayOfBalanceSheetRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBalanceSheetReports">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="f_Date" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="t_Date" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strBarnchId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBalanceSheetReportsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q52="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetBalanceSheetReportsResult" nillable="true" type="q52:ArrayOfBalanceSheetRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetIncomeExpensesReports">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Control" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strBranchId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="F_Date" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="T_Date" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="primarytype" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetIncomeExpensesReportsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q53="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetIncomeExpensesReportsResult" nillable="true" type="q53:ArrayOfInccomeExpensesRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetProfitLossReports">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Control" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strBranchId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="F_Date" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="T_Date" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="primarytype" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetProfitLossReportsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q54="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetProfitLossReportsResult" nillable="true" type="q54:ArrayOfProfitlossRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadFixedAssetsLedger">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadFixedAssetsLedgerResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q55="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="LoadFixedAssetsLedgerResult" nillable="true" type="q55:ArrayOfFixedAssets" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateFixedAssetsSetup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q56="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="objTran" nillable="true" type="q56:FixedAssets" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateFixedAssetsSetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateFixedAssetsSetupResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteFixedAssetsSetup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q57="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="objTran" nillable="true" type="q57:FixedAssets" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteFixedAssetsSetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteFixedAssetsSetupResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTreeview">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strRefNo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTreeviewResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q58="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetTreeviewResult" nillable="true" type="q58:ArrayOfTreeviewRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetgroupDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strGroupName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetgroupDetailsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q59="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetgroupDetailsResult" nillable="true" type="q59:ArrayOfGroupsConfig" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveCategorySetup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q60="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="cat" nillable="true" type="q60:CostCategory" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveCategorySetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SaveCategorySetupResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateCategorySetup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q61="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="cat" nillable="true" type="q61:CostCategory" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateCategorySetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateCategorySetupResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteCategorySetup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strCatCode" nillable="true" type="xs:string" />
+        <xs:element xmlns:q62="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="cat" nillable="true" type="q62:CostCategory" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteCategorySetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteCategorySetupResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCostCategory">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCostCategoryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q63="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetCostCategoryResult" nillable="true" type="q63:ArrayOfCostCategory" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadCategory">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadCategoryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q64="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="LoadCategoryResult" nillable="true" type="q64:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveRevenueHeadGr">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q65="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="rvgr" nillable="true" type="q65:RevenueHeadGroup" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveRevenueHeadGrResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SaveRevenueHeadGrResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateRevHdGr">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q66="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="urvgr" nillable="true" type="q66:RevenueHeadGroup" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateRevHdGrResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateRevHdGrResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveRevenueHead">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q67="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="rvihd" nillable="true" type="q67:RevenueHead" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveRevenueHeadResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SaveRevenueHeadResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateRevHead">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q68="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="urvshd" nillable="true" type="q68:RevenueHead" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateRevHeadResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateRevHeadResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRevHdGrps">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRevHdGrpsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q69="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="GetRevHdGrpsResult" nillable="true" type="q69:ArrayOfRevenueHeadGroup" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VerifyRevHdGr">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="groupid" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VerifyRevHdGrResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="VerifyRevHdGrResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRevenueHead">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRevenueHeadResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q70="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="GetRevenueHeadResult" nillable="true" type="q70:ArrayOfRevenueHead" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRevenueHeads">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="headgr" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRevenueHeadsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q71="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="GetRevenueHeadsResult" nillable="true" type="q71:ArrayOfRevenueHead" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VerifyRevHead">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="headid" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VerifyRevHeadResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="VerifyRevHeadResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveHeadAssign">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q72="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="hdas" nillable="true" type="q72:DepartmentRevenueHead" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveHeadAssignResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SaveHeadAssignResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateHdAss">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q73="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="uhdas" nillable="true" type="q73:DepartmentRevenueHead" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateHdAssResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateHdAssResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetHeadAssign">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetHeadAssignResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q74="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetHeadAssignResult" nillable="true" type="q74:ArrayOfDepartmentRevenueHead" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRevenueGroup">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRevenueGroupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q75="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetRevenueGroupResult" nillable="true" type="q75:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLedgerCodeAllocation">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLedgerCodeAllocationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q76="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetLedgerCodeAllocationResult" nillable="true" type="q76:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCostCenterTransaction">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Control" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Where" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Where1" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCostCenterTransactionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q77="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetCostCenterTransactionResult" nillable="true" type="q77:ArrayOfCostCenterTransation" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DisplayCostcenterTransaction">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Control" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Where" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Where1" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DisplayCostcenterTransactionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q78="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="DisplayCostcenterTransactionResult" nillable="true" type="q78:ArrayOfCostCenterTransation" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveCostCentertransaction">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strRefNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strCategoryCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="stDate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strCostCenterCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strLedgerCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Amount" type="xs:double" />
+        <xs:element xmlns:q79="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="oct" nillable="true" type="q79:CostCenterTransation" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveCostCentertransactionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SaveCostCentertransactionResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateCostCenterTran">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strRefNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strCategoryCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="stDate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strCostCenterCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strLedgerCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Amount" type="xs:double" />
+        <xs:element xmlns:q80="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="oct" nillable="true" type="q80:CostCenterTransation" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateCostCenterTranResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateCostCenterTranResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCostCategoryReport">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="control" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Where" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Branchid" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fDate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="tDate" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCostCategoryReportResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q81="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetCostCategoryReportResult" nillable="true" type="q81:ArrayOfCostCategoryRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCashflowReport">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="control" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Where" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Branchid" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fDate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="tDate" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCashflowReportResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q82="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetCashflowReportResult" nillable="true" type="q82:ArrayOfCashflowRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveTree">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strparent" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strgroup" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strgroup1" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveTreeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SaveTreeResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCostcategoryTreeview">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="control" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Where" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Where1" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCostcategoryTreeviewResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q83="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetCostcategoryTreeviewResult" nillable="true" type="q83:ArrayOfCostCategoryTreeview" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCostcenterTreeview">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="control" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Where" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Where1" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCostcenterTreeviewResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q84="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetCostcenterTreeviewResult" nillable="true" type="q84:ArrayOfCostCategoryTreeview" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCollectionHospital">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Where" type="xs:int" />
+        <xs:element minOccurs="0" name="F_Date" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="T_Date" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strBranchId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCollectionHospitalResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q85="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetCollectionHospitalResult" nillable="true" type="q85:ArrayOfCollectionRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetGroupTreeviewSelection">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strSelection" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetGroupTreeviewSelectionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q86="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetGroupTreeviewSelectionResult" nillable="true" type="q86:ArrayOfGroupsConfig" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetArchieve">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Control" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strWhere" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="intWhere1" type="xs:int" />
+        <xs:element minOccurs="0" name="Fdate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Tdate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PostStatus" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetArchieveResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q87="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetArchieveResult" nillable="true" type="q87:ArrayOfVoucherTransaction" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBankReconcilation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Contol" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="where" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Fdate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Tdate" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBankReconcilationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q88="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetBankReconcilationResult" nillable="true" type="q88:ArrayOfBankReconcilation" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetParticulars">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Contol" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="where" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="where1" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetParticularsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q89="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetParticularsResult" nillable="true" type="q89:ArrayOfBankReconcilation" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLedgerNameBank">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLedgerNameBankResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q90="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetLedgerNameBankResult" nillable="true" type="q90:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveBankReconcilationSetup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strRefNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strBID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="intVtype" type="xs:int" />
+        <xs:element minOccurs="0" name="strDate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strBrLcode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strLcode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dblDr" type="xs:double" />
+        <xs:element minOccurs="0" name="dblCr" type="xs:double" />
+        <xs:element minOccurs="0" name="dblChildAmount" type="xs:double" />
+        <xs:element minOccurs="0" name="strtoby" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strChequeNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strchequeDate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strBankDate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strBkChargePer" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dblBkAmount" type="xs:double" />
+        <xs:element minOccurs="0" name="dblNetAmount" type="xs:double" />
+        <xs:element minOccurs="0" name="sstrPostStatus" nillable="true" type="xs:string" />
+        <xs:element xmlns:q91="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="Br" nillable="true" type="q91:BankReconcilation" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveBankReconcilationSetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SaveBankReconcilationSetupResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBankReconcilationRpt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Where" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="F_Date" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="T_Date" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strBranchId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBankReconcilationRptResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q92="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetBankReconcilationRptResult" nillable="true" type="q92:ArrayOfBankReconcilationRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLocation">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLocationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q93="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetLocationResult" nillable="true" type="q93:ArrayOfFixedAssets" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Getsupplier">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetsupplierResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q94="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetsupplierResult" nillable="true" type="q94:ArrayOfFixedAssets" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveAdjustment">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q95="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="FaAdj" nillable="true" type="q95:FixedAssetsAdjustment" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveAdjustmentResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SaveAdjustmentResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateAdjustment">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q96="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="FaAdj" nillable="true" type="q96:FixedAssetsAdjustment" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateAdjustmentResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateAdjustmentResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteAdjustment">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q97="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="FaAdj" nillable="true" type="q97:FixedAssetsAdjustment" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteAdjustmentResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteAdjustmentResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFixedAssetsAdjustment">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFixedAssetsAdjustmentResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q98="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetFixedAssetsAdjustmentResult" nillable="true" type="q98:ArrayOfFixedAssetsAdjustment" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFixedAssetsRo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="F_Date" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="T_Date" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strWhere" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFixedAssetsRoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q99="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetFixedAssetsRoResult" nillable="true" type="q99:ArrayOfFixedAssetsRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFxdDepreciationLedger">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFxdDepreciationLedgerResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q100="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetFxdDepreciationLedgerResult" nillable="true" type="q100:ArrayOfFixedAssets" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSupplierLedger">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Ledgergroup" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSupplierLedgerResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q101="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetSupplierLedgerResult" nillable="true" type="q101:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetManufacturerName">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetManufacturerNameResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q102="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetManufacturerNameResult" nillable="true" type="q102:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFixedAssetsDetailsRo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="F_Date" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="T_Date" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFixedAssetsDetailsRoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q103="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetFixedAssetsDetailsRoResult" nillable="true" type="q103:ArrayOfFixedAssetsDetailsRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveWrittenDownValue">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="F_Date" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="T_Date" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strWhere" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveWrittenDownValueResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SaveWrittenDownValueResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTraiBalanceReportsLedger">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="F_Date" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="T_Date" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strBranchId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTraiBalanceReportsLedgerResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q104="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetTraiBalanceReportsLedgerResult" nillable="true" type="q104:ArrayOfTrailBalanceRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCashOpening">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="fDate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="tDate" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCashOpeningResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q105="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetCashOpeningResult" nillable="true" type="q105:ArrayOfCashflowRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateScript">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strLedgercode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="grcode" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateScriptResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateScriptResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertFiscalYear">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q106="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="fy" nillable="true" type="q106:FinancialYear" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertFiscalYearResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertFiscalYearResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateFiscalYear">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q107="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="fy" nillable="true" type="q107:FinancialYear" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateFiscalYearResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateFiscalYearResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFiscalYear">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFiscalYearResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q108="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetFiscalYearResult" nillable="true" type="q108:ArrayOfFinancialYear" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetActiveFiscalYear">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetActiveFiscalYearResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q109="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetActiveFiscalYearResult" nillable="true" type="q109:ArrayOfFinancialYear" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteLedgerTreeview">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strLedgerName" nillable="true" type="xs:string" />
+        <xs:element xmlns:q110="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="fy" nillable="true" type="q110:Ledgers" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteLedgerTreeviewResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteLedgerTreeviewResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteGroupTreeview">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strGrName" nillable="true" type="xs:string" />
+        <xs:element xmlns:q111="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="fy" nillable="true" type="q111:GroupsConfig" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteGroupTreeviewResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteGroupTreeviewResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLedgerInformationGrid">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="strControl" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLedgerInformationGridResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q112="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetLedgerInformationGridResult" nillable="true" type="q112:ArrayOfLedgerRO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCollectionSummary">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="StartDate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="EndDate" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCollectionSummaryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q113="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="GetCollectionSummaryResult" nillable="true" type="q113:ArrayOfOPDPayment" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBankReconPost">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="pwhere" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBankReconPostResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q114="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="GetBankReconPostResult" nillable="true" type="q114:ArrayOfBankReconcilation" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertIntegretedBr">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="MofuleRefNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dblTotalAmount" type="xs:double" />
+        <xs:element minOccurs="0" name="voucheras" type="xs:int" />
+        <xs:element minOccurs="0" name="strdate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LedgerName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ReverseLEdger" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Narration" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="intModule" type="xs:int" />
+        <xs:element xmlns:q115="http://schemas.datacontract.org/2004/07/AH.ACCMS.MODEL" minOccurs="0" name="fy" nillable="true" type="q115:BankReconcilation" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertIntegretedBrResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertIntegretedBrResult" type="xs:short" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDeptGroupDicByType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="type" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDeptGroupDicByTypeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q116="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetDeptGroupDicByTypeResult" nillable="true" type="q116:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDepartmentsetupDic">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="type" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="deptgr" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDepartmentsetupDicResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q117="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetDepartmentsetupDicResult" nillable="true" type="q117:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDeptUnitDic">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deptgrp" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="deptid" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDeptUnitDicResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q118="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetDeptUnitDicResult" nillable="true" type="q118:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

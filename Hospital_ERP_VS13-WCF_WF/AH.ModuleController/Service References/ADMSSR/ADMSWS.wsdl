@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ADMSWS" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:89/ADMS/ADMSService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:89/ADMS/ADMSService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:89/ADMS/ADMSService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/AH.ADMS.MODEL" />
+      <xsd:import schemaLocation="http://localhost:89/ADMS/ADMSService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/AH.PRMS.MODEL" />
+      <xsd:import schemaLocation="http://localhost:89/ADMS/ADMSService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" />
+      <xsd:import schemaLocation="http://localhost:89/ADMS/ADMSService.svc?xsd=xsd5" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IADMSWS_SaveBedFee_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveBedFee" />
+  </wsdl:message>
+  <wsdl:message name="IADMSWS_SaveBedFee_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveBedFeeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IADMSWS_UpdateBedFee_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateBedFee" />
+  </wsdl:message>
+  <wsdl:message name="IADMSWS_UpdateBedFee_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateBedFeeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IADMSWS_GetBedRateShow_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedRateShow" />
+  </wsdl:message>
+  <wsdl:message name="IADMSWS_GetBedRateShow_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedRateShowResponse" />
+  </wsdl:message>
+  <wsdl:message name="IADMSWS_VerifyBedTestFee_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyBedTestFee" />
+  </wsdl:message>
+  <wsdl:message name="IADMSWS_VerifyBedTestFee_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyBedTestFeeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IADMSWS_GetBedtypeDict_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedtypeDict" />
+  </wsdl:message>
+  <wsdl:message name="IADMSWS_GetBedtypeDict_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedtypeDictResponse" />
+  </wsdl:message>
+  <wsdl:message name="IADMSWS_GetBuildingDict_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBuildingDict" />
+  </wsdl:message>
+  <wsdl:message name="IADMSWS_GetBuildingDict_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBuildingDictResponse" />
+  </wsdl:message>
+  <wsdl:message name="IADMSWS_GetBedRates_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedRates" />
+  </wsdl:message>
+  <wsdl:message name="IADMSWS_GetBedRates_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedRatesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IADMSWS_GetBedRateSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedRateSetup" />
+  </wsdl:message>
+  <wsdl:message name="IADMSWS_GetBedRateSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBedRateSetupResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IADMSWS">
+    <wsdl:operation name="SaveBedFee">
+      <wsdl:input wsaw:Action="http://tempuri.org/IADMSWS/SaveBedFee" message="tns:IADMSWS_SaveBedFee_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IADMSWS/SaveBedFeeResponse" message="tns:IADMSWS_SaveBedFee_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBedFee">
+      <wsdl:input wsaw:Action="http://tempuri.org/IADMSWS/UpdateBedFee" message="tns:IADMSWS_UpdateBedFee_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IADMSWS/UpdateBedFeeResponse" message="tns:IADMSWS_UpdateBedFee_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBedRateShow">
+      <wsdl:input wsaw:Action="http://tempuri.org/IADMSWS/GetBedRateShow" message="tns:IADMSWS_GetBedRateShow_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IADMSWS/GetBedRateShowResponse" message="tns:IADMSWS_GetBedRateShow_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyBedTestFee">
+      <wsdl:input wsaw:Action="http://tempuri.org/IADMSWS/VerifyBedTestFee" message="tns:IADMSWS_VerifyBedTestFee_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IADMSWS/VerifyBedTestFeeResponse" message="tns:IADMSWS_VerifyBedTestFee_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBedtypeDict">
+      <wsdl:input wsaw:Action="http://tempuri.org/IADMSWS/GetBedtypeDict" message="tns:IADMSWS_GetBedtypeDict_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IADMSWS/GetBedtypeDictResponse" message="tns:IADMSWS_GetBedtypeDict_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBuildingDict">
+      <wsdl:input wsaw:Action="http://tempuri.org/IADMSWS/GetBuildingDict" message="tns:IADMSWS_GetBuildingDict_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IADMSWS/GetBuildingDictResponse" message="tns:IADMSWS_GetBuildingDict_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBedRates">
+      <wsdl:input wsaw:Action="http://tempuri.org/IADMSWS/GetBedRates" message="tns:IADMSWS_GetBedRates_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IADMSWS/GetBedRatesResponse" message="tns:IADMSWS_GetBedRates_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBedRateSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IADMSWS/GetBedRateSetup" message="tns:IADMSWS_GetBedRateSetup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IADMSWS/GetBedRateSetupResponse" message="tns:IADMSWS_GetBedRateSetup_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IADMSWS" type="tns:IADMSWS">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SaveBedFee">
+      <soap:operation soapAction="http://tempuri.org/IADMSWS/SaveBedFee" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBedFee">
+      <soap:operation soapAction="http://tempuri.org/IADMSWS/UpdateBedFee" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBedRateShow">
+      <soap:operation soapAction="http://tempuri.org/IADMSWS/GetBedRateShow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyBedTestFee">
+      <soap:operation soapAction="http://tempuri.org/IADMSWS/VerifyBedTestFee" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBedtypeDict">
+      <soap:operation soapAction="http://tempuri.org/IADMSWS/GetBedtypeDict" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBuildingDict">
+      <soap:operation soapAction="http://tempuri.org/IADMSWS/GetBuildingDict" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBedRates">
+      <soap:operation soapAction="http://tempuri.org/IADMSWS/GetBedRates" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBedRateSetup">
+      <soap:operation soapAction="http://tempuri.org/IADMSWS/GetBedRateSetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ADMSWS">
+    <wsdl:port name="BasicHttpBinding_IADMSWS" binding="tns:BasicHttpBinding_IADMSWS">
+      <soap:address location="http://localhost:89/ADMS/ADMSService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AH.FNB.MODEL" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:96/FNB/FNBService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" />
+  <xs:import schemaLocation="http://localhost:96/FNB/FNBService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="ArrayOfMaterial_Receipt">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Material_Receipt" nillable="true" type="tns:Material_Receipt" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMaterial_Receipt" nillable="true" type="tns:ArrayOfMaterial_Receipt" />
+  <xs:complexType name="Material_Receipt">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AgainstRefNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BrandID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BrandName" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q1:EntryParameter" />
+      <xs:element minOccurs="0" name="GroupName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Groupcode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ModelID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ModelName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MrrDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MrrNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NetAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="Notes" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProductID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProductName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Quantity" type="xs:double" />
+      <xs:element minOccurs="0" name="Rate" type="xs:double" />
+      <xs:element minOccurs="0" name="Status" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SupplierId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SupplierName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UnitName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Unitcode" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Material_Receipt" nillable="true" type="tns:Material_Receipt" />
+  <xs:complexType name="DietCategory">
+    <xs:sequence>
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q2:EntryParameter" />
+      <xs:element minOccurs="0" name="dietID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="dietcatName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="remarks" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DietCategory" nillable="true" type="tns:DietCategory" />
+  <xs:complexType name="ArrayOfDietCategory">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DietCategory" nillable="true" type="tns:DietCategory" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDietCategory" nillable="true" type="tns:ArrayOfDietCategory" />
+  <xs:complexType name="FoodCategory">
+    <xs:sequence>
+      <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q3:EntryParameter" />
+      <xs:element minOccurs="0" name="FoodID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FoodcatName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FoodCategory" nillable="true" type="tns:FoodCategory" />
+  <xs:complexType name="ArrayOfFoodCategory">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FoodCategory" nillable="true" type="tns:FoodCategory" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFoodCategory" nillable="true" type="tns:ArrayOfFoodCategory" />
+  <xs:complexType name="FoodItem">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DietCatID" nillable="true" type="xs:string" />
+      <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q4:EntryParameter" />
+      <xs:element minOccurs="0" name="FoodCatID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ItemID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ItemName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FoodItem" nillable="true" type="tns:FoodItem" />
+  <xs:complexType name="ArrayOfFoodItem">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FoodItem" nillable="true" type="tns:FoodItem" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFoodItem" nillable="true" type="tns:ArrayOfFoodItem" />
+  <xs:complexType name="FoodMaster">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CatID" nillable="true" type="xs:string" />
+      <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q5:EntryParameter" />
+      <xs:element minOccurs="0" name="FoodID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FoodImage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FoodName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GrpID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsDiabetic" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsHighFat" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsHighprotein" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsLowFat" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsLowProtein" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsNormal" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsRenal" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Price" type="xs:double" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UnitId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FoodMaster" nillable="true" type="tns:FoodMaster" />
+  <xs:complexType name="ArrayOfFoodMaster">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FoodMaster" nillable="true" type="tns:FoodMaster" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFoodMaster" nillable="true" type="tns:ArrayOfFoodMaster" />
+  <xs:complexType name="FoodMenuSetup">
+    <xs:sequence>
+      <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q6:EntryParameter" />
+      <xs:element minOccurs="0" name="MenuID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MenuName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Rate" type="xs:double" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FoodMenuSetup" nillable="true" type="tns:FoodMenuSetup" />
+  <xs:complexType name="ArrayOfFoodMenuSetup">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FoodMenuSetup" nillable="true" type="tns:FoodMenuSetup" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFoodMenuSetup" nillable="true" type="tns:ArrayOfFoodMenuSetup" />
+  <xs:complexType name="ServiceSetup">
+    <xs:sequence>
+      <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q7:EntryParameter" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ServiceID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ServiceName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ServiceSetup" nillable="true" type="tns:ServiceSetup" />
+  <xs:complexType name="ArrayOfServiceSetup">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ServiceSetup" nillable="true" type="tns:ServiceSetup" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfServiceSetup" nillable="true" type="tns:ArrayOfServiceSetup" />
+  <xs:complexType name="ArrayOfFoodItemRO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FoodItemRO" nillable="true" type="tns:FoodItemRO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFoodItemRO" nillable="true" type="tns:ArrayOfFoodItemRO" />
+  <xs:complexType name="FoodItemRO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CatID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CatName" nillable="true" type="xs:string" />
+      <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q8:EntryParameter" />
+      <xs:element minOccurs="0" name="FoodID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FoodName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NetPrice" type="xs:double" />
+      <xs:element minOccurs="0" name="UnitID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UnitName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FoodItemRO" nillable="true" type="tns:FoodItemRO" />
+  <xs:complexType name="FoodMenuType">
+    <xs:sequence>
+      <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q9:EntryParameter" />
+      <xs:element minOccurs="0" name="FoodTypeID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FoodTypeName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FoodMenuType" nillable="true" type="tns:FoodMenuType" />
+  <xs:complexType name="ArrayOfFoodMenuType">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FoodMenuType" nillable="true" type="tns:FoodMenuType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFoodMenuType" nillable="true" type="tns:ArrayOfFoodMenuType" />
+  <xs:complexType name="FoodMenuItemSetup">
+    <xs:sequence>
+      <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q10:EntryParameter" />
+      <xs:element minOccurs="0" name="FoodItemID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FoodItemName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FoodMenuID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FoodMenuName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FoodTypeID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FoodTypeName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ItemRate" type="xs:double" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FoodMenuItemSetup" nillable="true" type="tns:FoodMenuItemSetup" />
+  <xs:complexType name="ArrayOfFoodMenuItemSetup">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FoodMenuItemSetup" nillable="true" type="tns:FoodMenuItemSetup" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFoodMenuItemSetup" nillable="true" type="tns:ArrayOfFoodMenuItemSetup" />
+  <xs:complexType name="MealSetup">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="EndTime" nillable="true" type="xs:string" />
+      <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q11:EntryParameter" />
+      <xs:element minOccurs="0" name="MealID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MealName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StartTime" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MealSetup" nillable="true" type="tns:MealSetup" />
+  <xs:complexType name="ArrayOfMealSetup">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MealSetup" nillable="true" type="tns:MealSetup" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMealSetup" nillable="true" type="tns:ArrayOfMealSetup" />
+  <xs:complexType name="WeeklySetupMeal">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="EndDate" nillable="true" type="xs:string" />
+      <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q12:EntryParameter" />
+      <xs:element minOccurs="0" name="MealID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MealName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OldMealID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OldSetMenuID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OldSetMenuTypeID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OldWeekDayNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SetMenuID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StartDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WeekDayNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WeeklySetMenuTypeID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WeeklySetMenuTypeName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WeeklySetupMeal" nillable="true" type="tns:WeeklySetupMeal" />
+  <xs:complexType name="ArrayOfWeeklySetupMeal">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="WeeklySetupMeal" nillable="true" type="tns:WeeklySetupMeal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfWeeklySetupMeal" nillable="true" type="tns:ArrayOfWeeklySetupMeal" />
+  <xs:complexType name="ArrayOfWeeklyEmpMealRegister">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="WeeklyEmpMealRegister" nillable="true" type="tns:WeeklyEmpMealRegister" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfWeeklyEmpMealRegister" nillable="true" type="tns:ArrayOfWeeklyEmpMealRegister" />
+  <xs:complexType name="WeeklyEmpMealRegister">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Bill" type="xs:double" />
+      <xs:element minOccurs="0" name="Billrate" nillable="true" type="xs:string" />
+      <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q13:EntryParameter" />
+      <xs:element minOccurs="0" name="MealDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MealRegID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NetAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="SetmenuItem" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Setmenuid" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WeekDayNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="empId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="mealName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="mealid" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="subsidy" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WeeklyEmpMealRegister" nillable="true" type="tns:WeeklyEmpMealRegister" />
+  <xs:complexType name="ArrayOfWeeklyChart">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="WeeklyChart" nillable="true" type="tns:WeeklyChart" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfWeeklyChart" nillable="true" type="tns:ArrayOfWeeklyChart" />
+  <xs:complexType name="WeeklyChart">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Day" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MealId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MealName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="menu_name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="setmenutypeid" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WeeklyChart" nillable="true" type="tns:WeeklyChart" />
+  <xs:complexType name="Visitors">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Active" type="ser:char" />
+      <xs:element minOccurs="0" name="DisAuthority" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DisRef" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DisType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Discount" type="xs:double" />
+      <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q14:EntryParameter" />
+      <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="FNBPayment" nillable="true" type="q15:OPDPayment" />
+      <xs:element minOccurs="0" name="FoodID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FoodName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InvoiceNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ItemDiscount" type="xs:double" />
+      <xs:element minOccurs="0" name="NetPaid" type="xs:double" />
+      <xs:element minOccurs="0" name="PaymentString" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PurposeID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Qnty" type="xs:double" />
+      <xs:element minOccurs="0" name="Rate" type="xs:double" />
+      <xs:element minOccurs="0" name="SetMenuID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Total" type="xs:double" />
+      <xs:element minOccurs="0" name="TransNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Vat" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VisOrders" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="empID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="entryDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="entryby" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Visitors" nillable="true" type="tns:Visitors" />
+  <xs:complexType name="ArrayOfVisitors">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Visitors" nillable="true" type="tns:Visitors" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfVisitors" nillable="true" type="tns:ArrayOfVisitors" />
+  <xs:complexType name="ArrayOfVisitorsSlipRO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="VisitorsSlipRO" nillable="true" type="tns:VisitorsSlipRO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfVisitorsSlipRO" nillable="true" type="tns:ArrayOfVisitorsSlipRO" />
+  <xs:complexType name="VisitorsSlipRO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CashAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="CrAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="DrAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="Entryby" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FoodID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FoodName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Itemdisc" type="xs:double" />
+      <xs:element minOccurs="0" name="NetPaid" type="xs:double" />
+      <xs:element minOccurs="0" name="Qty" type="xs:double" />
+      <xs:element minOccurs="0" name="Rate" type="xs:double" />
+      <xs:element minOccurs="0" name="Total" type="xs:double" />
+      <xs:element minOccurs="0" name="TotalDis" type="xs:double" />
+      <xs:element minOccurs="0" name="TotalVat" type="xs:double" />
+      <xs:element minOccurs="0" name="TransationNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VisitorsName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="empId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="entry_date" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="invoiceNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="vdate" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="VisitorsSlipRO" nillable="true" type="tns:VisitorsSlipRO" />
+  <xs:complexType name="ArrayOfDailyCollectionRO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DailyCollectionRO" nillable="true" type="tns:DailyCollectionRO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDailyCollectionRO" nillable="true" type="tns:ArrayOfDailyCollectionRO" />
+  <xs:complexType name="DailyCollectionRO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BillAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="BillSubsidy" type="xs:double" />
+      <xs:element minOccurs="0" name="CardNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MealDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="MealID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MealName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NetAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="WeekDayName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WeekDayNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="strMealDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="userID" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DailyCollectionRO" nillable="true" type="tns:DailyCollectionRO" />
+  <xs:complexType name="Inventory">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CatID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CatName" nillable="true" type="xs:string" />
+      <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q16:EntryParameter" />
+      <xs:element minOccurs="0" name="FoodID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FoodName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IssueRefNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MrrDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MrrNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PostStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="dblClosingQty" type="xs:double" />
+      <xs:element minOccurs="0" name="dblInwardQty" type="xs:double" />
+      <xs:element minOccurs="0" name="dblNetAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="dblNetQty" type="xs:double" />
+      <xs:element minOccurs="0" name="dblOutwardQty" type="xs:double" />
+      <xs:element minOccurs="0" name="dblReceivedQnty" type="xs:double" />
+      <xs:element minOccurs="0" name="dblTranRate" type="xs:double" />
+      <xs:element minOccurs="0" name="dblTranqty" type="xs:double" />
+      <xs:element minOccurs="0" name="dbldamageQty" type="xs:double" />
+      <xs:element minOccurs="0" name="dblopnqty" type="xs:double" />
+      <xs:element minOccurs="0" name="intVtype" type="xs:int" />
+      <xs:element minOccurs="0" name="strString" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Inventory" nillable="true" type="tns:Inventory" />
+  <xs:complexType name="ArrayOfInventory">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Inventory" nillable="true" type="tns:Inventory" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfInventory" nillable="true" type="tns:ArrayOfInventory" />
+  <xs:complexType name="ArrayOfInventoryRO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="InventoryRO" nillable="true" type="tns:InventoryRO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfInventoryRO" nillable="true" type="tns:ArrayOfInventoryRO" />
+  <xs:complexType name="InventoryRO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CatID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CatName" nillable="true" type="xs:string" />
+      <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q17:EntryParameter" />
+      <xs:element minOccurs="0" name="FoodID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FoodName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MrrDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MrrNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PostStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="dblClosingQty" type="xs:double" />
+      <xs:element minOccurs="0" name="dblInwardQty" type="xs:double" />
+      <xs:element minOccurs="0" name="dblNetAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="dblNetQty" type="xs:double" />
+      <xs:element minOccurs="0" name="dblOutwardQty" type="xs:double" />
+      <xs:element minOccurs="0" name="dblReceivedQnty" type="xs:double" />
+      <xs:element minOccurs="0" name="dblReturnQty" type="xs:double" />
+      <xs:element minOccurs="0" name="dblTranRate" type="xs:double" />
+      <xs:element minOccurs="0" name="dblTranqty" type="xs:double" />
+      <xs:element minOccurs="0" name="dbldamageQty" type="xs:double" />
+      <xs:element minOccurs="0" name="dblopnqty" type="xs:double" />
+      <xs:element minOccurs="0" name="intVtype" type="xs:int" />
+      <xs:element minOccurs="0" name="strString" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="InventoryRO" nillable="true" type="tns:InventoryRO" />
+  <xs:complexType name="DietSubType">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DietSubID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DietSubTypeName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DietTypeID" nillable="true" type="xs:string" />
+      <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q18:EntryParameter" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DietSubType" nillable="true" type="tns:DietSubType" />
+  <xs:complexType name="ArrayOfDietSubType">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DietSubType" nillable="true" type="tns:DietSubType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDietSubType" nillable="true" type="tns:ArrayOfDietSubType" />
+  <xs:complexType name="ArrayOfWeeklyDietSetup">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="WeeklyDietSetup" nillable="true" type="tns:WeeklyDietSetup" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfWeeklyDietSetup" nillable="true" type="tns:ArrayOfWeeklyDietSetup" />
+  <xs:complexType name="WeeklyDietSetup">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DietMenuID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DietName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DietSubID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DietSubMenuName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DietTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DietTypeID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DietTypeMenuName" nillable="true" type="xs:string" />
+      <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q19:EntryParameter" />
+      <xs:element minOccurs="0" name="WeekDayName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WeekDayNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WeeklyDietMenu" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WeeklyDietSetup" nillable="true" type="tns:WeeklyDietSetup" />
+  <xs:complexType name="ArrayOfMonthwiseMealRegisterRO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MonthwiseMealRegisterRO" nillable="true" type="tns:MonthwiseMealRegisterRO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMonthwiseMealRegisterRO" nillable="true" type="tns:ArrayOfMonthwiseMealRegisterRO" />
+  <xs:complexType name="MonthwiseMealRegisterRO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="NetAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="Rate" type="xs:double" />
+      <xs:element minOccurs="0" name="deptittle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="desTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="disRate" type="xs:double" />
+      <xs:element minOccurs="0" name="empID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="empName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="grpTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="qnty" type="xs:double" />
+      <xs:element minOccurs="0" name="subsidy" type="xs:double" />
+      <xs:element minOccurs="0" name="unitTitle" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MonthwiseMealRegisterRO" nillable="true" type="tns:MonthwiseMealRegisterRO" />
+</xs:schema>

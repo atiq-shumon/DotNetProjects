@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="31e4a957-67c8-45b2-8e90-3b052a3e1e4b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:52/OPR/OPRService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="OPRService.xsd" MetadataType="Schema" ID="87228d20-4a3e-4b87-a8e0-4ffa60c7723d" SourceId="1" SourceUrl="http://localhost:52/OPR/OPRService.svc?xsd=xsd9" />
+    <MetadataFile FileName="OPRService1.xsd" MetadataType="Schema" ID="d73523f6-f1ba-46fc-9881-5818d6726823" SourceId="1" SourceUrl="http://localhost:52/OPR/OPRService.svc?xsd=xsd7" />
+    <MetadataFile FileName="OPRWS.wsdl" MetadataType="Wsdl" ID="1d825101-5e39-4bd4-8323-89806915c824" SourceId="1" SourceUrl="http://localhost:52/OPR/OPRService.svc?wsdl" />
+    <MetadataFile FileName="OPRService2.xsd" MetadataType="Schema" ID="45446374-026c-4baa-9c72-9835e02de89b" SourceId="1" SourceUrl="http://localhost:52/OPR/OPRService.svc?xsd=xsd5" />
+    <MetadataFile FileName="OPRService3.xsd" MetadataType="Schema" ID="5de30a1b-7834-458c-b2e0-037e3877a0d1" SourceId="1" SourceUrl="http://localhost:52/OPR/OPRService.svc?xsd=xsd3" />
+    <MetadataFile FileName="OPRService4.xsd" MetadataType="Schema" ID="e6f0c3b4-bd9c-49c3-bf87-75e24e799f53" SourceId="1" SourceUrl="http://localhost:52/OPR/OPRService.svc?xsd=xsd8" />
+    <MetadataFile FileName="OPRService5.xsd" MetadataType="Schema" ID="5a7e6678-1cb7-407a-a33a-693f136601b6" SourceId="1" SourceUrl="http://localhost:52/OPR/OPRService.svc?xsd=xsd1" />
+    <MetadataFile FileName="OPRService6.xsd" MetadataType="Schema" ID="b4d5a0e2-bd9a-4712-bb44-aaddbb12afb2" SourceId="1" SourceUrl="http://localhost:52/OPR/OPRService.svc?xsd=xsd2" />
+    <MetadataFile FileName="OPRService7.xsd" MetadataType="Schema" ID="0669fa71-bc9e-476a-9b03-1546cda9aa10" SourceId="1" SourceUrl="http://localhost:52/OPR/OPRService.svc?xsd=xsd4" />
+    <MetadataFile FileName="OPRService.disco" MetadataType="Disco" ID="9ca33a1c-cbd6-4aab-9e1a-4502f78b450a" SourceId="1" SourceUrl="http://localhost:52/OPR/OPRService.svc?disco" />
+    <MetadataFile FileName="OPRService8.xsd" MetadataType="Schema" ID="ce8dfc49-725a-444b-89b5-e2719b16b42e" SourceId="1" SourceUrl="http://localhost:52/OPR/OPRService.svc?xsd=xsd6" />
+    <MetadataFile FileName="OPRService9.xsd" MetadataType="Schema" ID="7951d4bc-cd44-4cc7-a1b8-08e8748cc84e" SourceId="1" SourceUrl="http://localhost:52/OPR/OPRService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

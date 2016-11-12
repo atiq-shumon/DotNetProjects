@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/AH.DMS.MODEL" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AH.DMS.MODEL" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:75/DRS/DRSService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" />
+  <xs:import schemaLocation="http://localhost:75/DRS/DRSService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/AH.HR.MODEL" />
+  <xs:import schemaLocation="http://localhost:75/DRS/DRSService.svc?xsd=xsd8" namespace="http://schemas.datacontract.org/2004/07/AH.IPDShared.MODEL" />
+  <xs:import schemaLocation="http://localhost:75/DRS/DRSService.svc?xsd=xsd9" namespace="http://schemas.datacontract.org/2004/07/AH.DUtility" />
+  <xs:import schemaLocation="http://localhost:75/DRS/DRSService.svc?xsd=xsd11" namespace="http://schemas.datacontract.org/2004/07/AH.OPD.MODEL" />
+  <xs:import schemaLocation="http://localhost:75/DRS/DRSService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/AH.PRMS.MODEL" />
+  <xs:import schemaLocation="http://localhost:75/DRS/DRSService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/AH.DTMS.MODEL" />
+  <xs:complexType name="DiagnosticMR">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ApprovalID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BedNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DRNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Date" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Dept" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="DiagnosticPayment" nillable="true" type="q1:OPDPayment" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/AH.HR.MODEL" minOccurs="0" name="Doctor" nillable="true" type="q2:Doctor" />
+      <xs:element minOccurs="0" name="DraftNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Due" type="xs:double" />
+      <xs:element minOccurs="0" name="DueStatus" nillable="true" type="xs:string" />
+      <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q3:EntryParameter" />
+      <xs:element minOccurs="0" name="MRNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NursingTestOrder" nillable="true" type="tns:NursingTestOrder" />
+      <xs:element minOccurs="0" name="PackageID" nillable="true" type="xs:string" />
+      <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/AH.IPDShared.MODEL" minOccurs="0" name="Patient" nillable="true" type="q4:InPatient" />
+      <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/AH.DUtility" minOccurs="0" name="PatientAge" nillable="true" type="q5:Age" />
+      <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/AH.OPD.MODEL" minOccurs="0" name="Prescription" nillable="true" type="q6:Ticket" />
+      <xs:element minOccurs="0" name="PurposeID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RefdOrg" nillable="true" type="tns:RefdOrg" />
+      <xs:element minOccurs="0" name="RefundAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/AH.PRMS.MODEL" minOccurs="0" name="Room" nillable="true" type="q7:LabRoom" />
+      <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/AH.DTMS.MODEL" minOccurs="0" name="SampleCollector" nillable="true" type="q8:SpecimenHolder" />
+      <xs:element minOccurs="0" name="TestCancelCause" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TestRefundCause" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TestString1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TestString2" nillable="true" type="xs:string" />
+      <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/AH.DTMS.MODEL" minOccurs="0" name="Tests" nillable="true" type="q9:ArrayOfTestFee" />
+      <xs:element minOccurs="0" name="TransNo" nillable="true" type="xs:string" />
+      <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/AH.DTMS.MODEL" minOccurs="0" name="test" nillable="true" type="q10:TestFee" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DiagnosticMR" nillable="true" type="tns:DiagnosticMR" />
+  <xs:complexType name="NursingTestOrder">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="NursingStationID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NursingStationTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RegID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReqID" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="NursingTestOrder" nillable="true" type="tns:NursingTestOrder" />
+  <xs:complexType name="RefdOrg">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/AH.Shared.MODEL" minOccurs="0" name="EntryParameter" nillable="true" type="q11:EntryParameter" />
+      <xs:element minOccurs="0" name="OrgID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OrgTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OrgTitleBeng" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Phone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Web" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RefdOrg" nillable="true" type="tns:RefdOrg" />
+  <xs:complexType name="ArrayOfDiagnosticMR">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DiagnosticMR" nillable="true" type="tns:DiagnosticMR" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDiagnosticMR" nillable="true" type="tns:ArrayOfDiagnosticMR" />
+</xs:schema>
