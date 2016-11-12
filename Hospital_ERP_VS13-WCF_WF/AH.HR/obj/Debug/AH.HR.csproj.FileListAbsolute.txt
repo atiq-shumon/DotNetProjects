@@ -1,0 +1,105 @@
+E:\AHERP\AH.HR\obj\Debug\AH.HR.csprojResolveAssemblyReference.cache
+E:\AHERP\AH.HR\obj\Debug\AH.HR.Properties.Resources.resources
+E:\AHERP\AH.HR\obj\Debug\AH.HR.csproj.GenerateResource.Cache
+E:\AHERP\AH.HR\bin\Debug\AH.HR.dll.config
+E:\AHERP\AH.HR\bin\Debug\AH.HR.dll
+E:\AHERP\AH.HR\bin\Debug\AH.HR.pdb
+E:\AHERP\AH.HR\bin\Debug\AH.Shared.dll
+E:\AHERP\AH.HR\obj\Debug\AH.HR.dll
+E:\AHERP\AH.HR\obj\Debug\AH.HR.pdb
+E:\AHERP\AH.HR\bin\Debug\DUtility.dll
+E:\AHERP\AH.HR\bin\Debug\DUtility.pdb
+E:\AHERP\AH.HR\bin\Debug\Oracle.DataAccess.dll
+E:\AHERP\AH.HR\bin\Debug\AtiqsControlLibrary.dll
+E:\AHERP\AH.HR\bin\Debug\AH.PRMS.dll
+E:\AHERP\AH.HR\bin\Debug\AH.PRMS.pdb
+E:\AHERP\AH.HR\bin\Debug\AH.Shared.pdb
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.HR\bin\Debug\AH.HR.dll.config
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.HR\bin\Debug\AH.HR.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.HR\bin\Debug\AH.HR.pdb
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.HR\bin\Debug\AH.PRMS.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.HR\bin\Debug\AH.Shared.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.HR\bin\Debug\DUtility.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.HR\bin\Debug\Oracle.DataAccess.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.HR\bin\Debug\AtiqsControlLibrary.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.HR\bin\Debug\DUtility.pdb
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.HR\bin\Debug\AH.PRMS.pdb
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.HR\obj\Debug\AH.HR.csprojResolveAssemblyReference.cache
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.HR\obj\Debug\AH.HR.Properties.Resources.resources
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.HR\obj\Debug\AH.HR.csproj.GenerateResource.Cache
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.HR\obj\Debug\AH.HR.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.HR\obj\Debug\AH.HR.pdb
+E:\AHERP 27.02.14 New\AH.HR\bin\Debug\AH.HR.dll.config
+E:\AHERP 27.02.14 New\AH.HR\bin\Debug\AH.HR.dll
+E:\AHERP 27.02.14 New\AH.HR\bin\Debug\AH.HR.pdb
+E:\AHERP 27.02.14 New\AH.HR\bin\Debug\AH.PRMS.dll
+E:\AHERP 27.02.14 New\AH.HR\bin\Debug\AH.Shared.dll
+E:\AHERP 27.02.14 New\AH.HR\bin\Debug\DUtility.dll
+E:\AHERP 27.02.14 New\AH.HR\bin\Debug\Oracle.DataAccess.dll
+E:\AHERP 27.02.14 New\AH.HR\bin\Debug\AtiqsControlLibrary.dll
+E:\AHERP 27.02.14 New\AH.HR\bin\Debug\DUtility.pdb
+E:\AHERP 27.02.14 New\AH.HR\bin\Debug\AH.PRMS.pdb
+E:\AHERP 27.02.14 New\AH.HR\obj\Debug\AH.HR.csprojResolveAssemblyReference.cache
+E:\AHERP 27.02.14 New\AH.HR\obj\Debug\AH.HR.Properties.Resources.resources
+E:\AHERP 27.02.14 New\AH.HR\obj\Debug\AH.HR.csproj.GenerateResource.Cache
+E:\AHERP 27.02.14 New\AH.HR\obj\Debug\AH.HR.dll
+E:\AHERP 27.02.14 New\AH.HR\obj\Debug\AH.HR.pdb
+E:\AHERP 27.02.14 New\AH.HR\bin\Debug\AH.ACCMS.dll
+E:\AHERP 27.02.14 New\AH.HR\bin\Debug\AH.ACCMS.pdb
+E:\AHERP 27.02.14 New\AH.HR\bin\Debug\AH.Shared.pdb
+D:\Hospital File\DRS Sajedul\AH.HR\obj\Debug\AH.HR.csprojResolveAssemblyReference.cache
+D:\Hospital File\DRS Sajedul\AH.HR\obj\Debug\AH.HR.Properties.Resources.resources
+D:\Hospital File\DRS Sajedul\AH.HR\obj\Debug\AH.HR.csproj.GenerateResource.Cache
+D:\Hospital File\DRS Sajedul\AH.HR\obj\Debug\AH.HR.dll
+D:\Hospital File\DRS Sajedul\AH.HR\bin\Debug\AH.HR.dll.config
+D:\Hospital File\DRS Sajedul\AH.HR\bin\Debug\AH.HR.dll
+D:\Hospital File\DRS Sajedul\AH.HR\bin\Debug\AH.HR.pdb
+D:\Hospital File\DRS Sajedul\AH.HR\bin\Debug\AH.PRMS.dll
+D:\Hospital File\DRS Sajedul\AH.HR\bin\Debug\AH.Shared.dll
+D:\Hospital File\DRS Sajedul\AH.HR\bin\Debug\DUtility.dll
+D:\Hospital File\DRS Sajedul\AH.HR\bin\Debug\oracle.dataaccess.dll
+D:\Hospital File\DRS Sajedul\AH.HR\bin\Debug\AtiqsControlLibrary.dll
+D:\Hospital File\DRS Sajedul\AH.HR\bin\Debug\AH.PRMS.pdb
+D:\Hospital File\DRS Sajedul\AH.HR\obj\Debug\AH.HR.pdb
+D:\DRS Sajedul\AH.HR\bin\Debug\AH.HR.dll.config
+D:\DRS Sajedul\AH.HR\bin\Debug\AH.HR.dll
+D:\DRS Sajedul\AH.HR\bin\Debug\AH.HR.pdb
+D:\DRS Sajedul\AH.HR\bin\Debug\AH.OracleManager.dll
+D:\DRS Sajedul\AH.HR\bin\Debug\DUtility.dll
+D:\DRS Sajedul\AH.HR\bin\Debug\Oracle.DataAccess.dll
+D:\DRS Sajedul\AH.HR\obj\Debug\AH.HR.csprojResolveAssemblyReference.cache
+D:\DRS Sajedul\AH.HR\obj\Debug\AH.HR.Properties.Resources.resources
+D:\DRS Sajedul\AH.HR\obj\Debug\AH.HR.csproj.GenerateResource.Cache
+D:\DRS Sajedul\AH.HR\obj\Debug\AH.HR.dll
+D:\DRS Sajedul\AH.HR\obj\Debug\AH.HR.pdb
+F:\Hospital\AH.HR\bin\Debug\AH.HR.dll.config
+F:\Hospital\AH.HR\bin\Debug\AH.HR.dll
+F:\Hospital\AH.HR\bin\Debug\AH.HR.pdb
+F:\Hospital\AH.HR\bin\Debug\AH.OracleManager.dll
+F:\Hospital\AH.HR\bin\Debug\AH.ORGMS.dll
+F:\Hospital\AH.HR\bin\Debug\AH.Shared.dll
+F:\Hospital\AH.HR\bin\Debug\DUtility.dll
+F:\Hospital\AH.HR\bin\Debug\AtiqsControlLibrary.dll
+F:\Hospital\AH.HR\bin\Debug\AH.ORGMS.pdb
+F:\Hospital\AH.HR\obj\Debug\AH.HR.csprojResolveAssemblyReference.cache
+F:\Hospital\AH.HR\obj\Debug\AH.HR.Properties.Resources.resources
+F:\Hospital\AH.HR\obj\Debug\AH.HR.csproj.GenerateResource.Cache
+F:\Hospital\AH.HR\obj\Debug\AH.HR.dll
+F:\Hospital\AH.HR\obj\Debug\AH.HR.pdb
+E:\AHERP 06.03.14 New\AH.HR\bin\Debug\AH.HR.dll.config
+E:\AHERP 06.03.14 New\AH.HR\bin\Debug\AH.HR.dll
+E:\AHERP 06.03.14 New\AH.HR\bin\Debug\AH.HR.pdb
+E:\AHERP 06.03.14 New\AH.HR\bin\Debug\AH.OracleManager.dll
+E:\AHERP 06.03.14 New\AH.HR\bin\Debug\AH.ORGMS.dll
+E:\AHERP 06.03.14 New\AH.HR\bin\Debug\AH.PRMS.dll
+E:\AHERP 06.03.14 New\AH.HR\bin\Debug\AH.Shared.dll
+E:\AHERP 06.03.14 New\AH.HR\bin\Debug\DUtility.dll
+E:\AHERP 06.03.14 New\AH.HR\bin\Debug\Oracle.DataAccess.dll
+E:\AHERP 06.03.14 New\AH.HR\bin\Debug\AtiqsControlLibrary.dll
+E:\AHERP 06.03.14 New\AH.HR\bin\Debug\AH.ORGMS.pdb
+E:\AHERP 06.03.14 New\AH.HR\bin\Debug\AH.PRMS.pdb
+E:\AHERP 06.03.14 New\AH.HR\obj\Debug\AH.HR.csprojResolveAssemblyReference.cache
+E:\AHERP 06.03.14 New\AH.HR\obj\Debug\AH.HR.Properties.Resources.resources
+E:\AHERP 06.03.14 New\AH.HR\obj\Debug\AH.HR.csproj.GenerateResource.Cache
+E:\AHERP 06.03.14 New\AH.HR\obj\Debug\AH.HR.dll
+E:\AHERP 06.03.14 New\AH.HR\obj\Debug\AH.HR.pdb

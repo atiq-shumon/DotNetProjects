@@ -1,0 +1,9 @@
+E:\AHERP 06.03.14 New\AH.DRUGS\bin\Release\AH.DRUGS.dll
+E:\AHERP 06.03.14 New\AH.DRUGS\bin\Release\AH.DRUGS.pdb
+E:\AHERP 06.03.14 New\AH.DRUGS\bin\Release\AH.OracleManager.dll
+E:\AHERP 06.03.14 New\AH.DRUGS\bin\Release\AH.Shared.dll
+E:\AHERP 06.03.14 New\AH.DRUGS\bin\Release\DUtility.dll
+E:\AHERP 06.03.14 New\AH.DRUGS\bin\Release\Oracle.DataAccess.dll
+E:\AHERP 06.03.14 New\AH.DRUGS\bin\Release\AtiqsControlLibrary.dll
+E:\AHERP 06.03.14 New\AH.DRUGS\obj\Release\AH.DRUGS.dll
+E:\AHERP 06.03.14 New\AH.DRUGS\obj\Release\AH.DRUGS.pdb

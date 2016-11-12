@@ -1,0 +1,43 @@
+D:\DRS Sajedul\AH.INVMS\bin\Debug\AH.INVMS.dll.config
+D:\DRS Sajedul\AH.INVMS\bin\Debug\AH.INVMS.dll
+D:\DRS Sajedul\AH.INVMS\bin\Debug\AH.INVMS.pdb
+D:\DRS Sajedul\AH.INVMS\obj\Debug\AH.INVMS.csprojResolveAssemblyReference.cache
+D:\DRS Sajedul\AH.INVMS\obj\Debug\AH.INVMS.dll
+D:\DRS Sajedul\AH.INVMS\obj\Debug\AH.INVMS.pdb
+D:\DRS Sajedul\INVMS\AH.INVMS\obj\Debug\AH.INVMS.csprojResolveAssemblyReference.cache
+D:\DRS Sajedul\INVMS\AH.INVMS\obj\Debug\AH.INVMS.dll
+D:\DRS Sajedul\INVMS\AH.INVMS\obj\Debug\AH.INVMS.pdb
+D:\DRS Sajedul\INVMS\AH.INVMS\bin\Debug\AH.INVMS.dll.config
+D:\DRS Sajedul\INVMS\AH.INVMS\bin\Debug\AH.INVMS.dll
+D:\DRS Sajedul\INVMS\AH.INVMS\bin\Debug\AH.INVMS.pdb
+F:\DRS Sajedul\New\AH.INVMS\obj\Debug\AH.INVMS.csprojResolveAssemblyReference.cache
+F:\DRS Sajedul\New\AH.INVMS\obj\Debug\AH.INVMS.dll
+F:\DRS Sajedul\New\AH.INVMS\obj\Debug\AH.INVMS.pdb
+F:\DRS Sajedul\New\AH.INVMS\bin\Debug\AH.INVMS.dll.config
+F:\DRS Sajedul\New\AH.INVMS\bin\Debug\AH.INVMS.dll
+F:\DRS Sajedul\New\AH.INVMS\bin\Debug\AH.INVMS.pdb
+F:\DRS Sajedul\AH.INVMS\bin\Debug\AH.INVMS.dll.config
+F:\DRS Sajedul\AH.INVMS\bin\Debug\AH.INVMS.dll
+F:\DRS Sajedul\AH.INVMS\bin\Debug\AH.INVMS.pdb
+F:\DRS Sajedul\AH.INVMS\obj\Debug\AH.INVMS.csprojResolveAssemblyReference.cache
+F:\DRS Sajedul\AH.INVMS\obj\Debug\AH.INVMS.dll
+F:\DRS Sajedul\AH.INVMS\obj\Debug\AH.INVMS.pdb
+E:\AHERP 06.03.14 New\AH.INVMS\bin\Debug\AH.INVMS.dll.config
+E:\AHERP 06.03.14 New\AH.INVMS\bin\Debug\AH.INVMS.dll
+E:\AHERP 06.03.14 New\AH.INVMS\bin\Debug\AH.INVMS.pdb
+E:\AHERP 06.03.14 New\AH.INVMS\bin\Debug\AH.ACCMS.dll
+E:\AHERP 06.03.14 New\AH.INVMS\bin\Debug\AH.HR.dll
+E:\AHERP 06.03.14 New\AH.INVMS\bin\Debug\AH.IPDShared.dll
+E:\AHERP 06.03.14 New\AH.INVMS\bin\Debug\AH.ORGMS.dll
+E:\AHERP 06.03.14 New\AH.INVMS\bin\Debug\AH.PRMS.dll
+E:\AHERP 06.03.14 New\AH.INVMS\bin\Debug\AH.Shared.dll
+E:\AHERP 06.03.14 New\AH.INVMS\bin\Debug\DUtility.dll
+E:\AHERP 06.03.14 New\AH.INVMS\bin\Debug\AtiqsControlLibrary.dll
+E:\AHERP 06.03.14 New\AH.INVMS\bin\Debug\AH.ACCMS.pdb
+E:\AHERP 06.03.14 New\AH.INVMS\bin\Debug\AH.HR.pdb
+E:\AHERP 06.03.14 New\AH.INVMS\bin\Debug\AH.IPDShared.pdb
+E:\AHERP 06.03.14 New\AH.INVMS\bin\Debug\AH.ORGMS.pdb
+E:\AHERP 06.03.14 New\AH.INVMS\bin\Debug\AH.PRMS.pdb
+E:\AHERP 06.03.14 New\AH.INVMS\obj\Debug\AH.INVMS.csprojResolveAssemblyReference.cache
+E:\AHERP 06.03.14 New\AH.INVMS\obj\Debug\AH.INVMS.dll
+E:\AHERP 06.03.14 New\AH.INVMS\obj\Debug\AH.INVMS.pdb

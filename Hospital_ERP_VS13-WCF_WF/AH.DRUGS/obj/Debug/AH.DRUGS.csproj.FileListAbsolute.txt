@@ -1,0 +1,29 @@
+D:\DRS Sajedul\AH.DRUGS\bin\Debug\AH.DRUGS.dll
+D:\DRS Sajedul\AH.DRUGS\bin\Debug\AH.DRUGS.pdb
+D:\DRS Sajedul\AH.DRUGS\bin\Debug\AH.OracleManager.dll
+D:\DRS Sajedul\AH.DRUGS\bin\Debug\AH.Shared.dll
+D:\DRS Sajedul\AH.DRUGS\bin\Debug\DUtility.dll
+D:\DRS Sajedul\AH.DRUGS\bin\Debug\Oracle.DataAccess.dll
+D:\DRS Sajedul\AH.DRUGS\bin\Debug\AtiqsControlLibrary.dll
+D:\DRS Sajedul\AH.DRUGS\obj\Debug\AH.DRUGS.csprojResolveAssemblyReference.cache
+D:\DRS Sajedul\AH.DRUGS\obj\Debug\AH.DRUGS.dll
+D:\DRS Sajedul\AH.DRUGS\obj\Debug\AH.DRUGS.pdb
+E:\DRS Sajedul\AH.DRUGS\bin\Debug\AH.DRUGS.dll
+E:\DRS Sajedul\AH.DRUGS\bin\Debug\AH.DRUGS.pdb
+E:\DRS Sajedul\AH.DRUGS\bin\Debug\AH.OracleManager.dll
+E:\DRS Sajedul\AH.DRUGS\bin\Debug\AH.Shared.dll
+E:\DRS Sajedul\AH.DRUGS\bin\Debug\DUtility.dll
+E:\DRS Sajedul\AH.DRUGS\bin\Debug\Oracle.DataAccess.dll
+E:\DRS Sajedul\AH.DRUGS\bin\Debug\AtiqsControlLibrary.dll
+E:\DRS Sajedul\AH.DRUGS\obj\Debug\AH.DRUGS.dll
+E:\DRS Sajedul\AH.DRUGS\obj\Debug\AH.DRUGS.pdb
+E:\AHERP 06.03.14 New\AH.DRUGS\bin\Debug\AH.DRUGS.dll
+E:\AHERP 06.03.14 New\AH.DRUGS\bin\Debug\AH.DRUGS.pdb
+E:\AHERP 06.03.14 New\AH.DRUGS\bin\Debug\AH.OracleManager.dll
+E:\AHERP 06.03.14 New\AH.DRUGS\bin\Debug\AH.Shared.dll
+E:\AHERP 06.03.14 New\AH.DRUGS\bin\Debug\DUtility.dll
+E:\AHERP 06.03.14 New\AH.DRUGS\bin\Debug\Oracle.DataAccess.dll
+E:\AHERP 06.03.14 New\AH.DRUGS\bin\Debug\AtiqsControlLibrary.dll
+E:\AHERP 06.03.14 New\AH.DRUGS\obj\Debug\AH.DRUGS.dll
+E:\AHERP 06.03.14 New\AH.DRUGS\obj\Debug\AH.DRUGS.pdb
+E:\DRS Sajedul\AH.DRUGS\obj\Debug\AH.DRUGS.csprojResolveAssemblyReference.cache
