@@ -1,0 +1,78 @@
+E:\AHERP 27.02.14 New\AH.DRS\bin\Release\AH.DRS.dll
+E:\AHERP 27.02.14 New\AH.DRS\bin\Release\AH.DRS.pdb
+E:\AHERP 27.02.14 New\AH.DRS\bin\Release\AH.DMS.dll
+E:\AHERP 27.02.14 New\AH.DRS\bin\Release\AH.DTMS.dll
+E:\AHERP 27.02.14 New\AH.DRS\bin\Release\AH.HR.dll
+E:\AHERP 27.02.14 New\AH.DRS\bin\Release\AH.PatReg.dll
+E:\AHERP 27.02.14 New\AH.DRS\bin\Release\AH.PRMS.dll
+E:\AHERP 27.02.14 New\AH.DRS\bin\Release\AH.Shared.dll
+E:\AHERP 27.02.14 New\AH.DRS\bin\Release\DUtility.dll
+E:\AHERP 27.02.14 New\AH.DRS\bin\Release\Oracle.DataAccess.dll
+E:\AHERP 27.02.14 New\AH.DRS\bin\Release\AH.OPD.dll
+E:\AHERP 27.02.14 New\AH.DRS\bin\Release\AH.IPD.dll
+E:\AHERP 27.02.14 New\AH.DRS\bin\Release\AH.ACCMS.dll
+E:\AHERP 27.02.14 New\AH.DRS\bin\Release\AtiqsControlLibrary.dll
+E:\AHERP 27.02.14 New\AH.DRS\bin\Release\AH.DMS.pdb
+E:\AHERP 27.02.14 New\AH.DRS\bin\Release\AH.DTMS.pdb
+E:\AHERP 27.02.14 New\AH.DRS\bin\Release\AH.HR.pdb
+E:\AHERP 27.02.14 New\AH.DRS\bin\Release\AH.PatReg.pdb
+E:\AHERP 27.02.14 New\AH.DRS\bin\Release\AH.PRMS.pdb
+E:\AHERP 27.02.14 New\AH.DRS\bin\Release\DUtility.pdb
+E:\AHERP 27.02.14 New\AH.DRS\bin\Release\AH.Shared.pdb
+E:\AHERP 27.02.14 New\AH.DRS\bin\Release\AH.OPD.pdb
+E:\AHERP 27.02.14 New\AH.DRS\bin\Release\AH.IPD.pdb
+E:\AHERP 27.02.14 New\AH.DRS\bin\Release\AH.ACCMS.pdb
+E:\AHERP 27.02.14 New\AH.DRS\obj\Release\AH.DRS.csprojResolveAssemblyReference.cache
+E:\AHERP 27.02.14 New\AH.DRS\obj\Release\AH.DRS.dll
+E:\AHERP 27.02.14 New\AH.DRS\obj\Release\AH.DRS.pdb
+E:\AHERP 06.03.14 New\AH.DRS\bin\Release\AH.DRS.dll.config
+E:\AHERP 06.03.14 New\AH.DRS\bin\Release\AH.DRS.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Release\AH.DRS.pdb
+E:\AHERP 06.03.14 New\AH.DRS\bin\Release\AH.DMS.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Release\AH.DTMS.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Release\AH.HR.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Release\AH.PatReg.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Release\AH.PRMS.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Release\AH.Shared.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Release\DUtility.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Release\oracle.dataaccess.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Release\AH.OPD.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Release\AtiqsControlLibrary.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Release\AH.DMS.pdb
+E:\AHERP 06.03.14 New\AH.DRS\obj\Release\AH.DRS.csprojResolveAssemblyReference.cache
+E:\AHERP 06.03.14 New\AH.DRS\obj\Release\AH.DRS.dll
+E:\AHERP 06.03.14 New\AH.DRS\obj\Release\AH.DRS.pdb
+E:\AHERP 06.03.14 New\AH.DRS\bin\Release\AH.OracleManager.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Release\AH.ACCMS.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Release\AH.DTMS.pdb
+E:\AHERP 06.03.14 New\AH.DRS\bin\Release\AH.HR.pdb
+E:\AHERP 06.03.14 New\AH.DRS\bin\Release\AH.PatReg.pdb
+E:\AHERP 06.03.14 New\AH.DRS\bin\Release\AH.PRMS.pdb
+E:\AHERP 06.03.14 New\AH.DRS\bin\Release\AH.OPD.pdb
+E:\AHERP 06.03.14 New\AH.DRS\bin\Release\AH.ACCMS.pdb
+E:\AHERP 06.03.14 New\AH.DRS\bin\Release\AH.DRUGS.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Release\AH.DRUGS.pdb
+F:\HospitalFiles\AH.DRS\bin\Release\AH.DRS.dll.config
+F:\HospitalFiles\AH.DRS\bin\Release\AH.DRS.dll
+F:\HospitalFiles\AH.DRS\bin\Release\AH.DRS.pdb
+F:\HospitalFiles\AH.DRS\bin\Release\AH.DMS.dll
+F:\HospitalFiles\AH.DRS\bin\Release\AH.DTMS.dll
+F:\HospitalFiles\AH.DRS\bin\Release\AH.HR.dll
+F:\HospitalFiles\AH.DRS\bin\Release\AH.OracleManager.dll
+F:\HospitalFiles\AH.DRS\bin\Release\AH.PatReg.dll
+F:\HospitalFiles\AH.DRS\bin\Release\AH.PRMS.dll
+F:\HospitalFiles\AH.DRS\bin\Release\AH.Shared.dll
+F:\HospitalFiles\AH.DRS\bin\Release\DUtility.dll
+F:\HospitalFiles\AH.DRS\bin\Release\Oracle.DataAccess.dll
+F:\HospitalFiles\AH.DRS\bin\Release\AtiqsControlLibrary.dll
+F:\HospitalFiles\AH.DRS\obj\Release\AH.DRS.dll
+F:\HospitalFiles\AH.DRS\obj\Release\AH.DRS.pdb
+F:\HospitalFiles\AH.DRS\bin\Release\AH.ORGMS.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Release\AH.ORGMS.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Release\AH.ORGMS.pdb
+E:\AHERP 06.03.14 New\AH.DRS\bin\Release\AH.IPD.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Release\AH.APPOPD.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Release\AH.APPOPD.pdb
+E:\AHERP 06.03.14 New\AH.DRS\bin\Release\AH.IPDShared.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Release\AH.IPDShared.pdb
+F:\HospitalFiles\AH.DRS\obj\Release\AH.DRS.csprojResolveAssemblyReference.cache

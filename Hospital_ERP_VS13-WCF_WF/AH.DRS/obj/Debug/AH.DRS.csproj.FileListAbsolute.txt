@@ -1,0 +1,151 @@
+E:\AHERP\AH.DRS\obj\Debug\AH.DRS.csprojResolveAssemblyReference.cache
+E:\AHERP\AH.DRS\bin\Debug\AH.DRS.dll
+E:\AHERP\AH.DRS\bin\Debug\AH.DRS.pdb
+E:\AHERP\AH.DRS\bin\Debug\AH.DMS.dll
+E:\AHERP\AH.DRS\bin\Debug\AH.HR.dll
+E:\AHERP\AH.DRS\bin\Debug\AH.PatReg.dll
+E:\AHERP\AH.DRS\bin\Debug\AH.PRMS.dll
+E:\AHERP\AH.DRS\bin\Debug\AH.Shared.dll
+E:\AHERP\AH.DRS\bin\Debug\DUtility.dll
+E:\AHERP\AH.DRS\bin\Debug\Oracle.DataAccess.dll
+E:\AHERP\AH.DRS\bin\Debug\AH.OPD.dll
+E:\AHERP\AH.DRS\bin\Debug\AH.IPD.dll
+E:\AHERP\AH.DRS\bin\Debug\AH.ACCMS.dll
+E:\AHERP\AH.DRS\bin\Debug\AtiqsControlLibrary.dll
+E:\AHERP\AH.DRS\bin\Debug\AH.DMS.pdb
+E:\AHERP\AH.DRS\bin\Debug\AH.HR.pdb
+E:\AHERP\AH.DRS\bin\Debug\AH.PatReg.pdb
+E:\AHERP\AH.DRS\bin\Debug\AH.PRMS.pdb
+E:\AHERP\AH.DRS\bin\Debug\DUtility.pdb
+E:\AHERP\AH.DRS\bin\Debug\AH.OPD.pdb
+E:\AHERP\AH.DRS\bin\Debug\AH.IPD.pdb
+E:\AHERP\AH.DRS\bin\Debug\AH.ACCMS.pdb
+E:\AHERP\AH.DRS\obj\Debug\AH.DRS.dll
+E:\AHERP\AH.DRS\obj\Debug\AH.DRS.pdb
+E:\AHERP\AH.DRS\bin\Debug\AH.Shared.pdb
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DRS\bin\Debug\AH.DRS.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DRS\bin\Debug\AH.DRS.pdb
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DRS\bin\Debug\AH.DMS.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DRS\bin\Debug\AH.HR.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DRS\bin\Debug\AH.PatReg.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DRS\bin\Debug\AH.PRMS.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DRS\bin\Debug\AH.Shared.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DRS\bin\Debug\DUtility.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DRS\bin\Debug\Oracle.DataAccess.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DRS\bin\Debug\AH.OPD.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DRS\bin\Debug\AH.IPD.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DRS\bin\Debug\AH.ACCMS.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DRS\bin\Debug\AtiqsControlLibrary.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DRS\bin\Debug\AH.DMS.pdb
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DRS\bin\Debug\AH.HR.pdb
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DRS\bin\Debug\AH.PatReg.pdb
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DRS\bin\Debug\AH.PRMS.pdb
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DRS\bin\Debug\DUtility.pdb
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DRS\bin\Debug\AH.OPD.pdb
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DRS\bin\Debug\AH.IPD.pdb
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DRS\bin\Debug\AH.ACCMS.pdb
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DRS\obj\Debug\AH.DRS.csprojResolveAssemblyReference.cache
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DRS\obj\Debug\AH.DRS.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DRS\obj\Debug\AH.DRS.pdb
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DRS\bin\Debug\AH.DTMS.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DRS\bin\Debug\AH.DTMS.pdb
+E:\AHERP 27.02.14 New\AH.DRS\bin\Debug\AH.DRS.dll
+E:\AHERP 27.02.14 New\AH.DRS\bin\Debug\AH.DRS.pdb
+E:\AHERP 27.02.14 New\AH.DRS\bin\Debug\AH.DMS.dll
+E:\AHERP 27.02.14 New\AH.DRS\bin\Debug\AH.DTMS.dll
+E:\AHERP 27.02.14 New\AH.DRS\bin\Debug\AH.HR.dll
+E:\AHERP 27.02.14 New\AH.DRS\bin\Debug\AH.PatReg.dll
+E:\AHERP 27.02.14 New\AH.DRS\bin\Debug\AH.PRMS.dll
+E:\AHERP 27.02.14 New\AH.DRS\bin\Debug\AH.Shared.dll
+E:\AHERP 27.02.14 New\AH.DRS\bin\Debug\DUtility.dll
+E:\AHERP 27.02.14 New\AH.DRS\bin\Debug\Oracle.DataAccess.dll
+E:\AHERP 27.02.14 New\AH.DRS\bin\Debug\AH.OPD.dll
+E:\AHERP 27.02.14 New\AH.DRS\bin\Debug\AH.IPD.dll
+E:\AHERP 27.02.14 New\AH.DRS\bin\Debug\AH.ACCMS.dll
+E:\AHERP 27.02.14 New\AH.DRS\bin\Debug\AtiqsControlLibrary.dll
+E:\AHERP 27.02.14 New\AH.DRS\bin\Debug\AH.DMS.pdb
+E:\AHERP 27.02.14 New\AH.DRS\bin\Debug\AH.DTMS.pdb
+E:\AHERP 27.02.14 New\AH.DRS\bin\Debug\AH.HR.pdb
+E:\AHERP 27.02.14 New\AH.DRS\bin\Debug\AH.PatReg.pdb
+E:\AHERP 27.02.14 New\AH.DRS\bin\Debug\AH.PRMS.pdb
+E:\AHERP 27.02.14 New\AH.DRS\bin\Debug\DUtility.pdb
+E:\AHERP 27.02.14 New\AH.DRS\bin\Debug\AH.OPD.pdb
+E:\AHERP 27.02.14 New\AH.DRS\bin\Debug\AH.IPD.pdb
+E:\AHERP 27.02.14 New\AH.DRS\bin\Debug\AH.ACCMS.pdb
+E:\AHERP 27.02.14 New\AH.DRS\obj\Debug\AH.DRS.csprojResolveAssemblyReference.cache
+E:\AHERP 27.02.14 New\AH.DRS\obj\Debug\AH.DRS.dll
+E:\AHERP 27.02.14 New\AH.DRS\obj\Debug\AH.DRS.pdb
+E:\AHERP 27.02.14 New\AH.DRS\bin\Debug\AH.DRS.dll.config
+E:\AHERP 27.02.14 New\AH.DRS\bin\Debug\AH.Shared.pdb
+D:\Hospital File\AH.DRS\obj\Debug\AH.DRS.csprojResolveAssemblyReference.cache
+D:\Hospital File\AH.DRS\obj\Debug\AH.DRS.dll
+D:\Hospital File\AH.DRS\obj\Debug\AH.DRS.pdb
+D:\Hospital File\DRS Sajedul\AH.DRS\bin\Debug\AH.DRS.dll.config
+D:\Hospital File\DRS Sajedul\AH.DRS\bin\Debug\AH.DRS.dll
+D:\Hospital File\DRS Sajedul\AH.DRS\bin\Debug\AH.DRS.pdb
+D:\Hospital File\DRS Sajedul\AH.DRS\bin\Debug\AH.Shared.dll
+D:\Hospital File\DRS Sajedul\AH.DRS\bin\Debug\DUtility.dll
+D:\Hospital File\DRS Sajedul\AH.DRS\bin\Debug\oracle.dataaccess.dll
+D:\Hospital File\DRS Sajedul\AH.DRS\bin\Debug\AH.ACCMS.dll
+D:\Hospital File\DRS Sajedul\AH.DRS\bin\Debug\AtiqsControlLibrary.dll
+D:\Hospital File\DRS Sajedul\AH.DRS\bin\Debug\AH.DMS.pdb
+D:\Hospital File\DRS Sajedul\AH.DRS\bin\Debug\AH.DTMS.pdb
+D:\Hospital File\DRS Sajedul\AH.DRS\bin\Debug\AH.HR.pdb
+D:\Hospital File\DRS Sajedul\AH.DRS\bin\Debug\AH.IPD.pdb
+D:\Hospital File\DRS Sajedul\AH.DRS\bin\Debug\AH.PatReg.pdb
+D:\Hospital File\DRS Sajedul\AH.DRS\bin\Debug\AH.PRMS.pdb
+D:\Hospital File\DRS Sajedul\AH.DRS\bin\Debug\AH.OPD.pdb
+D:\Hospital File\DRS Sajedul\AH.DRS\bin\Debug\AH.ACCMS.pdb
+D:\Hospital File\DRS Sajedul\AH.DRS\obj\Debug\AH.DRS.csprojResolveAssemblyReference.cache
+D:\Hospital File\DRS Sajedul\AH.DRS\obj\Debug\AH.DRS.dll
+D:\Hospital File\DRS Sajedul\AH.DRS\obj\Debug\AH.DRS.pdb
+D:\Hospital File\DRS Sajedul\AH.DRS\bin\Debug\AH.DMS.dll
+F:\HospitalFiles\AH.DRS\bin\Debug\AH.DRS.dll.config
+F:\HospitalFiles\AH.DRS\bin\Debug\AH.DRS.dll
+F:\HospitalFiles\AH.DRS\bin\Debug\AH.DRS.pdb
+F:\HospitalFiles\AH.DRS\bin\Debug\AH.IPDShared.dll
+F:\HospitalFiles\AH.DRS\bin\Debug\AH.OracleManager.dll
+F:\HospitalFiles\AH.DRS\bin\Debug\AH.Shared.dll
+F:\HospitalFiles\AH.DRS\bin\Debug\DUtility.dll
+F:\HospitalFiles\AH.DRS\bin\Debug\Oracle.DataAccess.dll
+F:\HospitalFiles\AH.DRS\bin\Debug\AH.ACCMS.dll
+F:\HospitalFiles\AH.DRS\bin\Debug\AtiqsControlLibrary.dll
+F:\HospitalFiles\AH.DRS\bin\Debug\AH.IPDShared.pdb
+F:\HospitalFiles\AH.DRS\obj\Debug\AH.DRS.csprojResolveAssemblyReference.cache
+F:\HospitalFiles\AH.DRS\obj\Debug\AH.DRS.dll
+F:\HospitalFiles\AH.DRS\obj\Debug\AH.DRS.pdb
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\AH.DRS.dll.config
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\AH.DRS.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\AH.DRS.pdb
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\AH.DMS.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\AH.DTMS.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\AH.HR.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\AH.IPDShared.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\AH.OPRMS.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\AH.OracleManager.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\AH.ORGMS.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\AH.PatReg.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\AH.PRMS.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\AH.Shared.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\DUtility.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\Oracle.DataAccess.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\AH.OPD.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\AH.ACCMS.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\AH.APPOPD.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\AtiqsControlLibrary.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\AH.DRUGS.dll
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\AH.DMS.pdb
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\AH.DTMS.pdb
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\AH.HR.pdb
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\AH.IPDShared.pdb
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\AH.OPRMS.pdb
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\AH.ORGMS.pdb
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\AH.PatReg.pdb
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\AH.PRMS.pdb
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\AH.OPD.pdb
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\AH.ACCMS.pdb
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\AH.APPOPD.pdb
+E:\AHERP 06.03.14 New\AH.DRS\bin\Debug\AH.DRUGS.pdb
+E:\AHERP 06.03.14 New\AH.DRS\obj\Debug\AH.DRS.csprojResolveAssemblyReference.cache
+E:\AHERP 06.03.14 New\AH.DRS\obj\Debug\AH.DRS.dll
+E:\AHERP 06.03.14 New\AH.DRS\obj\Debug\AH.DRS.pdb

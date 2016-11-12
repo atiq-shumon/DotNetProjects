@@ -1,0 +1,145 @@
+E:\AHERP\AH.DMS\obj\Debug\AH.DMS.csprojResolveAssemblyReference.cache
+E:\AHERP\AH.DMS\bin\Debug\AH.DMS.dll
+E:\AHERP\AH.DMS\bin\Debug\AH.DMS.pdb
+E:\AHERP\AH.DMS\bin\Debug\AH.HR.dll
+E:\AHERP\AH.DMS\bin\Debug\AH.OPD.dll
+E:\AHERP\AH.DMS\bin\Debug\AH.PatReg.dll
+E:\AHERP\AH.DMS\bin\Debug\AH.PRMS.dll
+E:\AHERP\AH.DMS\bin\Debug\AH.Shared.dll
+E:\AHERP\AH.DMS\bin\Debug\DUtility.dll
+E:\AHERP\AH.DMS\bin\Debug\Oracle.DataAccess.dll
+E:\AHERP\AH.DMS\bin\Debug\AH.IPD.dll
+E:\AHERP\AH.DMS\bin\Debug\AH.ACCMS.dll
+E:\AHERP\AH.DMS\bin\Debug\AtiqsControlLibrary.dll
+E:\AHERP\AH.DMS\bin\Debug\AH.HR.pdb
+E:\AHERP\AH.DMS\bin\Debug\AH.OPD.pdb
+E:\AHERP\AH.DMS\bin\Debug\AH.PatReg.pdb
+E:\AHERP\AH.DMS\bin\Debug\AH.PRMS.pdb
+E:\AHERP\AH.DMS\bin\Debug\DUtility.pdb
+E:\AHERP\AH.DMS\bin\Debug\AH.IPD.pdb
+E:\AHERP\AH.DMS\bin\Debug\AH.ACCMS.pdb
+E:\AHERP\AH.DMS\obj\Debug\AH.DMS.dll
+E:\AHERP\AH.DMS\obj\Debug\AH.DMS.pdb
+E:\AHERP\AH.DMS\bin\Debug\AH.Shared.pdb
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DMS\bin\Debug\AH.DMS.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DMS\bin\Debug\AH.DMS.pdb
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DMS\bin\Debug\AH.HR.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DMS\bin\Debug\AH.OPD.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DMS\bin\Debug\AH.PatReg.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DMS\bin\Debug\AH.PRMS.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DMS\bin\Debug\AH.Shared.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DMS\bin\Debug\DUtility.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DMS\bin\Debug\Oracle.DataAccess.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DMS\bin\Debug\AH.IPD.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DMS\bin\Debug\AH.ACCMS.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DMS\bin\Debug\AtiqsControlLibrary.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DMS\bin\Debug\AH.HR.pdb
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DMS\bin\Debug\AH.OPD.pdb
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DMS\bin\Debug\AH.PatReg.pdb
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DMS\bin\Debug\AH.PRMS.pdb
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DMS\bin\Debug\DUtility.pdb
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DMS\bin\Debug\AH.IPD.pdb
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DMS\bin\Debug\AH.ACCMS.pdb
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DMS\obj\Debug\AH.DMS.csprojResolveAssemblyReference.cache
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DMS\obj\Debug\AH.DMS.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DMS\obj\Debug\AH.DMS.pdb
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DMS\bin\Debug\AH.DTMS.dll
+C:\Users\atiq.CITYGROUPBD.000\Desktop\AHERP 24.02.14 New\AH.DMS\bin\Debug\AH.DTMS.pdb
+E:\AHERP 27.02.14 New\AH.DMS\bin\Debug\AH.DMS.dll
+E:\AHERP 27.02.14 New\AH.DMS\bin\Debug\AH.DMS.pdb
+E:\AHERP 27.02.14 New\AH.DMS\bin\Debug\AH.DTMS.dll
+E:\AHERP 27.02.14 New\AH.DMS\bin\Debug\AH.HR.dll
+E:\AHERP 27.02.14 New\AH.DMS\bin\Debug\AH.OPD.dll
+E:\AHERP 27.02.14 New\AH.DMS\bin\Debug\AH.PatReg.dll
+E:\AHERP 27.02.14 New\AH.DMS\bin\Debug\AH.PRMS.dll
+E:\AHERP 27.02.14 New\AH.DMS\bin\Debug\AH.Shared.dll
+E:\AHERP 27.02.14 New\AH.DMS\bin\Debug\DUtility.dll
+E:\AHERP 27.02.14 New\AH.DMS\bin\Debug\Oracle.DataAccess.dll
+E:\AHERP 27.02.14 New\AH.DMS\bin\Debug\AH.IPD.dll
+E:\AHERP 27.02.14 New\AH.DMS\bin\Debug\AH.ACCMS.dll
+E:\AHERP 27.02.14 New\AH.DMS\bin\Debug\AtiqsControlLibrary.dll
+E:\AHERP 27.02.14 New\AH.DMS\bin\Debug\AH.DTMS.pdb
+E:\AHERP 27.02.14 New\AH.DMS\bin\Debug\AH.HR.pdb
+E:\AHERP 27.02.14 New\AH.DMS\bin\Debug\AH.OPD.pdb
+E:\AHERP 27.02.14 New\AH.DMS\bin\Debug\AH.PatReg.pdb
+E:\AHERP 27.02.14 New\AH.DMS\bin\Debug\AH.PRMS.pdb
+E:\AHERP 27.02.14 New\AH.DMS\bin\Debug\DUtility.pdb
+E:\AHERP 27.02.14 New\AH.DMS\bin\Debug\AH.IPD.pdb
+E:\AHERP 27.02.14 New\AH.DMS\bin\Debug\AH.ACCMS.pdb
+E:\AHERP 27.02.14 New\AH.DMS\obj\Debug\AH.DMS.csprojResolveAssemblyReference.cache
+E:\AHERP 27.02.14 New\AH.DMS\obj\Debug\AH.DMS.dll
+E:\AHERP 27.02.14 New\AH.DMS\obj\Debug\AH.DMS.pdb
+E:\AHERP 27.02.14 New\AH.DMS\bin\Debug\AH.DMS.dll.config
+E:\AHERP 27.02.14 New\AH.DMS\bin\Debug\AH.Shared.pdb
+D:\Hospital File\DRS Sajedul\AH.DMS\bin\Debug\AH.DMS.dll.config
+D:\Hospital File\DRS Sajedul\AH.DMS\bin\Debug\AH.DMS.dll
+D:\Hospital File\DRS Sajedul\AH.DMS\bin\Debug\AH.DMS.pdb
+D:\Hospital File\DRS Sajedul\AH.DMS\bin\Debug\AH.DTMS.dll
+D:\Hospital File\DRS Sajedul\AH.DMS\bin\Debug\AH.HR.dll
+D:\Hospital File\DRS Sajedul\AH.DMS\bin\Debug\AH.IPD.dll
+D:\Hospital File\DRS Sajedul\AH.DMS\bin\Debug\AH.OPD.dll
+D:\Hospital File\DRS Sajedul\AH.DMS\bin\Debug\AH.PatReg.dll
+D:\Hospital File\DRS Sajedul\AH.DMS\bin\Debug\AH.PRMS.dll
+D:\Hospital File\DRS Sajedul\AH.DMS\bin\Debug\AH.Shared.dll
+D:\Hospital File\DRS Sajedul\AH.DMS\bin\Debug\DUtility.dll
+D:\Hospital File\DRS Sajedul\AH.DMS\bin\Debug\oracle.dataaccess.dll
+D:\Hospital File\DRS Sajedul\AH.DMS\bin\Debug\AH.ACCMS.dll
+D:\Hospital File\DRS Sajedul\AH.DMS\bin\Debug\AtiqsControlLibrary.dll
+D:\Hospital File\DRS Sajedul\AH.DMS\bin\Debug\AH.DTMS.pdb
+D:\Hospital File\DRS Sajedul\AH.DMS\bin\Debug\AH.HR.pdb
+D:\Hospital File\DRS Sajedul\AH.DMS\bin\Debug\AH.IPD.pdb
+D:\Hospital File\DRS Sajedul\AH.DMS\bin\Debug\AH.OPD.pdb
+D:\Hospital File\DRS Sajedul\AH.DMS\bin\Debug\AH.PatReg.pdb
+D:\Hospital File\DRS Sajedul\AH.DMS\bin\Debug\AH.PRMS.pdb
+D:\Hospital File\DRS Sajedul\AH.DMS\bin\Debug\AH.ACCMS.pdb
+D:\Hospital File\DRS Sajedul\AH.DMS\obj\Debug\AH.DMS.csprojResolveAssemblyReference.cache
+D:\Hospital File\DRS Sajedul\AH.DMS\obj\Debug\AH.DMS.dll
+D:\Hospital File\DRS Sajedul\AH.DMS\obj\Debug\AH.DMS.pdb
+F:\Hospital\AH.DMS\bin\Debug\AH.DMS.dll.config
+F:\Hospital\AH.DMS\bin\Debug\AH.DMS.dll
+F:\Hospital\AH.DMS\bin\Debug\AH.DMS.pdb
+F:\Hospital\AH.DMS\bin\Debug\AH.DTMS.dll
+F:\Hospital\AH.DMS\bin\Debug\AH.HR.dll
+F:\Hospital\AH.DMS\bin\Debug\AH.OracleManager.dll
+F:\Hospital\AH.DMS\bin\Debug\AH.ORGMS.dll
+F:\Hospital\AH.DMS\bin\Debug\AH.Shared.dll
+F:\Hospital\AH.DMS\bin\Debug\DUtility.dll
+F:\Hospital\AH.DMS\bin\Debug\Oracle.DataAccess.dll
+F:\Hospital\AH.DMS\bin\Debug\AtiqsControlLibrary.dll
+F:\Hospital\AH.DMS\bin\Debug\AH.DTMS.pdb
+F:\Hospital\AH.DMS\bin\Debug\AH.HR.pdb
+F:\Hospital\AH.DMS\bin\Debug\AH.ORGMS.pdb
+F:\Hospital\AH.DMS\obj\Debug\AH.DMS.csprojResolveAssemblyReference.cache
+F:\Hospital\AH.DMS\obj\Debug\AH.DMS.dll
+F:\Hospital\AH.DMS\obj\Debug\AH.DMS.pdb
+E:\AHERP 06.03.14 New\AH.DMS\bin\Debug\AH.DMS.dll.config
+E:\AHERP 06.03.14 New\AH.DMS\bin\Debug\AH.DMS.dll
+E:\AHERP 06.03.14 New\AH.DMS\bin\Debug\AH.DMS.pdb
+E:\AHERP 06.03.14 New\AH.DMS\bin\Debug\AH.ACCMS.dll
+E:\AHERP 06.03.14 New\AH.DMS\bin\Debug\AH.DTMS.dll
+E:\AHERP 06.03.14 New\AH.DMS\bin\Debug\AH.HR.dll
+E:\AHERP 06.03.14 New\AH.DMS\bin\Debug\AH.IPDShared.dll
+E:\AHERP 06.03.14 New\AH.DMS\bin\Debug\AH.OPD.dll
+E:\AHERP 06.03.14 New\AH.DMS\bin\Debug\AH.OracleManager.dll
+E:\AHERP 06.03.14 New\AH.DMS\bin\Debug\AH.ORGMS.dll
+E:\AHERP 06.03.14 New\AH.DMS\bin\Debug\AH.PatReg.dll
+E:\AHERP 06.03.14 New\AH.DMS\bin\Debug\AH.PRMS.dll
+E:\AHERP 06.03.14 New\AH.DMS\bin\Debug\AH.Shared.dll
+E:\AHERP 06.03.14 New\AH.DMS\bin\Debug\DUtility.dll
+E:\AHERP 06.03.14 New\AH.DMS\bin\Debug\Oracle.DataAccess.dll
+E:\AHERP 06.03.14 New\AH.DMS\bin\Debug\AH.APPOPD.dll
+E:\AHERP 06.03.14 New\AH.DMS\bin\Debug\AH.DRUGS.dll
+E:\AHERP 06.03.14 New\AH.DMS\bin\Debug\AtiqsControlLibrary.dll
+E:\AHERP 06.03.14 New\AH.DMS\bin\Debug\AH.ACCMS.pdb
+E:\AHERP 06.03.14 New\AH.DMS\bin\Debug\AH.DTMS.pdb
+E:\AHERP 06.03.14 New\AH.DMS\bin\Debug\AH.HR.pdb
+E:\AHERP 06.03.14 New\AH.DMS\bin\Debug\AH.IPDShared.pdb
+E:\AHERP 06.03.14 New\AH.DMS\bin\Debug\AH.OPD.pdb
+E:\AHERP 06.03.14 New\AH.DMS\bin\Debug\AH.ORGMS.pdb
+E:\AHERP 06.03.14 New\AH.DMS\bin\Debug\AH.PatReg.pdb
+E:\AHERP 06.03.14 New\AH.DMS\bin\Debug\AH.PRMS.pdb
+E:\AHERP 06.03.14 New\AH.DMS\bin\Debug\AH.APPOPD.pdb
+E:\AHERP 06.03.14 New\AH.DMS\bin\Debug\AH.DRUGS.pdb
+E:\AHERP 06.03.14 New\AH.DMS\obj\Debug\AH.DMS.csprojResolveAssemblyReference.cache
+E:\AHERP 06.03.14 New\AH.DMS\obj\Debug\AH.DMS.dll
+E:\AHERP 06.03.14 New\AH.DMS\obj\Debug\AH.DMS.pdb

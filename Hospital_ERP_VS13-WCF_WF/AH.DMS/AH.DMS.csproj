@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{040573DD-EE8D-430A-94EF-FCE45061FD8F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AH.DMS</RootNamespace>
+    <AssemblyName>AH.DMS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AH.OracleManager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\AH.ModuleController\bin\Debug\AH.OracleManager.dll</HintPath>
+    </Reference>
+    <Reference Include="AH.Shared, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\AH.ModuleController\bin\Debug\AH.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="DUtility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\AH.ModuleController\bin\Debug\DUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.DataAccess, Version=4.121.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_64\Oracle.DataAccess\v4.0_4.112.3.0__89b483f429c47342\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\DiagnosticMRBLL.cs" />
+    <Compile Include="BLL\DMSReportBLL.cs" />
+    <Compile Include="BLL\EmergencyCollectionBLL.cs" />
+    <Compile Include="BLL\OtherRefferrenceSetupBLL.cs" />
+    <Compile Include="BLL\TestCancelBLL.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="DAL\DiagnosticMRDAL.cs" />
+    <Compile Include="DAL\EmergencyCollectionDAL.cs" />
+    <Compile Include="DAL\MoneyReceiptReportDAL.cs" />
+    <Compile Include="DAL\OtherRefferrenceSetupDAL.cs" />
+    <Compile Include="DAL\TestCancelDAL.cs" />
+    <Compile Include="DAL\TestSetupReportDAL.cs" />
+    <Compile Include="Facade\DMSWS.cs" />
+    <Compile Include="Facade\IDMSWS.cs" />
+    <Compile Include="MODEL\DuePayment.cs" />
+    <Compile Include="MODEL\EmergencyCollectionMR.cs" />
+    <Compile Include="MODEL\EmergencyCollectionRO.cs" />
+    <Compile Include="MODEL\EmergencyMaster.cs" />
+    <Compile Include="MODEL\EmergencyMasterRO.cs" />
+    <Compile Include="MODEL\LoadPatient.cs" />
+    <Compile Include="MODEL\MoneyReceiptRO.cs" />
+    <Compile Include="MODEL\NursingTestOrder.cs" />
+    <Compile Include="MODEL\RefdDoc.cs" />
+    <Compile Include="MODEL\RefdOrg.cs" />
+    <Compile Include="MODEL\RefundCause.cs" />
+    <Compile Include="MODEL\TestCancelCause.cs" />
+    <Compile Include="MODEL\TestSetupRO.cs" />
+    <Compile Include="MODEL\DiagnosticMR.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AH.ACCMS\AH.ACCMS.csproj">
+      <Project>{9ea0b002-b6e1-481f-ac93-8991d07988ec}</Project>
+      <Name>AH.ACCMS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AH.DTMS\AH.DTMS.csproj">
+      <Project>{81e7a700-a44a-4582-9220-b2c47b42f428}</Project>
+      <Name>AH.DTMS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AH.HR\AH.HR.csproj">
+      <Project>{8131068c-babf-4949-bd08-8e57f7283f65}</Project>
+      <Name>AH.HR</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AH.IPDShared\AH.IPDShared.csproj">
+      <Project>{c2b431c6-b904-4686-a19d-bcbbd5a52813}</Project>
+      <Name>AH.IPDShared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AH.OPD\AH.OPD.csproj">
+      <Project>{53dca937-66f6-4e81-9451-d8ab497ef341}</Project>
+      <Name>AH.OPD</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AH.ORGMS\AH.ORGMS.csproj">
+      <Project>{ab7a6c95-3e83-435a-8e0f-c18a326713ac}</Project>
+      <Name>AH.ORGMS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AH.PatReg\AH.PatReg.csproj">
+      <Project>{ee9afcd1-b4f8-45a1-b78a-8fc7ed500ff8}</Project>
+      <Name>AH.PatReg</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AH.PRMS\AH.PRMS.csproj">
+      <Project>{dbc099cf-d6fb-4ca5-aeb3-aad85d46833a}</Project>
+      <Name>AH.PRMS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
