@@ -1,0 +1,34 @@
+G:\For Share\AH.ACMS\bin\Release\AH.ACMS.dll.config
+G:\For Share\AH.ACMS\bin\Release\AH.ACMS.dll
+G:\For Share\AH.ACMS\bin\Release\AH.ACMS.pdb
+G:\For Share\AH.ACMS\bin\Release\AH.OracleManager.dll
+G:\For Share\AH.ACMS\bin\Release\AH.Shared.dll
+G:\For Share\AH.ACMS\bin\Release\DUtility.dll
+G:\For Share\AH.ACMS\bin\Release\Oracle.DataAccess.dll
+G:\For Share\AH.ACMS\bin\Release\AtiqsControlLibrary.dll
+G:\For Share\AH.ACMS\obj\Release\AH.ACMS.dll
+G:\For Share\AH.ACMS\obj\Release\AH.ACMS.pdb
+G:\For Share\AH.ACMS\obj\Release\AH.ACMS.csprojResolveAssemblyReference.cache
+F:\HospitalFiles\AH.ACMS\bin\Release\AH.ACMS.dll.config
+F:\HospitalFiles\AH.ACMS\bin\Release\AH.ACMS.dll
+F:\HospitalFiles\AH.ACMS\bin\Release\AH.ACMS.pdb
+F:\HospitalFiles\AH.ACMS\bin\Release\AH.HR.dll
+F:\HospitalFiles\AH.ACMS\bin\Release\AH.OracleManager.dll
+F:\HospitalFiles\AH.ACMS\bin\Release\AH.Shared.dll
+F:\HospitalFiles\AH.ACMS\bin\Release\DUtility.dll
+F:\HospitalFiles\AH.ACMS\bin\Release\Oracle.DataAccess.dll
+F:\HospitalFiles\AH.ACMS\bin\Release\AtiqsControlLibrary.dll
+F:\HospitalFiles\AH.ACMS\obj\Release\AH.ACMS.dll
+F:\HospitalFiles\AH.ACMS\obj\Release\AH.ACMS.pdb
+E:\AHERP 06.03.14 New\AH.ACMS\bin\Release\AH.ACMS.dll.config
+E:\AHERP 06.03.14 New\AH.ACMS\bin\Release\AH.ACMS.dll
+E:\AHERP 06.03.14 New\AH.ACMS\bin\Release\AH.ACMS.pdb
+E:\AHERP 06.03.14 New\AH.ACMS\bin\Release\AH.HR.dll
+E:\AHERP 06.03.14 New\AH.ACMS\bin\Release\AH.OracleManager.dll
+E:\AHERP 06.03.14 New\AH.ACMS\bin\Release\AH.Shared.dll
+E:\AHERP 06.03.14 New\AH.ACMS\bin\Release\DUtility.dll
+E:\AHERP 06.03.14 New\AH.ACMS\bin\Release\Oracle.DataAccess.dll
+E:\AHERP 06.03.14 New\AH.ACMS\bin\Release\AtiqsControlLibrary.dll
+E:\AHERP 06.03.14 New\AH.ACMS\obj\Release\AH.ACMS.dll
+E:\AHERP 06.03.14 New\AH.ACMS\obj\Release\AH.ACMS.pdb
+F:\HospitalFiles\AH.ACMS\obj\Release\AH.ACMS.csprojResolveAssemblyReference.cache

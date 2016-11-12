@@ -1,0 +1,38 @@
+G:\For Share\AH.ACMS\bin\Debug\AH.ACMS.dll.config
+G:\For Share\AH.ACMS\bin\Debug\AH.ACMS.dll
+G:\For Share\AH.ACMS\bin\Debug\AH.ACMS.pdb
+G:\For Share\AH.ACMS\bin\Debug\AH.Shared.dll
+G:\For Share\AH.ACMS\bin\Debug\DUtility.dll
+G:\For Share\AH.ACMS\bin\Debug\Oracle.DataAccess.dll
+G:\For Share\AH.ACMS\bin\Debug\AtiqsControlLibrary.dll
+G:\For Share\AH.ACMS\obj\Debug\AH.ACMS.dll
+G:\For Share\AH.ACMS\obj\Debug\AH.ACMS.pdb
+G:\For Share\AH.ACMS\obj\Debug\AH.ACMS.csprojResolveAssemblyReference.cache
+F:\Hospital\AH.ACMS\obj\Debug\AH.ACMS.dll
+F:\Hospital\AH.ACMS\bin\Debug\AH.ACMS.dll.config
+F:\Hospital\AH.ACMS\bin\Debug\AH.ACMS.dll
+F:\Hospital\AH.ACMS\bin\Debug\AH.ACMS.pdb
+F:\Hospital\AH.ACMS\bin\Debug\AH.Shared.dll
+F:\Hospital\AH.ACMS\bin\Debug\DUtility.dll
+F:\Hospital\AH.ACMS\bin\Debug\Oracle.DataAccess.dll
+F:\Hospital\AH.ACMS\bin\Debug\AtiqsControlLibrary.dll
+F:\Hospital\AH.ACMS\obj\Debug\AH.ACMS.pdb
+F:\HospitalFiles\AH.ACMS\bin\Debug\AH.ACMS.dll.config
+F:\HospitalFiles\AH.ACMS\bin\Debug\AH.ACMS.dll
+F:\HospitalFiles\AH.ACMS\bin\Debug\AH.ACMS.pdb
+F:\HospitalFiles\AH.ACMS\bin\Debug\AH.Shared.dll
+F:\HospitalFiles\AH.ACMS\bin\Debug\DUtility.dll
+F:\HospitalFiles\AH.ACMS\bin\Debug\Oracle.DataAccess.dll
+F:\HospitalFiles\AH.ACMS\bin\Debug\AtiqsControlLibrary.dll
+F:\HospitalFiles\AH.ACMS\obj\Debug\AH.ACMS.dll
+F:\HospitalFiles\AH.ACMS\obj\Debug\AH.ACMS.pdb
+F:\HospitalFiles\AH.ACMS\obj\Debug\AH.ACMS.csprojResolveAssemblyReference.cache
+E:\AHERP 06.03.14 New\AH.ACMS\bin\Debug\AH.ACMS.dll.config
+E:\AHERP 06.03.14 New\AH.ACMS\bin\Debug\AH.ACMS.dll
+E:\AHERP 06.03.14 New\AH.ACMS\bin\Debug\AH.ACMS.pdb
+E:\AHERP 06.03.14 New\AH.ACMS\bin\Debug\AH.Shared.dll
+E:\AHERP 06.03.14 New\AH.ACMS\bin\Debug\DUtility.dll
+E:\AHERP 06.03.14 New\AH.ACMS\bin\Debug\Oracle.DataAccess.dll
+E:\AHERP 06.03.14 New\AH.ACMS\bin\Debug\AtiqsControlLibrary.dll
+E:\AHERP 06.03.14 New\AH.ACMS\obj\Debug\AH.ACMS.dll
+E:\AHERP 06.03.14 New\AH.ACMS\obj\Debug\AH.ACMS.pdb
